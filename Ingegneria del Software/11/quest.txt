@@ -1,0 +1,4 @@
+Si consideri un software costituito da due fasi F1 ed F2 ciascuna di costo A. Con probabilità p la fase F1 deve essere ripetuta (a
+causa di change requests) e con probabilità (1 - p) si passa alla fase F2 e poi al completamento (End) dello sviluppo. Qual'eè il
+costo atteso per lo sviluppo del software seguendo il processo sopra descritto ?
+Scegli un'alternativa:
