@@ -1,0 +1,2 @@
+Si pianifica lo sviluppo di un sistema software per controllare il sistema di anti-lock braking in un automobile. Quale dei
+seguenti è il tipico processo software usato per questo tipo di sistema software ?

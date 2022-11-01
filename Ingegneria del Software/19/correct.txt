@@ -1,0 +1,2 @@
+Costruire un modello di simulazione per i principali aspetti dei processi di business dell'azienda e per il
+sistema software da realizzare e valutare le migliorie apportate dal sistema software ai processi di business dell'azienda mediante simulazione
