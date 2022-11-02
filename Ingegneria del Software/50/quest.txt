@@ -1,0 +1,2 @@
+img=https://imgur.com/0OTH4Yw
+Quale delle seguenti frasi è corretta riguardo al Sequence Diagram in figura?

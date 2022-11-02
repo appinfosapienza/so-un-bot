@@ -1,0 +1,1 @@
+l paziente richiede al client una visita con uno specifico medico e, dopo una verifica sul database, riceve conferma dal client della disponibilità o meno del medico richiesto.

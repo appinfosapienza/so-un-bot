@@ -1,0 +1,1 @@
+Il paziente richiede al server una visita con uno specifico medico e, dopo una verifica sul database, riceve conferma dal server della disponibilità o meno del medico richiesto.

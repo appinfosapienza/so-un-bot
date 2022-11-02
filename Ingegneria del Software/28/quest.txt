@@ -1,0 +1,7 @@
+Si consideri il seguente requisito:
+RQ: Dopo 60 unità di tempo dall'inizio dell'esecuzione vale la seguente proprietà:
+se 10 unità di tempo nel passato era stata richiesta una risorsa (variabile x positiva) allora ora è concesso l'accesso alla
+risorsa (variabile y positiva)
+Tenendo presente che, al tempo time, delay(z, w) ritorna 0 se time < w e ritorna il valore che z aveva al tempo (time - w), se time
+>= w.
+Quale dei seguenti monitor meglio descrive il requisito RQ ?

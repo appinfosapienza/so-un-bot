@@ -1,0 +1,3 @@
+Si consideri un software sviluppato seguendo un approccio plan-driven implementato con tre fasi: F1, F2, F3. Dopo ogni fase
+c'e' una probabilità p di dover ripeter la fase precedente ed una probabilità (1 - p) di passare alla fase successiva (sino ad arrivare
+al termine dello sviluppo). Quale delle seguenti catene di Markov modella il processo software descritto sopra?
