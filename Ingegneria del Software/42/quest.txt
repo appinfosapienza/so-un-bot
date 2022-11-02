@@ -1,0 +1,4 @@
+Si consideri il seguente requisito:
+RQ: Dopo 50 unità di tempo dall'inizio dell'esecuzione vale la seguente proprietà:
+se la variabile x è minore del 60% della variabile y allora la somma di x ed y è maggiore del 30% della variabile z
+Quale dei seguenti monitor meglio descrive il requisito RQ ?
