@@ -1,0 +1,1 @@
+F(x, y, z) = if (x > y) then (z == x + 1) else (z == y + 1)

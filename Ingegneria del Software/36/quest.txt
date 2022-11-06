@@ -1,4 +1,0 @@
-Si consideri il seguente requisito:
-RQ: Dopo 10 unità di tempo dall'inizio dell'esecuzione vale la seguente proprietà: se la variabile x è nell'intervallo [10, 20]
-allora la variabile y è compresa tra il 50% di x ed il 70% di x.
-Quale dei seguenti monitor meglio descrive il requisito RQ ?

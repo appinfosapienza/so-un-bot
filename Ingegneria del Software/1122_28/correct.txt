@@ -1,0 +1,9 @@
+<pre>
+int f(in x, int y) 
+
+{ 
+int z, w;
+assert( (z + w < 1) || (z + w > 7));
+.....
+}
+</pre>
