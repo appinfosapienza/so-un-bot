@@ -1,3 +1,0 @@
-Un azienda ha un team di sviluppo in cui il 90% dei membri è junior (cioè con poca esperienza) ed il 10% è senior (cioè con
-molta esperienza). Con l'obiettivo di massimizzare il numero di progetti completati nell'unità di tempo, quale dei seguenti
-modelli di sviluppo software appare più opportuno.

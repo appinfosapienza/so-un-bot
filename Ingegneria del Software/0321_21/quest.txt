@@ -1,0 +1,1 @@
+Si consideri un software sviluppato seguendo un approccio plan-driven implementato con tre fasi: F1, F2, F3. Le "change requests"  arrivano con probabilità p dopo ciascuna fase e provocano la ripetizione (con relativo costo) di tutte le fasi che precedono. Quali delle seguenti catene di Markov modella lo sviluppo software descritto.

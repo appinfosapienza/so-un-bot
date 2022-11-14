@@ -1,0 +1,1 @@
+Costruire un prototipo, eseguirlo usando dati storici dai log di produzione e valutare la capacità del prototipo di ridurre gli scarti.
