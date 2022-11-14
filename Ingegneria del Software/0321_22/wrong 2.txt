@@ -1,0 +1,1 @@
+Costruire un prototipo del sistema e valutarne i requisiti non funzionali usando i dati storici dall'azienda.
