@@ -3,7 +3,7 @@ Il branch coverage di un insieme di test cases è la percentuale di branch del p
 Si consideri la seguente funzione C:
 
 -----------
-<pre<
+<pre>
 int f(int x, int y)  {   
 
  if (x - y - 2 <= 0)   { if (x + y - 1 >= 0)  return (1); else return (2); }

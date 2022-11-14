@@ -1,1 +1,1 @@
-img=<https://i.imgur.com/xVrmeoj.png>
+img=https://i.imgur.com/xVrmeoj.png

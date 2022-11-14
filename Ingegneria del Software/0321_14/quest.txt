@@ -1,3 +1,2 @@
 img=https://i.imgur.com/6cnLynh.png
 Si consideri la seguente Markov Chain, quale dei seguenti modelli Modelica fornisce un modello ragionevole per la Markov Chain di cui sopra?
-

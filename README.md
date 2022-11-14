@@ -27,5 +27,5 @@ Il bot accetta le domande sia in un singolo file (utilizzato da Sistemi Operativ
 ### Immagini
 
 Per risparmaire traffico dati sul server, le immagini devono essere caricate su un servizio esterno (es. Imgur).
-Per inserire un'immagine basta aggiungere una riga contenente solo `img=<url immagine>` all'inizio della domanda o risposta.
+Per inserire un'immagine basta aggiungere una riga contenente solo `img=url immagine` all'inizio della domanda o risposta.
 Nella struttura a file multipli, deve essere la prima riga del file, e il resto del file verrà aggiunto come didascalia.
