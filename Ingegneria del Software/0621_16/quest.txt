@@ -1,0 +1,1 @@
+Il rischio R può essere calcolato come R = P*C, dove P è la probabilità dell'evento avverso (software failure nel nostro contesto) e C è il costo dell'occorrenza dell'evento avverso. Si consideri un software il cui costo per la failure è C = 1000000 EUR. Volendo un rischio non superiore a 1000 EUR quale è il valore massimo della probabilità di failure P accettabile?

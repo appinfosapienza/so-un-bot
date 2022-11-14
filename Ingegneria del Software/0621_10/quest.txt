@@ -1,0 +1,13 @@
+Si consideri il seguente modello Modelica:
+<html>
+class System
+Integer x;
+initial equation
+x = 0;
+equation
+when sample(0, 2) then
+    x = 1 - pre(x);
+end when;
+end System;
+</html>
+Quale delle seguenti affermazioni è vera per la variabile intera x?

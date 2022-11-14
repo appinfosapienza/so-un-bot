@@ -1,0 +1,15 @@
+class Monitor
+
+InputReal x;  // plant output
+OutputBoolean y;
+
+Boolean z;
+initial equation
+y = false;
+equation
+z = (time > 20) and (x >= 20) and (x <= 30) ;
+algorithm
+when edge(z) then
+y := true;
+end when;
+end Monitor;
