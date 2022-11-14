@@ -1,0 +1,1 @@
+Si consideri l'ambiente (use case) che consiste di un utente che, ad ogni unità di tempo (ad esempio, un secondo) manda al nostro sistema input 1 (ad esempio, esegue una prenotazione) con probabilità 0.3 oppure input 0 con probabilità 0.7. Quale dei seguenti modelli Modelica rappresenta correttamente tale ambiente.

@@ -1,0 +1,17 @@
+Si consideri il monitor seguente che ritorna true appena il sistema viola il requisito monitorato.
+<html>
+block Monitor
+input Real x;  
+output Boolean y;
+Boolean w;
+initial equation
+y = false;
+equation
+w = ((x < 1) or (x > 4)) and ((x < 15) or (x > 20));
+algorithm
+when edge(w) then
+y := true;
+end when;
+end Monitor;
+</html>
+Quale delle seguenti affermazioni meglio descrive il requisito monitorato?

@@ -1,0 +1,1 @@
+Si consideri un software sviluppato seguendo un approccio plan-driven implementato con due fasi: F1, F2. La fase F1 ha costo A e la fase F2 ha costo il 50% di A. Qual'e' il costo dello sviluppo del software?
