@@ -1,0 +1,2 @@
+L'input di un sistema software è costituito da un sensore che ogni unità di tempo (ad esempio, un secondo) invia un numero reale. Con probabilità 0.63 il valore inviato in una unità di tempo è maggiore del 10% rispetto quello inviato nell'unità di tempo precedente. Con probabilità 0.1 è inferiore del 27% rispetto al valore inviato nell'unità di tempo precedente. Con probabilità 0.27 è inferiore del 10% rispetto quello inviato nell'unità di tempo precedente.
+Quale dei seguenti modelli Modelica modella correttamente l'environment descritto sopra.

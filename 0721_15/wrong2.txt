@@ -1,0 +1,1 @@
+Costruire un prototipo e testarlo a fondo per evidenziare subito errori di implementazione.

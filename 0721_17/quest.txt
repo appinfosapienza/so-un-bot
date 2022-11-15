@@ -1,0 +1,11 @@
+Si consideri il seguente modello Modelica.
+class System
+Boolean x;
+initial equation
+x = false;
+equation
+when sample(0, 2) then
+    x = not (pre(x));
+end when;
+end System;
+Quale delle seguenti affermazioni vale per la variabile booleana x ?

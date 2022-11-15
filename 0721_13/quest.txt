@@ -1,0 +1,4 @@
+Si consideri l'automa segunete:
+
+
+Quale dei seguenti modelli Modelica fornisce un modello ragionevole per l'automa di cui sopra.
