@@ -1,0 +1,1 @@
+Si consideri il Test-Driven Development (TDD). Quale delle seguenti affermazioni è vera?

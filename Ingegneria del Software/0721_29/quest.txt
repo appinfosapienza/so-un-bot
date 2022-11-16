@@ -1,0 +1,2 @@
+L'input di un sistema software è costituito da una sequenza di valori reali. Ad ogni unità di tempo il valore di input può rimanere uguale al precedente oppure differire di un numero random in [-1, 1]. L'input resta costante per numero random di unità di tempo in [1, 10].
+Quale dei seguenti modelli Modelica modella meglio l'environment descritto sopra.

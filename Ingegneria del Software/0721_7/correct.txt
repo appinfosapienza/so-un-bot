@@ -1,0 +1,1 @@
+Per ciascun incremento di funzionalità, scrivi test automatizzati, implementa la funzionalità, esegui i test e rivedi l'implementazione come necessario.

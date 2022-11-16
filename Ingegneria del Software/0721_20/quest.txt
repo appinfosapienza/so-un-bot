@@ -1,0 +1,3 @@
+Si consideri il seguente requisito:
+RQ1:  Durante l'esecuzione del programma (cioè per tutti gli istanti di tempo positivi) la variabile x è sempre nell'intervallo [0, 5] oppure [10, 15]
+Quale dei seguenti monitor meglio descrive il requisito RQ1 ?

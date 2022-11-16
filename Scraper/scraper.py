@@ -11,8 +11,8 @@ matricola = os.getenv('UTENTE')
 password = os.getenv('PASSWORD')
 
 
-url_risultati_esame = "https://elearning.uniroma1.it/mod/quiz/review.php?attempt=1096076&cmid=385932"
-codice_esame = "0321"
+url_risultati_esame = "https://elearning.uniroma1.it/mod/quiz/review.php?attempt=1096697&cmid=408285"
+codice_esame = "0721"
 
 
 # Main Function
