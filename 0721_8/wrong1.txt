@@ -1,3 +1,4 @@
+<pre>
 model System
 parameter Integer F1 = 1;
 parameter Integer F2 = 2;
@@ -31,3 +32,4 @@ if (r1024 <= A[x, F1]) then
 end if;
 end when;
 end System;
+</pre>

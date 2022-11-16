@@ -1,8 +1,8 @@
-Un'azienda decide di organizzare il processo di sviluppo di un grosso software in 101 phasi sequenziali, numerate da 0 a 100. La phase 0 Ë quella iniziale. La phase 100 Ë quella finale in cui lo sviluppo Ë completato. Tutte le fasi hanno circa la stessa durata.
+Un'azienda decide di organizzare il processo di sviluppo di un grosso software in 101 phasi sequenziali, numerate da 0 a 100. La phase 0 √® quella iniziale. La phase 100 √® quella finale in cui lo sviluppo √® completato. Tutte le fasi hanno circa la stessa durata.
 Alla fine di ogni fase viene eseguita una batteria di tests. I risultati del testing possono essere:
-a) si puÚ passare alla fase successiva;
+a) si pu√≤ passare alla fase successiva;
 b) bisogna ripetere la fase corrente;
 c) bisogna rivedere il lavoro fatto nella fase precedente (reworking).
-Dai dati storici Ë noto che la probabilit‡ del caso a) Ë 0.72, del caso b) Ë 0.18 e del caso c) Ë 0.1.
+Dai dati storici √® noto che la probabilit√† del caso a) √® 0.72, del caso b) √® 0.18 e del caso c) √® 0.1.
 Allo scopo di stimare attraverso una simulazione MonteCarlo il valore atteso del tempo di completamento del progetto viene realizzato un modello Modelica  del processo di sviluppo descritto sopra.
 Quale dei seguenti modelli Modelica modella correttamente il processo di sviluppo descritto sopra?

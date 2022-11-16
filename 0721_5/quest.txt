@@ -1,2 +1,2 @@
-"Ogni giorno, per ciascuna clinica, il sistema generer‡ una lista dei pazienti che hanno un appuntamento quel giorno."
-La frase precedente Ë un esempio di:
+"Ogni giorno, per ciascuna clinica, il sistema generer√† una lista dei pazienti che hanno un appuntamento quel giorno."
+La frase precedente √® un esempio di:

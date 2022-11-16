@@ -1,4 +1,5 @@
 Si consideri il seguente modello Modelica.
+<pre>
 class System
 Boolean x;
 initial equation
@@ -8,4 +9,5 @@ when sample(0, 2) then
     x = not (pre(x));
 end when;
 end System;
+</pre>
 Quale delle seguenti affermazioni vale per la variabile booleana x ?

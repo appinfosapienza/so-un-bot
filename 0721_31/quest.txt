@@ -1,4 +1,5 @@
 Si consideri il monitor seguente che ritorna true appena il sistema viola il requisito monitorato.
+<pre>
 block Monitor
 input Real x;  
 output Boolean y;
@@ -12,4 +13,5 @@ when edge(w) then
 y := true;
 end when;
 end Monitor;
+</pre>
 Quale delle seguenti affermazioni meglio descrive il requisito monitorato?

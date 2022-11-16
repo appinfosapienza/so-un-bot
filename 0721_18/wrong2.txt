@@ -1,3 +1,4 @@
+<pre>
 model Env
 Integer x;  // Pulsante premuto dall'utente
 Real r1024;
@@ -12,3 +13,4 @@ elsewhen sample(0,1) then
   if (r1024 <= 0.6) then x := 1; else x := 0;  end if;
 end when;
 end Env;
+</pre>

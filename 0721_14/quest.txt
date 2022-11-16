@@ -1,3 +1,3 @@
 Si consideri il seguente requisito:
-RQ1:  Dopo 20 unit‡ di tempo dall'inizio dell'esecuzione la variabile x Ë sempre nell'intervallo [20, 30] .
+RQ1: Dopo 20 unit√† di tempo dall'inizio dell'esecuzione la variabile x √® sempre nell'intervallo [20, 30].
 Quale dei seguenti monitor meglio descrive il requisito RQ1 ?

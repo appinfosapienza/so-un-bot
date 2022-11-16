@@ -1,5 +1,5 @@
 Si consideri il seguente requisito:
-RQ:  Dopo 40 unit‡ di tempo dall'inizio dell'esecuzione vale la seguente propriet‡:
-se 10 unit‡ di tempo nel passato x era maggiore di 1 allora ora y Ë nonegativa.
+RQ:  Dopo 40 unit√† di tempo dall'inizio dell'esecuzione vale la seguente propriet√†:
+se 10 unit√† di tempo nel passato x era maggiore di 1 allora ora y √® nonegativa.
 Tenendo presente che, al tempo time, delay(z, w) ritorna 0 se time <= w e ritorna il valore che z aveva al tempo (time - w), se time = w.
 Quale dei seguenti monitor meglio descrive il requisito RQ ?

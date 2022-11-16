@@ -1,3 +1,4 @@
+<pre>
 model Env
 Integer x;  // Pulsante premuto dall'utente (0 nessun pulsante)
 Real r1024;
@@ -17,3 +18,4 @@ elsewhen sample(0,1) then
   end if;
 end when;
 end Env;
+</pre>

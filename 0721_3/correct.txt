@@ -1,1 +1,1 @@
-Per ciascun requisito, dovremmo essere in grado di scrivere un inseme di test che può dimostrare che il sistema sviluppato soddisfa il requisito considerato.
+Per ciascun requisito, dovremmo essere in grado di scrivere un inseme di test che puÃ² dimostrare che il sistema sviluppato soddisfa il requisito considerato.

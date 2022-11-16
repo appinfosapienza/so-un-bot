@@ -1,3 +1,4 @@
+<pre>
 class Monitor
 
 InputReal x;  // plant output
@@ -13,3 +14,4 @@ when edge(z) then
 y := true;
 end when;
 end Monitor;
+</pre>

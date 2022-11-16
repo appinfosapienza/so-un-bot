@@ -1,3 +1,4 @@
+<pre>
 class Monitor
 InputReal x, y; 
 OutputBoolean wy;
@@ -11,3 +12,4 @@ when edge(wz) then
 wy := true;
 end when;
 end Monitor;
+</pre>

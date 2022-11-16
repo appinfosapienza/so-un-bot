@@ -1,2 +1,2 @@
-L'environment di un sistema software Ë costituito da uno user che, ogni unti‡ di tempo (ad esempio, un secondo) invia al sistema tre numeri: -1, 0, 1, con probabilit‡, rispettivamente, 0.2, 0.56, 0.24.
+L'environment di un sistema software √® costituito da uno user che, ogni unti√† di tempo (ad esempio, un secondo) invia al sistema tre numeri: -1, 0, 1, con probabilit√†, rispettivamente, 0.2, 0.56, 0.24.
 Quale dei seguenti modelli Modelica modella correttamente l'environment descritto sopra.

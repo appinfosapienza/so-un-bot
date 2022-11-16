@@ -1,4 +1,5 @@
 Si consideri il seguente modello Modelica:
+<pre>
 class System
 Integer x;
 initial equation
@@ -8,4 +9,5 @@ when sample(0, 2) then
     x = 1 - pre(x);
 end when;
 end System;
-Quale delle seguenti affermazioni è vera per la variabile intera x?
+</pre>
+Quale delle seguenti affermazioni Ã¨ vera per la variabile intera x?

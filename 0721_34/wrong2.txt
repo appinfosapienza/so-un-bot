@@ -1,1 +1,1 @@
-Testare funzionalit‡ di unit‡ software individuali, oggetti, classi o metodi.
+Testare funzionalit√† di unit√† software individuali, oggetti, classi o metodi.

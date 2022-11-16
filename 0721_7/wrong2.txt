@@ -1,1 +1,1 @@
-Per ciascun incremento di funzionalit‡, implementa la funzionalit‡, scrivi test automatizzati, esegui i test e rivedi l'implementazione come necessario.
+Per ciascun incremento di funzionalit√†, implementa la funzionalit√†, scrivi test automatizzati, esegui i test e rivedi l'implementazione come necessario.

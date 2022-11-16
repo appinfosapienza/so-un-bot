@@ -1,1 +1,1 @@
-Testare l'interazione tra  le componenti del sistema (cioè, integrazione di molte unità di sistema).
+Testare l'interazione tra  le componenti del sistema (cioÃ¨, integrazione di molte unitÃ  di sistema).

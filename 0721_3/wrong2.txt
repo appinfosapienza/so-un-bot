@@ -1,1 +1,1 @@
-Per ciascuna componente del sistema, dovremmo essere in grado di scrivere un insieme di test che può dimostrare che essa soddisfa tutti i requisiti.
+Per ciascuna componente del sistema, dovremmo essere in grado di scrivere un insieme di test che puÃ² dimostrare che essa soddisfa tutti i requisiti.

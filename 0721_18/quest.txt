@@ -1,3 +1,3 @@
-L'input ad un sistema Ë costituito da un utente (umano) che preme due pulsanti etichettati con 0 ed 1.
-Con probabilit‡ 0.6 l'utente preme il pulsante 0, con probabilit‡ 0.4 l'utente preme il pulsante 1.
+L'input ad un sistema √® costituito da un utente (umano) che preme due pulsanti etichettati con 0 ed 1.
+Con probabilit√† 0.6 l'utente preme il pulsante 0, con probabilit√† 0.4 l'utente preme il pulsante 1.
 Quale dei seguenti modelli Modelica fornisce un modello ragionevole per l'utente di cui sopra?

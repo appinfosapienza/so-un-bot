@@ -1,4 +1,4 @@
-L'input ad un sistema Ë costituito da un utente (umano) che preme due pulsanti etichettati, rispettivamente, con 1 ed 2.
-L'utente puÚ anche decidere di non premere alcun pulsante.
-Con probabilit‡ 0.2 l'utente preme il pulsante 1, con probabilit‡ 0.3 l'utente preme il pulsante 2, con probabilit‡ 0.5 non fa nulla (pulsante 0 per convenzione).
+L'input ad un sistema √® costituito da un utente (umano) che preme due pulsanti etichettati, rispettivamente, con 1 ed 2.
+L'utente pu√≤ anche decidere di non premere alcun pulsante.
+Con probabilit√† 0.2 l'utente preme il pulsante 1, con probabilit√† 0.3 l'utente preme il pulsante 2, con probabilit√† 0.5 non fa nulla (pulsante 0 per convenzione).
 Quale dei seguenti modelli Modelica fornisce un modello ragionevole per l'utente di cui sopra?

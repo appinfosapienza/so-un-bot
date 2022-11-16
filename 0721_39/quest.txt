@@ -1,2 +1,2 @@
-L'input di un sistema software Ë costituito da una sequenza di 0 (false) ed 1 (true). Ad uno 0 segue un 1 ed ad un 1 segue uno 0. Il tempo tra un valore di input e l'altro Ë un valore random compreso tra 1 e 10 unit‡ di tempo.
+L'input di un sistema software √® costituito da una sequenza di 0 (false) ed 1 (true). Ad uno 0 segue un 1 ed ad un 1 segue uno 0. Il tempo tra un valore di input e l'altro √® un valore random compreso tra 1 e 10 unit√† di tempo.
 Quale dei seguenti modelli Modelica modella meglio l'environment descritto sopra.
