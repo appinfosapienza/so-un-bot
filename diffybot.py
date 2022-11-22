@@ -1,6 +1,7 @@
 # A python helper script that finds duplicates
 
 import os
+import shutil
 
 path = input("Specify the path: ")
 
@@ -60,4 +61,4 @@ for dup in result:
             print("Keeping " + ld[i])
             continue
         print("Deleting", ld[i])
-        os.rmdir(path + "/" + ld[i])
+        shutil.rmtree(path + "/" + ld[i])
