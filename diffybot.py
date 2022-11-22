@@ -1,4 +1,5 @@
-# A python helper script that finds duplicates
+# A python helper script that finds duplicated questions
+# and deletes them.
 
 import os
 import shutil
