@@ -1,1 +1,0 @@
-Si consideri un software sviluppato seguendo un approccio iterativo implementato con tre fasi: F1, F2, F3. Ciascuna fase ha costo A. Qual'e' il costo dello sviluppo dell'intero software?

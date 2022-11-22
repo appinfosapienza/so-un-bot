@@ -1,1 +1,0 @@
-Una azienda manifatturiera desidera costruire un sistema software per monitorare (attraverso sensori) la produzione al fine di ridurre gli scarti. Quali delle seguenti attività contribuisce a validare i requisiti del sistema.

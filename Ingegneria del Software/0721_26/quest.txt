@@ -1,4 +1,0 @@
-Un'azienda decide di organizzare il processo di sviluppo di un grosso software in 101 phasi sequenziali, numerate da 0 a 100. La phase 0 è quella iniziale. La phase 100 è quella finale in cui lo sviluppo è completato. Tutte le fasi hanno circa la stessa durata.
-Si decide di realizzare un approccio incrementale in cui, alla fine di ogni fase, si passa alla fase successiva solo nel caso in cui tutti i test per la fase vengono superati. In caso contrario bisogna ripetere la phase. Dai dati storici è noto che la probabilità che il team di sviluppo passi da una fase a quella successiva è 0.8.
-Allo scopo di stimare attraverso una simulazione MonteCarlo il valore atteso del tempo di completamento del progetto viene realizzato un modello Modelica  delo processo di sviluppo descritto sopra.
-Quale dei seguenti modelli Modelica modella correttamente il processo di sviluppo descritto sopra?

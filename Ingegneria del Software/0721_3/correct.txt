@@ -1,1 +1,0 @@
-Per ciascun requisito, dovremmo essere in grado di scrivere un inseme di test che può dimostrare che il sistema sviluppato soddisfa il requisito considerato.

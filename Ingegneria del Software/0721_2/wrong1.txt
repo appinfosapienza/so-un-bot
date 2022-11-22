@@ -1,1 +1,0 @@
-Test automatizzato sono eseguiti sulla versione finale del sistema presso il cliente.

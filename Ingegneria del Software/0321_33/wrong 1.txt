@@ -1,1 +1,0 @@
-Il performance testing è tipicamente eseguito su un prototipo del sistema.

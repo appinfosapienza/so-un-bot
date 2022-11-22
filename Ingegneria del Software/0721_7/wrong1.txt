@@ -1,1 +1,0 @@
-Scrivi test automatizzati per tutti i requisiti di sistema, esegui i test e rivedi l'implementazione come necessario.
