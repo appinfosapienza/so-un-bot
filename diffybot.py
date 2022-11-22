@@ -50,3 +50,14 @@ if result:
     print("Duplicate questions:", str(result))
 else:
     print("There are no duplicates!")
+    exit()
+
+for dup in result:
+    #delete the duplicates
+    ld = list(dup)
+    for i in range(len(ld)):
+        if i == 0:
+            print("Keeping " + ld[i])
+            continue
+        print("Deleting", ld[i])
+        os.rmdir(path + "/" + ld[i])
