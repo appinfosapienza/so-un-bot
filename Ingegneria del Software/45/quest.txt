@@ -1,2 +1,2 @@
-img = https://imgur.com/7DG7vhi
+img=https://imgur.com/7DG7vhi
 Quale pattern architetturale meglio descrive l'architettura in figura ?
