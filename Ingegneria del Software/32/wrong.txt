@@ -1,1 +1,1 @@
-img=https://imgur.com/NDNLPgt
+img=https://i.imgur.com/NDNLPgt.png
