@@ -1,2 +1,2 @@
-img=https://imgur.com/jHN6wRm
+img=https://i.imgur.com/jHN6wRm.png
 Quale delle seguenti frasi è corretta riguardo all'activity diagram in figura ?

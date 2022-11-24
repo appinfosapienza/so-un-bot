@@ -1,3 +1,3 @@
-img=https://imgur.com/sB0yXg9
+img=https://i.imgur.com/sB0yXg9.png
 Lo State Diagram in figura descrive (in modo semplificato) una macchina distributrice di bevande. Quale dei
 seguenti Sequence Diagram è consistente con lo State Diagram in figura ?
