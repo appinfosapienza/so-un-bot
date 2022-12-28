@@ -1,0 +1,1 @@
+Customers should just provide requirements and verify them when the project is completed.
