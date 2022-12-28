@@ -1,0 +1,1 @@
+Component testing focuses on:
