@@ -17,7 +17,7 @@ int f(int x)  {   int y = 0;
 
   LOOP:  if (abs(x) - y <= 2)
 
-                      {return Sì  ;}
+                      {return  ;}
 
                 else {y = y + 1; goto LOOP;}		    
 
