@@ -1,0 +1,17 @@
+Il branch coverage di un insieme di test cases è la percentuale di branch del programma che sono attraversati da almeno un test case.
+
+Si consideri la seguente funzione C:
+
+-----------
+
+int f(int x, int y)  {   
+
+ if (x - y <= 0)   { if (x + y >= 2)  return (1); else return (2); }
+
+  else {if (2*x + y >= 1)  return (3); else return (4); }
+
+ }  /* f()  */
+
+Si considerino i seguenti test cases:  {x=1, y=1}, {x=0, y=0}, {x=1, y=0}, {x=0, y=-1}.
+
+Quale delle seguenti è la branch coverage conseguita?
