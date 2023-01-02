@@ -11,3 +11,5 @@ Test case 1: act0 act1 act0 act2 act2 act1 act2 act2 act2 act2 act2 act0 act0
 Test case 2: act2 
 
 Test case 3: act2
+
+Quale delle seguenti è la migliore stima della transition coverage per i test cases di cui sopra?
