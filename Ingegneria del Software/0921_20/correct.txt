@@ -1,0 +1,21 @@
+<pre>
+connector InputInteger = input Integer;
+connector OutputInteger = output Integer;
+block Controller
+InputInteger x;
+OutputInteger Integer w;
+...
+end Controller;
+block Plant
+InputInteger u;
+OutputInteger y;
+...
+end Plant;
+class System
+Controller k;
+Plant p;
+equation
+connect(p.y, k.x);
+connect(k.w, p.u);
+end System;
+</pre>
