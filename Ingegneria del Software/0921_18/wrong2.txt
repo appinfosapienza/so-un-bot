@@ -1,0 +1,15 @@
+<pre>
+class Monitor
+InputReal x, y; 
+OutputBoolean wy;
+Boolean wz;
+initial equation
+wy = false;
+equation
+wz = (time > 40) or (delay(x, 10) > 1) or (y < 0);
+algorithm
+when edge(wz) then
+wy := true;
+end when;
+end Monitor;
+</pre>

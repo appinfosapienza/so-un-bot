@@ -1,0 +1,21 @@
+<pre>
+block MarkovChain
+//external function myrandom() returns a random real number in [0, 1]
+parameter Real x0 = 0;
+OutputReal x;
+Integer countdown;
+algorithm
+when initial() then
+  x := x0;
+  countdown := 0;
+elsewhen sample(0, 10) then
+  if (countdown <= 0)
+  then
+    countdown := 1 + integer(floor(myrandom()));
+    x := 1 - pre(x);
+  else
+    countdown := countdown - 1;
+  end if;
+end when;
+end MarkovChain;
+</pre>

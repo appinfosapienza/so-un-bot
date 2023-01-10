@@ -1,0 +1,1 @@
+Si pianifica di sviluppare un software gestionale per una università. Considerando che questo può essere considerato un sistema mission-critical, quali dei seguenti modelli di processi software generici è più adatto per lo sviluppo di tale software.

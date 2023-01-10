@@ -1,0 +1,1 @@
+Un sistema consiste di tre componenti C1, C2, C3 connesse in una architettura ad anello dove l'output della componente C1 (rispettivamente C2, C3) è mandato all'input della componente C2 (rispettivamente C3, C1). Quale dei seguenti schemi Modelica meglio rappresenta l'architettura descritta ?

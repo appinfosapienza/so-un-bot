@@ -1,0 +1,28 @@
+<pre>
+connector InputInteger = input Integer;
+connector OutputInteger = output Integer;
+block C1
+InputInteger u;
+OutputInteger x;
+...
+end C1;
+block C2
+InputInteger u;
+OutputInteger x;
+...
+end C2;
+block C3
+InputInteger u;
+OutputInteger x;
+...
+end C3;
+class System
+C1 k1;
+C2 k2;
+C3 k3;
+equation
+connect(k1.x, k3.u);
+connect(k3.x, k2.u);
+connect(k2.x, k1.u);
+end System;
+</pre>

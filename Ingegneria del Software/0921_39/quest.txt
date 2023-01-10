@@ -1,0 +1,15 @@
+Si consideri il monitor seguente che ritorna true appena i requisiti per il sistema monitorato sono violati.
+block Monitor
+input Real x;  
+output Boolean y;
+Boolean w;
+initial equation
+y = false;
+equation
+w = ((x < 0) or (x > 5));
+algorithm
+when edge(w) then
+y := true;
+end when;
+end Monitor;
+Quale delle seguenti affermazioni meglio descrive il requisito monitorato.
