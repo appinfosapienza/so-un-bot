@@ -1,10 +1,10 @@
 "Benvenuto 👑
-Con questo bot puoi esercitarti con le domande degli esami di Sistemi Operativi 🤞.
+Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica! 🤞.
 
 ✅ Al momento tutte le domande presenti sono state verificate con l'aiuto di più studenti
 (un enorme grazie a @simone_s0, @loryspat, @Deco71, @raffox24 e sicuramente ne scordo qualcuno, perdonatemi 😢)
 
-🅱️ Purtroppo al momento nessuno dei due moduli contiene le nuove domande aggiunte agli esami del 2022 in quanto non le ho. Se doveste riuscire a recuperarle inviatemele 🙏!
+🅱️ Purtroppo al momento nessuno dei due moduli di Sistemi Operativi contiene le nuove domande aggiunte agli esami del 2022 in quanto non le ho. Se doveste riuscire a recuperarle inviatemele 🙏!
 
 Non tutte le risposte sono state verificate da correzioni ufficiali degli esami. Ad alcune domande abbiamo dato la risposta che A NOI 🙋‍♂️🙋‍♂️ sembrava corretta.
 
@@ -14,7 +14,7 @@ Non vorrei sentirmi in colpa per avervi fatto memorizzare risposte errate, per c
 
 🐢 Se il bot va offline sei invitato ad insultare la TIM insieme a me (o forse sono io che non voglio ammettere di aver fatto danni 🤷‍♂️)
 
-🧐 Per i più curiosi: il bot è scritto in C# (.NET 6.0) e gira su un server che ho dentro casa, in un container Docker 🐳. Come OS uso Unraid.
+🧐 Per i più curiosi: il bot è scritto in C# (.NET 6.0) e gira su un server che ho dentro casa, in un container Docker 🐳. Come OS uso Unraid (OS basato su Slackware).
 
 ⭕️ Informativa sulla privacy (conforme alle normative GDPR in vigore):
 Il bot raccoglie i seguenti dati sull'utilizzo:
@@ -22,10 +22,11 @@ Il bot raccoglie i seguenti dati sull'utilizzo:
 
 Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz. Nessun essere umano può accedervi, servono solo al bot per mostrarvi le stat tra una domanda e l'altra.
 
-⭐️ Stanno arrivando i quiz di Ingegneria del Software (e forse anche OGA)!
+⭐️ Stanno arrivando i quiz di Ingegneria del Software!
 
 👷‍♀️Per avviare un modulo puoi utilizzare i seguenti comandi:
-/8linux (Modulo I)
-/so2 (Modulo II)
+/8linux (SO Modulo I)
+/so2 (SO Modulo II)
+/ogas (quiz OGAS)
 
 Per cambiare modulo puoi usare il comando /leave
