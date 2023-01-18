@@ -1,0 +1,235 @@
+1) I manager sono dei visionari e hanno un'alta propensione al rischio
+> V
+v F
+
+2) Il prototitpo di un modello di business può presentarsi come un foglio di calcolo che simula il funzionamento del nuovo business
+v V
+> F
+
+3) Il budget è l'output dell'attività di programmazione
+v V
+> F
+
+4) Nel processo di pianificazione di un business il meccanismo di controllo assume caratteristiche più rilevanti rispetto a quello della programmazione
+> V
+v F
+
+5) La propensione al rischio, che secondo alcuni studiosi è tipica dell'orientamento imprenditoriale, è l'inclinazione a intraprendere nuovi progetti avventurandosi in ambienti incerti
+v V
+> F
+
+6) I primi tasselli indispensabili per la formazione di uno schema di Business Plan sono i 'Ricavi' e gli 'Investimenti durevoli'
+v V
+> F
+
+7) Il business plan è in grado di fornire una stima della probabilità di successo di una startup
+v V
+> F
+
+8) La fattibilità economica è quella fase della pianificazione il cui output è il piano operativo
+> V
+v F
+
+9) Il pensiero visuale è una tecnica di progettazione dei modelli di business
+v V
+> F
+
+10) Il business model CANVAS è strutturato in sette blocchi
+> V
+v F
+
+11) Gli scenari possono rivelarsi utili come guide per la progettazione di nuovi modelli di business in quanto aiutano gli innovatori a riflettere sul modello più appropriato per ciascuna delle ambientazioni future (Scenario Planning)
+v V
+> F
+
+12) Il manager, così come l'imprenditore, potrebbe rischiare il proprio capitale
+> V
+v F
+
+13) Il business plan non è in grado di fornire una stima della probabilità di successo di una startup
+> V
+v F
+
+14) La condizione di vitalità dell'impresa è RICAVI >= COSTI
+v V
+> F
+
+15) Il business model è composto da elementi che mostrano la logica con cui un'azienda intende creare valore
+v V
+> F
+
+16) La struttura organizzativa rappresenta il sistema di processi e di attività di un'organizzazione, cioè il suo modo di funzionare
+v V
+> F
+
+17) L'equilibrio finanziario è rappresentato dall'equazione ∑ Ricavi = ∑ Costi + margine di profitto equo
+> V
+v F
+
+18) In un sistema di impresa, compito della direzione è la ricerca di una coordinazione fra sub-sistemi, come condizione per la coordinazione generale
+v V
+> F
+
+19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base
+v V
+> F
+
+20) I modelli di business sono progettati in ambienti specifici che possono essere considerati "spazi di progettazione"
+v V
+> F
+
+21) Il capitale di rischio rappresenta i mezzi monetari apportati da terzi finanziatori
+> V
+v F
+
+22) L'attitudine all'imprenditorialità si manifesta
+> nell'ideazione dell'attività intrapresa dall'imprenditore
+> nell'avviamento e gestione dell'attività oggetto dell'impresa
+v nell'ideazione, ma anche nell'avviamento e gestione dell'attività intrapresa dall'imprenditore
+
+23) Nelle società per azioni, il rischio aziendale
+v rimane in capo ai soci, nei limiti delle azioni sottoscritte
+> viene delegato al consiglio di amministrazione
+> è assunto dal top management
+
+24) L'interesse patrimoniale consiste
+v nel compenso spettante al titolare per la messa a disposizione del capitale
+> nel compenso per il rischio sopportato con l'investimento
+> nel compenso per l'attività che il titolare svolge in azienda
+
+25) La redditività coincide con l'economicità
+> in ogni caso
+v nel caso in cui il reddito realizzato sia anche equo
+> nel caso in cui i ricavi coprano esattamente tutti i costi della gestione
+
+26) L'ordine di composizione si riferisce
+> all'ottimale combinazione dei fattori produttivi
+> all'ordinata sequenza ed alla correta attuazione delle operazioni di gestione
+v all'instaurazione di corretti rapporti con l'ambiente di riferimento
+
+27) Il budget è
+v il documento sintetico che scaturisce al termine del processo di programmazione
+> il documento sintetico che scaturisce al termine del processo di pianificazione
+> uno strumento di analisi dei problemi gestionali
+
+28) Il gruppo autarchicoera caratterizzato da una politica rivolta:
+> all'oggi e al domani proprio e all'oggi e al domani altrui
+> all'oggi proprio e al domani altrui
+v all'oggi proprio e al domani proprio
+
+29) La fase cognitiva, nell'ambito dell'attività umana per il soddisfacimento dei bisogni, si riferisce
+> all'attuazione della produzione, mediante il principio del minimo mezzo
+> all'acquisizione dei beni necessari per il consumo
+v alla selezione dei bisogni e all'individuazione delle vie più convenienti per la produzione
+
+30) Le imprese sono
+v aziende che producono per il mercato
+> aziende che producono per gli associati
+> aziende che producono per la collettività
+
+31) Lo scambio è una fase economica che ha origine
+> nel momento dell'introduzione della moneta
+v nel momento in cui il gruppo economico da chiuso diventa aperto
+> nelle epoche in cui la produzione avveniva nei limiti del consumo
+
+32) Le associazioni sono aziende nelle quali prevale
+> lo scopo di lucro
+v l'elemento personale
+> l'elemento patrimoniale
+
+33) Il concepimento delle linee strategico-tattiche si riferisce all'impegno umano in azienda
+> di tipo esecutivo
+> di tipo volitivo
+v di tipo direttivo
+
+34) Il passaggio da capitale generico a capitaledisponibilesi attua
+> con la progettazione dell'azienda
+> con l'ingresso del capitale in azienda
+v con l'ingresso in azienda dei fattori produttivi
+
+35) La cognizione post-operativa, si riferisce
+v alla fase del controllo dell'esito della gestione
+> alla fase esecutiva della gestione
+> alla fase di pianificazione della gestione
+
+36) Il passaggio da capitale inerte a capitale attivato si ha
+> quando il capitale monetario viene rimborsato al titolare
+> quando il capitale monetario viene convertito nei fattori produttivi con esso acquisiti
+v con l'applicazione delle capacità potenziali del lavoro alle utilità del capitale
+
+37) Il soggetto istituzionale è
+> colui che svolge il lavoro direttivo in azienda
+v colui che progetta l'azienda e le linee fondamentali dell'attività
+> colui che svolge il lavoro esecutivo in azienda
+
+38) Il soggetto giuridico, in un'azienda individuale
+v coincide sempre con il soggetto economico
+> non può mai coincidere con il soggetto economico
+> è rappresentato dal titolare dell'azienda
+
+39) Nelle società per azioni, il rischio aziendale
+v rimane in capo ai soci, nei limiti delle azioni sottoscritte
+> viene delegato al consiglio di amministrazione
+> è assunto dal top management
+
+40) Il capitale di rischio rappresenta
+> mezzi monetari apportati da terzi finanziatori
+v mezzi monetari apportati dal titolare
+> l'insieme dei mezzi monetari e del lavoro del titolare
+
+41) Le combinazioni di processi sono
+> raggruppamenti di operazioni di gestione
+v raggruppamenti di funzioni amministrative
+> operazioni collegate sotto il profilo spaziale
+
+42) Nelle società per azioni, la titolarità dei diritti e degli obblighi è in capo
+> ai soci
+> al consiglio di amministrazione
+v alla società
+
+43) La redditività coincide con l'economicità
+> in ogni caso
+v nel caso in cui il reddito realizzato sia anche equo
+> nel caso in cui i ricavi coprano esattamente tutti i costi della gestione
+
+44) L'ordine di composizionesi riferisce
+> all'ottimale combinazione dei fattori produttivi
+> all'ordinata sequenza ed alla corretta attuazione delle operazioni di gestione
+v all'instaurazione di corretti rapporti con l'ambiente di riferimento
+
+45) L'interesse patrimonialeconsiste
+v nel compenso spettante al titolare per la messa a disposizione del capitale
+> nel compenso per il rischio sopportato con l'investimento
+> nel compenso per l'attività che il titolare svolge in azienda
+
+46) Affinché si abbia equilibrio economico, i ricavi
+> devono limitarsi a reintegrare i costi storici
+v devono coprire anche i costi prospettici di ricostituzione
+> devono coprire anche i costi prospettici di sviluppo
+
+47) L'ordine
+> è sinonimo di economicità
+v è il presupposto dell'economicità
+> è dipendente dall'economicità
+
+48) DOMANDA APERTA: Come dovrebbe evolvere il modello di business in un ambiente che cambia?
+v So rispondere
+
+49) DOMANDA APERTA: progettare un modello di business nuovo o innovativo e rappresentarne uno esistente: descrivere la differenza principale.
+v So rispondere
+
+50) DOMANDA APERTA: Il business plan: descrizione e scopi
+v So rispondere
+
+51) DOMANDA APERTA: Progettare un modello di business. Finalità e tecniche
+v So rispondere
+
+52) Il business plan è
+> non conosco la risposta (a)
+v il documento sintetico che scaturisce al termine del processo di pianificazione
+> non conosco la risposta (c)
+
+53) Il break-even operativo
+v rappresenta il punto di pareggio tra costi totali e ricavi totali, espresso in volumi di vendita
+> non conosco la risposta (b)
+> non conosco la risposta (c)
