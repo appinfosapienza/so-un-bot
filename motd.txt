@@ -13,7 +13,7 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
 
 Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere altre domande (o nuovi corsi), il bot si sincronizza con il seguente repository:
-https://github.com/appinfosapienza/so-un-bot-for-real
+https://github.com/appinfosapienza/so-un-bot
 Pull requests sono ben accette! 🫂❤️
 
 🅱️ Purtroppo al momento nessuno dei due moduli di Sistemi Operativi contiene le nuove domande aggiunte agli esami del 2022 in quanto non le ho. Se doveste riuscire a recuperarle inviatemele 🙏!
