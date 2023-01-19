@@ -2,7 +2,7 @@
 Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica! 🤞.
 
 ✅ Al momento tutte le domande presenti sono state verificate con l'aiuto di più studenti
-(un enorme grazie a @simone_s0, @loryspat, @Deco71, @raffox24 e sicuramente ne scordo qualcuno, perdonatemi 😢)
+(un enorme grazie a @simone_s0, @loryspat, @Deco71, @raffox24, @mmatex123ab e sicuramente ne scordo qualcuno, perdonatemi 😢)
 
 ℹ️ Sistemi Operativi I si riferisce al corso del prof. Melatti (canale I)
 
