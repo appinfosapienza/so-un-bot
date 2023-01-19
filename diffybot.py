@@ -35,7 +35,6 @@ for q in quests:
     qq = qq.replace("ò", "o")
     qq = qq.replace("ù", "u")
     qq = qq.replace(" ", "")
-    qq = qq.replace(" ", "")
     m[q] = qq
 
 print("Comparing questions...")

@@ -4,18 +4,6 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 ✅ Al momento tutte le domande presenti sono state verificate con l'aiuto di più studenti
 (un enorme grazie a @simone_s0, @loryspat, @Deco71, @raffox24 e sicuramente ne scordo qualcuno, perdonatemi 😢)
 
-ℹ️ Sistemi Operativi I si riferisce al corso del prof. Melatti (canale I)
-
-ℹ️ Sistemi Operativi II si riferisce al corso del prof. Casalicchio (canale II)
-
-ℹ️ OGA si riferisce al corso della prof.ssa Castaldo
-
-ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
-
-Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere altre domande (o nuovi corsi), il bot si sincronizza con il seguente repository:
-https://github.com/appinfosapienza/so-un-bot-for-real
-Pull requests sono ben accette! 🫂❤️
-
 🅱️ Purtroppo al momento nessuno dei due moduli di Sistemi Operativi contiene le nuove domande aggiunte agli esami del 2022 in quanto non le ho. Se doveste riuscire a recuperarle inviatemele 🙏!
 
 Non tutte le risposte sono state verificate da correzioni ufficiali degli esami. Ad alcune domande abbiamo dato la risposta che A NOI 🙋‍♂️🙋‍♂️ sembrava corretta.
@@ -23,7 +11,6 @@ Non tutte le risposte sono state verificate da correzioni ufficiali degli esami.
 Non vorrei sentirmi in colpa per avervi fatto memorizzare risposte errate, per cui vi chiedo di segnalarmi tempestivamente eventuali errori.
 
 🆘 Per segnalare errori, per proporre nuove domande 🙏, o semplicemente se questo bot ti fa schifo 😢, non esitare a contattarmi: @notherealmarco
-(Puoi correggere errori in autonomia inviando una PR al repository GitHub)
 
 🐢 Se il bot va offline sei invitato ad insultare la TIM insieme a me (o forse sono io che non voglio ammettere di aver fatto danni 🤷‍♂️)
 
@@ -35,10 +22,11 @@ Il bot raccoglie i seguenti dati sull'utilizzo:
 
 Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz. Nessun essere umano può accedervi, servono solo al bot per mostrarvi le stat tra una domanda e l'altra.
 
+⭐️ Stanno arrivando i quiz di Ingegneria del Software!
+
 👷‍♀️Per avviare un modulo puoi utilizzare i seguenti comandi:
 /8linux (SO Modulo I)
 /so2 (SO Modulo II)
 /ogas (quiz OGAS)
-/ingsw (Ingegneria del Software)
 
 Per cambiare modulo puoi usare il comando /leave
