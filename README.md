@@ -1,7 +1,7 @@
 # so-un-bot
 The official https://t.me/so_1_bot questions repository
 
-🇮🇹 🇮🇹 🇮🇹
+🇮🇹 Raccolta di domande con risposta multipla utili per esercitarsi in molteplici esami!
 
 ### Struttura dei file
 
