@@ -163,9 +163,9 @@ v colui che progetta l'azienda e le linee fondamentali dell'attività
 > colui che svolge il lavoro esecutivo in azienda
 
 38) Il soggetto giuridico, in un'azienda individuale
-v coincide sempre con il soggetto economico
+> coincide sempre con il soggetto economico
 > non può mai coincidere con il soggetto economico
-> è rappresentato dal titolare dell'azienda
+v è rappresentato dal titolare dell'azienda
 
 39) Nelle società per azioni, il rischio aziendale
 v rimane in capo ai soci, nei limiti delle azioni sottoscritte
