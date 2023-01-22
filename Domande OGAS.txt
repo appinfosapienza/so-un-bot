@@ -142,7 +142,7 @@ v l'elemento personale
 > di tipo volitivo
 v di tipo direttivo
 
-34) Il passaggio da capitale generico a capitaledisponibilesi attua
+34) Il passaggio da capitale generico a capitale disponibile si attua
 > con la progettazione dell'azienda
 > con l'ingresso del capitale in azienda
 v con l'ingresso in azienda dei fattori produttivi
@@ -246,3 +246,21 @@ v divisione del lavoro e coordinamento
 
 56) DOMANDA APERTA: Si descrivano le funzioni del business plan
 v So rispondere
+
+57) Cosa hai appreso durante il corso?
+> Se non investi in azioni non sei nessuno
+> Se non hai l'Audi non sei nessuno
+> Miriam
+v Tutte le risposte sono corrette
+
+58) Cosa hai appreso durante il corso?
+> Berlusconi usa delle scorciatoie
+> I conquistatori inglesi sono violenti
+> Saremo schiavi della Cina
+v Tutte le risposte sono corrette
+
+58) Cosa hai appreso durante il corso?
+> Gli imprenditori hanno le visioni, in pratica pippano
+> Uno di noi sarà il nuovo Steve Jobs (no niente poi ci ha ripensato e ha detto che non starebbe ad informatica)
+> POPI (https://popipopi.win) è la miglior idea del 2023
+> Tutte le risposte sono corrette
