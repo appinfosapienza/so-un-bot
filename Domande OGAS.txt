@@ -70,7 +70,8 @@ v F
 v V
 > F
 
-img=https://i.imgur.com/MgB9zPg.png%19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base
+img=https://i.imgur.com/MgB9zPg.png
+19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base
 v V
 > F
 
@@ -162,7 +163,8 @@ v con l'applicazione delle capacità potenziali del lavoro alle utilità del cap
 v colui che progetta l'azienda e le linee fondamentali dell'attività
 > colui che svolge il lavoro esecutivo in azienda
 
-img=https://i.imgur.com/u3xZ9NP.png%38) Il soggetto giuridico, in un'azienda individuale
+img=https://i.imgur.com/u3xZ9NP.png
+38) Il soggetto giuridico, in un'azienda individuale
 > coincide sempre con il soggetto economico
 > non può mai coincidere con il soggetto economico
 v è rappresentato dal titolare dell'azienda
@@ -196,11 +198,6 @@ v nel caso in cui il reddito realizzato sia anche equo
 > all'ottimale combinazione dei fattori produttivi
 > all'ordinata sequenza ed alla corretta attuazione delle operazioni di gestione
 v all'instaurazione di corretti rapporti con l'ambiente di riferimento
-
-45) L'interesse patrimonialeconsiste
-v nel compenso spettante al titolare per la messa a disposizione del capitale
-> nel compenso per il rischio sopportato con l'investimento
-> nel compenso per l'attività che il titolare svolge in azienda
 
 46) Affinché si abbia equilibrio economico, i ricavi
 > devono limitarsi a reintegrare i costi storici
@@ -259,8 +256,8 @@ v Tutte le risposte sono corrette
 > Saremo schiavi della Cina
 v Tutte le risposte sono corrette
 
-58) Cosa hai appreso durante il corso?
+45) Cosa hai appreso durante il corso?
 > Gli imprenditori hanno le visioni, in pratica pippano
 > Uno di noi sarà il nuovo Steve Jobs (no niente poi ci ha ripensato e ha detto che non starebbe ad informatica)
 > POPI (https://popipopi.win) è la miglior idea del 2023
-> Tutte le risposte sono corrette
+v Tutte le risposte sono corrette
