@@ -70,7 +70,7 @@ v F
 v V
 > F
 
-19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base
+img=https://i.imgur.com/MgB9zPg.png%19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base
 v V
 > F
 
@@ -162,7 +162,7 @@ v con l'applicazione delle capacità potenziali del lavoro alle utilità del cap
 v colui che progetta l'azienda e le linee fondamentali dell'attività
 > colui che svolge il lavoro esecutivo in azienda
 
-38) Il soggetto giuridico, in un'azienda individuale
+img=https://i.imgur.com/u3xZ9NP.png%38) Il soggetto giuridico, in un'azienda individuale
 > coincide sempre con il soggetto economico
 > non può mai coincidere con il soggetto economico
 v è rappresentato dal titolare dell'azienda
