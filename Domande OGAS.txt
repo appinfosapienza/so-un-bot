@@ -247,6 +247,7 @@ v So rispondere
 57) Cosa hai appreso durante il corso?
 > Se non investi in azioni non sei nessuno
 > Se non hai l'Audi non sei nessuno
+> Se non hai la Amex Platinum non sei nessuno
 > Miriam
 v Tutte le risposte sono corrette
 
@@ -266,7 +267,7 @@ v Tutte le risposte sono corrette
 v Tutte le risposte sono corrette
 
 59) Cosa hai appreso durante il corso?
-> Che la prof vuole un personal trainer figo
+> Che la prof vuole un personal trainer figo, un azzardo
 > Che il cane della prof ce l'ha con gli attrezzi da palestra
 > I foulard Gucci sono meglio dei Rolex e delle Mercedes
 > I vegani sono facilmente abbindolati dai guru
@@ -276,7 +277,6 @@ v Tutte le risposte sono corrette
 v Tutte le risposte sono corrette
 
 60) L'orale è:
+> Obbligatorio
 > Facoltativo
-> Non obbligatorio
-> FACOLTATIVO ma in CapsLock
-v Tutte le risposte sono corrette
+v FACOLTATIVO
