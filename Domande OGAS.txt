@@ -212,7 +212,7 @@ v è il presupposto dell'economicità
 48) DOMANDA APERTA: Come dovrebbe evolvere il modello di business in un ambiente che cambia?
 v So rispondere
 
-49) DOMANDA APERTA: progettare un modello di business nuovo o innovativo e rappresentarne uno esistente: descrivere la differenza principale.
+49) DOMANDA APERTA: Progettare un modello di business nuovo o innovativo e rappresentarne uno esistente: descrivere la differenza principale.
 v So rispondere
 
 50) DOMANDA APERTA: Il business plan: descrizione e scopi
@@ -254,10 +254,23 @@ v Tutte le risposte sono corrette
 > Berlusconi usa delle scorciatoie
 > I conquistatori inglesi sono violenti
 > Saremo schiavi della Cina
+> Il voto dell'esame è espresso in trentesimi
+> Gli ospedali offrono servizi di problem solving
 v Tutte le risposte sono corrette
 
 45) Cosa hai appreso durante il corso?
 > Gli imprenditori hanno le visioni, in pratica pippano
+> L'attività del progettista comprende pratiche di proiezione astrale per "estendere il pensiero"
 > Uno di noi sarà il nuovo Steve Jobs (no niente poi ci ha ripensato e ha detto che non starebbe ad informatica)
 > POPI (https://popipopi.win) è la miglior idea del 2023
+v Tutte le risposte sono corrette
+
+59) Cosa hai appreso durante il corso?
+> Che la prof vuole un personal trainer figo
+> Che il cane della prof ce l'ha con gli attrezzi da palestra
+> I foulard Gucci sono meglio dei Rolex e delle Mercedes
+> I vegani sono facilmente abbindolati dai guru
+> I lavoratori hanno troppi diritti
+> La televisione è un mezzo del mezzo
+> I mezzi sono essi stessi un mezzo
 v Tutte le risposte sono corrette
