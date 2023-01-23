@@ -274,3 +274,9 @@ v Tutte le risposte sono corrette
 > La televisione è un mezzo del mezzo
 > I mezzi sono essi stessi un mezzo
 v Tutte le risposte sono corrette
+
+60) L'orale è:
+> Facoltativo
+> Non obbligatorio
+> FACOLTATIVO ma in CapsLock
+v Tutte le risposte sono corrette
