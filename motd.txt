@@ -2,7 +2,7 @@
 Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica! 🤞.
 
 ✅ Al momento tutte le domande presenti sono state verificate con l'aiuto di più studenti
-(un enorme grazie a @simone_s0, @loryspat, @Deco71, @raffox24, @mmatex123ab e sicuramente ne scordo qualcuno, perdonatemi 😢)
+(un enorme grazie a @simone_s0, @loryspat, @Deco71, @mmatex123ab e sicuramente ne scordo qualcuno, perdonatemi 😢)
 
 ℹ️ Sistemi Operativi I si riferisce al corso del prof. Melatti (canale I)
 
@@ -11,6 +11,8 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 ℹ️ OGA si riferisce al corso della prof.ssa Castaldo
 
 ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
+
+⚠️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande al momento presenti sono un sottoinsieme delle domande a risposta multipla degli appelli dell'a.a. 2021/2022. Ho selezionato alcune domande che rientrano nel programma (il programma dell'a.a. 2022/2023 è diverso!)
 
 Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere altre domande (o nuovi corsi), il bot si sincronizza con il seguente repository:
 https://github.com/appinfosapienza/so-un-bot
@@ -40,5 +42,6 @@ Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanent
 /so2 (SO Modulo II)
 /ogas (quiz OGAS)
 /ingsw (Ingegneria del Software)
+/sicurezza (Sicurezza ⚠️)
 
 Per cambiare modulo puoi usare il comando /leave
