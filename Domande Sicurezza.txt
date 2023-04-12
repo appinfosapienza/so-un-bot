@@ -1,0 +1,124 @@
+1) L'autenticazione dei messaggi consente di
+(scegli una o più alternative)
+> Garantire la segretezza del messaggio
+> Garantire il non-ripudio del mittente (non-repudiation of origin)
+> Verificare l'integrità del messaggio
+> le prime due sono corrette
+v le ultime due sono corrette
+> la prima e l'ultima sono corrette
+
+2) Possiamo affermare che un sistema è sicuro se, partendo da uno stato autorizzato non entra mai in uno stato non-autorizzato
+v V
+> F
+
+3) Una delle primarie assunzioni dell'anomaly detection è la seguente:
+Le attività normali e quelle anomale non hanno evidenze distinte
+> V
+v F
+
+4) L'SSL Handshake Protocol permette al client ed al server di negoziare l'algoritmo di cifratura e l'algoritmo MAC.
+> V
+v F
+
+5) Quale delle seguenti è una caratteristica di un certificato utente (user certificate) generato da una CA?
+> Le chiavi pubbliche utente che sono state certificate dalla CA sono disponibili in una directory accessibile a chiunque
+v Ogni utente con accesso alla chiave pubblica della CA può recuperare la chiave pubblica utente che è stata certificata OK
+> Ogni utente con accesso alla chiave pubblica della CA può modificare il certificato senza essere scoperto
+
+6) Si consideri il Role-Based Access Control:
+I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
+v V
+> F
+
+7) Un sistema di Misuse detection è in grado di identificare anche attacchi sconosciuti a chi sviluppa i set di regole.
+> V
+v F
+
+8) Il principio del Fail-Safe Defaults asserisce che se un soggetto non ha accesso esplicito a un oggetto, dovrebbe essere garantito l'accesso a quell'oggetto. Scegli una risposta:
+> V
+v F
+
+9) La cifratura a chiave pubblica trova campo di applicazione nella firma digitale ma non è opportuno utilizzarla per lo scambio di chiavi.
+> V
+v F
+
+10) La crittografia offre protezione solo da attacchi di passivi
+> V
+v F
+
+11) Quale è la definizione corretta di Mandatory Access Control?
+v Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali non possono alterare la politica di accesso.
+> Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali possono alterare la politica di accesso ai loro oggetti.
+> Un meccanismo, basato sull'identità, che permette agli utenti individuali di controllare chi può accedere o no agli oggetti del sistema.
+
+12) Il principio di Separazione dei Privilegi (Separation of Privilege) prevede che vengano verificate più condizioni per concedere i privilegi e che due o più componenti lavorino insieme per imporre il livello di sicurezza desiderato.
+v V
+> F
+
+13) Quali dei seguenti criteri vengono utilizzati nel Attribute-based Access Control per autorizzare o negare un operazione su di un oggetto?
+(scegli una o più alternative)
+> Attributi assegnati del soggetto
+> Condizioni dell'ambiente
+> Tipo di operazione da effettuare 
+v le prime due sono corrette
+> le ultime due sono corrette
+> la prima e l'ultima sono corrette
+
+14) Si consideri il Role-Based Access Control.
+I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
+v V
+> F
+
+15) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
+> Il Firewall non penalizza le prestazioni
+v Il Firewall è un single-point-of-failure
+> Il firewall non è un single-point-of-failure
+
+16) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
+> Il firewall, tracciando il traffico in uscita ed in entrate, protegge anche dagli Insider-attacks.
+> Il firewall non è un single-point-of-failure.
+v Il firewall è il punto centrale per le decisioni relative alla sicurezza di una rete.
+
+17) Supponiamo di dover definire una politica che vieti ad un programma di accedere al file delle password /etc/passwd.
+Supponiamo anche di usare un linguaggio ad alto livello, e che i metodi del programma per accedere ai file sono i seguenti:
+<pre>
+class File {
+public file(String name); //Crea un file
+public String getfilename(); // Restituisce il nome di un file
+public char read(); //Accede ad un file in lettura
+}
+</pre>
+Quali delle seguenti politiche è corretta?
+> allow( |-> file.read) when (file.getfilename() == "/etc/passwd")
+> deny( |-> file.read) when (file.file(/etc/passwd) == true)
+v deny( |-> file.read) when (file.getfilename() == "/etc/passwd")	
+
+18) Si supponga di utilizzare un controllo di accessi basato sui ruoli (RBAC) per gestire i permessi in un'azienda.
+Si supponga che il dipendente U1 abbia funzione F1 e F1 è associata al ruolo R1.
+Se U1 viene rimpiazzato dal dipendente U2 nella funzione F1 quale delle seguenti affermazioni è corretta?
+> Il fatto che U2 rimpiazzi U1 nella sua funzione F1 non ha alcuna relazione con l'assegnazione di U2 ad un ruolo.
+> U2 può avere tutti i permessi di U1 solo se viene creato un nuovo ruolo R2=R1 e U2 viene assegnato a R2.
+v U2 acquisisce automaticamente tutti i permessi di U1.
+
+19) Quale tra i seguenti NON è uno dei principi di progettazione sicura dei sistemi?
+v Separation of Responsibilities
+> Open Design
+> Economy of Mechanisms
+
+20) In un sistema di Verifica e Identificazione Biometrica, la fase di Verifica potrebbe dare un esito inconcludente.
+v V
+> F
+
+21) Una matrice di controllo degli accessi (Access Control Matrix) è definita da:
+soggetti (subjects) S = { s ,…,s }
+oggetti (objects) O = { o ,…,o }
+Diritti (rights) R = { r ,…,r }
+Quale è il significato di un elemento A[s, o ] = { r , ..., r } della matrice R?
+v Il soggetto s ha diritti r ,...,r sull'oggetto o
+> Il soggetto s può utilizzare le risorse r ,...,r dell'oggetto o
+> Il soggetto s non ha i diritti r ,...,r sull'oggetto o
+
+22) Si consideri il Role-Based Access Control.
+I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
+v V
+> F
