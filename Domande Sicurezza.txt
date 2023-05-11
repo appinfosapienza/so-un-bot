@@ -17,8 +17,8 @@ Le attività normali e quelle anomale non hanno evidenze distinte
 v F
 
 4) L'SSL Handshake Protocol permette al client ed al server di negoziare l'algoritmo di cifratura e l'algoritmo MAC.
-> V
-v F
+v V
+> F
 
 5) Quale delle seguenti è una caratteristica di un certificato utente (user certificate) generato da una CA?
 > Le chiavi pubbliche utente che sono state certificate dalla CA sono disponibili in una directory accessibile a chiunque
@@ -63,11 +63,6 @@ v V
 v le prime due sono corrette
 > le ultime due sono corrette
 > la prima e l'ultima sono corrette
-
-14) Si consideri il Role-Based Access Control.
-I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
-v V
-> F
 
 15) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
 > Il Firewall non penalizza le prestazioni
@@ -118,7 +113,117 @@ v Il soggetto s ha diritti r ,...,r sull'oggetto o
 > Il soggetto s può utilizzare le risorse r ,...,r dell'oggetto o
 > Il soggetto s non ha i diritti r ,...,r sull'oggetto o
 
-22) Si consideri il Role-Based Access Control.
-I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
+23) Il protocollo di Needham-Schroeder per la distribuzione delle chiavi non e' vulnerabile ad attacchi di tipo Replay
+> V
+v F
+
+24) Quante chiavi usa un algoritmo a cifratura simmetrica?
+> Usa due chiavi, una per cifrare ed una per decifrare il messaggio
+v Usa una singola chiave sia per cifrare che per decifrare il messaggio
+> Il numero di chiavi utilizzate dipende dall'algoritmo scelto
+
+25) Una delle primarie assunzioni dell'anomaly detection è la seguente: Le attività normali e quelle anomale non hanno evidenze distinte
+> V
+v F
+
+26) Mettendo a confronto RSA e DES, quali delle seguenti affermazioni è corretta?
+> La dimensione delle chiavi in RSA è fissa e definita dallo standard KO
+v RSA può essere utilizzato per lo scambio di chiavi nella cifratura a blocchi simmetrica (DES)
+> RSA garantisce una velocità di cifratura (bit/sec) maggiore rispetto al DES
+
+
+27) SSL è un protocollo a tre livelli. Al livello più basso (sopra al TCP) abbiamo il SSL Record Protocol, al secondo livello abbiamo il protocollo SSL Change Cipher Spec, ed al livello più alto abbiamo l'SSL Handshake protocol
+> V
+v F
+
+28) Considerando il protocollo SSL, quali delle seguenti affermazioni è corretta?
+> SSL non usa certificati X.509 per l'autentiicazione
+> SSL richiede l'uso di IPSec
+v SSL usa RSA per la cifratura a chiave pubblica
+
+29) Quali problemi ha un Anomaly Detection System basato su di un modello di Markov?
+> Il profilo degli utenti può evolvere nel tempo e quindi bisogna pesare i dati in modo appropriato
+v Il sistema ha bisogno di apprendere quali sono le sequenze valide
+> Il sistema ha bisogno di apprendere quali sono le sequenze anomale
+
+30) Quale delle seguenti è una tecnica di crittoanalisi?
+v Chosen Ciphertext
+> Know Ciphertext
+> Known Chipherkey
+
+31) Assumiamo che:
+A = insieme degli stati del sistema
+B = insieme degli stati sicuri del sistema
+Se il meccanismo di sicurezza applicato al sistema è tale che A è contenuto, ma non uguale a B, che tipo di meccanismo di sicurezza abbiamo?
+> Ampio
+> Preciso
+v Sicuro
+
+32) Quali tra i seguenti NON è un parametro SSL negoziato mediante il protocollo di handshake?
+> master secret
+v Kerberos TGS ticket
+> X.509 public-key certificate of peer
+
+33) Nella modalità Trasporto, IPSec usa
+AH per autenticare il payload IP
+ESP per cifrare il payload IP: se si usa IPv4 non viene cifrato l'header; se si usa IPv6 viene cifrato l'extension header.
+v V
+> F
+
+34) Nella modalità Trasporto, IPSec usa:
+AH per autenticare il payload IP
+ESP per cifrare l'inner IP packet (che include anche l'header)
+> Vero
+v Falso
+
+35) Assumiamo che:
+A = insieme degli stati del sistema
+B = insieme degli stati sicuri del sistema
+Se il meccanismo di sicurezza applicato al sistema è tale che A è uguale a B, che tipo di meccanismo di sicurezza abbiamo?
+> Ampio
+v Preciso
+> Sicuro
+
+36) Quali delle seguenti liste contiene solo parametri SSL negoziati mediante il protocollo di handshake?
+v session ID; compression algorithm; master secret OK
+> master secret; X.509 public-key certificate of peer; client_write_key
+> Change Cipher Spec; Alert; X.509 public-key certificate of peer
+
+img=https://i.imgur.com/iwCvLLu.png%
+37) Si consideri la seguente regola di firewall: quale delle seguenti affermazioni è corretta?
+v Solo il traffico generato da un host interno al firewall è ammesso verso la porta 25 di un host qualsiasi; Solo il traffico che appartiene ad una connessione già instaurata sulla porta 25 è ammesso indipendentemente dalla provenienza/destinazione.
+> Il traffico generato da un host interno al firewall verso la porta 25 è bloccato a meno che non appartenga ad una connessione già esistente.
+> Solo il traffico sulla porta 25 è ammesso indipendentemente dalla sorgente/destinazione, e dal tipo di messaggio.
+
+38) Un sistema Firewall è definito dagli RFC 2828 e 2979.
+Quali delle seguenti proprietà dovrebbe avere un Firewall?
+> Se nella rete delimitata dal Firewall ci sono sistemi non critici, il loro traffico può aggirare il Firewall.
+v Il Firewall deve essere immune alla penetrazione, facendo uso di un sistema trusted equipaggiato come un sistema operativo sicuro.
+> Le politiche di sicurezza del Firewall hanno il compito di re-indirizzare (re-routing) il traffico non sensibile proveniente dalla rete protetta in modo che il Firewall stesso non sia sovraccaricato inutilmente.
+
+39) Quale delle seguenti non è una tecnica di crittoanalisi?
+> Chosen Ciphertext
+> Known Plaintext
+v Know Ciphertext
+
+40) Un sistema crittografico (Criptosystem) è definito dalla quintupla (E, D, M, K, C) dove
+M insieme dei plaintexts
+K insieme delle chiavi
+C insieme ciphertexts
+E funzione di cifratura (encryption functions)
+D funzione di decifratura (decryption functions)
+Quale è la definizione corretta di E?
+> <code>E = { Ec : M --> K | c in C}</code>
+> <code>E = { Ek : C --> M | k in K}</code>
+v <code>E = { Ek : M --> C | k in K}</code>
+
+La cifratura a chiave pubblica può essere utilizzata per garantire la confidenzialità (confidentiality) o integrità/autenticazione (integrity/authentication) del messaggio, ma non entrambe.
+> V
+v F
+
+41) Tre approcci alternativi all'utenticazione di un messaggio sono:
+cifratura del messaggio
+calcolo di una hash function del messaggio
+calcolo di una keyed hash functions del messaggio
 v V
 > F
