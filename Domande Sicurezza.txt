@@ -113,7 +113,7 @@ v Il soggetto s ha diritti r ,...,r sull'oggetto o
 > Il soggetto s può utilizzare le risorse r ,...,r dell'oggetto o
 > Il soggetto s non ha i diritti r ,...,r sull'oggetto o
 
-23) Il protocollo di Needham-Schroeder per la distribuzione delle chiavi non e' vulnerabile ad attacchi di tipo Replay
+23) Il protocollo di Needham-Schroeder per la distribuzione delle chiavi non è vulnerabile ad attacchi di tipo Replay
 > V
 v F
 
