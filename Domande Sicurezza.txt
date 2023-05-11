@@ -86,7 +86,7 @@ public char read(); //Accede ad un file in lettura
 Quali delle seguenti politiche è corretta?
 > allow( |-> file.read) when (file.getfilename() == "/etc/passwd")
 > deny( |-> file.read) when (file.file(/etc/passwd) == true)
-v deny( |-> file.read) when (file.getfilename() == "/etc/passwd")	
+v deny( |-> file.read) when (file.getfilename() == "/etc/passwd")
 
 18) Si supponga di utilizzare un controllo di accessi basato sui ruoli (RBAC) per gestire i permessi in un'azienda.
 Si supponga che il dipendente U1 abbia funzione F1 e F1 è associata al ruolo R1.
