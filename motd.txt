@@ -18,12 +18,6 @@ Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere al
 https://github.com/appinfosapienza/so-un-bot
 Pull requests sono ben accette! 🫂❤️
 
-🅱️ Purtroppo al momento nessuno dei due moduli di Sistemi Operativi contiene le nuove domande aggiunte agli esami del 2022 in quanto non le ho. Se doveste riuscire a recuperarle inviatemele 🙏!
-
-Non tutte le risposte sono state verificate da correzioni ufficiali degli esami. Ad alcune domande abbiamo dato la risposta che A NOI 🙋‍♂️🙋‍♂️ sembrava corretta.
-
-Non vorrei sentirmi in colpa per avervi fatto memorizzare risposte errate, per cui vi chiedo di segnalarmi tempestivamente eventuali errori.
-
 🆘 Per segnalare errori, per proporre nuove domande 🙏, o semplicemente se questo bot ti fa schifo 😢, non esitare a contattarmi: @notherealmarco
 (Oppure puoi correggere errori in autonomia inviando una PR al repository GitHub)
 
