@@ -25,17 +25,13 @@ Non tutte le risposte sono state verificate da correzioni ufficiali degli esami.
 Non vorrei sentirmi in colpa per avervi fatto memorizzare risposte errate, per cui vi chiedo di segnalarmi tempestivamente eventuali errori.
 
 🆘 Per segnalare errori, per proporre nuove domande 🙏, o semplicemente se questo bot ti fa schifo 😢, non esitare a contattarmi: @notherealmarco
-(Puoi correggere errori in autonomia inviando una PR al repository GitHub)
+(Oppure puoi correggere errori in autonomia inviando una PR al repository GitHub)
 
-🐢 Se il bot va offline sei invitato ad insultare la TIM insieme a me (o forse sono io che non voglio ammettere di aver fatto danni 🤷‍♂️)
+🧐 Per i più curiosi: il bot è scritto in C# (.NET 6.0) e gira su un server che ho in casa (come OS uso Proxmox)
 
-🧐 Per i più curiosi: il bot è scritto in C# (.NET 6.0) e gira su un server che ho dentro casa, in un container Docker 🐳. Come OS uso Unraid (OS basato su Slackware).
-
-⭕️ Informativa sulla privacy (conforme alle normative GDPR in vigore):
-Il bot raccoglie i seguenti dati sull'utilizzo:
-- ID utente Telegram: necessario per garantire la ricezione degli avvisi, questo dato viene memorizzato in modo permanente.
-
-Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz. Nessun essere umano può accedervi, servono solo al bot per mostrarvi le stat tra una domanda e l'altra.
+⭕️ Informativa sulla privacy:
+Il bot, per garantire il corretto funzionamento, potrebbe memorizzare il vostro ID utente Telegram in modo permanente.
+Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz.
 
 👷‍♀️Per avviare un modulo puoi utilizzare i seguenti comandi:
 /8linux (SO Modulo I)
