@@ -193,7 +193,7 @@ v ci si riferisce ad un paradigma di interazione basato su WIMP
 
 34) Nell'ambito delle tecniche di progettazionedi interfacce, è corretto dire che una storyboard sequenziale è assimilabile a:
 > un prototipo orizzontale
-> un prototipo verticale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
+> un prototipo verticale
 v uno scenario
 > una combinazione di un prototipo orizzontale con un prototipo verticale
 
