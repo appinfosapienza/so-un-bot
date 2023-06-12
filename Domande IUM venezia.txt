@@ -1,0 +1,275 @@
+1) L’interaction framework descrive 4 fasi del ciclo interattivo, tra le quali troviamo:
+> l’osservazione e la memorizzazione
+> la sintesi e l’articolazione
+v l’articolazione e la presentazione
+> la prestazione e la virtualizzazione
+
+2) Qual èil significato dell’euristica visibilità dello stato del sistema?
+> che i dispositivi di input del sistema devono essere posizionati in modo da essere sempre visibili agli utenti
+v che in ogni momento il sistema deve tenere informato l’utente su quello che sta succedendo
+>  che i dispositivi di output del sistema devono essere posizionati a non più di 2 metri dall’utente
+> che il sistema deve fornire un feedback all’utente quando ha esaurito tutti gli altri compiti computazionali
+
+3) Nell’ambito dell’informatica pervasiva si intende per ambient display:
+v l’uso dell’ambiente fisico come interfaccia per l’informazione digitale
+> l’utilizzo esclusivo di schermi di schermi di grande dimensione, per permettere una comunicazione parallela a più utenti
+> l’utilizzo esclusivo della visualità per comunicare l’output di un sistema pervasivo
+
+4) Il paradigma a manipolazione diretta è caratterizzato da:
+> invisibilità di una parte degli oggetti e feedback veloce
+> sostituzione di linguaggi di comando basati su numero con linguaggi di comando basati su parole comuni
+v reversibilità delle azioni
+> impossibilità di attuare azioni incrementali
+
+5) Nell’ambito dell’informatica pervasiva, che cosa si intende per principio di intelligenza appropriata?
+> che il sistema deve essere percepito dall’utente come una controparte umana
+> che il sistema informatico non deve mai effettuare previsioni sbagliate
+v che il sistema informatico deve eseguire previsioni il più spesso possibile corrette
+> che il sistema informatico deve avere un livello minimo di intelligenza misurata utilizzando il test di Turing
+
+6) Il termine mixed realityintrodotto da Milgrim e Kishino si riferisce a:
+> paradigmi di interazione in cui vengono presentati all’utente in sequenza elementi reali ed elementi virtuali
+> paradigmi di interazione in cui vengono presentati all’utente contemporaneamente sia elementi reali che virtuali
+v tutta la gamma di combinazioni possibili tra realtà e virtualità
+> paradigmi di interazione completamente immersivi in cui l’utente si sente ‘frullato’ (da qui il termine mixed) e proiettato con il corpo in un mondo virtuale
+
+7) In uno degli articoli proposti nella bibliografia del corso (Comparative Feedback in the Street: Exposing Residential Energy Consumption on House Façades) gli autori descrivono uno studio sull’impatto sui comportamenti dovuti alla condivisione dei dati dei consumi energetici sulle facciate esternedelle abitazioni, e concludono che:
+> è fondamentale dare il dettaglio dei consumi in tempo reale
+v è importante mostrare dati sui consumi a lungo termine
+> non c’è alcun vantaggio dal punto di vista del miglioramento delle abitudini derivante dalla competizione tra i vicini
+> è importante dare informazioni sui consumi, ma non è importante dare informazioni su come cambiare i comportamenti, visto che la maggior parte delle famiglie è consapevole dei suoi punti di debolezza
+
+8) Nell’ambito delle tecniche di prototipazione di un’interfaccia, che si intende perbranching storyboard?
+> una storyboard caratterizzata da uno schema lineare per mostrare i cambiamenti di stato dell’interfaccia a seguito dell’azione dell’utente o di altri eventi
+> una storyboard nella qualevengono proposti gli screenshot dell’interfaccia senza alcun ordinamento particolare
+v una storyboard nella quale viene data una descrizioneil più possibilecompleta di tutti glistati dell’interazionee delle loro relazioni
+> una storyboard nella quale viene descrittanon solo l'interfaccia ma anche il contesto in cui avviene l’interazione
+
+9) Le interfacce per l’eco-feedbacksi caratterizzano per:
+> richiedere un consumo di energia molto basso, di provenienza esclusivamente rinnovabile
+v fornire agli utenti informazioni riguardo alle conseguenze per l’ambiente del loro comportamento
+> fornire agli utenti un feedback sonoro per il quale vengono utilizzati processori di ecoo di riverbero, atti a simulare luoghi chiusi e aperti molto ampi
+
+10) Nell’ambito dell’informatica pervasiva, che cosa si intende per prossemica (proxemics)?
+> lo studio dei tempi di interazione con un sistema pervasivo
+> lo studio del significato della gestualità umana
+v lo studio delle distanze interpersonali
+> lo studio delle distanze tra le componenti dell’interfaccia
+
+11) Tra le caratteristiche positive dei nuovi stili di interazione gestuale pensati per tablet e smartphone possiamo indicare:
+> la disponibilità e l’omogeneità di operazioni non distruttive, come l’undo
+> la disponibilità di linee guida riconosciute per il controllo gestuale
+> la disponibilità di gesti consistenti e omogenei attraverso le diverse piattaforme di utilizzo
+v l’elevata espressività del linguaggio di input
+
+12) Nell’ambito del modello di interazione proposto da Don Norman (ciclo di esecuzione e di valutazione) il golfo di valutazione indica:
+> la differenza tra la formulazione delle azioni dell’utente e le azioni consentite
+v la differenza tra la presentazione dello stato del sistema e le aspettative dell’utente
+> la differenza tra la presentazione dello stato del sistema e le azioni consentite
+> la differenza tra la formulazione delle azioni dell’utente e le aspettative dell’utente
+
+13) In uno degli articoli proposti nella bibliografia del corso (Comparative Feedback in the Street: Exposing Residential Energy Consumption on House Façades) gli autori descrivono uno studio sull’impattosui comportamenti dovuti alla condivisione dei dati dei consumi energetici sulle facciate esternedelle abitazioni, e concludono che:
+> è fondamentale dare il dettaglio dei consumi in tempo reale
+> è importante dare informazioni sui consumi, ma non è importante dare informazioni su come cambiare i comportamenti, visto che la maggior parte delle famiglie è consapevoledei suoi punti di debolezza
+v è importante mostrare dati sui consumi a lungo termine
+> non c’è alcun vantaggio dal punto di vista del miglioramento delle abitudini derivante dalla competizione tra i vicini
+
+14) Nell’ambito dell’informatica pervasiva per input implicito si intende:
+> le azioni che non richiedono un’interazione verbale da parte dell’utente
+v le azioni che non vengono viste dall’utente come un’interazione con un sistema informatico, ma che vengono interpretati come tali da un sistema informatico presente nell’ambiente
+> le azioni che non richiedono un’interazione gestuale da parte dell’utente
+> le azioni compiute dagli utenti che non vengono viste dalle altre persone presenti nell’ambiente
+
+15) Il termine mixed reality introdotto da Milgrim e Kishino si riferisce a:
+> paradigmi di interazione in cui vengono presentati all’utente in sequenza elementi reali ed elementi virtuali
+> paradigmi di interazione in cui vengono presentati all’utente contemporaneamente siaelementi reali che virtuali
+v tutta la gamma di combinazioni possibili tra realtà e virtualità
+> paradigmi di interazione completamente immersivi in cui l’utente si sente ‘frullato’ (da qui il termine mixed) e proiettato con il corpo in un mondo virtuale
+
+16) Nell’ambito delle tecniche di prototipazione di un’interfaccia, che si intende per narrative storyboard?
+> una storyboard caratterizzata da uno schema lineare per mostrare i cambiamenti di stato dell’interfaccia a seguito dell’azione diretta dell’utente
+> una storyboard nella quale vengono proposti gli screenshot dell’interfaccia senza alcun ordinamento particolare
+> una storyboard nella quale viene data una descrizione il più possibile completa di tutti gli stati dell’interazione e delle loro relazioni
+v una storyboard nella quale viene descritta non solo l'interfaccia ma anche il contesto in cui avviene l’interazione
+
+17) Qual è il significato dell’euristica ‘Controllo dell’utente e libertà?
+> che agli utenti deve essere impedito di selezionare per errore le funzionalità del sistema
+> che tutti i sistemi dovrebbero fornire la libertà di essere utilizzati,anche da parte di utenti non registrati
+v che agli utenti deve essere fornite uscite di emergenza nel caso in cui selezionino determinate funzionalità per errore
+> che non devono essere supportate le funzionalità di Redo e Redo multiplo
+
+18) I punti di forza delle interfacce tangibili (TUI) includono:
+> la versatilità e la collaborazione
+> il parallelismo spaziale e la scalabilità
+v il pensiero tangibile e l’uso delle affordances
+
+19) I parametri che definiscono l’engagement dell’utente comprendono:
+v l’attenzione focalizzata e la durabilità
+> l’usabilità percepita e l’effervescenza
+> il coinvolgimento percepito e l’accessibilità
+
+20) Il cosiddetto affective computing denota:
+v la computazione che influenza le emozioni degli utenti
+> l’attrazione emotiva degli utenti verso i nuovi prodotti hardware
+> la computazione che sorge dalle emozioni dell’unità di calcolo
+> l’attrazione emotiva degli utenti verso i prodotti hardware vintage
+
+21) Le nuove interfacce gestuali da un certo punto di vista rappresentano un passo indietro dal punto di vista dell’usabilità, a causa:
+> dell’incapacità dei cosiddetti nativi digitali ad effettuare manipolazioni con entrambe le mani
+v della mancanza di linee guida riconosciute per il controllo gestuale
+> dellalimitata espressività delle interfacce gestuali
+> dell’incapacità degli utenti ad effettuare manipolazioni con una mano singola
+
+22) Nell’ambito delle attività di prototipazione la tecnica del mago di Oz denota:
+v l’implementazione fittizia di interfacce, costruita in modo tale che l’utente abbia l’impressione di interagire con un sistema realmente funzionante
+> l’utilizzo di tecniche di storytelling (narrazione interattiva) per la didattica dell’informatica
+> un’implementazione ridondante e fantasiosa di un’interfaccia utente, effettuata allo scopo di permettere molteplici modalità di interazione
+> l’implementazione completa delle interfacce, realizzata in tempi molto rapidi
+
+23) Tra le caratteristiche dei nuovi stili di interazione gestuale pensati per tablet e smartphone possiamo indicare:
+> la disponibilità e l’omogeneità di operazioni non distruttive, come l’undo
+> la ridotta espressività del linguaggio di input
+> la disponibilità di gesti consistenti e omogenei attraverso le diverse piattaforme di utilizzo
+v la mancanza di linee guida riconosciute per il controllo gestuale
+
+24) Nell'ambito delle interfacce WIMP le cosiddette finestre modalisi caratterizzano per:
+v bloccare la possibilità di interazioni ulteriori fino a quando l’utente non ha dato un OK o ha annullato le operazioni consentite dall’interfaccia della finestra
+> permettere di svolgere la stessa azione attraverso modalità diverse, scegliendo ad esempio una modalitàgrafica piuttosto che una a linea di comando
+> permettere di selezionare altre funzionalità dell'applicazione esterne alla finestra modale, senza la necessità di dover concludere prima l'interazione all'interno della finestra stessa
+
+25) L'euristica Consistenza e Standard indica che:
+> gli oggetti, le azioni e le opzioni che fanno parte dell’interazione vanno resi visibili
+> non vanno seguitele convenzioni delle piattaforme su cui si sta lavorando
+> i widget utilizzati per l'interazione dovrebbero essere di grandi dimensioni e posti a breve distanza
+v gli utenti non dovrebbero preoccuparsi di dover capire se parole, situazioni e azioni diverse significano la stessa cosa
+
+26) Nell’ambito delle tecniche di prototipazione di un’interfaccia, la cosiddetta narrative storyboardsi differenzia dalla sequential storyboard:
+v per la descrizione del contesto in cui avviene l’interazione
+> per la presentazione degli screenshots dell’interfaccia senza alcun ordinamento particolare
+> per la definizione di percorsi non-lineari che descrivono le transizioni di stato dell’interfaccia
+> per una migliore accuratezza nella rappresentazione dell’interfaccia
+
+27) Nell’ambito della percezione uditiva, che cosa si intende per effetto mascheramento?
+v l’incapacità del sistema uditivo di distinguere, in determinate condizioni, suoni di livello diverso vicini nel tempo
+> la capacità del sistema uditivo di filtrare i suoni in un ambiente rumoroso
+> l’incapacità del sistema uditivo di distinguere suoni bassi con frequenze molto diverse
+> l’incapacità del sistema uditivo di focalizzarsi in una conversazione in un ambiente rumoroso
+
+28) La tastiera Michela è un particolare tipo di dispositivo per l’input del testo:
+> che ha lo stesso layout fisico di una tastiera QWERTY
+> che ha il layout e lo stesso numero di tasti di una tastiera di pianoforte
+> per avviare alla digitazione del testo i bambini di età pre-scolare
+v fondato sulla scomposizione del testo da digitare in sillabe
+
+29)Nell’ambito del modello definito come Interaction Framework, che cosa succede durante la fase di articolazione?
+v Il linguaggio dei compitidell’utente viene tradottoinlinguaggio di input
+> Dopo l’esecuzione il sistema cambia stato e lo comunica attraverso il linguaggio di output
+> L’utente osserva l’output e valuta i risultati
+> L'inputvienetradotto nel linguaggio di base del sistema per attivare l’esecuzione
+
+30) E’ corretto dire che, nella progettazione di dispositivi fisici, l’applicazione del concetto di affordance dovrebbe portare a:
+v utilizzare forme specifi che suggeriscano come svolgere la funzione
+> utilizzare in forma seriale le stesse forme per mappare funzioni diverse
+> utilizzare solo dispositivi sostenibili economicamente
+> utilizzare solo dispositivi che richiedano una forza fisica limitata
+
+31) Che cosa si intende per scheumorfismo?
+v E’ un ornamento apposto su un oggetto (digitale) allo scopo di richiamare le caratteristiche di un altro oggetto
+> E’ un termine che indica le interfacce visuali caratterizzate da uno stile astratto
+> E’ un termine che indica le interfacce realizzate in economia di mezzi
+> E’ un termine utilizzato per caratterizzare tutte le tipologie di interfacce tangibili
+
+32) E’ corretto dire, secondo gli studi di O’Brien, che i sei parametri che definiscono l’engagement:
+v non sono indipendenti l’uno dall’altro
+> comprendono il coinvolgimento percepito e la reversibilità delle azioni
+> comprendono la consistenzae la durabilità
+> non comprendono l’usabilità percepita
+
+33) Con il termine interazione a manipolazione diretta:
+>ci si riferisce ad un paradigma di interazione basato sull’invisibilità degli oggetti
+> ci si riferisce ad un paradigma di interazione nel quale le azioni sono irreversibili
+v ci si riferisce ad un paradigma di interazione basato su WIMP
+> ci si riferisce ad un paradigma di interazione basato su oggetti fisici
+
+34) Nell'ambito delle tecniche di progettazionedi interfacce, è corretto dire che una storyboard sequenziale è assimilabile a:
+> un prototipo orizzontale
+> un prototipo verticale
+v uno scenario
+> una combinazione di un prototipo orizzontale con un prototipo verticale
+
+35) E’ corretto dire che, nell’ambito delle interfacce olfattive,la diffusione di sistemi di output per la riproduzione di una grande varietà di odori è correntemente limitata:
+> dal grande costo delle essenze necessarie
+v dall’impossibilità di ottenere il risultato utilizzando una miscela di pochi odori di base
+> dalla grande diffusione di allergie e dal conseguente rischio di shock anafilattici conseguenti all’uso di questo tipo di interfacce
+
+36) Tra le caratteristiche dei nuovi stili di interazione gestuale pensati per tablet e smartphone possiamo indicare:
+> la disponibilità e l’omogeneità di operazioni non distruttive, come l’undo
+> la disponibilità di gesti consistenti e omogenei attraverso le diverse piattaforme di utilizzo
+v la mancanza di linee guida riconosciute per il controllo gestuale
+> la ridotta espressività del linguaggio di input
+
+37) Il layout del tastierino numerico delle tastiere di computer deriva:
+> da uno dei primi studi sul layout dei tastierini numerici di Bell Labs
+v dal layout dei calcolatori meccanici
+> dal layout delle tastiere telefoniche
+> dal fatto che 0 e 1 sono i numeri più utilizzzati
+
+38) E’corretto dire che, nella progettazione di dispositivi fisici, l’applicazione del concetto di affordance dovrebbe portare a:
+v utilizzare forme specifiche che suggeriscano come svolgere la funzione
+> utilizzare in forma seriale le stesse forme per mappare funzioni diverse
+> utilizzare solo dispositivi sostenibili economicamente
+> utilizzare solo dispositivi che richiedano una forza fisica limitata
+
+39) L'euristica Consistenza e Standard indica che:
+> gli oggetti, le azioni e le opzioni che fanno parte dell’interazione vanno resi visibili
+> non vanno seguitele convenzioni delle piattaforme su cui si sta lavorando
+> i widget utilizzati per l'interazione dovrebbero essere di grandi dimensioni e posti a breve distanza
+v gli utenti non dovrebbero preoccuparsi di dover capire se parole, situazioni e azioni diverse significano la stessa cosa
+
+40) Che cosa si intende per scheumorfismo?
+> E’ un termine che indica le interfacce visuali caratterizzate da uno stile astratto
+v E’ un ornamento apposto su un oggetto (digitale) allo scopo di richiamare le caratteristiche di un altro
+> E’ un termine utilizzato per caratterizzare tutte le tipologie di interfacce tangibili
+> E’ un termine che indica le interfacce realizzate in economiadi mezzi
+
+41) Definire la relazione tra usabilità ed engagement:
+> il concetto di engagementè utilizzato solo nella progettazione di sistemi di gioco interattivi
+> sono due concetti separati che vengono utilizzati in aree di applicazione completamente diverse
+v l'usabilità percepita è parte della definizione del concetto di engagement(secondo la definizione di O'Brien)
+> L’engagementè parte della definizionedel concetto di usabilità (secondo la definizione ISO)
+
+42) Nell’ambito del modello definito come Interaction Framework, che cosa succede durante la fase di prestazione?
+> Il linguaggio dei compitidell’utente viene tradottoinlinguaggio di input
+> Dopo l’esecuzione il sistema cambia stato e lo comunica attraverso il linguaggio di output
+> L’utente osserva l’output e valuta i risultati
+v L'inputvienetradotto nel linguaggio di base del sistema per attivare l’esecuzione
+
+43) Un’interfaccia tangibile
+v è un’interfaccia utente nella quale l’utente interagiscecon l’informazione digitale trasmettendo l’input attraverso oggetti fisici
+> è un’interfaccia utente nella quale l’utente interagisce con gli oggetti tangibili trasmettendo l’input attraverso la mediazione dioggetti digitali
+> è un’interfaccia che va oltre lo stadio prototipale, presentandosi come un sistema interattivo ben costruito
+
+44) I menu pull-down si differenziano rispetto ai menu fall-down perché
+> vengono aperti automaticamente al passaggio del puntatore sui titoli
+v vengono aperti posizionando il puntatore sui titoli e facendo click
+> vengono aperti posizionando il puntatore sui titoli e rilasciando il tasto del mouse
+
+45) Un campoX3D
+> è un’area in cui viene partizionato lo spazio della scena 3D
+v è un’entità di secondo livello che definisce lo stato di un nodo
+> è un’entità di primolivello per definire primitivegeometrichedi interazione
+
+46) In un prototipo verticale di un'interfaccia
+> viene ridotto il livello di funzionalità del sistema, dando luogo a un'interfaccia con features non completamente implementate
+> viene ridotto il numero di features considerate, mostrando il funzionamento del sistema solo lungo percorsi precedentemente pianificati
+v viene ridotto il numero di features considerate, ma quelle selezionate vengono pienamente implementate
+
+47) Le interfacce industriali si distinguono dalle interfacce a manipolazione diretta perché
+v l'utente riceve un doppio output, dall'interfaccia e dal sistema
+> l'utente opera un doppio input, verso l'interfaccia e verso il sistema
+> l'utente riceve un unico output derivante dall'interfaccia
+
+48) Il ciclo di esecuzione e di valutazione di Norman
+v definisce un modello di interazione uomo calcolatore basato sulla specifica di 7 fasi corrispondenti alle attività dell’utente
+> definisce un modello di interazione uomo calcolatore basato sulla specifica di 7 golfi corrispondenti ai punti critici dell’interazione
+> definisce un modello di interazione uomo calcolatore basato sulla definizione di 4 componenti principali, ognuna delle quali è caratterizzata da un proprio linguaggio
