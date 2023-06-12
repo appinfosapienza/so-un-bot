@@ -14,6 +14,8 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 
 ⚠️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande al momento presenti sono un sottoinsieme delle domande a risposta multipla degli appelli dell'a.a. 2021/2022. Ho selezionato alcune domande che rientrano nel programma (il programma dell'a.a. 2022/2023 è diverso!)
 
+⚠️ IUM_unive si riferisce al corso dell'Università Ca' Foscari di Venezia. Non è il corso della Sapienza.
+
 Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere altre domande (o nuovi corsi), il bot si sincronizza con il seguente repository:
 https://github.com/appinfosapienza/so-un-bot
 Pull requests sono ben accette! 🫂❤️
@@ -33,5 +35,6 @@ Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanent
 /ogas (quiz OGAS)
 /ingsw (Ingegneria del Software)
 /sicurezza (Sicurezza ⚠️)
+/ium_unive (IUM Università Ca' Foscari di Venezia)
 
 Per cambiare modulo puoi usare il comando /leave
