@@ -1,0 +1,197 @@
+1) L'input affidabile (reliable) è un requisito per il controllo degli accessi
+v V
+> F
+
+2) I / Le __________ forniscono un mezzo per adattare RBAC alle specifiche delle politiche amministrative e di sicurezza in un'organizzazione
+> cardinalità (cardinality)
+v vincoli (constraints)
+> ruoli che si escludono a vicenda (mutually exclusive roles)
+> prerequisiti (prerequisites)
+
+3) _______________ è il metodo tradizionale per implementare il controllo degli accessi
+> MBAC
+> RBAC
+v DAC
+> MAC
+
+4) Qualsiasi programma di proprietà e con SetUID del "superutente" potenzialmente concede l'accesso illimitato al sistema a qualsiasi utente che esegue quel programma
+v V
+> F
+
+5) Le minacce (thrats) sono attacchi effettuati
+> V
+v F
+
+6) Masquerade, falsificazione e ripudio sono azioni di minaccia che causano conseguenze di minaccia di __________
+v Inganno (deception)
+> Usurpazione (usurpation)
+> Divulgazione non autorizzata (unauthorized disclosure)
+> Interruzione (disruption)
+
+7) La "A" nella triade CIA sta per "autenticità"
+> V
+v F
+
+8) Un difetto (flow) o debolezza (weakness) nella progettazione, implementazione o funzionamento e gestione di un sistema che potrebbe essere sfruttato per violare la politica di sicurezza del sistema è un / una __________
+> Contromisura
+v Vulnerabilità
+> Avversario
+> Rischio
+
+9) La presentazione o la generazione di informazioni di autenticazione che confermano il legame tra l'entità e l'identificatore è la ___________
+> Fase di autnticazione (authentication step)
+> Fase di conferma (confirmation step)
+> Fase di identificazione (identification step)
+v Fase di verifica (verification step)
+
+10) L'autenticazione dell'utente è la base per la maggior parte dei tipi di controllo degli accessi (Access control) e della responsabilità dell'utente (User accountability)
+v V
+> F
+
+11) Un attacco __________ coinvolge un avversario che ripete una risposta dell'utente acquisita in precedenza
+> Eavesdropping
+> Client
+v Replay
+> Trojan horse
+
+12) L'autenticazione dell'utente è una procedura che consente ai soggetti comunicanti di verificare che i contenuti di un messaggio ricevuto non siano stati alterati e che la fonte sia autentica
+> V
+v F
+
+13) Due svantaggi della crittografia dei database sono la gestione delle chiavi e la poca flessibilità
+v V
+> F
+
+14) Il / La / L' __________ è il processo di esecuzione di query autorizzate e deduzione di informazioni non autorizzate dalle risposte legittime ricevute
+> compromesso (compromise)
+v inferenza (inference)
+> perturbazione (perturbation)
+> partizionamento (partitioning)
+
+15) Un SQL Server consente agli utenti di creare ruoli a cui è possibile assegnare diritti di accesso a porzioni del database
+v V
+> F
+
+16) La crittografia è l'ultima linea di difesa nella sicurezza del database
+v V
+> F
+
+17) Un ______ attiva un bug nel software di gestione della rete del sistema, provocandone l'arresto anomalo e il sistema non può più comunicare sulla rete fino a quando questo software non viene ricaricato
+> pacchetto di echo (echo packet)
+> reflection attack
+> attacco flash flood (flash flood attack)
+v pacchetto avvelenato (poison packet)
+
+18) Gli attacchi Reflector e Amplifier utilizzano sistemi compromessi che eseguono i programmi dell'aggressore
+> V
+v F
+
+19) Un attacco DoS che prende di mira le risorse dell'applicazione in genere mira a sovraccaricare o arrestare in modo anomalo il software di gestione della rete
+> V
+v F
+
+20) Il ______ attacca la capacità di un server di rete di rispondere alle richieste di connessione TCP sovraccaricando le tabelle utilizzate per gestire tali connessioni
+> poison packet attack
+v SYN spoofing attack
+> DNS amplification attack
+> basic flooding attack
+
+21) Il codice metamorfico (metamorphic code) è un software che può essere spedito invariato a un insieme eterogenea di piattaforme ed eseguito con semantica identica
+> V
+v F
+
+22) I / Gli / La __________ si integrerà con il sistema operativo di un computer host e monitorerà il comportamento del programma in tempo reale per azioni dannose
+> scanner basati su fingerprint (fingerprint-based scanners)
+v scanner che bloccano il comportamento (behavior-blocking scanners)
+> tecnologie di decrittazione generica (generic decryption technology)
+> scanner euristici (heuristic scanners)
+
+23) Un macro virus infetta porzioni eseguibili di codice
+> V
+v F
+
+24) Un / Una __________ è un codice inserito in un malware che rimane dormiente finché non viene soddisfatta una condizione predefinita, che attiva un'azione non autorizzata
+> worm
+> trojan horse
+v logic bomb
+> trapdoor
+
+25) La / Le __________ possono impedire attacchi di buffer overflow, in genere a dati globali, che tentano di sovrascrivere regioni adiacenti nello spazio degli indirizzi dei processi, come la tabella di offset globale
+> MMU
+v pagine di protezione (guard pages)
+> Heaps
+> Tutto quanto elencato precedentemente
+
+26) Una conseguenza di un errore di buffer overflow è la / il / __________
+> corruzione dei dati utilizzati dal programma
+> trasferimento imprevisto del controllo del programma
+> possibile violazione dell'accesso alla memoria
+v tutto quanto elencato precedentemente
+
+27) Un overflow dello stack può provocare, su di un sistema, una qualche forma di attacco denial-of-service
+v V
+> F
+
+28) Java, anche se è un linguaggio di programmazione di alto livello, soffre ancora della vulnerabilità di buffer overflow perché consente di salvare più dati in un buffer di quanti ne possa contenere
+> V
+v F
+
+29) Un _________ controlla le caratteristiche di un singolo host e gli eventi che si verificano all'interno di tale host per attività sospette
+> rilevamento delle intrusioni (intrusion detection)
+> IDS basato sulla rete (network-based IDS)
+> intrusione nella sicurezza (security intrusion)
+v IDS basato sull'host (host-based IDS)
+
+30) Il _________ comporta la raccolta di dati relativi al comportamento degli utenti legittimi in un periodo di tempo
+> rilevamento basato sul profilo (profile-based detection)
+v rilevamento delle anomalie (anomaly detection)
+> rilevamento della firma (signature detection)
+> rilevamento di soglia (threshold detection)
+
+31) Un sensore NIDS è solitamente posizionato all'interno del firewall esterno
+v V
+> F
+
+32) Gli approcci di intrusion detection basati sulle firme (signature-based) tentano di definire i comportamenti normali, o attesi, mentre gli approcci basati su anomalia (anomaly-based) tentano di definire il comportamento corretto
+> V
+v F
+
+33) SHA-1 produce un valore di hash di ______ bits
+> 384
+v 160
+> 180
+> 256
+
+34) Una funzione hash come SHA-1 non è stata progettata per essere utilizzata come MAC e non può essere utilizzata direttamente a tale scopo perché non si basa su una chiave segreta
+v V
+> F
+
+35) Gli attacchi di tipo Timing (timing attacks) sono applicabili solo a RSA
+> V
+v F
+
+36) Gli attacchi _________ usano diversi approcci, tutti equivalenti, in termini di costo, a fattorizzare il prodotto di due numeri primi
+v matematici
+> a testo cifrato scelto
+> di Timing
+> di forza bruta
+
+37) Per la trasmissione orientata al flusso (stream-oriented) su un canale rumoroso, in genere si utilizza la modalità di cifratura a blocchi _______
+> CBC (Cipher Block Chaining)
+v OFB (Output Feedback)
+> ECB (Electronic Code Book)
+> CTR (Counter)
+
+38) Per la trasmissione generica orientata ai blocchi (block-oriented), in genere si utilizza la modalità di cifratura a blocchi ________
+> CFB (Cipher Feedback)
+> OFB (Output Feedback)
+v CBC (Cipher Block Chaining)
+> CTR (Counter)
+
+39) È possibile convertire qualsiasi cifrario a blocchi in un cifrario a flusso utilizzando la modalità Cipher Feedback (CFB)
+v V
+> F
+
+40) AES usa una struttura di Feistel
+> V
+v F
