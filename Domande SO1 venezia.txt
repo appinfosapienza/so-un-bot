@@ -1,0 +1,222 @@
+1) La tecnica di gestione della memoria con paginazione e tabelle delle pagine multilivello porta _______ dimensione della tabella delle pagine in memoria e _____ l’overhead di memoria nelle operazioni di gestione.
+v "ad una riduzione della" e "può ridurre"
+> "ad un aumento della" e "può aumentare"
+> "ad un aumento della" e "può ridurre"
+> "ad una riduzione della" e "può aumentare"
+
+2) La tecnica di gestione della memoria con paginazione basata su tabella inversa delle pagine _______ l’indirizzo della memoria secondaria e la tabella ha una dimensione pari alla cardinalità del _______.
+> "non memorizza" e "numero di pagine riferite"
+v "non memorizza" e "numero di page frame"
+> "memorizza" e "numero di page frame"
+
+3) La tecnica di gestione della memoria con paginazione e sostituzione delle pagine ‘Far’ sostituisce la pagina più lontana nel grafo delle pagine da _______, dove il grafo rappresenta le pagine come _______.
+> "l'ultitima pagina riferita" e "nodi"
+> "qualsiasi pagina riferita" e "entità"
+v "qualsiasi pagina riferita" e "nodi"
+
+4) Nella gestione della memoria basata sulla segmentazione si possono verificare errori di traduzione, nella traduzione si controllano i campi _____ e si può avere un’eccezione di _______
+v "bit di residenza, di protezione, di lunghezza" e "overflow del segmento / protezione del segmento"
+> "bit di validità" e "validità del segmento"
+> "bit di residenza, e di validitù" e "overflow del segmento / protezione del segmento"
+
+5) Le strategie di sostituzione di pagina globali rispetto a quelle locali _______
+> non ignorano i comportamenti dei singoli processi.
+> tengono conto dello stato del processo
+v ignorano i comportamenti dei singoli processi.
+
+6) La strategia di sostituzione di pagina a orologio _____
+v è una variante della strategia FIFO
+> è una variante della strategia LIFO
+> ignora possibili collisioni
+
+7) Il modello working set nella gestione della memoria con paginazione si basa sull’osservazione della dipendenza del _______ dalla quantità di memoria per le pagine di un processo.
+v tasso di page fault
+> grado di multiprogrammazione
+> tempo in cui una pagina è caricata in memoria
+
+8) Il working set definisce un ______ durante l’intervallo di tempo [t – w, t]
+> tempo limite
+v insieme di pagine riferite
+> approssimazione
+
+9) La strategia del working set unito all’algoritmo del clock per gestire i page fault si basa su una ______
+v lista circolare
+> coda di massima priorità
+> lista doppiamente linkata
+
+10) Nella gestione della memoria virtuale, la tecnica di traduzione dell'indirizzo da virtuale a reale si basa sulla tabella delle pagine. Per migliorare le prestazioni della traduzione in alcuni casi tale tabella _____. E Per la miglior gestione della sostituzione di pagine si usano ______
+v "può essere tutta o in parte inserita in memoria associativa" e "bit di modifica e di riferimento"
+> "può essere inserita interamente in memoria secondaria" e "bit di modifica e di riferimento"
+> "può essere tutta o in parte inserita in memoria associativa" e "variabili globali"
+
+11) Nella tecnica di paginazione per la gestione della memoria, la scelta della dimensione della pagina di piccole dimensioni ______ la frammentazione interna, _____ la quantità di memoria per mantenere il working set di un processo e può ______ la dimensione della tabella delle pagine.
+v "può ridurre" e "può ridurre" e "aumentare"
+> "può ridurre" e "può ridurre" e "dimunuire"
+> "può aumentare" e "può aumentare" e "aumentare"
+
+12) La tecnica di gestione basata su DMA permette di interagire con il dispositivo ______ e le interruzioni ______
+v "indipendentemente dalla CPU" e "sono ridotte"
+> "tramite la CPU" e "sono ridotte"
+> "indipendentemente dalla CPU" e "possono aumentare"
+
+13) In un file system quando ad un record fisico corrisponde un record logico si parla di file con ______
+v record non bloccati
+> indipendenza logica
+> record bloccanti
+
+14) La variazione della posizione fisica di un file rende un hard link non valido e un soft link _____ 
+v rimane valido
+> viene invalidato di conseguenza
+
+15) In un file system la dimensione di un blocco influenza alcuni indici di prestazioni. All’aumentare della dimensione del blocco si osserva ______ e _____
+> "un minor spreco di spazio" e "un maggior spreco di tempo"
+> "un minor spreco di spazio" e "un minor spreco di tempo"
+v "un maggior spreco di spazio" e "un minor spreco di tempo"
+
+16) Per migliorare le prestazioni del file system con il metodo della allocazione non contigua e tabellare si usa una tabella per memorizzare i puntatori ai blocchi. La sua dimensione cresce con ______
+> il solo aumentare dei puntatori ai blocchi
+> il solo aumentare dei blocchi
+v #blocchi x indirizzo di blocco
+
+17) In una allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, i record logici sono ______. Questa tecnica permette generalmente di ottenere ______ prestazioni; inoltre può dare luogo al fenomeno della ______. 
+> "fisicamente adiacenti" e "buone" e "frammentazione interna"
+v "fisicamente adiacenti" e "scarse" e "frammentazione esterna"
+> "fisicamente adiacenti" e "scarse" e "frammentazione interna"
+
+18) In un file system le tecniche di backup e recovery includono backup fisico e logico. Il backup incrementale si applica per _____
+v il backup logico che memorizza solo i dati del file system che sono stati modificati rispetto al backup precedente
+> dati critici o sensibili
+> risorse limitate
+> ripristino rapido
+
+19) Per effettuare backup e recovery in file system si utilizzano principalmente tecniche di _____. Un backup incrementale si basa su ______. Un backup logico ha il vantaggio di _____.
+> "esportazione delle copie" e "memorizzazione dei dati critici o sensibili" e "garantire i dati in ogni copia"
+v "ridondanza con copie multiple" e "memorizzazione dei soli dati modificati all’ultimo backup" e "mantenere la struttura del file system"
+> "ridondanza con copie multiple" e "memorizzazione dei dati di tutti i backup" e "mantenere la struttura del file system"
+
+20) Nella gestione dei dispositivi di I/O i metodi che comprendo l’ I/O programmato con busy waiting che è caratterizzato da ______.
+> complessità esponenziale
+> la necessità di performance discrete
+v semplicità
+
+21) Nella gerarchia di gestione dei dispositivi di I/O i gestori degli interrupt ______ dall’utente e si trovano concettualmente ______ dei driver dei dispositivi. Un driver di dispositivo si trova tipicamente ______
+v "non sono visibili" e "sotto livello" e "nel nucleo"
+> "non sono visibili" e "sotto livello" e "a livello applicazione"
+> "visibili" e "sotto livello" e "nel nucleo"
+> "visibli" e "sotto livello" e "a livello applicazione"
+
+22) I sistemi RAID per la gestione dei dischi per incrementare l’affidabilità usano un meccanismo di ______, per incrementare le prestazioni usano _____ 
+v "ridondanza" e "distribuzione e partizione sulle copie dei dischi trasparenti"
+> "trasparenza" e "copie scalabili orizzontalmente"
+> "ridondanza" e "copie di blocchi di memoria salvati nella memoria secondaria secondo algoritmi appositi"
+
+23) Gli algoritmo di scheduling del disco di tipo SCAN includono il C-SCAN che _____, le varianti ‘Freeze’ e ‘N-step’ che _____.
+> "aumenta inizialmente i tempi di risposta a favore di una maggiore organizzazione dei dati per accessi futuri" e "permettono di velocizzare la ricerca"
+v "riduce la varianza dei tempi di risposta, a scapito del throughput e del tempo medio di risposta" e "prevengono l’attesa infinita / riducono la varianza dei tempi di risposta."
+> "riduce il tempo di latenza" e "possono portare a una lunga latenza di accesso se le richieste sono disperse su posizioni diverse del disco"
+
+24) Il primo algoritmo di scheduling SCAN ricerca del cilindro _____
+v tempo più breve di seek in una direzione preferita
+> tempo più lungo di seek in una direzione preferita
+> nessuna delle precedenti
+
+25) La formattazione di un disco con la tecnica dell’interleaving si applica per gestire il problema ______
+v della deviazione del cilindro tra le tracce
+> della fremmentazione
+> della latenza casuale
+> della complessità di allucazione dei file
+
+26) L’algoritmo di scheduling del disco Shortest Seek Time First fornisce ______ rispetto all algoritmo FIFO. 
+> nessuna delle altre
+v throughput maggiore
+> throughput minore
+> latenza maggiore
+
+27) L’algoritmo di scheduling del disco SCAN si basa su una ricerca del cilindro  ______
+> cercando i dati più vicino alle posizioni correnti delle teste di lettura/scrittura del disco.
+v in direzioni variabili quando si raggiunge un estremo
+> cercando i dati prioritizzando le posizioni più distanti delle teste di lettura/scrittura del disco
+
+28) Nel sistema operativo Windows, gli oggetti sono nomi di ____
+v risorse logiche
+> risorse fisiche
+> collegamenti simbolici
+
+29) Ogni oggetto nel sistema Windows: 
+> condivide delle risorse con altri oggetti
+> nessuna delle due
+v "può essere con o senza nome" e "può avere puntatori e handle (hanno significato diverso)"
+
+30) In un sistema operativo Windows le interruzioni sono organizzate in livelli di priorità che includono i livelli, nell’ordine, dal basso: _____ e i thread sono schedulati con una disciplina a _____ 
+> "hardware e critiche, chiamate differite, chiamate di procedura asincrone, passivo" e "Priority Scheduling"
+v "passivo, chiamate di procedura asincrone, chiamate differite, hardware e critiche" e " priorità di code round robin"
+> "passivo, chiamate di procedura asincrone, chiamate differite, hardware e critiche" e "Multilevel Feedback Queue Scheduling"
+
+31) Nel sistema operativo Windows, il nucleo NTOS include: 
+v Le tradizionali chiamate di sistema
+> le interfacce utente
+> nessuna delle precedenti
+
+32) Nel sistema operativo Windows, il livello Executive si trova:
+> sopra al livello nucleo
+> sotto al livello applicazione di sistema
+> sotto al livello applicazioni utenti
+> nel Kernel Executive Layer
+v sotto al livello nucleo
+
+33) Il sistema operativo Linux ha una organizzazione della memoria basata su ______. Le tabelle delle pagine sono organizzate ______. La memoria fisica è divisa in ____
+> "algoritmi di scheduling" e "in colonne" e "blocchi"
+> "paginazione" e "secondo uno schema creato al momento"  e "aree di utilizzo" 
+v "paginazione" e "su tre o quattro livelli" e "tre zone e in pagine"
+> nessuna delle precedenti
+
+34) Il sistema opeartivo Linux: 
+> e di tipo microkernel 
+v è di tipo monolitico, ma con componenti modulari
+> ha un kernel organizzato a livelli
+
+35) Nel sistema sistema opeartivo Linux con porting si intende:  
+> l'esportazione di componenti del kernel
+> l'aggiunta di feature da un kernel all'altro
+v il processo di modifica del nucleo per supportare una nuova piattaforma
+
+36) [GENERAZIONI] Algoritmi di scheduling di processi basati sui quanti di tempo
+v III Generazione
+> IV Generazione
+> I generazione
+> V Generaione
+> II Generazine
+
+37) [GENERAZIONI] Definizione e uso della memoria virutale:
+v III Generazione
+> IV Generazione
+> I generazione
+> V Generaione
+> II Generazine
+
+38) [GENERAZIONI] Interfacce grafiche: IV Generazione 
+> III Generazione
+v IV Generazione
+> I generazione
+> V Generaione
+> II Generazine
+
+39) Quale di queste istruzioni dovrebbe essere consentità solo in modalità nucleo disabilitare gli interrupt: _____; leggere il dispositivo che calcola l’ora corrente: _____; impostare il dispositivo che calcola l’ora corrente: ______;
+v "anche utente" e "anche utente" e "solo nucleo"
+> "solo nucleo" e "solo nucleo" e "solo nucleo"
+> "solo utente" e "solo nucleo" e "anche utente"
+
+40) [architetture ideali] efficienza e prestazioni:
+v monolitico
+> microkernel
+> a livelli
+
+41) [architetture ideali] flessibilità e modificabilità:
+> monolitico
+v microkernel
+> a livelli
+
+42) [architetture ideali] isolamento delle funzioni:
+> monolitico
+> microkernel
+v a livelli
