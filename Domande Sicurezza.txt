@@ -1496,7 +1496,7 @@ v False
 305) The simplest statistical test is to measure the _________ of a parameter over some historical period which would give a reﬂection of the average behavior and its variability.
 Select one:
 v mean and standard deviation
-> Markov process
+> Markoprocess
 > multivariate
 > time series
 
@@ -1524,13 +1524,13 @@ v native
 > network bandwidth
 > packet loss rate
 
-310) An operv ation such v as login, rev ad, perform, I/O or execute thv at is performed by the subject on or with v an object is the _________ v audit record ﬁeld
+310) An operation such as login, read, perform, I/O or execute that is performed by the subject on or with an object is the _________ audit record ﬁeld
 v Action
 > Subject
-> Resource-usv age
+> Resource-usage
 > Object
 
-311) The ________ is an audit collection module operating as a v background process on a monitored system whose purpose is to collect data on security related events on the host and transmit these to the central manager.
+311) The ________ is an audit collection module operating as a background process on a monitored system whose purpose is to collect data on security related events on the host and transmit these to the central manager.
 Select one:
 > central manager module
 v host agent module
@@ -1545,23 +1545,23 @@ v True
 > True
 v False
 
-314) A ________ is used to mev asure the current vv alue of some entity. Exv amples include the number of logicv al connections v assigned to v a user v applicv ation v and the number of outgoing messv ages queued for v a user process.
+314) A ________ is used to measure the current value of some entity. Examples include the number of logical connections assigned to a user application and the number of outgoing messages queued for a user process.
 Select one:
-v Gv auge
-> Resource utilizv ation
+v Gauge
+> Resource utilization
 > Counter
-> Intervv al timer
+> Interval timer
 
 315) To be of practical use an intrusion detection system should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
 v True
 > False
 
-316) A _________ is v a legitimv ate user who v accesses dv atv a, progrv ams, or resources for which such v access is not v authorized, or who is v authorized for such v access but misuses his or her privileges.
+316) A _________ is a legitimate user who accesses data, programs, or resources for which such access is not authorized, or who is authorized for such access but misuses his or her privileges.
 Select one:
-v Misfev asor
-> Emissv ary
-> Clv andestine User
-> Mv asquerv ader
+v Misfeasor
+> Emissary
+> Clandestine User
+> Masquerader
 
 317) A _________ is an individual who is not authorized to use the computer and who penetrates a system's access controls to exploit a legitimate user's account.
 Select one:
@@ -1586,11 +1586,11 @@ v True
 v True
 > False
 
-322) The _________ prevents duplicate passwords from v being visiv ble in the password ﬁle. Even if two users choose the same password, those passwords will v be assigned at different times.
+322) The _________ prevents duplicate passwords from being visible in the password ﬁle. Even if two users choose the same password, those passwords will be assigned at different times.
 Select one:
 > honeypot
 v salt
-> rule v based intrusion detection
+> rule based intrusion detection
 > audit record
 
 323) System administrators can stop all attacks and hackers from penetrating their systems by installing software patches periodically.
@@ -1601,17 +1601,17 @@ v False
 v True
 > False
 
-325) _________ involves counting the number of occurrences of v a speciﬁc event type over v an intervv al of time.
+325) _________ involves counting the number of occurrences of a speciﬁc event type over an interval of time.
 Select one:
 v Threshold detection
-> Rule-bv ased detection
-> Resource usv age
-> Proﬁle-bv ased system
+> Rule-based detection
+> Resource usage
+> Proﬁle-based system
 
-326) _________ detection focuses on characterizing the past v behavior of individual users or related groups of users and then detecting signiﬁcant deviations.
+326) _________ detection focuses on characterizing the past behavior of individual users or related groups of users and then detecting signiﬁcant deviations.
 Select one:
 > Threshold
-v Proﬁle-v based anomaly
+v Proﬁle-based anomaly
 > Statistical anomaly
 > Action condition
 
@@ -1629,7 +1629,7 @@ v True
 v Denial of service (DOS)
 > Social engineering
 
-331) The _________ worm exploits a security hole in the Microsoft Internet Information Server to penetrate and spreav d to other hosts. It also disables the system ﬁle checker in Windows.
+331) The _________ worm exploits a security hole in the Microsoft Internet Information Server to penetrate and spread to other hosts. It also disables the system ﬁle checker in Windows.
 Select one:
 > Mydoom
 > Warezov
@@ -1676,14 +1676,14 @@ v MMS
 v True
 > False
 
-342) In a a __________ v attack the slave zombies construct packets requiring a response that contains the target's IP address as the source IP address in the packet's IP header. These packets are sent to uninfected machines that respond with packets directed at the target machine.
+342) In a a __________ attack the slave zombies construct packets requiring a response that contains the target's IP address as the source IP address in the packet's IP header. These packets are sent to uninfected machines that respond with packets directed at the target machine.
 Select one:
 v reﬂector DDoS
 > blended
 > internal resource
 > direct DDoS
 
-343) A _________ virus is a form of virus explicitly designed to hide itself from detection by v antivirus softwv are.
+343) A _________ virus is a form of virus explicitly designed to hide itself from detection by antivirus software.
 Select one:
 v stealth
 > polymorphic
@@ -1693,11 +1693,11 @@ v stealth
 344) Unlike heuristics or ﬁngerprint based scanners,the _________ integrates with the operating system of a host computer and monitors program behavior in real time for malicious actions.
 Select one:
 > mobile code
-v digital immune system
+> digital immune system
 > generic decryption
 v behavior blocking software
 
-345) _________ is a mass mailing e-mail worm that installs a v backdoor in infected computers therev by enav bling hackers to gain remote access to data such as passwords and credit card numv bers.
+345) _________ is a mass mailing e-mail worm that installs a backdoor in infected computers thereby enabling hackers to gain remote access to data such as passwords and credit card numbers.
 Select one:
 > Sobig.f
 v Mydoom
@@ -1708,25 +1708,25 @@ v Mydoom
 v True
 > False
 
-347) _________ antivirus programs are memory resiv dent programs that iv dentify a virus by its actions rather than its structure in an infectev d program.
+347) _________ antivirus programs are memory resident programs that identify a virus by its actions rather than its structure in an infected program.
 Select one:
 > First generation
 > Fourth generation
-> Seconv d generation
-v Thirv d generation
+> Second generation
+v Third generation
 
-348) _________ are usev d to attack networkev d computer systems with a large volume of trafﬁc to carry out a v denial-of-service attack.
+348) _________ are used to attack networked computer systems with a large volume of trafﬁc to carry out a denial-of-service attack.
 Select one:
 > Bots
 > Exploits
 > Keyloggers
-v floov ders
+v flooders
 
 349) Malicious software that needs a host program is referred to as _________ .
 Select one:
-v blended
+> blended
 v parasitic
-> logic v bomv b
+> logic bomb
 > ﬂooders
 
 350) The challenge in coping with DDoS attacks is the sheer number of ways in which they can operate.
@@ -1994,10 +1994,10 @@ v Shellcode
 > Key exchange algorithm
 > Digital signature
 
-405) The Packet Storm Web site includes a large collection of packaged shellcode, including code that can:
+405) create a reverse shell that connects back to the hacker
 > flush firewall rules that currently block other attacks
 > set up a listening service to launch a remote shell when connected to
-v create a reverse shell that connects back to the hacker
+v The Packet Storm Web site includes a large collection of packaged shellcode, including code that can:
 
 406) __________ aim to prevent or detect buffer overflows by instrumenting programs when they are compiled
 v Compile Time Defense
@@ -2283,7 +2283,7 @@ v macro virus
 454) __________ is the first function in the propagation phase for a network worm.
 > Propagating
 v Fingerprinting
-v Keylogging
+> Keylogging
 > Spear phishing
 
 455) Unsolicited bulk e-mail is referred to as __________.
@@ -2949,7 +2949,7 @@ v relational database
 > DBMS
 > perturbation
 
-638) Inv relational database parlance, the basic building block is a __________, which is a flat table.
+638) Inrelational database parlance, the basic building block is a __________, which is a flat table.
 > attribute
 > tuple
 > primary key
@@ -3294,8 +3294,8 @@ v exposure
 > corruption
 > intrusion
 
-821) Masquerade, falsifiv cation, and repudiation are threat av ctions that v cause __________ threat v consequenv ces.
-Selev ct one:
+821) Masquerade, falsification, and repudiation are threat actions that cause __________ threat consequences.
+Select one:
 > unauthorized disclosure
 > disruption
 v deception
@@ -3327,7 +3327,7 @@ Select one:
 v vulnerability
 > countermeasure
 > risk
-v adversary
+> adversary
 
 826) A(n) __________ is an action, device, procedure, or technique that reduces a threat, a vulnerability, or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so that correct action can be taken.
 Select one:
@@ -3347,8 +3347,8 @@ v masquerade
 Select one:
 v data integrity
 > data confidentiality
-v authentication
-v access control
+> authentication
+> access control
 
 829) A ________ level breach of security could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.
 Select one:
@@ -3369,26 +3369,26 @@ Select one:
 > integrity
 > availability
 v confidentiality
-> authentiv city
+> authenticity
 
-832) A(n) _________ is an attempt to learn or make use of information from the system that v does not affect system resources.
+832) A(n) _________ is an attempt to learn or make use of information from the system that does not affect system resources.
 Select one:
 > active attack
 > inside attack
 > outside attack
 v passive attack
 
-833) The _________ prevents or inhiv bits the normal use or management of communications facilities.
+833) The _________ prevents or inhibits the normal use or management of communications facilities.
 Select one:
 > passive attack
 v denial of service
 > masquerade
 > traffic encryption
 
-834) ________ assures that a system performs its intenv dev d function in an unimpairev d manner, free from v deliberate or inav dvertent unauthorizev d manipulation of the system.
+834) ________ assures that a system performs its intended function in an unimpaired manner, free from deliberate or inadvertent unauthorized manipulation of the system.
 Select one:
 > Data Integrity
-> Confiv dentiality
+> Confidentiality
 > Availability
 v System Integrity
 
@@ -3785,4 +3785,3 @@ v True
 1063) Reliable input is an access control requirement.
 v True
 > False
-
