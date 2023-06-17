@@ -1,229 +1,3788 @@
-1) L'autenticazione dei messaggi consente di
-(scegli una o più alternative)
-> Garantire la segretezza del messaggio
-> Garantire il non-ripudio del mittente (non-repudiation of origin)
-> Verificare l'integrità del messaggio
-> le prime due sono corrette
-v le ultime due sono corrette
-> la prima e l'ultima sono corrette
+1) Access control is the central element of computer security.
+v True
+> False
 
-2) Possiamo affermare che un sistema è sicuro se, partendo da uno stato autorizzato non entra mai in uno stato non-autorizzato
-v V
-> F
+2) The authentication function determines who is trusted for a given purpose.
+> True
+v False
 
-3) Una delle primarie assunzioni dell'anomaly detection è la seguente:
-Le attività normali e quelle anomale non hanno evidenze distinte
-> V
-v F
+3) An auditing function monitors and keeps a record of user accesses to system resources"
+v True
+> False
 
-4) L'SSL Handshake Protocol permette al client ed al server di negoziare l'algoritmo di cifratura e l'algoritmo MAC.
-v V
-> F
+4) External devices such as firewalls cannot provide access control services.
+> True
+v False
 
-5) Quale delle seguenti è una caratteristica di un certificato utente (user certificate) generato da una CA?
-> Le chiavi pubbliche utente che sono state certificate dalla CA sono disponibili in una directory accessibile a chiunque
-v Ogni utente con accesso alla chiave pubblica della CA può recuperare la chiave pubblica utente che è stata certificata OK
-> Ogni utente con accesso alla chiave pubblica della CA può modificare il certificato senza essere scoperto
+5) The principal objectives of computer security are to prevent unauthorized users from gaining access to resources, to prevent legitimate users from accessing resources in an unauthorized manner, and to enable legitimate users to access resources in an authorized manner.
+v True
+> False
 
-6) Si consideri il Role-Based Access Control:
-I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
-v V
-> F
+6) Security labels indicate which system entities are eligible to access certain resources.
+> True
+v False
 
-7) Un sistema di Misuse detection è in grado di identificare anche attacchi sconosciuti a chi sviluppa i set di regole.
-> V
-v F
+7) Reliable input is an access control requirement.
+v True
+> False
 
-8) Il principio del Fail-Safe Defaults asserisce che se un soggetto non ha accesso esplicito a un oggetto, dovrebbe essere garantito l'accesso a quell'oggetto. Scegli una risposta:
-> V
-v F
+8) A user may belong to multiple groups.
+v True
+> False
 
-9) La cifratura a chiave pubblica trova campo di applicazione nella firma digitale ma non è opportuno utilizzarla per lo scambio di chiavi.
-> V
-v F
+9) An access right describes the way in which a subject may access an object.
+v True
+> False
 
-10) La crittografia offre protezione solo da attacchi di passivi
-> V
-v F
+10) The default set of rights should always follow the rule of least privilege or read-only access"
+v True
+> False
 
-11) Quale è la definizione corretta di Mandatory Access Control?
-v Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali non possono alterare la politica di accesso.
-> Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali possono alterare la politica di accesso ai loro oggetti.
-> Un meccanismo, basato sull'identità, che permette agli utenti individuali di controllare chi può accedere o no agli oggetti del sistema.
+11) A user program executes in a kernel mode in which certain areas of memory are protected from the user's use and certain instructions may not be executed
+> True
+v False
 
-12) Il principio di Separazione dei Privilegi (Separation of Privilege) prevede che vengano verificate più condizioni per concedere i privilegi e che due o più componenti lavorino insieme per imporre il livello di sicurezza desiderato.
-v V
-> F
+12) Any program that is owned by, and SetUID to, the "superuser" potentially grants unrestricted access to the system to any user executing that program.
+v True
+> False
 
-13) Quali dei seguenti criteri vengono utilizzati nel Attribute-based Access Control per autorizzare o negare un operazione su di un oggetto?
-(scegli una o più alternative)
-> Attributi assegnati del soggetto
-> Condizioni dell'ambiente
-> Tipo di operazione da effettuare 
-v le prime due sono corrette
-> le ultime due sono corrette
-> la prima e l'ultima sono corrette
+13) Traditional RBAC systems define the access rights of individual users and groups of users.
+> True
+v False
 
-15) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
-> Il Firewall non penalizza le prestazioni
-v Il Firewall è un single-point-of-failure
-> Il firewall non è un single-point-of-failure
+14) A constraint is a defined relationship among roles or a condition related to roles.
+v True
+> False
 
-16) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
-> Il firewall, tracciando il traffico in uscita ed in entrate, protegge anche dagli Insider-attacks.
-> Il firewall non è un single-point-of-failure.
-v Il firewall è il punto centrale per le decisioni relative alla sicurezza di una rete.
+15) An ABAC model can define authorizations that express conditions on properties of both the resource and the subject.
+v True
+> False
 
-17) Supponiamo di dover definire una politica che vieti ad un programma di accedere al file delle password /etc/passwd.
-Supponiamo anche di usare un linguaggio ad alto livello, e che i metodi del programma per accedere ai file sono i seguenti:
-<pre>
-class File {
-public file(String name); //Crea un file
-public String getfilename(); // Restituisce il nome di un file
-public char read(); //Accede ad un file in lettura
-}
-</pre>
-Quali delle seguenti politiche è corretta?
-> allow( |-> file.read) when (file.getfilename() == "/etc/passwd")
-> deny( |-> file.read) when (file.file(/etc/passwd) == true)
-v deny( |-> file.read) when (file.getfilename() == "/etc/passwd")
+16) __________ implements a security policy that specifies who or what may have access to each specific system resource and the type of access that is permitted in each instance.
+> Audit control
+> Resource control
+> System control
+v Access control
 
-18) Si supponga di utilizzare un controllo di accessi basato sui ruoli (RBAC) per gestire i permessi in un'azienda.
-Si supponga che il dipendente U1 abbia funzione F1 e F1 è associata al ruolo R1.
-Se U1 viene rimpiazzato dal dipendente U2 nella funzione F1 quale delle seguenti affermazioni è corretta?
-> Il fatto che U2 rimpiazzi U1 nella sua funzione F1 non ha alcuna relazione con l'assegnazione di U2 ad un ruolo.
-> U2 può avere tutti i permessi di U1 solo se viene creato un nuovo ruolo R2=R1 e U2 viene assegnato a R2.
-v U2 acquisisce automaticamente tutti i permessi di U1.
+17) __________ is verification that the credentials of a user or other system entity are valid
+> Adequacy
+v Authentication
+> Authorization
+> Audit
 
-19) Quale tra i seguenti NON è uno dei principi di progettazione sicura dei sistemi?
-v Separation of Responsibilities
+18) _________ is the granting of a right or permission to a system entity to access a system resource.
+v Authorization
+> Authentication
+> Control
+> Monitoring
+
+19) __________ is the traditional method of implementing access control.
+> MAC
+> RBAC
+v DAC
+> MBAC
+
+20) __________ controls access based on comparing security labels with security clearances.
+v MAC
+> DAC
+> RBAC
+> MBAC
+
+21) A concept that evolved out of requirements for military information security is ______ .
+> reliable input
+v mandatory access control
+> open and closed policies
+> discretionary input
+
+22) A __________ is an entity capable of accessing objects.
+> group
+> object
+v subject
+> owner
+
+23) A(n) __________ is a resource to which access is controlled
+v object
+> owner
+> world
+> subject
+
+24) The final permission bit is the _________ bit.
+> superuser
+> kernel
+> set user
+v sticky
+
+25) __________ is based on the roles the users assume in a system rather than the user's identity.
+> DAC
+v RBAC
+> MAC
+> URAC
+
+26) A __________ is a named job function within the organization that controls this computer system.
+> user
+v role
+> permission
+> session
+
+27) __________ provide a means of adapting RBAC to the specifics of administrative and security policies in an organization.
+v Constraints
+> Mutually Exclusive Roles
+> Cardinality
+> Prerequisites
+
+28) __________ refers to setting a maximum number with respect to roles.
+v Cardinality
+> Prerequisite
+> Exclusive
+> Hierarchy
+
+29) Subject attributes, object attributes and environment attributes are the three types of attributes in the __________ model.
+> DSD
+> RBAC
+v ABAC
+> SSD
+
+30) The __________ component deals with the management and control of the ways entities are granted access to resources.
+> resource management
+v access management
+> privilege management
+> policy management
+
+31) Malicious software aims to trick users into revealing sensitive personal data
+v True
+> False
+
+32) Keyware captures keystrokes on a compromised system.
+> True
+v False
+
+33) Metamorphic code is software that can be shipped unchanged to a heterogeneous collection of platforms and execute with identical semantics.
+> True
+v False
+
+34) A virus that attaches to an executable program can do anything that the program is permitted to do.
+v True
+> False
+
+35) It is not possible to spread a virus via a USB stick.
+> True
+v False
+
+36) A logic bomb is the event or condition that determines when the payload is activated or delivered
+v True
+> False
+
+37) Many forms of infection can be blocked by denying normal users the right to modify programs on the system.
+v True
+> False
+
+38) A macro virus infects executable portions of code.
+> True
+v False
+
+39) E-mail is a common method for spreading macro viruses.
+v True
+> False
+
+40) In addition to propagating, a worm usually carries some form of payload
+v True
+> False
+
+41) A Trojan horse is an apparently useful program containing hidden code that, when invoked, performs some harmful function.
+v True
+> False
+
+42) Packet sniffers are mostly used to retrieve sensitive information like usernames and passwords.
+v True
+> False
+
+43) A bot propagates itself and activates itself, whereas a worm is initially controlled from some central facility.
+> True
+v False
+
+44) Every bot has a distinct IP address.
+v True
+> False
+
+45) Programmers use backdoors to debug and test programs.
+v True
+> False
+
+46) A program that is covertly inserted into a system with the intent of compromising the integrity or confidentiality of the victim's data is __________.
+> Adobe
+> Animoto
+v Malware
+> Prezi
+
+47) __________ are used to send large volumes of unwanted e-mail.
+> Rootkits
+v Spammer programs
+> Downloaders
+> Auto-rooters
+
+48) A __________ is code inserted into malware that lies dormant until a predefined condition, which triggers an unauthorized act, is met.
+v logic bomb
+> trapdoor
+> worm
+> Trojan horse
+
+49) The term "computer virus" is attributed to __________.
+> Herman Hollerith
+v Fred Cohen
+> Charles Babbage
+> Albert Einstein
+
+50) Computer viruses first appeared in the early __________.
+> 1960s
+> 1970s
+v 1980s
+> 1990s
+
+51) The __________ is what the virus "does".
+> infection mechanism
+> trigger
+> logic bomb
+v payload
+
+52) The __________ is when the virus function is performed
+> dormant phase
+> propagation phase
+> triggering phase
+v execution phase
+
+53) During the __________ the virus is idle.
+v dormant phase
+> propagation phase
+> triggering phase
+> execution phase
+
+54) A __________ uses macro or scripting code, typically embedded in a document and triggered when the document is viewed or edited, to run and replicate itself into other such documents.
+> boot sector infector
+> file infector
+v macro virus
+> multipartite virus
+
+55) __________ is the first function in the propagation phase for a network worm.
+> Propagating
+v Fingerprinting
+> Keylogging
+> Spear phishing
+
+56) Unsolicited bulk e-mail is referred to as __________.
+v spam
+> propagating
+> phishing
+> crimeware
+
+57) __________ is malware that encrypts the user's data and demands payment in order to access the key needed to recover the information.
+> Trojan horse
+v Ransomware
+> Crimeware
+> Polymorphic
+
+58) A __________ attack is a bot attack on a computer system or network that causes a loss of service to users.
+> spam
+> phishing
+v DDoS
+> sniff
+
+59) The ideal solution to the threat of malware is __________.
+> identification
+> removal
+> detection
+v prevention
+
+60) __________ will integrate with the operating system of a host computer and monitor program behavior in real time for malicious actions.
+> Fingerprint-based scanners
+v Behavior-blocking software
+> Generic decryption technology
+> Heuristic scanners
+
+61) Once the plaintext is converted to ciphertext using the encryption algorithm the plaintext is then used as input and the algorithm is applied again.
+> True
+v False
+
+62) There are no practical cryptanalytic attacks on 3DES.
+v True
+> False
+
+63) A mode of operation is a technique for enhancing the effect of a cryptographic algorithm or adapting the algorithm for an application.
+v True
+> False
+
+64) The XTS-AES standard describes a method of decryption for data stored in sector-based devices where the threat model includes possible access to stored data by the adversary.
+> True
+v False
+
+65) S-AES is the most widely used multiple encryption scheme.
+> True
+v False
+
+66) Given the potential vulnerability of DES to a brute-force attack, an alternative has been found
+v True
+> False
+
+67) A number of Internet based applications have adopted two-key 3DES, including PGP and S/MIME.
+> True
+v False
+
+68) The sender is the only one who needs to know an initialization vector.
+> True
+v False
+
+69) A typical application of Output Feedback mode is stream oriented transmission over noisy channel, such as satellite communication.
+v True
+> False
+
+70) Cipher Feedback (CFB  is used for the secure transmission of single values).
+> True
+v False
+
+71) Cipher Block Chaining is a simple way to satisfy the security deficiencies of ECB"
+v True
+> False
+
+72) It is possible to convert a block cipher into a stream cipher using cipher feedback, output feedback and counter modes.
+v True
+> False
+
+73) Cipher Feedback Mode conforms to the typical construction of a stream cipher.
+> True
+v False
+
+74) OFB mode requires an initialization vector that must be unique to each execution of the encryption operation.
+v True
+> False
+
+75) The XTS-AES mode is based on the concept of a tweakable block cipher.
+v True
+> False
+
+76) In the first instance of multiple encryption plaintext is converted to __________ using the encryption algorithm.
+v ciphertext
+> S-AES mode
+> Triple DES
+> block cipher
+
+77) Triple DES makes use of __________ stages of the DES algorithm, using a total of two or three distinct keys.
+> twelve
+> six
+> nine
+v three
+
+78) Another important mode, XTS-AES, has been standardized by the __________ Security in Storage Working Group.
+> NIST
+v IEEE
+> ITIL
+> ISO
+
+79) The _________ and _________ block cipher modes of operation are used for authentication.
+> OFB, CTR
+v CBC, CFB
+> CFB, OFB
+> ECB, CBC
+
+80) __________ modes of operation have been standardized by NIST for use with symmetric block ciphers such as DES and AES.
+> Nine
+> Seven
+> Three
+v Five
+
+81) The output of the encryption function is fed back to the shift register in Output Feedback mode, whereas in ___________ the ciphertext unit is fed back to the shift register.
+Question 21 options:
+> Electronic Codebook mode
+> Cipher Block Chaining mode
+> Counter mode
+v Cipher Feedback mode
+
+82) The simplest form of multiple encryption has __________ encryption stages and __________ keys.
+> three, two
+> four, two
+> two, three
+v two, two
+
+83) The __________ algorithm will work against any block encryption cipher and does not depend on any particular property of DES.
+> counter mode attack
+> ciphertext stealing
+v meet-in-the-middle attack
+> cipher block chaining
+
+84) The __________ method is ideal for a short amount of data and is the appropriate mode to use if you want to transmit a DES or AES key securely.
+> cipher feedback mode
+> counter mode
+v electronic codebook mode
+> output feedback mode
+
+85) _________ mode is similar to Cipher Feedback, except that the input to the encryption algorithm is the preceding DES output.
+> Counter
+> Cipher Block Chaining
+v Output Feedback
+> Cipher Feedback
+
+86) "Each block of plaintext is XORed with an encrypted counter. The counter is incremented for each subsequent block", is a description of ___________ mode.
+> Cipher Block Chaining
+v Counter
+> Cipher Feedback
+> Electronic Codebook
+
+87) The __________ mode operates on full blocks of plaintext and ciphertext, as opposed to an s-bit subset.
+> ECB
+> CFB
+> CBC
+v OFB
+
+88) Because of the opportunities for parallel execution in __________ mode, processors that support parallel features, such as aggressive pipelining, multiple instruction dispatch per clock cycle, a large number of registers, and SIMD instructions can be effectively utilized
+> CBC
+v CTR
+> CFB
+> ECB
+
+89) __________ mode is suitable for parallel operation. Because there is no chaining, multiple blocks can be encrypted or decrypted simultaneously. Unlike CTR mode, this mode includes a nonce as well as a counter.
+v XTS-AES
+> S-AES
+> 3DES
+> OFB
+
+90) Both __________ produce output that is independent of both the plaintext and the ciphertext. This makes them natural candidates for stream ciphers that encrypt plaintext by XOR one full block at a time.
+> CBC and ECB
+v OFB and CTR
+> ECB and OFB
+> CTR and CBC
+
+91) _________ is the original message or data that is fed into the algorithm as input.
+v Plaintext
+> Encryption algorithm
+> Decryption algorithm
+> Ciphertext
+
+92) The exact substitutions and transformations performed by the algorithm depend on the ________.
+> ciphertext
+> decryption algorithm
+v secret key
+> encryption algorithm
+
+93) The _________ is the encryption algorithm run in reverse.
+v decryption algorithm
+> ciphertext
+> plaintext
+> secret key
+
+94) If the analyst is able to get the source system to insert into the system a message chosen by the analyst, then a ________ attack is possible.
+> known-plaintext
+v chosen-plaintext
+> chosen ciphertext
+> chosen text
+
+95) The most widely used encryption scheme is based on the _________ adopted in 1977 by the National Bureau of Standards.
+> AES
+> 3DES
+> CES
+v DES
+
+96) There are _____ modes of operation defined by NIST that are intended to cover virtually all the possible applications of encryption for which a block cipher could be used
+> three
+v five
+> seven
+> nine
+
+97) For stream-oriented transmission over noisy channel you would typically use _______ mode.
+> ECB
+> CTR
+v OFB
+> CBC
+
+98) For general-purpose block-oriented transmission you would typically use _______ mode.
+v CBC
+> CTR
+> CFB
+> OFB
+
+99) For general-purpose stream-oriented transmission you would typically use _______ mode.
+> CTR
+v CFB
+> ECB
+> CBC
+
+100) ______ mode is typically used for a general-purpose block-oriented transmission and is useful for high-speed requirements.
+> ECB
+> OFB
+> CFB
+v CTR
+
+101) __________ is a term that refers to the means of delivering a key to two parties that wish to exchange data without allowing others to see the key.
+> Session key
+> Subkey
+v Key distribution technique
+> Ciphertext key
+
+102) A ________ is a key used between entities for the purpose of distributing session keys.
+v permanent key
+> session key
+> distribution key
+> all of the above
+
+103) The _______ module performs end-to-end encryption and obtains session keys on behalf of users.
+> PKM
+> RCM
+v SSM
+> CCM
+
+104) Public-key encryption was developed in the late ________.
+> 1950s
+v 1970s
+> 1960s
+> 1980s
+
+105) Cryptographic systems are generically classified by _________.
+> the type of operations used for transforming plaintext to ciphertext
+> the number of keys used
+> the way in which the plaintext is processed
+v all of the above
+
+106) A symmetric encryption scheme has five ingredients: plaintext, encryption algorithm, ciphertext, decryption algorithm and _________.
+> password
+> hash
+v secret key
+> digital signature
+
+107) _________ is the process of attempting to discover the plaintext or key.
+v Cryptanalysis
+> Steganography
+> Cryptography
+> Hashing
+
+108) A ________ cipher processes the input one block of elements at a time, producing an output block for each input
+> substitution
+v block
+> stream
+> transposition
+
+109) A ________ cipher processes the input elements continuously, producing output one element at a time as it goes along.
+> substitution
+> block
+v stream
+> transposition
+
+110) An encryption scheme is _________ if the cost of breaking the cipher exceeds the value of the encrypted information and/or the time required to break the cipher exceeds the useful lifetime of the information.
+> vulnerable
+v computationally secure
+> unbreakable
+> reversible
+
+111) The _________ was issued as a federal information-processing standard and is intended to replace DES and 3DES with an algorithm that is more secure and efficient.
+> Data Encryption Standard (DES)
+> Rivest Cipher 4 (RC4)
+> Blowfish
+v Advanced Encryption Standard (AES)
+
+112) ______ was designed in 1987 by Ron Rivest and is a variable key-size stream cipher with byte-oriented operations.
+> DES
+v RC4
+> AES
+> RSA
+
+113) "The input to the encryption algorithm is the XOR of the next 64 bits of plaintext and the preceding 64 bits of ciphertext" is a description of the ________ mode of operation.
+> Stream Cipher (SC)
+> Counter (CTR)
+v Cipher Block Chaining (CBC)
+> Electronic Codebook (ECB)
+
+114) Unlike ECB and CBC modes, ________ mode requires only the implementation of the encryption algorithm and not the decryption algorithm.
+> block
+v counter (CTR)
+> stream
+> substitution
+
+115) The most powerful, and most common, approach to countering the threats to network security is ________.
+> authentication
+> firewall implementation
+> intrusion detection
+v encryption
+
+116) With _________ encryption the encryption process is carried out at the two end systems.
+> point-to-point
+> intermediary
+> centralized
+v end-to-end
+
+117) With ______ encryption each vulnerable communications link is equipped on both ends with an encryption device.
+> network
+> end-to-end
+v link
+> transport
+
+118) For symmetric encryption to work the two parties to an exchange must share the same _____, which must be protected from access by others.
+> username
+v key
+> password
+> certificate
+
+119) All encryption algorithms are based on two general principles: substitution and _________.
+> compression
+> expansion
+v transposition
+> permutation
+
+120) The three most important symmetric block ciphers are: 3DES, AES, and _____.
+> Serpent
+v Data Encryption Standard (DES)
+> Blowfish
+> RSA
+
+121) SHA is perhaps the most widely used family of hash functions.
+v True
+> False
+
+122) SHA-1 is considered to be very secure.
+> True
+v False
+
+123) HMAC can be proven secure provided that the embedded hash function has some reasonable cryptographic strengths.
+v True
+> False
+
+124) The additive constant numbers used in SHA-512 are random-looking and are hardcoded in the algorithm.
+v True
+> False
+
+125) The strong collision resistance property subsumes the weak collision resistance property.
+v True
+> False
+
+126) Cryptographic hash functions generally execute faster in software than conventional encryption algorithms such as DES and AES.
+v True
+> False
+
+127) A hash function such as SHA-1 was not designed for use as a MAC and cannot be used directly for that purpose because it does not rely on a secret key.
+v True
+> False
+
+128) It is a good idea to use sequentially increasing numbers as challenges in security protocols.
+> True
+v False
+
+129) Assuming that Alice and Bob have each other?s public key. In order to establish a shared session key, Alice just needs to generate a random k, encrypt k using Bob?s public key, and send the encrypted k to Bob and then Bob will know he has a key shared with Alice.
+> True
+v False
+
+130) In security protocol, an obvious security risk is that of impersonation.
+v True
+> False
+
+131) In Kerberos, the authentication server shares a unique secret key with each authorized computer on the network.
+v True
+> False
+
+132) In Kerberos, each human user has a master key shared with the authentication server, and the key is usually derived from the user's password
+v True
+> False
+
+133) In Kerberos, the purpose of using ticket-granting-ticket (TGT) is to minimize the exposure of a user?s master key.
+v True
+> False
+
+134) The ticket-granting ticket is never expired
+> True
+v False
+
+135) Kerberos does not support inter-realm authentication.
+> True
+v False
+
+136) SHA-1 produces a hash value of _______ bits.
+> 256
+> 512
+v 160
+> 128
+
+137) Issued as RFC 2104, _______ has been chosen as the mandatory-to-implement MAC for IP Security.
+> SHA-256
+v HMAC
+> MD5
+> AES
+
+138) The DSS makes use of the _______ and presents a new digital signature technique, the Digital Signature Algorithm (DSA) .
+> AES
+v SHA-1 
+> MD5
+> RSA
+
+139) The purposes of a security protocol include:
+> Authentication
+> Key-exchange
+> Negotiate crypto algorithms and parameters
+v All the previous answers
+
+140) Which of the following scenario requires a security protocol:
+> log in to mail.google.com
+> connecting to work from home using a VPN
+v All the previous answers
+
+141) Symmetric encryption is also referred to as secret-key or single-key encryption.
+v True
+> False
+
+142) The ciphertext-only attack is the easiest to defend against.
+v True
+> False
+
+143) A brute-force approach involves trying every possible key until an intelligible translation of the ciphertext into plaintext is obtained
+v True
+> False
+
+144) AES uses a Feistel structure.
+> True
+v False
+
+145) Each block of 64 plaintext bits is encoded independently using the same key? is a description of the CBC mode of operation.
+v True
+> False
+
+146) Timing attacks are only applicable to RSA
+> True
+v False
+
+147) Using PKCS (public-key cryptography standard), when RSA encrypts the same message twice, different ciphertexts will be produced
+v True
+> False
+
+148) The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms.
+v True
+> False
+
+149) A key exchange protocol is vulnerable to a man-in-the-middle attack if it does not authenticate the participants.
+v True
+> False
+
+150) Just like RSA can be used for signature as well as encryption, Digital Signature Standard can also be used for encryption.
+> True
+v False 
+
+151) In general, public key based encryption is much slower than symmetric key based encryption.
+v True
+> False
+
+152) is the original message or data that is fed into the encryption process as input.
+> Hash
+> Key
+v Plaintext 
+> Ciphertext
+
+153) Which of the following would allow an attack that to know the (plaintext of) current message must be the same as one previously transmitted because their ciphtertexts are the same?
+> CBC
+> CTR
+> OFB
+v ECB 
+
+154) ________ is a term that refers to the means of delivering a key to two parties that wish to exchange data without allowing others to see the key.
+> Private key
+> Key exchange protocol
+v Key distribution technique 
+> Public key
+
+155) Which of the following feature can only be provided by public-key cryptography?
+> Data integrity
+> Confidentiality
+> Digital signatures
+v None of the above
+
+156) Cryptographic systems are generically classified by _______.
+v The type of operations used for transforming plaintext to ciphertext
+> The number of keys used
+> The way in which the plaintext is processed
+
+157) ________ attacks have several approaches, all equivalent in effort to factoring the product of two primes.
+v Mathematical 
+> Statistical
+> Brute-force
+> Social engineering
+
+158) ________ are analogous to a burglar guessing a safe combination by observing how long it takes to turn the dial from number to number.
+> Collision attacks
+> Preimage attacks
+v Timing attacks
+> Side-channel attacks
+
+159) _________ was the first published public-key algorithm.
+> ElGamal
+> DSA
+v Diffie-Hellman
+> RSA
+
+160) The principal attraction of ________ compared to RSA is that it appears to offer equal security for a far smaller bit size, thereby reducing processing overhead.
+> AES
+v ECC
+> Blowfish
+> RC4
+
+161) Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified
+v True
+> False
+
+162) To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+163) An inline sensor monitors a copy of network traffic; the actual traffic does not pass through the device.
+> True
+v False
+
+164) A common location for a NIDS sensor is just inside the external firewall.
+v True
+> False
+
+165) Network-based intrusion detection makes use of signature detection and anomaly detection.
+v True
+> False
+
+166) Symmetric encryption is used primarily to provide confidentiality.
+v True
+> False
+
+167) Two of the most important applications of public-key encryption are digital signatures and key management.
+v True
+> False
+
+168) The secret key is one of the inputs to a symmetric-key encryption algorithm.
+v True
+> False
+
+169) The strength of a hash function against brute-force attacks depends on the length of the hash code produced by the algorithm.
+v True
+> False
+
+170) Public-key algorithms are based on simple operations on bit patterns.
+> True
+v False
+
+171) Symmetric encryption is also referred to as secret-key or single-key encryption.
+v True
+> False
+
+172) The ciphertext-only attack is the easiest to defend against.
+v True
+> False
+
+173) A brute-force approach involves trying every possible key until an intelligible translation of the ciphertext into plaintext is obtained
+v True
+> False
+
+174) AES uses a Feistel structure.
+> True
+v False
+
+175) Each block of 64 plaintext bits is encoded independently using the same key? is a description of the CBC mode of operation.
+> True
+v False
+
+176) Timing attacks are only applicable to RSA
+> True
+v False
+
+177) Using PKCS (public-key cryptography standard), when RSA encrypts the same message twice, different ciphertexts will be produced
+v True
+> False
+
+178) The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms.
+v True
+> False
+
+179) A key exchange protocol is vulnerable to a man-in-the-middle attack if it does not authenticate the participants.
+v True
+> False
+
+180) Just like RSA can be used for signature as well as encryption, Digital Signature Standard can also be used for encryption.
+> True
+v False
+
+181) In general, public key based encryption is much slower than symmetric key based encryption.
+v True
+> False
+
+182) SHA is perhaps the most widely used family of hash functions.
+v True
+> False
+
+183) SHA-1 is considered to be very secure.
+> True
+v False
+
+184) HMAC can be proven secure provided that the embedded hash function has some reasonable cryptographic strengths.
+v True
+> False
+
+185) The additive constant numbers used in SHA-512 are random-looking and are hardcoded in the algorithm.
+> True
+v False
+
+186) The strong collision resistance property subsumes the weak collision resistance property.
+v True
+> False
+
+187) Cryptographic hash functions generally execute faster in software than conventional encryption algorithms such as DES and AES.
+v True
+> False
+
+188) A hash function such as SHA-1 was not designed for use as a MAC and cannot be used directly for that purpose because it does not rely on a secret key.
+v True
+> False
+
+189) It is a good idea to use sequentially increasing numbers as challenges in security protocols.
+> True
+v False
+
+190) Assuming that Alice and Bob have each other?s public key. In order to establish a shared session key, Alice just needs to generate a random k, encrypt k using Bob?s public key, and send the encrypted k to Bob and then Bob will know he has a key shared with Alice.
+> True
+v False
+
+191) In security protocol, an obvious security risk is that of impersonation.
+v True
+> False
+
+192) In Kerberos, the authentication server shares a unique secret key with each authorized computer on the network.
+v True
+> False
+
+193) In Kerberos, each human user has a master key shared with the authentication server, and the key is usually derived from the user's password
+v True
+> False
+
+194) In Kerberos, the purpose of using ticket-granting-ticket (TGT) is to minimize the exposure of a user?s master key.
+v True
+> False
+
+195) The ticket-granting ticket is never expired
+> True
+v False
+
+196) Kerberos does not support inter-realm authentication.
+> True
+v False
+
+197) In IPSec, packets can be protected using ESP or AH but not both at the same time.
+> True
+v False
+
+198) In IPSec, if A uses DES for traffic from A to B, then B must also use DES for traffic from B to A
+> True
+v False
+
+199) In IPSec, the sequence number is used for preventing replay attacks.
+v True
+> False
+
+200) Most browsers come equipped with SSL and most Web servers have implemented the protocol.
+v True
+> False
+
+201) Even web searches have (often) been in HTTPS.
+v True
+> False
+
+202) In a wireless network, traffic is broadcasted into the air, and so it is much easier to sniff wireless traffic compared with wired traffic
+v True
+> False
+
+203) Compared with WEP, WPA2 has more flexible authentication and stronger encryption schemes.
+v True
+> False
+
+204) iOS has no vulnerability.
+> True
+v False
+
+205) In iOS, each file is encrypted using a unique, per-file key.
+> True
+v False
+
+206) In iOS, an app can run its own dynamic, run-time generated code.
+> True
+v False
+
+207) The App Store review process can guarantee that no malicious iOS app is allowed into the store for download
+> True
+v False
+
+208) In iOS, each app runs in its own sandbox.
+v True
+> False
+
+209) In Android, all apps have to be reviewed and signed by Google.
+> True
+v False
+
+210) In Android, an app will never be able to get more permission than what the user has approved
+v True
+> False
+
+211) Since Android is open-source, each handset vendor can customize it, and this is good for security (hint: consider security updates).
+> True
+v False
+
+212) A cookie can be used to authenticate a user to a web site so that the user does not have to type in his password for each connection to the site.
+v True
+> False
+
+213) Malicious JavaScripts is a major threat to browser security.
+v True
+> False
+
+214) XSS is possible when a web site does not check user input properly and use the input in an outgoing html page.
+v True
+> False
+
+215) XSS can perform many types of malicious actions because a malicious script is executed at user?s browser.
+v True
+> False
+
+216) XSRF is possible when a user has a connection to a malicious site while a connection to a legitimate site is still alive.
+v True
+> False
+
+217) In XSRF, the malicious site can send malicious script to execute in the user?s browser by embedding the script in a hidden iframe.
+> True
+v False
+
+218) It is easy for the legitimate site to know if a request is really from the (human) user.
+> True
+v False
+
+219) SQL injection attacks only lead to information disclosure.
+> True
+v False
+
+220) Using an input filter to block certain characters is an effective way to prevent SQL injection attacks.
+v True
+> False
+
+221) SQL injection is yet another example that illustrates the importance of input validation.
+v True
+> False
+
+222) Organizational security objectives identify what IT security outcomes should be achieved
+v True
+> False
+
+223) 5.0 Points
+Since the responsibility for IT security is shared across the
+organization, there is a risk of inconsistent implementation of security and a loss of central monitoring and control.
+v True
+> False
+
+224) Legal and regulatory constraints may require specific approaches to risk assessment.
+v True
+> False
+
+225) One asset may have multiple threats and a single threat may target multiple assets.
+v True
+> False
+
+226) It is likely that an organization will not have the resources to implement all the recommended controls.
+v True
+> False
+
+227) The IT security management process ends with the implementation of controls and the training of personnel.
+> True
+v False
+
+228) The relative lack of success in bringing cybercriminals to justice has led to an increase in their numbers, boldness, and the global scale of their operations.
+v True
+> False
+
+229) The purpose of the privacy functions is to provide a user protection against discovery and misuse of identity by other users.
+v True
+> False
+
+230) An inline sensor monitors a copy of network traffic; the actual traffic does not pass through the device.
+> True
+v False
+
+231) Network-based intrusion detection makes use of signature detection and anomaly detection.
+v True
+> False
+
+232) Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified
+v True
+> False
+
+233) The IDS component responsible for collecting data is the user interface.
+> True
+v False
+
+234) A common location for a NIDS sensor is just inside the external firewall.
+v True
+> False
+
+235) Intruders typically use steps from a common attack methodology.
+v True
+> False
+
+236) The primary purpose of an IDS is to detect intrusions, log suspicious events, and send alerts.
+v True
+> False
+
+237) To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+238) _____ involves an attempt to define a set of rules or attack patterns that can be used to decide if a given behavior is that of an intruder.
+> Traffic Analysis
+> Payload Inspection
+v Signature Detection
+> Anomaly Detection
+
+239) A _____ monitors the characteristics of a single host and the events occurring within that host for suspicious activity.
+> Network-based IDS
+> Intrusion Prevention System
+> Firewall
+v Host-based IDS
+
+240) A(n) _____ is inserted into a network segment so that the traffic that it is monitoring must pass through the sensor.
+> Active Sensor
+> Probe
+v Inline Sensor
+> Passive Sensor
+
+241) The _____ is the IDS component that analyzes the data collected by the sensor for signs of unauthorized or undesired activity or for events that might be of interest to the security administrator.
+> Agent
+> Collector
+v Analyzer
+> Logger
+
+242) _____ involves the collection of data relating to the behavior of legitimate users over a period of time.
+> Signature Detection
+> Statistical Analysis
+> Log Monitoring
+v Anomaly Detection
+
+243) A _____ monitors network traffic for particular network segments or devices and analyzes network, transport, and application protocols to identify suspicious activity.
+> Host-based IDS
+> Intrusion Prevention System
+> Firewal
+v Network-based IDS
+
+244) An intruder can also be referred to as a hacker or cracker.
+v True
+> False
+
+245) Activists are either individuals or members of an organized crime group with a goal of financial reward
+> True
+v False
+
+246) Running a packet sniffer on a workstation to capture usernames and passwords is an example of intrusion.
+v True
+> False
+
+247) Those who hack into computers do so for the thrill of it or for status.
+v True
+> False
+
+248) Intruders typically use steps from a common attack methodology.
+v True
+> False
+
+249) The IDS component responsible for collecting data is the user interface.
+> True
+v False
+
+250) Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified
+v True
+> False
+
+251) The primary purpose of an IDS is to detect intrusions, log suspicious events, and send alerts.
+v True
+> False
+
+252) Signature-based approaches attempt to define normal, or expected behavior, whereas anomaly approaches attempt to define proper behavior.
+> True
+v False
+
+253) Anomaly detection is effective against misfeasors.
+> True
+v False
+
+254) To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+255) An inline sensor monitors a copy of network traffic; the actual traffic does not pass through the device.
+> True
+v False
+
+256) A common location for a NIDS sensor is just inside the external firewall.
+v True
+> False
+
+257) Network-based intrusion detection makes use of signature detection and anomaly detection.
+v True
+> False
+
+258) Snort can perform intrusion prevention but not intrusion detection.
+> True
+v False
+
+259) _________ are either individuals or members of a larger group of outsider attackers who are motivated by social or political causes.
+> State-sponsored organizations 
+v Activists
+> Cyber criminals 
+> Others
+
+260) A _________ is a security event that constitutes a security incident in which an intruder gains access to a system without having authorization to do so.
+> intrusion detection 
+> IDS
+> criminal enterprise 
+v security intrusion
+
+261) A _________ monitors the characteristics of a single host and the events occurring within that host for suspicious activity.
+v host-based IDS 
+> security intrusion
+> network-based IDS 
+> intrusion detection
+
+262) A ________ monitors network traffic for particular network segments or devices and analyzes network, transport, and application protocols to identify suspicious activity.
+> host-based IDS 
+> security intrusion
+v network-based IDS 
+> intrusion detection
+
+263) The ________ is responsible for determining if an intrusion has occurred
+v analyzer 
+> host
+> user interface 
+> sensor
+
+264) __________ involves an attempt to define a set of rules or attack patterns that can be used to decide if a given behavior is that of an intruder.
+> Profile based detection 
+v Signature detection
+> Threshold detection 
+> Anomaly detection
+
+265) _________ involves the collection of data relating to the behavior of legitimate users over a period of time.
+> Profile based detection 
+> Signature detection
+> Threshold detection 
+v Anomaly detection
+
+266) A (n) __________ is a hacker with minimal technical skill who primarily uses existing attack toolkits.
+> Master 
+v Apprentice
+> Journeyman 
+> Activist
+
+267) The _________ module analyzes LAN traffic and reports the results to the central manager.
+v LAN monitor agent 
+> host agent
+> central manager agent 
+> architecture agent
+
+268) The purpose of the ________ module is to collect data on security related events on the host and transmit these to the central manager.
+> central manager agent 
+> LAN monitor agent
+v host agent 
+> architecture agent
+
+269) A(n) ________ is inserted into a network segment so that the traffic that it is monitoring must pass through the sensor.
+> passive sensor 
+> analysis sensor
+> LAN sensor 
+v inline sensor
+
+270) A(n) ________ event is an alert that is generated when the gossip traffic enables a platform to conclude that an attack is under way.
+> PEP 
+v DDI
+> IDEP 
+> IDME
+
+271) _________ is a document that describes the application level protocol for exchanging data between intrusion detection entities.
+v RFC 4767 
+> RFC 4766
+> RFC 4765 
+> RFC 4764
+
+272) The rule _______ tells Snort what to do when it finds a packet that matches the rule criteria.
+> protocol 
+> direction
+v action 
+> destination port
+
+273) The _______ is the ID component that analyzes the data collected by the sensor for signs of unauthorized or undesired activity or for events that might be of interest to the security administrator.
+> data source 
+> sensor
+> operator 
+v analyzer
+
+274) The broad classes of intruders are: cyber criminals, state-sponsored organizations, _________ , and others.
+> terrorists
+> script kiddies
+v activists
+> hackers
+
+275) A ________ is a hacker with sufficient technical skills to modify and extend attack toolkits to use newly discovered vulnerabilities.
+> script kiddie
+v journeyman
+> novice
+> expert
+
+276) The _________ to an IDS enables a user to view output from the system or control the behavior of the system.
+> command-line interface
+> graphical user interface
+> administrator console
+v user interface
+
+277) __________ is a security service that monitors and analyzes system events for the purpose of finding, and providing real-time warning of attempts to access system resources in an unauthorized manner.
+> Anti-virus software
+> Data encryption
+v Intrusion Detection
+> Firewall
+
+278) An IDS comprises three logical components: analyzers, user interface and _____.
+v sensors
+> firewalls
+> routers
+> encryption algorithms
+
+279) Copying a database containing credit card numbers, viewing sensitive data without authorization, and guessing and cracking passwords are examples of _________ .
+> firewall configuration
+v intrusion
+> network segmentation
+> vulnerability scanning
+
+280) _________ anomaly detection focuses on characterizing the past behavior of individual users or related groups of users and then detecting significant deviations.
+v Profile-based
+> Statistical
+> Behavioral
+> Signature-based
+
+281) ________ detection techniques detect intrusion by observing events in the system and applying a set of rules that lead to a decision regarding whether a given pattern of activity is or is not suspicious.
+v Signature
+> Statistical
+> Heuristic
+> Machine learning
+
+282) _________ simulate human brain operation with neurons and synapse between them that classify observed data
+> Antivirus software
+> Intrusion prevention systems
+v Neural networks
+> Genetic algorithms
+
+283) A ________ IDS monitors traffic at selected points on a network or interconnected set of networks.
+> host-based (HIDS)
+> cloud-based (CIDS)
+> application-based (AIDS)
+v net-work based (NIDS)
+
+284) The _________ (RFC 4766) document defines requirements for the Intrusion Detection Message Exchange Format (IDMEF).
+v Intrusion Detection Message Exchange Requirements
+> Network Security Protocol Standards
+> Firewall Configuration Best Practices
+> Data Encryption Algorithms
+
+285) 12.The functional components of an _________ are: data source, sensor, analyzer, administration, manager, and operator.
+v IDS
+> IPS
+> SIEM
+> Firewall
+
+286) The _________ is the predefined formally documented statement that defines what activities are allowed to take place on an organization's network or on particular hosts to support the organization's requirements.
+> incident response plan
+> access control list
+v security policy
+> encryption protocol
+
+287) 14.________ are decoy systems that are designed to lure a potential attacker away from critical systems.
+> Antivirus software
+v Honeypots
+> Firewalls
+> Intrusion Detection Systems
+
+288) The __________ is the human with overall responsibility for setting the security policy of the organization, and, thus, for decisions about deploying and configuring the IDS.
+> hacker
+v administrator
+> analyst
+> auditor
+
+289) (open question) Describe the three logical components of an IDSList and briefly define three classes of intruders.
+> Masquerader: An individual who is not authorized to use the computer and who penetrates a system's access controls to exploit a legitimate user's account.
+> Misfeasor: A legitimate user who accesses data, programs, or resources for which such access is not authorized, or who is authorized for such access but misuses his or her privileges.
+> Clandestine user: An individual who seizes supervisory control of the system and uses this control to evade auditing and access controls or to suppress audit collection.
+v All of the above 
+
+290) (open question) Describe the three logical components of an IDS
+> Sensor: it has responsibility in collecting data; input includes network packets, log files, system call traces.
+> Analyzer: receiving input from one or more sensors, responsible for determining if an intrusion has occurred The output of this component is an indication that an intrusion has occurred and may include evidence supporting the conclusion that an intrusion has occurred
+> User interface: it enables user to view the output of the system, or control the system behavior.
+v All of the above
+
+291) (open question) Describe the differences between a host-based IDS and a network-based IDS
+> Host-based IDS: Monitors the characteristics of a single host and the events occurring within that host for suspicious activity.
+> Network-based IDS: Monitors network traffic for particular network segments and analyses network, transport and application protocols to identify suspicious activity.
+v both
+
+292) (open question) What are three benefits that can be provided by an IDS?
+> If an intrusion is detected quickly enough, the intruder can be identified and ejected from the system before any damage is done or any data are compromised
+> An effective intrusion detection system can serve as a deterrent, so acting to prevent intrusions.
+> Intrusion detection enables the collection of information about intrusion techniques that can be used to strengthen the intrusion prevention facility.
+v All of the above
+
+293) (open question) List some desirable characteristics of an IDS?
+> Run continually with minimal human supervision - It must be able to recover from system crashes and reinitializations.
+> Resist subversion (= must be able to monitor itself). + Impose a minimal overhead on the system where it is running.
+> Be able to adapt to changes in system and user behavior over time.
+> Be able to scale to monitor a large number of hosts.
+v All of the above
+
+294) (open question) What is the difference between anomaly detection and signature intrusion detection?
+> Anomaly detection: Involves the collection of data relating to the behavior of legitimate users over a period of time. Then statistical tests are applied to observed behavior to determine with a high level of confidence whether that behavior is not legitimate user behavior (Threshold detection, profile based).
+> Signature detection: Involves an attempt to define a set of rules or attack patterns that can be used to decide that a given behavior is that of an intruder.
+v All of the above 
+
+295) (open question) What metrics are useful for profile-based intrusion detection?
+> Counter: Typically a count of certain event types is kept over a particular period of time. Eg. number of logins, number of times a command is executed, number of password failures.
+> Gauge: is used to measure the current value of some entity. Eg. number of connections assigned to a user application, number of outgoing messages queued for a user process.
+> Interval timer: The length of time between two related events. Eg. the time between successive logins to an account.
+> Resource utilization: Quantity of resources consumed during a specified period Eg total time consumed by a program execution.
+v All of the above 
+
+296) (open question) What is the difference between rule-based anomaly detection and rule-based penetration identification?
+> Rule-based anomaly detection: Historical audit records are analyzed to identify usage patterns and to generate automatically rules to describe those patterns. The current behavior is then observed, and each transaction is matched against the set of rules to determine if it conforms to any historically observed pattern.
+> Rule-based penetration identification: Use of rules for identifying known penetrations or penetrations that would exploit known weaknesses. The most fruitful approach to developing such rules is to analyze attack tools and scripts collected on the Internet.
+v All of the above
+
+297) (open question) Explain the base-rate fallacy
+> The base rate fallacy is an error that occurs when the conditional probability of some hypothesis H (is this an intruder?), given some evidence E (network data , is assessed without taking into account the prior probability of H and the total probability of evidence E.
+> If the actual numbers of intrusions is low compared to the number if legitimate uses of a system, then the false alarm rate will be high unless the test is extremely discriminating. This is known as base-rate fallacy.
+v All of the above
+
+298) (open question) What is the difference between a distributed host-based IDS and a NIDS
+> Distributed host-based IDS: examines user and software activity on a host system.
+> Network-based IDS: monitors traffic at selected points on a network
+v All of the above
+
+299) (open question) Describe the types of sensors that can be used in NIDS
+> inline sensors: inserted into a network segment so that the traffic that it is monitoring must pass through the sensor; able to block an attack when one is detected, may slow down network speed; may be integrated in a firewall or a LAN switch
+> passive sensors: monitors a copy of network traffic; does not slow down network speed; extra hardware is needed
+v All of the above
+
+300) What are possible locations for NIDS sensors?
+> inside the external firewall
+> between the external firewall and the Internet
+> before internal servers and database resources
+> before the workstation networks
+v All of the above 
+
+301) What is a honeypot?
+> Honeypots are intrusion detection systems that monitor network traffic.
+v Honeypots are decoy systems that are designed to lure a potential attacker away from critical systems. They can divert an attacker, collect information about the attacker's activity, encourage the attacker to stay on the system long enough for administrators to respond.
+> Honeypots are advanced encryption algorithms used to secure sensitive data.
+> Honeypots are firewalls that protect against unauthorized access
+
+302) ____________detection involves the collection of data relating to the behavior of legitimate users over a period of time. Statistical tests are applied to observed behavior to determine with a high level of conﬁdence whether that behavior is not legitimate user behavior.
+> Signature-based
+v Statistical anomaly
+> Heuristic
+> Machine learning
+
+303) A ________ is an individual who seizes supervisory control of the system and uses this control to evade auditing and access controls or to suppress audit collection.
+Select one:
+v Clandestine User
+> Mole
+> Masquerader
+> Misfeasor
+
+304) Statistical approaches attempt to deﬁne proper behavior and rule-based approaches attempt to deﬁne normal or expected behavior.
+> True
+v False
+
+305) The simplest statistical test is to measure the _________ of a parameter over some historical period which would give a reﬂection of the average behavior and its variability.
+Select one:
+v mean and standard deviation
+> Markov process
+> multivariate
+> time series
+
+306) The three classes of intruders identiﬁed by Anderson are: Masquerader, Misfeasor, and____
+> Insider threat
+> Social engineer
+v clandestine
+> Cybercriminal
+
+307) Password ﬁles can be protected in one of two ways: One-way function or ______
+> biometric authentication
+v access control
+> encryption
+> two-factor authentication
+
+308) Metrics that are useful for proﬁle-based intrusion detection are: counter, gauge, resource utilization, and _______
+> network bandwidth
+> packet loss rate
+> system uptime
+v interval timer
+
+309) Two types of audit records used are Detection-speciﬁc audit records and ____ audit records.
+> system uptime
+v native
+> network bandwidth
+> packet loss rate
+
+310) An operv ation such v as login, rev ad, perform, I/O or execute thv at is performed by the subject on or with v an object is the _________ v audit record ﬁeld
+v Action
+> Subject
+> Resource-usv age
+> Object
+
+311) The ________ is an audit collection module operating as a v background process on a monitored system whose purpose is to collect data on security related events on the host and transmit these to the central manager.
+Select one:
+> central manager module
+v host agent module
+> intruder alert module
+> LAN monitor agent module
+
+312) Password crackers rely on the fact that some people choose easily guessable passwords.
+v True
+> False
+
+313) Penetration identiﬁcation is an approach developed to detect deviation from previous usage patterns.
+> True
+v False
+
+314) A ________ is used to mev asure the current vv alue of some entity. Exv amples include the number of logicv al connections v assigned to v a user v applicv ation v and the number of outgoing messv ages queued for v a user process.
+Select one:
+v Gv auge
+> Resource utilizv ation
+> Counter
+> Intervv al timer
+
+315) To be of practical use an intrusion detection system should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+316) A _________ is v a legitimv ate user who v accesses dv atv a, progrv ams, or resources for which such v access is not v authorized, or who is v authorized for such v access but misuses his or her privileges.
+Select one:
+v Misfev asor
+> Emissv ary
+> Clv andestine User
+> Mv asquerv ader
+
+317) A _________ is an individual who is not authorized to use the computer and who penetrates a system's access controls to exploit a legitimate user's account.
+Select one:
+> Clandestine User
+v Masquerader
+> Sniffer
+> Misfeasor
+
+318) Insider attacks are among the easiest to detect and prevent.
+> True
+v False
+
+319) The main advantage of the use of statistical proﬁles is that a prior knowledge of security ﬂaws is not required
+v True
+> False
+
+320) Unauthorized intrusion into a computer system or network is one of the most serious threats to computer security.
+v True
+> False
+
+321) Intrusion detection involves detecting unusual patterns of activity or patterns of activity that are known to correlate with intrusions.
+v True
+> False
+
+322) The _________ prevents duplicate passwords from v being visiv ble in the password ﬁle. Even if two users choose the same password, those passwords will v be assigned at different times.
+Select one:
+> honeypot
+v salt
+> rule v based intrusion detection
+> audit record
+
+323) System administrators can stop all attacks and hackers from penetrating their systems by installing software patches periodically.
+> True
+v False
+
+324) One important element of intrusion prevention is password management.
+v True
+> False
+
+325) _________ involves counting the number of occurrences of v a speciﬁc event type over v an intervv al of time.
+Select one:
+v Threshold detection
+> Rule-bv ased detection
+> Resource usv age
+> Proﬁle-bv ased system
+
+326) _________ detection focuses on characterizing the past v behavior of individual users or related groups of users and then detecting signiﬁcant deviations.
+Select one:
+> Threshold
+v Proﬁle-v based anomaly
+> Statistical anomaly
+> Action condition
+
+327) Bot programs are activated by a trigger.
+v True
+> False
+
+328) Stealth is not a term that applies to a virus as such but, rather, refers to a technique used by a virus to evade detection.
+v True
+> False
+
+329) A ______ attack is an attempt to prevent legitimate users of a service from using that service.
+> Man-in-the-middle
+> Phishing
+v Denial of service (DOS)
+> Social engineering
+
+331) The _________ worm exploits a security hole in the Microsoft Internet Information Server to penetrate and spreav d to other hosts. It also disables the system ﬁle checker in Windows.
+Select one:
+> Mydoom
+> Warezov
+> Slammer
+v Code Red
+
+333) Viruses, logic bombs, and backdoors are examples of independent malicious software.
+> True
+v False
+
+334) In addition to propagation a worm usually performs some unwanted function.
+v True
+> False
+
+335) An encrypted virus is a virus that mutates with every infection, making detection by the signature of the virus impossible.
+> True
+v False
+
+336) Macro viruses infect documents, not executable portions of code.
+v True
+> False
+
+338) A _________ is a secret entry point into a program that allows someone who is aware of it to gain access without going through the usual security access procedures.
+Select one:
+> multipartite
+v backdoor
+> hatch
+> Trojan horse
+
+339) _____technology enables the antivirus program to easily detect even the most complex polymorphic viruses while maintaining fast scanning speeds.
+> File signature matching
+v Generic Decryption
+> Behavioral analysis
+> Heuristic scanning
+
+340) Mobile phone worms communicate through Bluetooth wireless connections or via the _________ .
+Select one:
+> SQL
+> TRW
+> PWC
+v MMS
+
+341) Backdoors become threats when unscrupulous programmers use them to gain unauthorized access.
+v True
+> False
+
+342) In a a __________ v attack the slave zombies construct packets requiring a response that contains the target's IP address as the source IP address in the packet's IP header. These packets are sent to uninfected machines that respond with packets directed at the target machine.
+Select one:
+v reﬂector DDoS
+> blended
+> internal resource
+> direct DDoS
+
+343) A _________ virus is a form of virus explicitly designed to hide itself from detection by v antivirus softwv are.
+Select one:
+v stealth
+> polymorphic
+> encrypted
+> metamorphic
+
+344) Unlike heuristics or ﬁngerprint based scanners,the _________ integrates with the operating system of a host computer and monitors program behavior in real time for malicious actions.
+Select one:
+> mobile code
+v digital immune system
+> generic decryption
+v behavior blocking software
+
+345) _________ is a mass mailing e-mail worm that installs a v backdoor in infected computers therev by enav bling hackers to gain remote access to data such as passwords and credit card numv bers.
+Select one:
+> Sobig.f
+v Mydoom
+> Slammer
+> Code Red
+
+346) Malware is another name for Malicious Software.
+v True
+> False
+
+347) _________ antivirus programs are memory resiv dent programs that iv dentify a virus by its actions rather than its structure in an infectev d program.
+Select one:
+> First generation
+> Fourth generation
+> Seconv d generation
+v Thirv d generation
+
+348) _________ are usev d to attack networkev d computer systems with a large volume of trafﬁc to carry out a v denial-of-service attack.
+Select one:
+> Bots
+> Exploits
+> Keyloggers
+v floov ders
+
+349) Malicious software that needs a host program is referred to as _________ .
+Select one:
+v blended
+v parasitic
+> logic v bomv b
+> ﬂooders
+
+350) The challenge in coping with DDoS attacks is the sheer number of ways in which they can operate.
+v True
+> False
+
+351) The success of the digital immune system depends on the ability of the virus analysis machine to detect new and innovative virus strains.
+v True
+> False
+
+352) An inline sensor monitors a copy of network traffic; the actual traffic does not pass through the device.
+> True
+v False
+
+353) Network-based intrusion detection makes use of signature detection and anomaly detection.
+v True
+> False
+
+354) Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified.
+v True
+> False
+
+355) The IDS component responsible for collecting data is the user interface.
+> True
+v False
+
+356) A common location for a NIDS sensor is just inside the external firewall.
+v True
+> False
+
+357) Intruders typically use steps from a common attack methodology.
+v True
+> False
+
+358) The primary purpose of an IDS is to detect intrusions, log suspicious events, and send alerts.
+v True
+> False
+
+359) To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+360) _____ involves an attempt to define a set of rules or attack patterns that can be used to decide if a given behavior is that of an intruder.
+> Intrusion Prevention
+> Security Monitoring
+> Vulnerability Assessment
+v Signature Detection
+
+361) A _____ monitors the characteristics of a single host and the events occurring within that host for suspicious activity.
+> Network-based IDS
+> Firewall
+> Intrusion Prevention System (IPS)
+v Host-based IDS
+
+362) A(n) _____ is inserted into a network segment so that the traffic that it is monitoring must pass through the sensor.
+> Passive Sensor
+> Distributed Sensor
+v Inline Sensor
+> Out-of-band Sensor
+
+363) The _____ is the IDS component that analyzes the data collected by the sensor for signs of unauthorized or undesired activity or for events that might be of interest to the security administrator.
+> User Interface
+> Logger
+v Analyzer
+> Data Collector
+
+364) _____ involves the collection of data relating to the behavior of legitimate users over a period of time.
+v Anomaly Detection
+> Signature-based Detection
+> Port Scanning
+> Encryption
+
+365) A _____ monitors network traffic for particular network segments or devices and analyzes network, transport, and application protocols to identify suspicious activity.
+> Host-based IDS
+v Network-based IDS
+> Firewall
+> Intrusion Prevention System (IPS)
+
+366) In 2004 the ________ exploited a buffer overflow in Microsoft Windows 2000/XP Local Security Authority Subsystem Service.
+> Code Red Worm
+> Slammer Worm
+> Morris Internet Worm
+v Sasser Worm
+
+367) ____________ is a form of overflow attack.
+> Heap overflows
+> Replacement stack frame
+> Return to system call
+v All of the above
+
+368) A buffer ____________ is a condition at an interface under which more input can be placed into a buffer or data holding area than the capacity allocated, overwriting other information.
+> overwrite
+> overflow
+> overrun
+v all of these options
+
+369) _________ aim to prevent or detect buffer overflows by instrumenting programs when they are compiled
+> Run-time defenses
+v Compile-time defenses
+> Shellcodes
+> All of these answers
+
+370) In 2003, the _______ exploited a buffer overflow in Microsoft SQL Server 2000.
+> Slammer worm
+> Sasser worm
+> Morris Internet Worm
+> Code Red Worm
+v Slammer Worm
+
+371) A stack overflow can result in some form of a denial of service attack on a system.
+v True
+> False
+
+372) There are several generic restrictions on the content of shellcode.
+v True
+> False
+
+373) Buffer overflows can be found in a wide variety of programs, processing a range of different input and with a variety of possible responses.
+v True
+> False
+
+374) Stack buffer overflow attacks were first seen in the Aleph One Worm.
+> True
+v False
+
+375) Even through it is a high-level programming language, Java still suffers from buffer overflows because it permits more data to be saved into a buffer than it has space for.
+> True
+v False
+
+376) _________ can prevent buffer overflow attacks, typically of global data, which attempt to overwrite adjacent regions in the processes address space, such as the global offset table.
+> MMUs
+> Heaps
+v Guard Pages
+
+377) The ________________ used a buffer overflow exploit in the "fingerd" as one of its attack mechanisms.
+v Morris Internet Worm
+> Sasser Worm
+> Code Red Worm
+> Slammer Worm
+
+378) A consequence of a buffer overflow error is:
+> possibly memory access violation
+> corruption of data used by the program
+> unexpected transfer of control in the program
+v all of these options
+
+379) A buffer overflow error is not likely to lead to eventual program termination. 
+> True
+v False
+
+380) The potential for a buffer overflow exists anywhere that data is copied or merged into a buffer, where at least some of the data are read from outside the program
+v True
+> False
+
+381) Memory is requested from the ______ by programs for use in dynamic data structures, such as linked lists of records.
+> ROM
+v heap
+> address space
+> shell
+
+382) A stack buffer overflow attack is also referred to as ______.
+> buffer overrunning
+> stack framing
+> heap overflowing
+v stack smashing
+
+383) The function of ___________ was to transfer control to a user command-line interpreter, which gave access to any program available on the system with the privileges of the attacked program.
+> stacking
+v shellcode
+> no-execute
+> memory management
+
+384) The buffer overflow type of attack has been known since it was first widely used by the _______ Worm in 1988.
+> Alpha One
+> Code Red Worm
+> Slammer Worm
+v Morris Internet Worm
+
+385) To exploit any type of buffer overflow, the attacker needs to identify a buffer overflow vulnerability in some program that can be triggered using externally sourced data under the attacker's control.
+v True
+> False
+
+386) Buffer overflow exploits are no longer a major source of concern to security practitioners.
+> True
+v False
+
+387) Shellcode must be able to run no matter where in memory it is located
+v True
+> False
+
+388) The buffer overflow type of attack is one of the most common attacks seen.
+> True
+> False
+v True
+> False
+
+389) Buffer overflow attacks are one of the most common attacks seen.
+v True
+> False
+
+390) Buffer overflow exploits are no longer a major source of concern to security practitioners.
+> True
+v False
+
+391) A buffer overflow error is not likely to lead to eventual program termination.
+> True
+v False
+
+392) To exploit any type of buffer overflow the attacker needs to identify a buffer overflow vulnerability in some program that can be triggered using externally sourced data under the attackers control"
+v True
+> False
+
+393) At the basic machine level, all of the data manipulated by machine instructions executed by the computer processor are stored in either the processors registers or in memory"
+v True
+> False
+
+394) Even though it is a highlevel programming language, Java still suffers from buffer overflows because it permits more data to be saved into a buffer than it has space for
+> True
+v False
+
+395) Stack buffer overflow attacks were first seen in the Aleph One Worm
+> True
+v False
+
+396) A stack overflow can result in some form of a denial-of-service attack on a system.
+v True
+> False
+
+397) An attacker is more interested in transferring control to a location and code of the attackers choosing rather than immediately crashing the program"
+v True
+> False
+
+398) The potential for a buffer overflow exists anywhere that data is copied or merged into a buffer, where at least some of the data are read from outside the program"
+v True
+> False
+
+399) Shellcode is not specific to a particular processor architecture
+> True
+v False
+
+400) There are several generic restrictions on the content of shellcode"
+v True
+> False
+
+401) The buffer overflow type of attack has been known since it was first widely used by the __________ Worm in 1988
+v Morris
+> Slammer
+> Code Red
+> Heartbleed
+
+402) A buffer _________ is a condition at an interface under which more input can be placed into a buffer or data holding area than the capacity allocated, overwriting other information
+> Leakage
+> Corruption
+v Overflow
+> Underflow
+
+403) A consequence of a buffer overflow error is __________
+v Corruption of data used by the program
+> Unexpected transfer of control in the program
+> Possible memory access violation
+
+404) The function of ________ was to transfer control to a user commandline interpreter,which gave access to any program available on the system with the privileges of the attacked program
+> Cryptographic hash function
+v Shellcode
+> Key exchange algorithm
+> Digital signature
+
+405) The Packet Storm Web site includes a large collection of packaged shellcode, including code that can:
+> flush firewall rules that currently block other attacks
+> set up a listening service to launch a remote shell when connected to
+v create a reverse shell that connects back to the hacker
+
+406) __________ aim to prevent or detect buffer overflows by instrumenting programs when they are compiled
+v Compile Time Defense
+> Runtime Monitoring
+> Intrusion Detection System (IDS)
+> Firewal
+
+407) __________ can prevent buffer overflow attacks, typically of global data, which attempt to overwrite adjacent regions in the processes address space, such as the global offset table
+> Intrusion Prevention System (IPS)
+> Honeytokens
+v Guard pages
+> Captcha
+
+408) _________ is a form of overflow attack
+v Heap Overflows
+> Return to system call
+> Replacement stack frame
+
+409) A buffer can be located _________
+v in the heap
+> on the stack
+> in the data section of the process
+
+410) The __________ used a buffer overflow exploit in fingerd as one of its attack mechanisms
+> Conficker Worm
+v Morris Internet Worm
+> Stuxnet Worm
+> ILOVEYOU Worm
+
+411) In 2003 the _________ exploited a buffer overflow in Microsoft SQL Server 2000
+> Code Red Worm
+> Mydoom Worm
+> Blaster Worm
+v Slammer Worm
+
+412) A buffer overflow in Microoft Windows 2000/XP Local Security Authority Subsystem Service was exploited by the _________
+> Melissa Worm
+v Sasser Worm
+> Nimda Worm
+> Sobig Worm
+
+413) _________ is a tool used to automatically identify potentially vulnerable programs
+v Fuzzing
+> Encryption
+> Intrusion Detection System (IDS)
+> Penetration testing
+
+414) Traditionally the function of __________ was to transfer control to a user commandline interpreter, which gave access to any program available on the system with the privileges of the attacked program
+> Firewall
+v Shellcode
+> Antivirus software
+> Virtual private network (VPN)
+
+415) The buffer overflow type of attack has been known since it was first widely used by the __________ Worm in 1988.
+> Code Red
+> ILOVEYOU
+v Morris Internet
+> Sasser
+
+416) A buffer _________ is a condition at an interface under which more input can be placed into a buffer or data holding area than the capacity allocated, overwriting other information.
+> underflow/underrun/underwrite
+v overflow/overrun/overwrite
+> bypass/overwrite/override
+> breach/infiltration/compromise
+
+417) A consequence of a buffer overflow error is __________ .
+> loss of data connectivity and communication
+v corruption of data used by the program, unexpected transfer of control int he program, and possible memory access violation
+> system shutdown and restart
+> network congestion and slow performance
+
+418) A stack buffer overflow is also referred to as ___________ .
+> data leakage
+v stack smashing
+> heap hijacking
+> code injection
+
+419) The function of ________ was to transfer control to a user command-line interpreter, which gave access to any program available on the system with the privileges of the attacked program.
+> ransomware
+v shellcode
+> rootkit
+> keylogger
+
+421) __________ aim to prevent or detect buffer overflows by instrumenting programs when they are compiled
+> threat modeling
+v compile-time defenses
+> runtime patching
+> post-incident analysis
+
+422) __________ can prevent buffer overflow attacks, typically of global data, which
+attempt to overwrite adjacent regions in the processes address space, such as the global offset table.
+> secure coding practices
+v guard pages
+> encrypted tunnels
+> intrusion detection systems (IDS)
+
+423) _________ is a form of overflow attack.
+v heap overflows, return to system call, and replacement stack frame
+> Cross-site scripting (XSS)
+> SQL injection
+> Directory traversal
+
+424) The __________ used a buffer overflow exploit in "fingerd" as one of its attack
+> Code Red Worm
+> Stuxnet Worm
+v Morris Internet Worm
+> ILOVEYOU Worm
+
+425) In 2003 the _________ exploited a buffer overflow in Microsoft SQL Server 2000.
+> Nimda Worm
+> Conficker Worm
+v Slammer worm
+> Sasser Worm
+
+426) A buffer overflow in Microoft Windows 2000/XP Local Security Authority Subsystem Service was exploited by the _________ .
+> Melissa Worm
+> Nimda Worm
+> Sobig Worm
+v Sasser worm
+
+427) The buffer is located __________ .
+> in the heap
+> in the stack
+> in the data section of the process
+> in the register
+> All of the above
+v 1,2,3 are correct
+
+428) _________ is a tool used to automatically identify potentially vulnerable programs.
+> Code obfuscation
+> Encryption
+v fuzzing
+> Penetration testing
+
+429) Traditionally the function of __________ was to transfer control to a user command-line interpreter, which gave access to any program available on the system with the privileges of the attacked program.
+> Ransomware
+> Spyware
+v shellcode
+> Rootkit
+> Keylogger
+
+430) A __________ can occur as a result of a programming error when a process attempts to store data beyond the limits of a fixed-size buffer and consequently overwrites adjacent memory locations.
+v buffer overflow
+> Null pointer dereference
+> Division by zero
+> Integer overflow
+
+431) Data is simply an array of _________ .
+> characters
+> integers
+> floating-point numbers
+v bytes
+
+432) A ___________ overflow occurs when the targeted buffer is located on the stack, usually as a local variable in a function's stack frame.
+> Heap buffer overflow
+> Global buffer overflow
+v stack buffer
+> Data section buffer overflow
+
+433) "Smashing the Stack for Fun and Profit" was a step by step introduction to exploiting stack-based buffer overflow vulnerabilities that was published in Phrack magazine by _________ .
+v Aleph One
+> L0phtcrack
+> Acid Burn
+> The Mentor
+
+434) An essential component of many buffer overflow attacks is the transfer of execution to code supplied by the attacker and often saved in the buffer being overflowed This code is known as _________ .
+> Exploit
+v shellcode
+> Payload
+> Malware
+
+436) __________ defenses aim to harden programs to resist attacks in new programs.
+> Machine code
+> Obfuscated
+> Self-modifying
+v compile-time
+
+437) __________ defenses aim to detect and abort attacks in existing programs.
+> Code signing
+v run-time
+> Compile-time defenses
+> Patch management
+
+438) The __________ project produces a free, multiplatform 4.4BSD-based UNIX-like operating system.
+> Linux
+> Windows
+v OpenBSD
+> macOS
+> FreeBSD
+
+439) __________ is one of the best known protection mechanisms that is a GCC compiler extension that inserts additional function entry and exit code.
+> Address Space Layout Randomization (ASLR)
+> Data Execution Prevention (DEP)
+> Control Flow Integrity (CFI)
+v stackguard
+> Stack smashing protection
+
+440) A _________ value is named after the miner's bird used to detect poisonous air in a mine and warn miners in time for them to escape.
+> Sparrow
+> Falcon
+> Hawk
+v canary
+> Eagle
+
+441) _________ attacks can occur in a binary buffer copy when the programmer has included code to check the number of bytes being transferred, but due to a coding error, allows just one more byte to be copied than there is space available.
+> SQL injection
+v off-by-one
+> Cross-site scripting (XSS)
+> Integer overflow
+
+442) The _________ is typically located above the program code and global data and grows up in memory (while the sack grows down toward it).
+> Data section
+> Cache
+v heap
+> Register file
+
+443) Gaps, or __________ , are flagged in the MMU as illegal addresses, and any attempt to access them results in the process being aborted
+> Stack frames
+> Heap blocks
+v guard pages
+> Code sections
+
+444) In the classic __________ overflow, the attacker overwrites a buffer located in the local variable area of a stack frame and then overwrites the saved frame pointer and return address.
+> Heap buffer overflow
+> Integer overflow
+> Format string vulnerability
+v stack buffer
+
+445) A program that is covertly inserted into a system with the intent of compromising the integrity or confidentiality of the victim's data is __________.
+> Adobe
+> Animoto
+v malware
+> Prezi
+
+446) __________ are used to send large volumes of unwanted e-mail.
+> Rootkits
+v Spammer programs
+> Downloaders
+> Auto-rooter
+
+447) A __________ is code inserted into malware that lies dormant until a predefined condition, which triggers an unauthorized act, is met.
+v logic bomb
+> trapdoor
+> worm
+> Trojan horse
+
+448) The term "computer virus" is attributed to __________.
+> Herman Hollerith
+v Fred Cohen
+> Charles Babbage
+> Albert Einstein
+
+449) Computer viruses first appeared in the early __________.
+> 1960s
+> 1970s
+v 1980s
+> 1990s
+
+450) The __________ is what the virus "does".
+> infection mechanism
+> trigger
+> logic bomb
+v payload
+
+451) The __________ is when the virus function is performed
+> dormant phase
+> propagation phase
+> triggering phase
+v execution phase
+
+452) During the __________ the virus is idle.
+v dormant phase
+> propagation phase
+> triggering phase
+> execution phase
+
+453) A __________ uses macro or scripting code, typically embedded in a document and triggered when the document is viewed or edited, to run and replicate itself into other such documents.
+> boot sector infector
+> file infector
+v macro virus
+> multipartite virus
+
+454) __________ is the first function in the propagation phase for a network worm.
+> Propagating
+v Fingerprinting
+v Keylogging
+> Spear phishing
+
+455) Unsolicited bulk e-mail is referred to as __________.
+v spam
+> propagating
+> phishing
+> crimeware
+
+456) __________ is malware that encrypts the user's data and demands payment in order to access the key
+needed to recover the information.
+> Trojan horse
+v Ransomware
+> Crimeware
+> Polymorphic
+
+457) A __________ attack is a bot attack on a computer system or network that causes a loss of service to users.
+> spam
+> phishing
+v DDoS
+> sniff
+
+458) The ideal solution to the threat of malware is __________.
+> identification
+> removal
+> detection
+v prevention
+
+459) __________ will integrate with the operating system of a host computer and monitor program behavior in real time for malicious actions.
+> Fingerprint-based scanners
+v Behavior-blocking software
+> Generic decryption technology
+> Heuristic scanners
+
+460) A _________ is a set of programs installed on a system to maintain covert access to that system with administrator (root) privileges while hiding evidence of its presence.
+> Encryption tool
+> Spyware
+v rootkit
+> Firewall
+> Antivirus software
+
+461) A __________ uses multiple methods of infection or propagation to maximize the speed of contagion and the severity of the attack.
+> Man-in-the-middle attack
+> Social engineering attack
+v blended attack
+> Phishing attack
+> Denial of Service (DoS) attack
+
+462) A computer __________ is a piece of software that can "infect" other programs or any type of executable content and tries to replicate itself.
+> Trojan horse
+> Adware
+v virus
+> Worm
+> Spyware
+
+463) Sometimes referred to as the "infection vector", the __________ is the means by which a virus spreads or propagates.
+> Exploit
+> Encryption algorithm
+v infection mechanism
+> Payload
+> Backdoor
+
+464) Sometimes known as a "logic bomb", the __________ is the event or condition that determines when the payload is activated or delivered
+> Firewall
+> Router
+> Antivirus software
+> Encryption key
+v trigger
+
+465) The four phases of a typical virus are: dormant phase, triggering phase, execution phase and __________ phase.
+> Initialization phase
+> Recovery phase
+v propagation
+> Termination phase
+> Mutation phase
+
+466) During the __________ phase the virus is activated to perform the function for which it was intended
+> Encryption phase
+> Stealth phase
+> Payload phase
+v triggering
+> Replication phase
+
+467) A __________ virus is explicitly designed to hide itself from detection by anti-virus software.
+> Adware
+> Spyware
+> Rootkit
+v stealth
+> Ransomware
+
+468) __________ code refers to programs that can be shipped unchanged to a heterogeneous collection of platforms and execute with identical semantics.
+> Obfuscated
+> Scripting
+> Legacy
+v Mobile
+> Open-source
+
+469) A __________ is when a user views a Web page controlled by the attacker that contains a code that exploits the browser bug and downloads and installs malware on the system without the user's knowledge or consent.
+> Phishing attack
+v drive-by-download
+> Cross-site scripting (XSS)
+> Denial of Service (DoS) attack
+> Social engineering attack
+
+470) A __________ is a collection of bots capable of acting in a coordinated manner.
+v botnet
+> Firewall
+> Encryption algorithm
+> Intrusion Detection System (IDS)
+> Rootkit
+
+471) A bot can use a __________ to capture keystrokes on the infected machine to retrieve sensitive information.
+> Antivirus software
+> Encryption key
+v keylogger
+> Firewall
+> Rootkit
+
+472) Countermeasures for malware are generally known as _________ mechanisms because they were first developed to specifically target virus infections.
+> Firewall
+> Encryption tool
+> Rootkit
+v anti-virus
+> Intrusion Detection System (IDS)
+
+473) Developed by IBM and refined by Symantec, the __________ provides a malware detection system that will automatically capture, analyze, add detection and shielding, or remove new malware and pass information about it to client systems so the malware can be detected before it is allowed to run elsewhere.
+> Intrusion Prevention System (IPS)
+> Firewall
+> Encryption tool
+v digital immune system
+> Rootkit
+
+474) __________ technology is an anti-virus approach that enables the anti-virus program to easily detect even the most complex polymorphic viruses and other malware, while maintaining fast scanning speeds.
+> Encryption key
+v Generic decryption
+> Firewall
+> Intrusion Detection System (IDS)
+
+475) A macro virus infects executable portions of code.
+> True
+v False
+
+476) A virus that attaches to an executable program can do anything that the program is permitted to do.
+v True
+> False
+
+477) E-mail is a common method for spreading macro viruses.
+v True
+> False
+
+478) Malicious software aims to trick users into revealing sensitive personal data.
+v True
+> False
+
+479) A logic bomb is the event or condition that determines when the payload is activated or delivered.
+v True
+> False
+
+480) The __________ is what the virus "does".
+> logic bomb
+> infection mechanism
+> trigger
+v payload
+
+481) The __________ is when the virus function is performed.
+v execution phase
+> dormant phase
+> propoagation phase
+> triggering phase
+
+482) The term "computer virus" is attributed to __________.
+> albert einstein
+> herman hollerith
+v fred cohen
+> charles babbage
+
+483) __________ are used to send large volumes of unwanted e-mail.
+v spammer programs
+> downloaders
+> rootkits
+> auto-rooter
+
+484) Computer viruses first appeared in the early __________.
+> 1970s
+> 1960s
+> 1900s
+v 1980s
+
+490) Many forms of infection can be blocked by denying normal users the right to modify programs on the system.
+v True
+> False
+
+491) Packet sniffers are mostly used to retrieve sensitive information like usernames and passwords.
+v True
+> False
+
+492) A bot propagates itself and activates itself, whereas a worm is initially controlled from some central facility.
+> True
+v False
+
+493) Programmers use backdoors to debug and test programs.
+v True
+> False
+
+494) A __________ is code inserted into malware that lies dormant until a predefined condition, which triggers an unauthorized act, is met.
+v logic bomb
+> trapdoor
+> worm
+> Trojan horse
+
+495) The __________ is what the virus "does".
+v payload
+> infection mechanism
+> trigger
+> logic bomb
+> payload
+
+496) A __________ uses macro or scripting code, typically embedded in a document and triggered when the document is viewed or edited, to run and replicate itself into other such documents.
+v macro virus
+> boot sector infector
+> file infector
+> macro virus
+> multipartite virus
+
+497) __________ is malware that encrypts the user's data and demands payment in order to access the key needed to recover the information.
+> Crimeware
+> Polymorphic
+v Ransomware
+> Trojan horse
+
+498) __________ will integrate with the operating system of a host computer and monitor program behavior in real time for malicious actions.
+> Generic decryption technology
+v Behavior-blocking software
+> Fingerprint-based scanners
+> Heuristic scanners
+
+499) ______ relates to the capacity of the network links connecting a server to the wider Internet.
+> Application resource
+v Network bandwidth
+> System payload
+> Directed broadcast
+
+500) A ______ triggers a bug in the system's network handling software causing it to crash and the system can no longer communicate over the network until this software is reloaded
+> echo
+> reflection
+v poison packet
+> flash flood
+
+501) Using forged source addresses is known as _________.
+v source address spoofing
+> a three-way address
+> random dropping
+> directed broadcast
+
+502) The ______ attacks the ability of a network server to respond to TCP connection requests by overflowing the tables used to manage such connections.
+> DNS amplification attack
+v SYN spoofing attack
+> basic flooding attack
+> poison packet attack
+
+503) TCP uses the _______ to establish a connection.
+> zombie
+> SYN cookie
+> directed broadcast
+v three-way handshake
+
+504) _______ bandwidth attacks attempt to take advantage of the disproportionally large resource consumption at a server.
+v Application-based
+> System-based
+> Random
+> Amplification
+
+505) _______ is a text-based protocol with a syntax similar to that of HTTP.
+> RIP
+> DIP
+v SIP
+> HIP
+
+506) Bots starting from a given HTTP link and then following all links on the provided Web site in a recursive way is called _______.
+> trailing
+v spidering
+> spoofing
+> crowding
+
+507) ______ attempts to monopolize all of the available request handling threads on the Web server by sending HTTP requests that never complete.
+> HTTP
+> Reflection attacks
+> SYN flooding
+v Slowloris
+
+508) A characteristic of reflection attacks is the lack of _______ traffic
+v backscatter
+> network
+> three-way
+> botnet
+
+509) In both direct flooding attacks and ______ the use of spoofed source addresses results in response packets being scattered across the Internet and thus detectable.
+v SYN spoofing attacks
+> indirect flooding attacks
+> ICMP attacks
+> system address spoofing
+
+510) In a _______ attack the attacker creates a series of DNS requests containing the spoofed source address for the target system.
+> SYN flood
+v DNS amplification
+> poison packet
+> UDP flood
+
+511) It is possible to specifically defend against the ______ by using a modified version of the TCP connection handling code.
+> three-way handshake
+> UDP flood
+v SYN spoofing attack
+> flash crowd
+
+512) Modifying the system's TCP/IP network code to selectively drop an entry for an incomplete connection from the TCP connections table when it overflows, allowing a new connection attempt to proceed is _______.
+> poison packet
+> slashdot
+> backscatter traffic
+v random drop
+
+513) When a DoS attack is detected, the first step is to _______.
+v identify the attack
+> analyze the response
+> design blocking filters
+> shut down the network
+
+529) ______ relates to the capacity of the network links connecting a server to the wider Internet.
+> Application resource
+v Network bandwidth
+> System payload
+> Directed broadcast
+
+530) A ______ triggers a bug in the system's network handling software causing it to crash and the system can no longer communicate over the network until this software is reloaded
+> echo
+> reflection
+v poison packet
+> flash flood
+
+531) Using forged source addresses is known as _________.
+v source address spoofing
+> a three-way address
+> random dropping
+> directed broadcast
+
+532) The ______ attacks the ability of a network server to respond to TCP connection requests by overflowing the tables used to manage such connections.
+> DNS amplification attack
+v SYN spoofing attack
+> basic flooding attack
+> poison packet attack
+
+533) TCP uses the _______ to establish a connection.
+> zombie
+> SYN cookie
+> directed broadcast
+v three-way handshake
+
+534) _______ bandwidth attacks attempt to take advantage of the disproportionally large resource consumption at a server.
+v Application-based
+> System-based
+> Random
+> Amplification
+
+535) _______ is a text-based protocol with a syntax similar to that of HTTP.
+> RIP
+> DIP
+v SIP
+> HIP
+
+536) Bots starting from a given HTTP link and then following all links on the provided Web site in a recursive way is called _______.
+> trailing
+v spidering
+> spoofing
+> crowding
+
+537) ______ attempts to monopolize all of the available request handling threads on the Web server by sending HTTP requests that never complete.
+> HTTP
+> Reflection attacks
+> SYN flooding
+v Slowloris
+
+538) A characteristic of reflection attacks is the lack of _______ traffic
+v backscatter
+> network
+> three-way
+> botnet
+
+539) In both direct flooding attacks and ______ the use of spoofed source addresses results in response packets being scattered across the Internet and thus detectable.
+v SYN spoofing attacks
+> indirect flooding attacks
+> ICMP attacks
+> system address spoofing
+
+540) In a _______ attack the attacker creates a series of DNS requests containing the spoofed source address for the target system.
+> SYN flood
+v DNS amplification
+> poison packet
+> UDP flood
+
+541) It is possible to specifically defend against the ______ by using a modified version of the TCP connection handling code.
+> three-way handshake
+> UDP flood
+v SYN spoofing attack
+> flash crowd
+
+542) Modifying the system's TCP/IP network code to selectively drop an entry for an incomplete connection from the TCP connections table when it overflows, allowing a new connection attempt to proceed is _______.
+> poison packet
+> slashdot
+> backscatter traffic
+v random drop
+
+543) When a DoS attack is detected, the first step is to _______.
+v identify the attack
+> analyze the response
+> design blocking filters
+> shut down the network
+
+560) T/F: SQL Server allows users to create roles that can then be assigned access rights to portions of the database.
+v True
+> False
+
+563) T/F: Encryption becomes the last line of defense in database security.
+v True
+> False
+
+567) T/F: A view cannot provide restricted access to a relational database so it cannot be used for security purposes.
+> True
+v False
+
+568) T/F: Two disadvantages to database encryption are key management and inflexibility.
+v True
+> False
+
+574) To create a relationship between two tables, the attributes that define the primary key in one table must appear as attributes in another table, where they are referred to as a foreign key.
+v True
+> False
+
+575) The two commands that SQL provides for managing access rights are ALLOW and DENY.
+> True
+v False
+
+576) SQL Server allows users to create roles that can then be assigned access rights to portions of the database.
+v True
+> False
+
+577) Encryption can be applied to the entire database, at the record level, at the attribute level, or at the level of the individual field
+v True
+> False
+
+578) A(n) __________ is a structured collection of data stored for use by one or more applications.
+v database
+> attribute
+> database
+> tuple
+> inference
+
+579) The basic building block of a __________ is a table of data, consisting of rows and columns, similar to a spreadsheet.
+v relational database
+> relational database
+> query set
+> DBMS
+> perturbation
+
+580) An end user who operates on database objects via a particular application but does not own any of the database objects is the __________.
+v end user other than application owner
+> application owner
+> end user other than application owner
+> foreign key
+> administrator
+
+581) __________ is an organization that receives the encrypted data from a data owner and makes them available for distribution to clients.
+v Server
+> User
+> Client
+> Data owner
+> Server
+
+582) The __________ cloud infrastructure is a composition of two or more clouds that remain unique entities but are bound together by standardized or proprietary technology that enables data and application portability.
+v hybrid
+> hybrid
+> community
+> private
+> public
+
+583) T/F: A query language provides a uniform interface to the database.
+v True
+> False
+
+584) T/F: A single countermeasure is sufficient for SQLi attacks.
+> True
+v False
+
+585) T/F: To create a relationship between two tables, the attributes that define the primary key in one table must appear as attributes in another table, where they are referred to as a foreign key.
+v True
+> False
+
+586) T/F: The value of a primary key must be unique for each tuple of its table.
+v True
+> False
+
+587) T/F: A foreign key value can appear multiple times in a table.
+v True
+> False
+
+588) T/F: A view cannot provide restricted access to a relational database so it cannot be used for security purposes.
+> True
+v False
+
+589) T/F: The database management system makes use of the database description tables to manage the physical database.
+v True
+> False
+
+590) T/F: The cloud carrier is useful when cloud services are too complex for a cloud consumer to easily manage.
+> True
+v False
+
+591) T/F: Fixed server roles operate at the level of an individual database.
+> True
+v False
+
+592) T/F: SQL Server allows users to create roles that can then be assigned access rights to portions of the database.
+v True
+> False
+
+593) T/F: An IDS is a set of automated tools designed to detect unauthorized access to a host system.
+v True
+> False
+
+594) T/F: Business continuity consists of security services that allocate access, distribute, monitor, and protect the underlying resource services.
+> True
+v False
+
+595) T/F: An IPS incorporates IDS functionality but also includes mechanisms designed to block traffic from intruders.
+v True
+> False
+
+596) T/F: The CSP can provide backup at multiple locations, with reliable failover and disaster recovery facilities.
+v True
+> False
+
+597) T/F: Encryption is a pervasive service that can be provided for data at rest in the cloud
+v True
+> False
+
+598) To create a relationship between two tables, the attributes that define the primary key in one table must appear as attributes in another table, where they are referred to as a foreign key.
+v True
+> False
+
+599) The two commands that SQL provides for managing access rights are ALLOW and DENY.
+> True
+v False
+
+600) SQL Server allows users to create roles that can then be assigned access rights to portions of the database.
+v True
+> False
+
+601) Encryption can be applied to the entire database, at the record level, at the attribute level, or at the level of the individual field
+v True
+> False
+
+602) A(n) __________ is a structured collection of data stored for use by one or more applications.
+v database
+> attribute
+> database
+> tuple
+> inference
+
+603) The basic building block of a __________ is a table of data, consisting of rows and columns, similar to a spreadsheet.
+v relational database
+> relational database
+> query set
+> DBMS
+> perturbation
+
+604) An end user who operates on database objects via a particular application but does not own any of the database objects is the __________.
+v end user other than application owner
+> application owner
+> end user other than application owner
+> foreign key
+> administrator
+
+605) __________ is an organization that receives the encrypted data from a data owner and makes them available for distribution to clients.
+v Server
+> User
+> Client
+> Data owner
+> Server
+
+606) The __________ cloud infrastructure is a composition of two or more clouds that remain unique entities but are bound together by standardized or proprietary technology that enables data and application portability.
+v hybrid
+> hybrid
+> community
+> private
+> public
+
+621) A query language provides a uniform interface to the database.
+v True
+> False
+
+622) A single countermeasure is sufficient for SQLi attacks.
+> True
+v False
+
+623) To create a relationship between two tables, the attributes that define the primary key in one table must appear as attributes in another table, where they are referred to as a foreign key.
+v True
+> False
+
+624) The value of a primary key must be unique for each tuple of its table.
+v True
+> False
+
+625) A foreign key value can appear multiple times in a table.
+v True
+> False
+
+626) A view cannot provide restricted access to a relational database so it cannot be used for security purposes.
+> True
+v False
+
+627) The database management system makes use of the database description tables to manage the physical database.
+v True
+> False
+
+628) Two disadvantages to database encryption are key management and inflexibility.
+v True
+> False
+
+629) Fixed server roles operate at the level of an individual database.
+> True
+v False
+
+630) SQL Server allows users to create roles that can then be assigned access rights to portions of the database.
+v True
+> False
+
+631) A data center generally includes backup power supplies.
+v True
+> False
+
+632) Site security of the data center itself includes barriers to entry, coupled with authentication techniques for gaining physical access.
+> True
+v False
+
+633) Network security is extremely important in a facility in which such a large collection of assets is concentrated in a single place and accessible by external network connections.
+v True
+> False
+
+634) Security specifically tailored to databases is an increasingly important component of an overall organizational security strategy.
+v True
+> False
+
+635) Encryption becomes the last line of defense in database security.
+v True
+> False
+
+636) A(n) __________ is a structured collection of data stored for use by one or more applications.
+> attribute
+v database
+> tuple
+> inference
+
+637) The basic building block of a __________ is a table of data, consisting of rows and columns, similar to a spreadsheet.
+v relational database
+> query set
+> DBMS
+> perturbation
+
+638) Inv relational database parlance, the basic building block is a __________, which is a flat table.
+> attribute
+> tuple
+> primary key
+v relation
+
+639) In a relational database rows are referred to as _________.
+> relations
+> attributes
+> views
+v tuples
+
+640) A _________ is defined to be a portion of a row used to uniquely identify a row in a table.
+> foreign key
+> query
+v primary key
+> data perturbation
+
+641) A _________ is a virtual table.
+> tuple
+> query
+v view
+> DBMS
+
+642) A(n) __________ is a user who has administrative responsibility for part or all of the database.
+v administrator
+> database relations manager
+> application owner
+> end user other than application owner
+
+643) An end user who operates on database objects via a particular application but does not own any of the database objects is the __________.
+> application owner
+v end user other than application owner
+> foreign key
+> administrator
+
+644) __________ is the process of performing authorized queries and deducing unauthorized information from the legitimate responses received
+> Perturbation
+v Inference
+> Compromise
+> Partitioning
+
+645) A ___________ is the portion of the data center that houses data processing equipment.
+v computer room
+> main distribution area
+> entrance room
+> horizontal distribution
+
+646) __________ houses cross-connects and active equipment for distributing cable to the equipment distribution area
+> Main distribution area
+> Equipment distribution area
+v Horizontal distribution area
+> Zone distribution area
+
+647) __________ encompasses intrusion detection, prevention and response.
+v Intrusion management
+> Security assessments
+> Database access control
+> Data loss prevention
+
+648) _________ is an organization that produces data to be made available for controlled release, either within the organization or to external users.
+> Client
+v Data owner
+> User
+> Server
+
+649) __________ is an organization that receives the encrypted data from a data owner and makes them available for distribution to clients.
+> User
+> Client
+> Data owner
+v Server
+
+650) __________ specifies the minimum requirements for telecommunications infrastructure of data centers.
+v TIA-492
+> RFC-4949
+> NIST-7883
+> RSA-298
+
+657) Hashing unix implementations
+> Original scheme used DES for hashing
+> 12-bit salt
+> Password 8 character in length (forming 56-bit key)
+> Two-stage hashing
+> To slow hashing: Whole process is repeated 25 times
+> Result: 64-bit hash, then 64-bit block is translated to an 11-character sequence
+> NOW ITS WEAK e.g. supercomputer can process > 50 million password guesses in about 80 min: COMPATIBLE
+v All of the above
+
+658) What are some improved UNIX hash/salt schemes?
+> Scheme based on MD5 secure hash algorithm
+> 48-bit salt
+> Unlimited password length
+> To slow hashing process: hashed with 1000 times (inner loop)
+> Result: 128-bit hash
+> OpenBSD uses Blowfish block cipher based hash algorithm called Bcrypt
+> 128-bit salt
+> Password up to 55 characters
+> Result: 192-bit hash
+v All of the above
+
+665) What are some vulnerabilities from a password file access control?
+> exploit O/S bug to extract password file
+> accident of protection renders password file readable
+> users with same password on other systems
+> access from unprotected backup media (poor physical security)
+> sniff passwords in unprotected network traffic
+v All of the above
+
+666) What are some extremes that occur with users making passswords?
+> Extreme 1: Many users choose passwords that are too short, too easy to guess
+> Extreme 2: System can assign random passwords to users, but users won't remember them, the furthest or highest degree of something
+v All of the above
+
+667) What are the 4 goals in eliminating guessable passwords while allowing the user to select a password thats memorizable?
+> user education
+> computer-generated passwords
+> reactive password checking (e.g., "Jack the Ripper" password cracker)
+> proactive password checking (e.g., pam_passwdqc)
+v All of the above
+
+690) User authentication is the fundamental building block and the primary line of defense.
+v True
+> False
+
+691) Identification is the means of establishing the validity of a claimed identity provided by a user.
+v True
+> False
+
+692) Depending on the details of the overall authentication system, the registration authority issues some sort of electronic credential to the subscriber.
+> True
+v False
+
+693) Many users choose a password that is too short or too easy to guess.
+v True
+> False
+
+694) User authentication is a procedure that allows communicating parties to verify that the contents of a received message have not been altered and that the source is authentic
+> True
+v False
+
+695) A good technique for choosing a password is to use the first letter of each word of a phrase.
+v True
+> False
+
+696) User authentication is the basis for most types of access control and for user accountability.
+v True
+> False
+
+697) Memory cards store and process data
+> True
+v False
+
+698) Depending on the application, user authentication on a biometric system involves either verification or identification.
+v True
+> False
+
+699) Enrollment creates an association between a user and the user's biometric characteristics.
+v True
+> False
+
+700) An individual's signature is not unique enough to use in biometric applications.
+> True
+v False
+
+701) Identifiers should be assigned carefully because authenticated identities are the basis for other security services.
+v True
+> False
+
+702) A smart card contains an entire microprocessor.
+v True
+> False
+
+703) Keylogging is a form of host attack.
+> True
+v False
+
+704) In a biometric scheme some physical characteristic of the individual is mapped into a digital representation.
+v True
+> False
+
+705) _________ defines user authentication as "the process of verifying an identity claimed by or for a system entity".
+v RFC 4949
+> RFC 2298
+> RFC 2493
+> RFC 2328
+
+706) Presenting or generating authentication information that corroborates the binding between the entity and the identifier is the ___________.
+> identification step
+v verification step
+> authentication step
+> corroboration step
+
+707) Recognition by fingerprint, retina, and face are examples of __________.
+> face recognition
+> dynamic biometrics
+v static biometrics authentication
+> token
+
+708) A __________ is a password guessing program.
+> password hash
+v password cracker
+> password biometric
+> password salt
+
+709) The __________ strategy is when users are told the importance of using hard to guess passwords and provided with guidelines for selecting strong passwords.
+> reactive password checking
+> proactive password checking
+> computer-generated password
+v user education
+
+710) A __________ strategy is one in which the system periodically runs its own password cracker to find guessable passwords.
+> user education
+> proactive password checking
+v reactive password checking
+> computer-generated password
+
+711) The most common means of human-to-human identification are __________.
+v facial characteristics
+> signatures
+> retinal patterns
+> fingerprints
+
+712) __________ systems identify features of the hand, including shape, and lengths and widths of fingers.
+> Signature
+v Hand geometry
+> Fingerprint
+> Palm print
+
+713) Each individual who is to be included in the database of authorized users must first be __________ in the system.
+> verified
+> authenticated
+> identified
+v enrolled
+
+714) To counter threats to remote user authentication, systems generally rely on some form of ___________ protocol.
+> eavesdropping
+> Trojan horse
+v challenge-response
+> denial-of-service
+
+715) A __________ is when an adversary attempts to achieve user authentication without access to the remote host or to the intervening communications path.
+v client attack
+> eavesdropping attack
+> host attack
+> Trojan horse attack
+
+716) A __________ is directed at the user file at the host where passwords, token passcodes, or biometric templates are stored
+> eavesdropping attack
+> denial-of-service attack
+> client attack
+v host attack
+
+717) A __________ attack involves an adversary repeating a previously captured user response.
+> client
+v replay
+> Trojan horse
+> eavesdropping
+
+718) An institution that issues debit cards to cardholders and is responsible for the cardholder's account and authorizing transactions is the _________.
+> cardholder
+> auditor
+v issuer
+> processor
+
+719) __________ allows an issuer to access regional and national networks that connect point of sale devices and bank teller machines worldwide.
+v EFT
+> POS
+> BTM
+> ATF
+
+727) Hardware is the most vulnerable to attack and the least susceptible to automated controls.
+v True
+> False
+
+732) Like the MAC, a hash function also takes a secret key as input.
+> True
+v False
+
+735) The advantage of a stream cipher is that you can reuse keys.
+> True
+v False
+
+741) Depending on the details of the overall authentication system, the registration authority issues some sort of electronic credential to the subscriber.
+> True
+v False
+
+743) An individual's signature is not unique enough to use in biometric applications.
+> True
+v False
+
+751) A constraint is a defined relationship among roles or a condition related to roles.
+v True
+> False
+
+758) A packet filtering firewall is typically configured to filter packets going in both directions.
+v True
+> False
+
+759) A traditional packet filter makes filtering decisions on an individual packet basis and does not take into consideration any higher layer context.
+v True
+> False
+
+769) To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+v True
+> False
+
+775) ______ is the recommended technique for wireless network security.
+> Using encryption
+> Using anti-virus and anti-spyware software
+> Turning off identifier broadcasting
+v All of the above
+
+779) The most significant source of risk in wireless networks in the underlying communications medium.
+v True
+> False
+
+784) IPsec can assure that _________.
+> a router advertisement comes from an authorized router
+> a routing update is not forged
+> a redirect message comes from the router to which the initial packet was sent
+v all of the above
+
+787) Search engines support HTTPS.
+> True
+v False
+
+794) The approach taken by Kerberos is using authentication software tied to a secure authentication server.
+v True
+> False
+
+795) The principal objective for developing a PKI is to enable secure, convenient, and efficient acquisition of private keys
+> True
+v False
+
+808) A virus that attaches to an executable program can do anything that the program is permitted to do.
+v True
+> False
+
+820) A threat action in which sensitive data are directly released to an unauthorized entity is __________.
+Select one:
+> disruption
+v exposure
+> corruption
+> intrusion
+
+821) Masquerade, falsifiv cation, and repudiation are threat av ctions that v cause __________ threat v consequenv ces.
+Selev ct one:
+> unauthorized disclosure
+> disruption
+v deception
+> usurpation
+
+822) __________ is the insertion of bits into gaps in a data stream to frustrate traffic analysis attempts.
+Select one:
+v Traffic padding
+> Traffic integrity
+> Traffic control
+> Traffic routing
+
+823) __________ assures that individuals control or influence what information related to them may be collected and stored and by whom and to whom that information may be disclosed.
+Select one:
+v Privacy
+> System Integrity
+> Avvailability
+> Data Integrity
+
+824) An assault on system security that derives from an intelligent act that is a deliberate attempt to evade security services and violate the security policy of a system is a(n) __________.
+Select one:
+> risk
+> vulnerability
+> asset
+v attack
+
+825) A flaw or weakness in a system's design, implementation, or operation and management that could be exploited to violate the system's security policy is a(n) __________.
+Select one:
+v vulnerability
+> countermeasure
+> risk
+v adversary
+
+826) A(n) __________ is an action, device, procedure, or technique that reduces a threat, a vulnerability, or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so that correct action can be taken.
+Select one:
+> protocol
+> attavk
+v countermeasure
+> adversary
+
+827) An example of __________ is an attempt by an unauthorized user to gain access to a system by posing as an authorized user.
+Select one:
+> repudiation
+v masquerade
+> inference
+> interception
+
+828) The assurance that data received are exactly as sent by an authorized entity is __________.
+Select one:
+v data integrity
+> data confidentiality
+v authentication
+v access control
+
+829) A ________ level breach of security could be expected to have a severe or catastrophic adverse effect on organizational operations, organizational assets, or individuals.
+Select one:
+> moderate
+v high
+> normal
+> low
+
+830) A __________ is any action that compromises the security of information owned by an organization.
+Select one:
+v security attack
+> security mechanism
+> security policy
+> security service
+
+831) A loss of _________ is the unauthorized disclosure of information.
+Select one:
+> integrity
+> availability
+v confidentiality
+> authentiv city
+
+832) A(n) _________ is an attempt to learn or make use of information from the system that v does not affect system resources.
+Select one:
+> active attack
+> inside attack
+> outside attack
+v passive attack
+
+833) The _________ prevents or inhiv bits the normal use or management of communications facilities.
+Select one:
+> passive attack
+v denial of service
+> masquerade
+> traffic encryption
+
+834) ________ assures that a system performs its intenv dev d function in an unimpairev d manner, free from v deliberate or inav dvertent unauthorizev d manipulation of the system.
+Select one:
+> Data Integrity
+> Confiv dentiality
+> Availability
+v System Integrity
+
+835) Threats are attacks carried out.
+True or False
+> True
+v False
+
+836) Computer security is protection of the integrity, availability, and
+confidentiality of information system resources.
+True or False
+v True
+> False
+
+837) Data integrity assures that information and programs are changed only
+in a specified and authorized manner.
+True or False
+v True
+> False
+
+838) Availability assures that systems works promptly and service is not
+denied to authorized users.
+True or False
+v True
+> False
+
+839) The "A" in the CIA triad stands for "authenticity".
+True or False
+> True
+v False
+
+840) The more critical a component or service, the higher the level of
+availability required
+True or False
+v True
+> False
+
+841) Computer security is essentially a battle of wits between a perpetrator
+who tries to find holes and the administrator who tries to close them.
+True or False
+v True
+> False
+
+842) Security mechanisms typically do not involve more than one particular
+algorithm or protocol.
+True or False
+> True
+v False
+
+859) The principal objectives of computer security are to prevent unauthorized users from gaining access to resources, to prevent legitimate users from accessing resources in an unauthorized manner, and to enable legitimate users to access resources in an authorized manner.
+v True
+> False
+
+860) Security labels indicate which system entities are eligible to access certain resources.
+> True
+v False
+
+861) A user may belong to multiple groups.
+v True
+> False
+
+862) An access right describes the way in which a subject may access an object.
+v True
+> False
+
+863) Any program that is owned by, and SetUID to, the ?superuser? potentially grants unrestricted access to the system to any user executing that program.
+v True
+> False
+
+864) ?No write down? is also referred to as the *-property.
+v True
+> False
+
+865) A subject can exercise only accesses for which it has the necessary authorization and which satisfy the MAC rules.
+v True
+> False
+
+866) One way to secure against Trojan horse attacks is the use of a secure, trusted operating system"
+v True
+> False
+
+867) Multilevel security is of interest when there is a requirement to maintain a resource in which multiple levels of data sensitivity are defined"
+v True
+> False
+
+868) The Common Criteria for Information Technology and Security Evaluation are ISO standards for specifying security requirements and defining evaluation criteria
+v True
+> False
+
+879) External attacks are the only threats to dataase security
+> True
+v False
+
+880) A virus that attaches to an executable program can do anything that hte program is permitted to do"
+v True
+> False
+
+881) It is not possible to spread a virus via a USB stick
+> True
+v False
+
+882) Many forms of infection can be blocked by denying normal users the right to modify programs on the system"
+v True
+> False
+
+883) A macro virus infects executable protions of code
+> True
+v False
+
+884) In addition to propagating, a worm usually carries some form of payload"
+v True
+> False
+
+893) Security mechanisms typically do not involve more than one particular algorithm or protocol
+> True
+v False
+
+894) The first step in devising security services and mechanisms is to develop a security policy"
+v True
+> False
+
+895) To exploit any type of buffer overflow the attacker needs to identify a buffer overflow vulnerability in some program that can be triggered using externally sourced data under the attackers control"
+v True
+> False
+
+896) Shellcode is not specific to a particular processor architecture
+> True
+v False
+
+897) An attacker can generally determine in advance exactly where the targeted buffer will be located in the stack frame of teh function in which it is defined
+> True
+v False
+
+898) It is possible to write a compiler tool to check any C program and identify all possible buffer overflow bugs
+> True
+v False
+
+899) The OpenSSL heartbleed vulnerability would have been prevented if OpenSSL had been implemented in Java"
+v True
+> False
+
+900) ASLR(if implemented correctly) can prevent return-to-libc attacks"
+v True
+> False
+
+913) each layer of code needs appropriate hardening measures in place to provide appropriate security services"
+v True
+> False
+
+914) it is possible for a system to be compromised during the installation process"
+v True
+> False
+
+915) The default configuration for many operating systems usually maximizes security
+> True
+v False
+
+916) A malicious driver can potentially bypass many security controls to install malware"
+v True
+> False
+
+917) Performing regular backups of data on a system is a critical control that assists with maintaining the integrity of the system and user data"
+v True
+> False
+
+918) Many users choose a password that is too short or too easy to guess"
+v True
+> False
+
+919) user authentication is a procedure that allows communicating parties to verify that the contents of a received message have not been altered and that the source is authentic
+> True
+v False
+
+920) in a biometric scheme some physical characteristic of the individual is mapped into a digital representation"
+v True
+> False
+
+933) A bot is a computer compromised by malware and under the control of a bot master"
+v True
+> False
+
+934) The best defense against being an unwitting participant in a DDos attack is to prevent your systems from being compromised"
+v True
+> False
+
+935) Botnet command and control must be centralized( i.e. all bots communicate with a central server(s))
+> True
+v False
+
+936) Both static and dynamic analyses are needed in order to fully understand malware behaviors"
+v True
+> False
+
+937) the domain name of the command and control server of a botnet are pre-determined for the lifetime of the botnet
+> True
+v False
+
+938) Some APT attacks last for years before they are detected"
+v True
+> False
+
+939) If we find that a botnet server is located in country X, we can be certain that criminals within country X control the botnet
+> True
+v False
+
+959) The principal objectives of computer security are to prevent unauthorized users from gaining access to resources, to prevent legitimate users from accessing resources in an unauthorized manner, and to enable legitimate users to access resources in an authorized manner.
+v True
+> False
+
+960) Security labels indicate which system entities are eligible to access certain resources.
+> True
+v False
+
+961) A user may belong to multiple groups.
+v True
+> False
+
+962) An access right describes the way in which a subject may access an object.
+v True
+> False
+
+963) Any program that is owned by, and SetUID to, the ?superuser? potentially grants unrestricted access to the system to any user executing that program.
+v True
+> False
+
+964) ?No write down? is also referred to as the *-property.
+v True
+> False
+
+965) A subject can exercise only accesses for which it has the necessary authorization and which satisfy the MAC rules.
+v True
+> False
+
+966) One way to secure against Trojan horse attacks is the use of a secure, trusted operating system"
+v True
+> False
+
+967) Multilevel security is of interest when there is a requirement to maintain a resource in which multiple levels of data sensitivity are defined"
+v True
+> False
+
+968) The Common Criteria for Information Technology and Security Evaluation are ISO standards for specifying security requirements and defining evaluation criteria
+v True
+> False
+
+979) External attacks are the only threats to dataase security
+> True
+v False
+
+980) A virus that attaches to an executable program can do anything that hte program is permitted to do"
+v True
+> False
+
+981) It is not possible to spread a virus via a USB stick
+> True
+v False
+
+982) Many forms of infection can be blocked by denying normal users the right to modify programs on the system"
+v True
+> False
+
+983) A macro virus infects executable protions of code
+> True
+v False
+
+984) In addition to propagating, a worm usually carries some form of payload"
+v True
+> False
+
+993) Security mechanisms typically do not involve more than one particular algorithm or protocol
+> True
+v False
+
+994) The first step in devising security services and mechanisms is to develop a security policy"
+v True
+> False
+
+995) To exploit any type of buffer overflow the attacker needs to identify a buffer overflow vulnerability in some program that can be triggered using externally sourced data under the attackers control"
+v True
+> False
+
+996) Shellcode is not specific to a particular processor architecture
+> True
+v False
+
+997) An attacker can generally determine in advance exactly where the targeted buffer will be located in the stack frame of teh function in which it is defined
+> True
+v False
+
+998) It is possible to write a compiler tool to check any C program and identify all possible buffer overflow bugs
+> True
+v False
+
+999) The OpenSSL heartbleed vulnerability would have been prevented if OpenSSL had been implemented in Java"
+v True
+> False
+
+1000) ASLR(if implemented correctly) can prevent return-to-libc attacks"
+v True
+> False
+
+1013) each layer of code needs appropriate hardening measures in place to provide appropriate security services"
+v True
+> False
+
+1014) it is possible for a system to be compromised during the installation process"
+v True
+> False
+
+1015) The default configuration for many operating systems usually maximizes security
+> True
+v False
+
+1016) A malicious driver can potentially bypass many security controls to install malware"
+v True
+> False
+
+1017) Performing regular backups of data on a system is a critical control that assists with maintaining the integrity of the system and user data"
+v True
+> False
+
+1018) Many users choose a password that is too short or too easy to guess"
+v True
+> False
+
+1019) user authentication is a procedure that allows communicating parties to verify that the contents of a received message have not been altered and that the source is authentic
+> True
+v False
+
+1020) in a biometric scheme some physical characteristic of the individual is mapped into a digital representation"
+v True
+> False
+
+1033) A bot is a computer compromised by malware and under the control of a bot master"
+v True
+> False
+
+1034) The best defense against being an unwitting participant in a DDos attack is to prevent your systems from being compromised"
+v True
+> False
+
+1035) Botnet command and control must be centralized( i.e. all bots communicate with a central server(s))
+> True
+v False
+
+1036) Both static and dynamic analyses are needed in order to fully understand malware behaviors"
+v True
+> False
+
+1037) the domain name of the command and control server of a botnet are pre-determined for the lifetime of the botnet
+> True
+v False
+
+1038) Some APT attacks last for years before they are detected"
+v True
+> False
+
+1039) If we find that a botnet server is located in country X, we can be certain that criminals within country X control the botnet
+> True
+v False
+
+1043) Which stages does a virus have?
+> Dormant phase
+> Propagation phase - i.e. attachment to email
+> Triggering phase
+> Execution phase
+v All viruses have these four stages
+
+1052) TCB Design Principles
+> Least Privilege
+> Economy
 > Open Design
-> Economy of Mechanisms
+> Complete Mediation
+> Fail-safe defaults
+> Ease of Use
+v All of the above
 
-20) In un sistema di Verifica e Identificazione Biometrica, la fase di Verifica potrebbe dare un esito inconcludente.
-v V
-> F
+1059) Access control is the central element of computer security.
+v True
+> False
 
-21) Una matrice di controllo degli accessi (Access Control Matrix) è definita da:
-soggetti (subjects) S = { s ,…,s }
-oggetti (objects) O = { o ,…,o }
-Diritti (rights) R = { r ,…,r }
-Quale è il significato di un elemento A[s, o ] = { r , ..., r } della matrice R?
-v Il soggetto s ha diritti r ,...,r sull'oggetto o
-> Il soggetto s può utilizzare le risorse r ,...,r dell'oggetto o
-> Il soggetto s non ha i diritti r ,...,r sull'oggetto o
+1060) The authentication function determines who is trusted for a given purpose.
+> True
+v False
 
-23) Il protocollo di Needham-Schroeder per la distribuzione delle chiavi non è vulnerabile ad attacchi di tipo Replay
-> V
-v F
+1061) An auditing function monitors and keeps a record of user accesses to system resources
+v True
+> False
 
-24) Quante chiavi usa un algoritmo a cifratura simmetrica?
-> Usa due chiavi, una per cifrare ed una per decifrare il messaggio
-v Usa una singola chiave sia per cifrare che per decifrare il messaggio
-> Il numero di chiavi utilizzate dipende dall'algoritmo scelto
+1062) The principal objectives of computer security are to prevent unauthorized users from gaining access to resources, to prevent legitimate users from accessing resources in an unauthorized manner, and to enable legitimate users to access resources in an authorized manner.
+v True
+> False
 
-25) Una delle primarie assunzioni dell'anomaly detection è la seguente: Le attività normali e quelle anomale non hanno evidenze distinte
-> V
-v F
+1063) Reliable input is an access control requirement.
+v True
+> False
 
-26) Mettendo a confronto RSA e DES, quali delle seguenti affermazioni è corretta?
-> La dimensione delle chiavi in RSA è fissa e definita dallo standard KO
-v RSA può essere utilizzato per lo scambio di chiavi nella cifratura a blocchi simmetrica (DES)
-> RSA garantisce una velocità di cifratura (bit/sec) maggiore rispetto al DES
-
-
-27) SSL è un protocollo a tre livelli. Al livello più basso (sopra al TCP) abbiamo il SSL Record Protocol, al secondo livello abbiamo il protocollo SSL Change Cipher Spec, ed al livello più alto abbiamo l'SSL Handshake protocol
-> V
-v F
-
-28) Considerando il protocollo SSL, quali delle seguenti affermazioni è corretta?
-> SSL non usa certificati X.509 per l'autentiicazione
-> SSL richiede l'uso di IPSec
-v SSL usa RSA per la cifratura a chiave pubblica
-
-29) Quali problemi ha un Anomaly Detection System basato su di un modello di Markov?
-> Il profilo degli utenti può evolvere nel tempo e quindi bisogna pesare i dati in modo appropriato
-v Il sistema ha bisogno di apprendere quali sono le sequenze valide
-> Il sistema ha bisogno di apprendere quali sono le sequenze anomale
-
-30) Quale delle seguenti è una tecnica di crittoanalisi?
-v Chosen Ciphertext
-> Know Ciphertext
-> Known Chipherkey
-
-31) Assumiamo che:
-A = insieme degli stati del sistema
-B = insieme degli stati sicuri del sistema
-Se il meccanismo di sicurezza applicato al sistema è tale che A è contenuto, ma non uguale a B, che tipo di meccanismo di sicurezza abbiamo?
-> Ampio
-> Preciso
-v Sicuro
-
-32) Quali tra i seguenti NON è un parametro SSL negoziato mediante il protocollo di handshake?
-> master secret
-v Kerberos TGS ticket
-> X.509 public-key certificate of peer
-
-33) Nella modalità Trasporto, IPSec usa
-AH per autenticare il payload IP
-ESP per cifrare il payload IP: se si usa IPv4 non viene cifrato l'header; se si usa IPv6 viene cifrato l'extension header.
-v V
-> F
-
-34) Nella modalità Trasporto, IPSec usa:
-AH per autenticare il payload IP
-ESP per cifrare l'inner IP packet (che include anche l'header)
-> Vero
-v Falso
-
-35) Assumiamo che:
-A = insieme degli stati del sistema
-B = insieme degli stati sicuri del sistema
-Se il meccanismo di sicurezza applicato al sistema è tale che A è uguale a B, che tipo di meccanismo di sicurezza abbiamo?
-> Ampio
-v Preciso
-> Sicuro
-
-36) Quali delle seguenti liste contiene solo parametri SSL negoziati mediante il protocollo di handshake?
-v session ID; compression algorithm; master secret OK
-> master secret; X.509 public-key certificate of peer; client_write_key
-> Change Cipher Spec; Alert; X.509 public-key certificate of peer
-
-img=https://i.imgur.com/iwCvLLu.png%
-37) Si consideri la seguente regola di firewall: quale delle seguenti affermazioni è corretta?
-v Solo il traffico generato da un host interno al firewall è ammesso verso la porta 25 di un host qualsiasi; Solo il traffico che appartiene ad una connessione già instaurata sulla porta 25 è ammesso indipendentemente dalla provenienza/destinazione.
-> Il traffico generato da un host interno al firewall verso la porta 25 è bloccato a meno che non appartenga ad una connessione già esistente.
-> Solo il traffico sulla porta 25 è ammesso indipendentemente dalla sorgente/destinazione, e dal tipo di messaggio.
-
-38) Un sistema Firewall è definito dagli RFC 2828 e 2979.
-Quali delle seguenti proprietà dovrebbe avere un Firewall?
-> Se nella rete delimitata dal Firewall ci sono sistemi non critici, il loro traffico può aggirare il Firewall.
-v Il Firewall deve essere immune alla penetrazione, facendo uso di un sistema trusted equipaggiato come un sistema operativo sicuro.
-> Le politiche di sicurezza del Firewall hanno il compito di re-indirizzare (re-routing) il traffico non sensibile proveniente dalla rete protetta in modo che il Firewall stesso non sia sovraccaricato inutilmente.
-
-39) Quale delle seguenti non è una tecnica di crittoanalisi?
-> Chosen Ciphertext
-> Known Plaintext
-v Know Ciphertext
-
-40) Un sistema crittografico (Criptosystem) è definito dalla quintupla (E, D, M, K, C) dove
-M insieme dei plaintexts
-K insieme delle chiavi
-C insieme ciphertexts
-E funzione di cifratura (encryption functions)
-D funzione di decifratura (decryption functions)
-Quale è la definizione corretta di E?
-> <code>E = { Ec : M --> K | c in C}</code>
-> <code>E = { Ek : C --> M | k in K}</code>
-v <code>E = { Ek : M --> C | k in K}</code>
-
-La cifratura a chiave pubblica può essere utilizzata per garantire la confidenzialità (confidentiality) o integrità/autenticazione (integrity/authentication) del messaggio, ma non entrambe.
-> V
-v F
-
-41) Tre approcci alternativi all'utenticazione di un messaggio sono:
-cifratura del messaggio
-calcolo di una hash function del messaggio
-calcolo di una keyed hash functions del messaggio
-v V
-> F

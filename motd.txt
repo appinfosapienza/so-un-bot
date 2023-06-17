@@ -12,7 +12,8 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 
 ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
 
-⚠️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande al momento presenti sono un sottoinsieme delle domande a risposta multipla degli appelli dell'a.a. 2021/2022. Ho selezionato alcune domande che rientrano nel programma (il programma dell'a.a. 2022/2023 è diverso!)
+ℹ️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande presenti sono prese dai test ufficiali forniti dagli autori del libro (versione inglese)
+Crediti: Raffaele Ruggeri
 
 ⚠️ IUM_unive si riferisce al corso dell'Università Ca' Foscari di Venezia. Non è il corso della Sapienza.
 

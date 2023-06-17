@@ -1,0 +1,229 @@
+1) L'autenticazione dei messaggi consente di
+(scegli una o più alternative)
+> Garantire la segretezza del messaggio
+> Garantire il non-ripudio del mittente (non-repudiation of origin)
+> Verificare l'integrità del messaggio
+> le prime due sono corrette
+v le ultime due sono corrette
+> la prima e l'ultima sono corrette
+
+2) Possiamo affermare che un sistema è sicuro se, partendo da uno stato autorizzato non entra mai in uno stato non-autorizzato
+v V
+> F
+
+3) Una delle primarie assunzioni dell'anomaly detection è la seguente:
+Le attività normali e quelle anomale non hanno evidenze distinte
+> V
+v F
+
+4) L'SSL Handshake Protocol permette al client ed al server di negoziare l'algoritmo di cifratura e l'algoritmo MAC.
+v V
+> F
+
+5) Quale delle seguenti è una caratteristica di un certificato utente (user certificate) generato da una CA?
+> Le chiavi pubbliche utente che sono state certificate dalla CA sono disponibili in una directory accessibile a chiunque
+v Ogni utente con accesso alla chiave pubblica della CA può recuperare la chiave pubblica utente che è stata certificata OK
+> Ogni utente con accesso alla chiave pubblica della CA può modificare il certificato senza essere scoperto
+
+6) Si consideri il Role-Based Access Control:
+I ruoli (role) possono essere utilizzati per gestire un'assegnazione di permessi che soddisfi il principio del Least Privilege.
+v V
+> F
+
+7) Un sistema di Misuse detection è in grado di identificare anche attacchi sconosciuti a chi sviluppa i set di regole.
+> V
+v F
+
+8) Il principio del Fail-Safe Defaults asserisce che se un soggetto non ha accesso esplicito a un oggetto, dovrebbe essere garantito l'accesso a quell'oggetto. Scegli una risposta:
+> V
+v F
+
+9) La cifratura a chiave pubblica trova campo di applicazione nella firma digitale ma non è opportuno utilizzarla per lo scambio di chiavi.
+> V
+v F
+
+10) La crittografia offre protezione solo da attacchi di passivi
+> V
+v F
+
+11) Quale è la definizione corretta di Mandatory Access Control?
+v Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali non possono alterare la politica di accesso.
+> Un meccanismo di sistema, basato su regole, che controlla l'accesso ad oggetti e in cui gli utenti individuali possono alterare la politica di accesso ai loro oggetti.
+> Un meccanismo, basato sull'identità, che permette agli utenti individuali di controllare chi può accedere o no agli oggetti del sistema.
+
+12) Il principio di Separazione dei Privilegi (Separation of Privilege) prevede che vengano verificate più condizioni per concedere i privilegi e che due o più componenti lavorino insieme per imporre il livello di sicurezza desiderato.
+v V
+> F
+
+13) Quali dei seguenti criteri vengono utilizzati nel Attribute-based Access Control per autorizzare o negare un operazione su di un oggetto?
+(scegli una o più alternative)
+> Attributi assegnati del soggetto
+> Condizioni dell'ambiente
+> Tipo di operazione da effettuare 
+v le prime due sono corrette
+> le ultime due sono corrette
+> la prima e l'ultima sono corrette
+
+15) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
+> Il Firewall non penalizza le prestazioni
+v Il Firewall è un single-point-of-failure
+> Il firewall non è un single-point-of-failure
+
+16) Considerando un sistema Firewall, quali delle seguenti affermazioni è corretta?
+> Il firewall, tracciando il traffico in uscita ed in entrate, protegge anche dagli Insider-attacks.
+> Il firewall non è un single-point-of-failure.
+v Il firewall è il punto centrale per le decisioni relative alla sicurezza di una rete.
+
+17) Supponiamo di dover definire una politica che vieti ad un programma di accedere al file delle password /etc/passwd.
+Supponiamo anche di usare un linguaggio ad alto livello, e che i metodi del programma per accedere ai file sono i seguenti:
+<pre>
+class File {
+public file(String name); //Crea un file
+public String getfilename(); // Restituisce il nome di un file
+public char read(); //Accede ad un file in lettura
+}
+</pre>
+Quali delle seguenti politiche è corretta?
+> allow( |-> file.read) when (file.getfilename() == "/etc/passwd")
+> deny( |-> file.read) when (file.file(/etc/passwd) == true)
+v deny( |-> file.read) when (file.getfilename() == "/etc/passwd")
+
+18) Si supponga di utilizzare un controllo di accessi basato sui ruoli (RBAC) per gestire i permessi in un'azienda.
+Si supponga che il dipendente U1 abbia funzione F1 e F1 è associata al ruolo R1.
+Se U1 viene rimpiazzato dal dipendente U2 nella funzione F1 quale delle seguenti affermazioni è corretta?
+> Il fatto che U2 rimpiazzi U1 nella sua funzione F1 non ha alcuna relazione con l'assegnazione di U2 ad un ruolo.
+> U2 può avere tutti i permessi di U1 solo se viene creato un nuovo ruolo R2=R1 e U2 viene assegnato a R2.
+v U2 acquisisce automaticamente tutti i permessi di U1.
+
+19) Quale tra i seguenti NON è uno dei principi di progettazione sicura dei sistemi?
+v Separation of Responsibilities
+> Open Design
+> Economy of Mechanisms
+
+20) In un sistema di Verifica e Identificazione Biometrica, la fase di Verifica potrebbe dare un esito inconcludente.
+v V
+> F
+
+21) Una matrice di controllo degli accessi (Access Control Matrix) è definita da:
+soggetti (subjects) S = { s ,…,s }
+oggetti (objects) O = { o ,…,o }
+Diritti (rights) R = { r ,…,r }
+Quale è il significato di un elemento A[s, o ] = { r , ..., r } della matrice R?
+v Il soggetto s ha diritti r ,...,r sull'oggetto o
+> Il soggetto s può utilizzare le risorse r ,...,r dell'oggetto o
+> Il soggetto s non ha i diritti r ,...,r sull'oggetto o
+
+23) Il protocollo di Needham-Schroeder per la distribuzione delle chiavi non è vulnerabile ad attacchi di tipo Replay
+> V
+v F
+
+24) Quante chiavi usa un algoritmo a cifratura simmetrica?
+> Usa due chiavi, una per cifrare ed una per decifrare il messaggio
+v Usa una singola chiave sia per cifrare che per decifrare il messaggio
+> Il numero di chiavi utilizzate dipende dall'algoritmo scelto
+
+25) Una delle primarie assunzioni dell'anomaly detection è la seguente: Le attività normali e quelle anomale non hanno evidenze distinte
+> V
+v F
+
+26) Mettendo a confronto RSA e DES, quali delle seguenti affermazioni è corretta?
+> La dimensione delle chiavi in RSA è fissa e definita dallo standard KO
+v RSA può essere utilizzato per lo scambio di chiavi nella cifratura a blocchi simmetrica (DES)
+> RSA garantisce una velocità di cifratura (bit/sec) maggiore rispetto al DES
+
+
+27) SSL è un protocollo a tre livelli. Al livello più basso (sopra al TCP) abbiamo il SSL Record Protocol, al secondo livello abbiamo il protocollo SSL Change Cipher Spec, ed al livello più alto abbiamo l'SSL Handshake protocol
+> V
+v F
+
+28) Considerando il protocollo SSL, quali delle seguenti affermazioni è corretta?
+> SSL non usa certificati X.509 per l'autentiicazione
+> SSL richiede l'uso di IPSec
+v SSL usa RSA per la cifratura a chiave pubblica
+
+29) Quali problemi ha un Anomaly Detection System basato su di un modello di Markov?
+> Il profilo degli utenti può evolvere nel tempo e quindi bisogna pesare i dati in modo appropriato
+v Il sistema ha bisogno di apprendere quali sono le sequenze valide
+> Il sistema ha bisogno di apprendere quali sono le sequenze anomale
+
+30) Quale delle seguenti è una tecnica di crittoanalisi?
+v Chosen Ciphertext
+> Know Ciphertext
+> Known Chipherkey
+
+31) Assumiamo che:
+A = insieme degli stati del sistema
+B = insieme degli stati sicuri del sistema
+Se il meccanismo di sicurezza applicato al sistema è tale che A è contenuto, ma non uguale a B, che tipo di meccanismo di sicurezza abbiamo?
+> Ampio
+> Preciso
+v Sicuro
+
+32) Quali tra i seguenti NON è un parametro SSL negoziato mediante il protocollo di handshake?
+> master secret
+v Kerberos TGS ticket
+> X.509 public-key certificate of peer
+
+33) Nella modalità Trasporto, IPSec usa
+AH per autenticare il payload IP
+ESP per cifrare il payload IP: se si usa IPv4 non viene cifrato l'header; se si usa IPv6 viene cifrato l'extension header.
+v V
+> F
+
+34) Nella modalità Trasporto, IPSec usa:
+AH per autenticare il payload IP
+ESP per cifrare l'inner IP packet (che include anche l'header)
+> Vero
+v Falso
+
+35) Assumiamo che:
+A = insieme degli stati del sistema
+B = insieme degli stati sicuri del sistema
+Se il meccanismo di sicurezza applicato al sistema è tale che A è uguale a B, che tipo di meccanismo di sicurezza abbiamo?
+> Ampio
+v Preciso
+> Sicuro
+
+36) Quali delle seguenti liste contiene solo parametri SSL negoziati mediante il protocollo di handshake?
+v session ID; compression algorithm; master secret OK
+> master secret; X.509 public-key certificate of peer; client_write_key
+> Change Cipher Spec; Alert; X.509 public-key certificate of peer
+
+img=https://i.imgur.com/iwCvLLu.png%
+37) Si consideri la seguente regola di firewall: quale delle seguenti affermazioni è corretta?
+v Solo il traffico generato da un host interno al firewall è ammesso verso la porta 25 di un host qualsiasi; Solo il traffico che appartiene ad una connessione già instaurata sulla porta 25 è ammesso indipendentemente dalla provenienza/destinazione.
+> Il traffico generato da un host interno al firewall verso la porta 25 è bloccato a meno che non appartenga ad una connessione già esistente.
+> Solo il traffico sulla porta 25 è ammesso indipendentemente dalla sorgente/destinazione, e dal tipo di messaggio.
+
+38) Un sistema Firewall è definito dagli RFC 2828 e 2979.
+Quali delle seguenti proprietà dovrebbe avere un Firewall?
+> Se nella rete delimitata dal Firewall ci sono sistemi non critici, il loro traffico può aggirare il Firewall.
+v Il Firewall deve essere immune alla penetrazione, facendo uso di un sistema trusted equipaggiato come un sistema operativo sicuro.
+> Le politiche di sicurezza del Firewall hanno il compito di re-indirizzare (re-routing) il traffico non sensibile proveniente dalla rete protetta in modo che il Firewall stesso non sia sovraccaricato inutilmente.
+
+39) Quale delle seguenti non è una tecnica di crittoanalisi?
+> Chosen Ciphertext
+> Known Plaintext
+v Know Ciphertext
+
+40) Un sistema crittografico (Criptosystem) è definito dalla quintupla (E, D, M, K, C) dove
+M insieme dei plaintexts
+K insieme delle chiavi
+C insieme ciphertexts
+E funzione di cifratura (encryption functions)
+D funzione di decifratura (decryption functions)
+Quale è la definizione corretta di E?
+> <code>E = { Ec : M --> K | c in C}</code>
+> <code>E = { Ek : C --> M | k in K}</code>
+v <code>E = { Ek : M --> C | k in K}</code>
+
+La cifratura a chiave pubblica può essere utilizzata per garantire la confidenzialità (confidentiality) o integrità/autenticazione (integrity/authentication) del messaggio, ma non entrambe.
+> V
+v F
+
+41) Tre approcci alternativi all'utenticazione di un messaggio sono:
+cifratura del messaggio
+calcolo di una hash function del messaggio
+calcolo di una keyed hash functions del messaggio
+v V
+> F
