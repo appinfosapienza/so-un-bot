@@ -220,3 +220,92 @@ v microkernel
 > monolitico
 > microkernel
 v a livelli
+
+43) In un file system che contiene un insieme di record, un record fisico corrisponde a un record logico se si parla di file con :
+> record definiti
+v record non bloccati 
+> record bloccati 
+> record di dimensioni variabili
+
+44) L'uso di link in un file system permette di creare dei collegamenti ai file. Se un file viene ritoccato fisicamente nel sistema, un eventuale hard link al file ______ e un eventuale soft link ______ .
+> "rimane valido" e "diventa non più valido"
+> "rimane valido" e "diventa valido"
+v "diventa non più valido" e "rimane valido"
+> "viene collegato ad un diverso file" e "è indefinito"
+
+45) Considerare un sistema operativo della IV generazione, include la caratteristica "sviluppo di interfacce grafiche"?
+> no, nella V generazione
+> no, nella III generazione
+> no, nella II generazione
+v sì, nella IV generazione
+
+46) Considerare un sistema operativo della IV generazione, include la caratteristica "gestione vincoli real-time"?
+> no, nella V generazione
+v no, nella III generazione
+> no, nella II generazione
+> sì, nella IV generazione
+
+47) Considerare un sistema operativo della IV generazione, include la caratteristica "memoria virtuale"?
+> no, nella V generazione
+v no, nella III generazione
+> no, nella II generazione
+> sì, nella IV generazione
+
+48) Considerare un sistema operativo della IV generazione, include la caratteristica "scheduling di processi basato sul tempo"?
+> no, nella V generazione
+v no, nella III generazione
+> no, nella II generazione
+> sì, nella IV generazione
+
+49) Considerare un sistema operativo per un moderno sistema di elaborazione con connessione ad una rete. Il sistema operativo: 
+> aumenta il livello di comunicazione fra moduli
+> usa un approccio a livelli
+v supporta funzioni per connessione alla rete
+> nessuna delle precedenti
+
+50) Considerare un sistema operativo per un moderno sistema di elaborazione con connessione ad una rete. Il sistema operativo: 
+> aumenta il livello di comunicazione fra moduli
+v gestisce un sistema connesso alla rete
+> usa un approccio a livelli
+> gestisce un singolo client connesso alla rete
+
+51) I sistemi time-sharing e i sistemi con multiprogrammazione in che relazione sono fra loro?
+v il sistema time-sharing prevede anche multiprogrammazione
+> il sistema time-sharing dipende dal livello di multiprogrammazione
+> il sistema con multiprogrammazione può comportarsi come un sistema time-sharing 
+
+52) Considerando gli stati di un processo, se un processo è dispatched se:
+> passa dallo stato "Esecuzione" allo stato "Pronto"
+> passa dallo stato "Esecuzione" allo stato "Bloccato"
+> passa dallo stato "Bloccato" allo stato "Pronto"
+v passa dallo stato "Pronto" allo stato "Esecuzione"
+
+52) Considerando gli stati di un processo, un processo che riceve una notifica attesa di un evento:
+> passa dallo stato "Esecuzione" allo stato "Pronto"
+> passa dallo stato "Esecuzione" allo stato "Bloccato"
+v passa dallo stato "Bloccato" allo stato "Pronto"
+> passa dallo stato "Pronto" allo stato "Esecuzione"
+
+53) Considerando gli stati di un processo, se il processo si blocca in attesa di un evento esterno:
+> passa dallo stato "Esecuzione" allo stato "Pronto"
+v passa dallo stato "Esecuzione" allo stato "Bloccato"
+> passa dallo stato "Bloccato" allo stato "Pronto"
+> passa dallo stato "Pronto" allo stato "Esecuzione"
+
+54) In una allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, i record logici sono _____ .
+> dipendenti l'uno dall'altro 
+> anche fisici
+v fisicamente adiacenti
+> fisicamente lontani l'uno dall'altro
+
+55) L'allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, permette generalmente: 
+> di ottenere ottime prestazioni
+> frammentazione interna 
+v di ottenere scarse prestazioni
+> nessuna delle precedenti
+
+55) L'allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, permette generalmente: 
+> di ottenere ottime prestazioni
+> frammentazione interna 
+v frammentazione esterna
+> nessuna delle precedenti
