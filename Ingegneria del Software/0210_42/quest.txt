@@ -1,0 +1,5 @@
+img=https://unspectacular-subdi.000webhostapp.com/0210_domanda_42.png
+Si consideri la seguente architettura software:
+
+
+Quale dei seguenti modelli Modelica meglio la rappresenta ?

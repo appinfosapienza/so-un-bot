@@ -1,0 +1,1 @@
+F(x, y, z) = if (x >= 0) then (z == pow(y, x)) else (z == 1)

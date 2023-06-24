@@ -1,0 +1,9 @@
+Un test oracle per un programma P è una funzione booleana che ha come inputs gli inputs  ed outputs  di P e ritorna true se e solo se il valore di output di P (con i dati inputs) è quello atteso dalle specifiche.
+Si consideri la seguente funzione C:
+-----------
+int f(int x, int y)  {   
+int z = x;
+while ( (x  <= z)  &&  (z <= y) )  { z = z + 1; }
+return (z);
+}
+Siano x, y, gli inputs del programma (f nel nostro caso) e z l'output. Assumendo il programma corretto, quale delle seguenti funzioni booleane F(x, y, z) è un test oracle per la funzione f.

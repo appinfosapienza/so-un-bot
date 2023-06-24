@@ -1,0 +1,3 @@
+output4);
+connect(sc1.output4, sc2.input4);
+connect(sc1.input5, sc
