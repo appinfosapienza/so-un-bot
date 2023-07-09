@@ -124,6 +124,9 @@ shell_2: ps -C xterm
 shell_2: kill -s SIGSTOP xtermPID
 shell_2: kill -s SIGCONT xtermPID</pre>
 Quale è il loro effetto su processo xterm?
+<code>
+(NOTA BENE: la risposta 3 viene data come corretta all'esame, anche se errata)
+</code>
 > Il processo xterm viene prima mandato in esecuzione in background e poi riportato in foreground
 v Il processo xterm viene mandato in esecuzione in background 
 > Il processo xterm viene prima portato nello stato stopped (T) e poi mandato in esecuzione in foreground
@@ -340,9 +343,12 @@ v La loro esecuzione produce sul terminale due stringhe identiche
 1. <code>printf("main:%s\n",strerror(errno));</code>
 2. <code>perror("main");</code>
 Quali delle seguenti affermazioni è corretta?
-> Producono stringhe diverse e la prima la invia su stdout mentre la seconda su stderr.
+<code>
+(NOTA BENE: la risposta 1 viene data come corretta all'esame, anche se in realtà differiscono di uno spazio)
+</code>
+v Producono stringhe diverse e la prima la invia su stdout mentre la seconda su stderr.
 > Inviano la stessa stringa su stdout
-v producono la stessa stringa ma la 1 la invia su stdout, mentre la 2 su stderr 
+> producono la stessa stringa ma la 1 la invia su stdout, mentre la 2 su stderr 
 
 44. Quale delle seguenti funzioni di libreria alloca memoria nello stack?
 > void *calloc( size_t nmemb, size_t size );
