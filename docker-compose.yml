@@ -1,4 +1,4 @@
-# An example Docker compose script
+# An example compose file to deploy the bot in a Docker environment
 
 version: '3.8'
 services:
