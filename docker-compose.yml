@@ -9,3 +9,4 @@ services:
     domainname: pve-docker.net.mrlc.cc
     volumes:
       - ./:/App/ACL
+      - /mnt/main/SSD/sobot_data/acl.json:/App/ACL/acl.json # Database might be stored on a different drive
