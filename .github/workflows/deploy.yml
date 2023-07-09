@@ -17,17 +17,9 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secrets.SSH_PORT }}
-          script: 'sh /mnt/cache/SSD/sobot_data/fetch.sh'
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v1
+      with:
+        url: '${{ secrets.DEPLOY_WEBHOOK_URL }}'
+        method: 'POST'
