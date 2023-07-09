@@ -1,0 +1,11 @@
+# An example Docker compose script
+
+version: '3.8'
+services:
+  bot:
+    image: 'sobot3'
+    restart: unless-stopped
+    hostname: so-un-bot
+    domainname: pve-docker.net.mrlc.cc
+    volumes:
+      - ./:/App/ACL
