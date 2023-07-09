@@ -1,3 +1,6 @@
+# Moodle Scraper
+# 2023 - Matteo Mariotti
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from dotenv import load_dotenv
