@@ -173,10 +173,10 @@ v random drop
 
 1120) the __________ mechanism assures that a received packet was in fact transmitted by the party identified as the source in the packet header and assures that the
 Packet has not been altered in transit.
->  confidentiality
->  authentication
->  security
-v key management
+> confidentiality
+v authentication
+> security
+> key management
 
 81) The output of the encryption function is fed back to the shift register in Output Feedback mode, whereas in ___________ the ciphertext unit is fed back to the shift register
 > Electronic Codebook mode
