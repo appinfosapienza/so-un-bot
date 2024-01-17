@@ -175,7 +175,7 @@ v Colui che li ha inventati
 v Si
 > No
 > Solo se la conversione è autorizzata dalle banche centrali
- 
+
 37) Il commercio elettronico disciplinato dal codice del consumo vale:
 > Per qualsiasi transazione effettuata con strumenti telematici
 > Per le transazioni con strumenti telematici tra consumatori
@@ -200,12 +200,12 @@ v Da quando l’interessato rilascia il consenso
 > Si
 > Si, se lo dice la legge
 v No
- 
+
 42) Scannerizzo ed appongo la mia firma ad un documento, questa è una firma elettronica avanzata?
 > Si
 > Si se poi non la contesto
 v No
- 
+
 43) Si può concludere un contratto via mail?	
 v Si.
 > Si se poi non lo contestano
