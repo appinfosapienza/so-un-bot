@@ -1,3 +1,4 @@
-Scraper/.env
-chromedriver.exe
+.idea
+Utils/moodle-scraper/.env
+Utils/moodle-scraper/chromedriver.exe
 acl.json
