@@ -10,6 +10,7 @@ services:
     # change to your local DNS zone (can be safely removed if not needed)
     # for example: in the production server is pve-docer.net.mrlc.cc
     domainname: ${DNS_ZONE}
+    pull_policy: build
     environment:
       # Leave /data unless you want to point to an external volume
       - DATA_PATH=/data

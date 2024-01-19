@@ -14,4 +14,4 @@ WORKDIR /App
 COPY --from=build-env /App/out .
 # Copy all the static data (questions, motd)
 COPY ./Data /data
-ENTRYPOINT ["dotnet", "HomeBot.dll"]
+ENTRYPOINT ["dotnet", "SoUnBot.dll"]
