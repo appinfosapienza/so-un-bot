@@ -2,3 +2,4 @@
 Utils/moodle-scraper/.env
 Utils/moodle-scraper/chromedriver.exe
 acl.json
+Bot/bin
