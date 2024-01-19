@@ -1,0 +1,41 @@
+"Benvenuto 👑
+Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica! 🤞.
+
+✅ Al momento tutte le domande presenti sono state verificate con l'aiuto di più studenti
+(un enorme grazie a @simone_s0, @loryspat, @Deco71, @mmatex123ab e sicuramente ne scordo qualcuno, perdonatemi 😢)
+
+ℹ️ Sistemi Operativi I si riferisce al corso del prof. Melatti (canale I)
+
+ℹ️ Sistemi Operativi II si riferisce al corso del prof. Casalicchio (canale II)
+
+ℹ️ OGA si riferisce al corso della prof.ssa Castaldo
+
+ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
+
+ℹ️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande presenti sono prese dai test ufficiali forniti dagli autori del libro (versione inglese)
+Crediti: Raffaele Ruggeri
+
+⚠️ IUM_unive si riferisce al corso dell'Università Ca' Foscari di Venezia. Non è il corso della Sapienza.
+
+Ho dato gli esami con quei professori. Ma se volete contribuire ad aggiungere altre domande (o nuovi corsi), il bot si sincronizza con il seguente repository:
+https://github.com/appinfosapienza/so-un-bot
+Pull requests sono ben accette! 🫂❤️
+
+🆘 Per segnalare errori, per proporre nuove domande 🙏, o semplicemente se questo bot ti fa schifo 😢, non esitare a contattarmi: @notherealmarco
+(Oppure puoi correggere errori in autonomia inviando una PR al repository GitHub)
+
+🧐 Per i più curiosi: il bot è scritto in C# (.NET 6.0) e gira su un server che ho in casa (come OS uso Proxmox)
+
+⭕️ Informativa sulla privacy:
+Il bot, per garantire il corretto funzionamento, potrebbe memorizzare il vostro ID utente Telegram in modo permanente.
+Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz.
+
+👷‍♀️Per avviare un modulo puoi utilizzare i seguenti comandi:
+/8linux (SO Modulo I)
+/so2 (SO Modulo II)
+/ogas (quiz OGAS)
+/ingsw (Ingegneria del Software)
+/sicurezza (Sicurezza ⚠️)
+/ium_unive (IUM Università Ca' Foscari di Venezia)
+
+Per cambiare modulo puoi usare il comando /leave

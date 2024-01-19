@@ -1,0 +1,1220 @@
+1. A quanti gruppi può appartenere un utente nel SO Linux?
+v Ad almeno un gruppo
+> Ad un solo gruppo
+> A zero o più gruppi
+
+2. Si supponga che nel sistema esiste un gruppo "studente" ed anche l'utente "utente1".
+Si supponga quindi di eseguire il comando <code>adduser utente1 studente</code>.
+Quale delle seguenti affermazioni è sbagliata?
+v Il comando genera un errore perché per aggiungere un utente ad un gruppo si può utilizzare solo il comando addgroup 
+> Se "utente1" non appartiene al gruppo "studente" lo aggiunge a tale gruppo altrimenti non lo aggiunge
+> Aggiunge utente1 al gruppo studente oppure genera un messaggio del tipo L'utente «utente1» fa già parte del gruppo «studente»
+
+3. Si supponga che nel sistema esiste un gruppo "studente" e non esista ancora l'utente "utente1".
+Si supponga quindi di eseguire il comando <code>sudo adduser utente1 studente</code>
+Quale sarà il risultato?
+v Da errore perché utente1 non esiste
+> Crea utente1 e, oltre a creare il gruppo utente1 lo aggiunge al gruppo studente
+> Crea utente1, lo aggiunge al gruppo studente e non crea il gruppo utente1
+
+4. Supponga di eseguire, come utente sudoer, i seguenti comandi: C1) sudo ls /home, C2) sudo su --command=’ls /homè. Quale affermazioneè corretta?
+> C2 da errore "comando non trovato"
+v C1 e C2 sono equivalenti
+> C2 esegue una setUID mentre C1 no
+
+5. Quale è la differenza tra i comandi sudo e su
+> sudo è un comando che permette di eseguire altri comandi come root; su è una scorciatoia per invocare il comando sudo
+v su è un comando che permette di cambiare utente. sudo è un camando che permette di eseguire altri comandi come super-utente 
+> sudo si riferisce ad un gruppo di utenti. su è invece un comando che permette di cambiare utente
+
+6. Di quante sezioni è composto il man di Linux?
+> 5
+> 7
+v 9
+
+7. Supponga di voler creare un file vuoto e di voler settare il tempo di ultimo accesso al "2 giugno 2020 ore 12:00". Quale dei seguenti comandi è corretto?
+v touch -at202006021200 filename
+> touch -cat202006021200 filename
+> touch -ct202006021200 filename
+
+8. Quale è il risultato del comando touch nomefile?
+> Crea un file vuoto con nome nomefile
+v Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile 
+> Crea un file vuoto con nome nomefile e ctime uguale al tempo corrente. Se si usa l'opzione -t o -d si può specificare un altro tempo di creazione 
+
+9. I premessi di acceesso della directory /tmp sono <code>1777/drwxrwxrwt</code>
+Cosa significa?
+> Il bit SetGid è settato
+> Lo sticky bit non è settatto
+v Lo sticky bit è settato
+
+10. Supponga di voler mostrare l’albero delle directory con radice dir1 e con profondità 3.
+Quale tra i seguenti comandi è il più apprropriato usare?(uscito 2 volte)
+> tree -d 3 dir1
+v tree -L 3 dir1
+> tree --max-depth=3 dir1
+
+11. Supponiamo vogliate visualizzare l’albero delle directory con radice nella vostra home. In particolare volete visualizzare solo le directory e non i file in esse contenuti.
+Quali tra i seguenti comandi è il più appropriato?
+v tree -d ~
+> tree -d -L 3 /home/myhomedir
+> tree -a ~
+
+12. Si supponga di avere un file di testo (filein) e di voler copiare in un altro file (fileout) i primi 100 caratteri. Quale di questi comandi è corretto?
+v dd if=filein of=fileout bs=100 count=1
+> dd if=filein of=fileout bs=1 skip=1 count=100
+> dd if=filein of=fileout bs=10 skip=10 count=10
+
+13. Si supponga di avere un file di testo (filein) contenente 1000 caratteri e di voler copiare in un altro file (fileout) 100 caratteri a partire dal decimo. Quale di questi comandi non produce il risultato atteso?
+> dd if=filein of=fileout bs=1 skip=10 count=100
+v dd if=filein of=fileout bs=100 seek=10 count=1
+> dd if=filein of=fileout bs=10 skip=1 count=10
+
+14. Quanti job in background crea il comando seguente?
+<code>sleep 30 | sleep 15 | sleep 10 &</code> 
+v 1
+> Nessuno, da errore
+> 3
+
+15. Quanti file system principali ha linux?
+> dipende dal numero di filesystem mondati al boot
+v 1
+> dipende dal numero di dischi installati
+
+16. In che file è contenuta la lista dei filesystem montati al boot?
+> /etc/mdev
+> /etc/mtab
+v /etc/fstab
+
+17. perché il comando passwd (ovvero il file eseguibile /usr/bin/passwd) ha il SetUID bit settato?
+v Per consentire a qualsiasi utente di modificare la propria password
+> Per evitare che un utente possa cancellare il file eseguibile passwd
+> Per evitare che un utente possa modificare le password degli altri utenti
+
+18. Supponiamo di avere il seguente makefile (memorizzato in un file di nome makefile):
+<pre>merge_sorted_lists: merge_sorted_lists.c
+gcc -Wall -Wextra -O3 merge_sorted_lists.c \
+-o merge_sorted_lists
+sort_file_int: sort_file_int.c
+gcc -Wall -Wextra -O3 sort_file_int.c \
+-o sort_file_int
+.PHONY: clean
+clean:
+rm -f *.o merge_sorted_lists</pre>
+supponendo che non esistono entrambi i file merge_sorted_lists e sort_file_int e lanciando il comando make, quale target viene eseguito?
+<b>Adesso posso scrivere in bold con l'HTML nelle domande yeee</b>
+v merge_sorted_list
+> entrambi
+> nessuno dei due. Va specificato quale vogliamo eseguire con il comando make <nome_target>
+
+19.	Assumiamo di compilare un file .c nei seguenti modi
+<pre>gcc file.c -o file1.o
+gcc -g file.c -o file2.o
+</pre>
+perché le dimensioni di file2.o sono diverse da quelle di file1.o?
+> perché file2.o è stato ottimizzato, per occupare meno spazio in memoria, rispetto a file1.o
+v perché file2.o contiene informazioni aggiuntive rispetto a file1.o utili per il debug
+> non è vero che i due comandi di compilazione producono file di dimensioni diverse
+
+20.	Assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e supponga di eseguire la sequenza di comandi che segue
+(shell_i: cmd indica che cmd è eseguitto nella shell_i, i=1,2).
+<pre>shell_1: xterm
+shell_2: ps -C xterm
+#restituisce xtermPID
+shell_2: kill -s SIGSTOP xtermPID
+shell_2: kill -s SIGCONT xtermPID</pre>
+Quale è il loro effetto su processo xterm?
+<code>
+(NOTA BENE: la risposta 3 viene data come corretta all'esame, anche se errata)
+</code>
+> Il processo xterm viene prima mandato in esecuzione in background e poi riportato in foreground
+v Il processo xterm viene mandato in esecuzione in background 
+> Il processo xterm viene prima portato nello stato stopped (T) e poi mandato in esecuzione in foreground
+
+21.	Si assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e si consideri la seguente sequenza di comandi
+(shell_i:cmd indica che cmd è eseguitto nella shell i, i=1,2)
+<pre>shell_1: xterm
+shell_2: ps -C xterm
+#restituisce xtermPID
+shell_2: kill -s SIGSTOP xtermPID</pre>
+Quale è il loro effetto?
+> Il processo xterm viene terminato con segnale SIGSTOP
+> Il processo xterm viene mandato in esecuzione in background
+v Il processo xterm viene messo in stato stopped (T)
+
+22.	Supponga di avere 2 file hw1.c e hw2.c contenenti il seguente codice(uscita 2 volte)
+hw1.c:
+<pre>#include <stdio.h>
+#include "hw2.c"
+int f(int argc, char *args[]) {
+  printf("Hello World!\n");
+  return 256;
+}
+</pre>
+hw2.c:<pre>
+int f(int argc, char *args[]);
+int main(int argc, char *args[]) {
+  return f(argc, args);
+}
+</pre>
+Quale dei seguenti comandi di compilazione genera errore?
+> gcc -Wall hw1.c -o hw.out
+v gcc -Wall hw1.c hw2.c -o hw.out
+> gcc hw1.c
+
+23.	Supponiamo di avere il file eseguibile (ottenuto dalla compilazione di una programma C) mioprogramma
+Questi due modi di invocare il programma sono equivalenti?
+<code>$ ./mioprogramma A B C</code>
+<code>$ ./mioprogramma < input.txt</code>
+dove input.txt contiene A B C
+v no, nel primo caso A B C vengono caricati in argv, nel secondo caso vengono inviati sullo stdin
+> dipende dalla logica del codice
+> si sono equivalenti
+
+24.	Quale è la differenza tra thread posix e processo linux (uscito 2 volte)
+> Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti pure
+> Thread concorrenti condividono lo stack; i processi concorrenti anche
+v Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti no
+
+25.	Per mostare il pid dei job in esecuzione in backgroud quali di questi comandi è corretto?
+v jobs -p
+> ps -p -u
+> jobs
+
+26. Quale di queste stringhe non è valida come identificatore in C?
+> _voltage
+> rerun
+v x-axis
+
+27. Quale di queste stringe è valida come identificatore in C?
+v _voltage
+> x-ray
+> return
+
+28. Si consideri la seguente funzione  f
+<pre>char *f(char *a, const char *b, size_t n) {
+    size_t i;
+    for (i = 0; i < n && b[i] != '\0'; i++)
+        a[i] = b[i];
+    for ( ; i < n; i++)
+           a[i] = '\0';
+        return a;
+}</pre>
+Cosa  produce come risultato quando eseguita?
+> Copia esattamente n caratteri della stringa b nella stringa a e restituisce a
+> Concatena al piò n caratteri della stringa  b alla stringa a e restituisce a
+v Copia al piò n caratteri della stringa b nella stringa a e restituisce a
+
+29. Si consideri la seguente funzione  f
+<pre>char *f(char *a, const char *b, size_t n) {
+    size_t l = strlen(a);
+    size_t i;
+    for (i = 0 ; i < n && b[i] != '\0' ; i++)
+        a[l + i] = b[i];
+    a[l + i] = '\0';
+return a;
+}</pre>
+Cosa  produce come risultato quando eseguita?
+> Copia al piò n caratteri della stringa b in a e restituisce a
+> Copia esattamente n caratteri della stringa b nella stringa a e restituisce a
+v Concatena i primi n caratteri della stringa b alla stringa  a  e restituisce a
+
+30. Si consideri la seguente dichiarazione di struttura
+<pre>struct point2D {
+    double x; // coordinata x
+    double y; // coordinata y
+}  pA={0, 0}, pB={1, 5};</pre>
+Quale delle seguenti assegnazioni è corretta?
+> pA -> x = pB -> x; pA -> y = pB -> y;
+> pA = &pB
+v pA = pB;
+
+31. Si consideri il seguente ciclo for
+<pre>int scoreCount, a;
+for(scoreCount=0; scanf("%d",&a)==1; scoreCount++);</pre>
+Cosa produrebbe come risultato, se eseguito?
+> Legge una sola volta da stdin e  poi termina, qualunque sia l'input
+> Legge  da stdin senza mai terminare
+v Legge ripetutamente numeri interi da stdin fintanto che è fornito un input di tipo diverso (ad esempio un carattere)
+
+32. Consideri  il seguente frammento  di codice
+<pre>int *ptr = malloc(sizeof(int));
+ptr = ptr+1;</pre>
+assumendo la malloc assegni a ptr la locazione di memoria 0x55c2b1268420 cosa contiene ptr dopo l’incremento?
+> <code>0x55c2b1268421</code>
+> l'incremento della variabile prt genera un errore di segmentazione in fase di esecuzione
+v <code>0x55c2b1268424</code>
+
+33. Cosa  stampa su stdout la seguente chiamata a printf? 
+<code>printf("aaaaa\nbbbbb\f\rccccc\r\fddddd\reeeee\n");</code>
+v aaaaa bbbbb ccccc eeeee
+> aaaaa bbbbb ccccc ddddd
+> aaaaa bbbbb ccccc ddddd eeeee
+
+34. Si consideri il seguente frammento di codice
+<pre>char **mptr, **mptr1, *ptr1;
+int i;
+mptr = calloc(10,sizeof(char *));
+mptr1 = mptr;
+for(i=0;i<10;i++){
+    mptr[i]=(char *)malloc(10);    
+}</pre>
+Per de-allocare tutta la memoria allocata, quale delle seguenti opzioni è coretta?
+> for(i=0;i<10;i++) free(mptr1[i]);
+v for(i=0;i<10;i++) free(mptr1[i]); free(mptr1);
+> free(mptr1);
+
+35. Si consideri il seguente frammento di codice
+<pre>char **mptr, *ptr1;
+int i;
+mptr = calloc(10,sizeof(char *));
+for(i=0;i<10;i++){
+    mptr[i]=(char *)malloc(10);    
+}</pre>
+Quale delle seguenti strategie di de-allocazione crea un memory leakage?
+> free(mptr);
+> for(i=0;i<10;i++) free(mptr[i]);
+v entrambe, ovvero sia (1) che (2)
+
+36. Si consideri un file contenente un programma in linguaggio C. Si assuma che è stata inserita la direttiva #include "stdio.h" . perché la compilazione potrebbe generare errori?
+v perché cerca il file "stdio.h" nella directory corrente
+> La compilazione non genera errori a meno che il file non esista nel filesystem
+> perché il file stdio.h potrebbe non esistere
+
+37. Quale delle seguenti dichiarazioni di variabile inizializza una stringa?
+> <code>char r[10] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code>
+v <code>char r[] = ``L9 4apr´´;</code>
+> <code>char r[] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code> 
+
+38. Quale è il modo corretto per controllare che due stringhe str1 e str2 sono uguali?
+<code>if strcmp(s1,s2)==0 { printf("stringhe uguali") }</code>
+<code>if (s1==s2) { printf("stringhe uguali") }</code>
+<code>if strcmp(s1,s2) { printf("stringhe uguali") }</code>
+
+39. Si consideri il seguente frammento di codice
+<pre>
+FILE * pFile;
+pFile = open("myfile.txt","rw+");
+fprintf(pFile, "%f %s", 3.1416, "PI");
+</pre>
+Assumendo che myfile.txt non esiste, quale delle seguenti affermazioni è vera?
+v Il programma genera  un errore in fase di esecuzione
+> Il programma genera errore in fase di compilazione
+> Il programma scrive sul file myfile.txt la stringa 3.1416 PI
+
+40. Cosa fa il seguente segmento di codice se eseguito?
+<pre>scanf(“%d",&num); 
+do; {
+printf(“%d\n",num); 
+scanf(“%d",&num);
+}  while(num!=0);</pre>
+> Stampa il valore di num almeno una  volta
+> Cicla infinitamente se num è diverso da 0
+> Popipopi S.p.A. > CD Click s.r.l.
+v Genera errore  in fase di compilazione
+
+41. Si consideri il frammento di codice
+<pre>i=0; c=0; p=1;
+while (i++ < 10)
+c=c+1;
+p--;</pre>
+che valore conterrà p al termine dell'esecuzione del frammento di codice?
+v 0
+> -10
+> -9
+
+42. Supponiamo di eseguire  separatamente i seguenti frammenti di codice
+<b>Frammento_1</b>
+<pre>close(2);
+if (fopen(".","r")) {
+           perror("main");
+}</pre>
+<b>Frammento_2</b>
+<pre>close(2);
+if (fopen(".","r")) {
+               printf("main: %s \n", strerror(errno));
+}</pre>
+Quale delle seguenti affermazioni è falsa?
+> Il frammento_1 non produce alcun output sul terminale
+v La loro esecuzione produce sul terminale due stringhe identiche
+> Il frammento_2 produce un output sullo stdout
+
+43. Consideriamo queste due line di codice
+1. <code>printf("main:%s\n",strerror(errno));</code>
+2. <code>perror("main");</code>
+Quali delle seguenti affermazioni è corretta?
+<code>
+(NOTA BENE: la risposta 1 viene data come corretta all'esame, anche se in realtà differiscono di uno spazio)
+</code>
+v Producono stringhe diverse e la prima la invia su stdout mentre la seconda su stderr.
+> Inviano la stessa stringa su stdout
+> producono la stessa stringa ma la 1 la invia su stdout, mentre la 2 su stderr 
+
+44. Quale delle seguenti funzioni di libreria alloca memoria nello stack?
+> void *calloc( size_t nmemb, size_t size );
+v void *alloca( size_t size );
+> void *malloc( size_t size );
+
+45. Un processo può allocare memoria nello stack?
+> no un processo può allocare memoria sono nell'heap
+> si mediante la funziona di libreria malloc(3)
+v si mediante la funzione di libreria alloca(3) 
+
+46. Quale è la differenza tra la system call _exit(2) e la funzione di libreria exit(3)? (uscita 2 volte) 
+> _exit(2) chiude tutti i file descriptor mentre exit(3) no
+v _exit(2) non invoca gli handler registrati con  atexit e on_exit mentre exit(3) li invoca
+> _exit(2) invoca gli handler registrati con atexit e on_exit mentre exit(3) non li invoca
+
+47. Quale attributi di un processo sono ereditati dal processo figlio?
+> parent pid, timer, contatori risorse 
+v working directory, descrittori dei file, memoria condivisa
+> timer, lock, coda dei segnali
+
+48. Si consideri il seguente frammento di codice
+<pre>pid_t pID = fork();
+if (pID == 0) {
+    Blocco_1
+} else if (pID < 0) {
+    Blocco_2
+} else {
+  Blocco_3
+}</pre>
+Quale blocco di codice (tra Bloccco_1,  Blocco_2 e  Blocco_3) verrà eseguito dal processo figlio?
+> Blocco_3
+v Blocco_1
+> Blocco_2
+
+49. Si consideri il seguente frammento di codice
+<pre>pid_t pID = fork();
+if (pID == 0) {
+    Blocco_1
+} else if (pID < 0) {
+    Blocco_2
+} else {
+  Blocco_3
+}</pre>
+Quale blocco di codice (tra Bloccco_1,  Blocco_2 e  Blocco_3) verrà eseguito dal processo padre?
+v Blocco_3
+> Blocco_1
+> Blocco_2
+
+50. Supponiamo che la system call
+<code>pid_t waitpid(pid_t pid, int *status, int options);</code>
+sia invocata con valore di pid uguale a 0. Quale è il suo comportamento?
+Scegli un'alternativa:
+> attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante
+v attende la terminazione di qualunque processo figlio il cui gruppo ID  sia uguale a quello del processo chiamante (ovvero il processo padre)
+> attende la terminazione di qualunque processo figlio
+
+51. Si consideri  il seguente frammento  di codice  (i numeri a lato sono i numeri di riga delle istruzioni)(uscita 2 volte)
+<pre>1.    Pthread_t tid;
+2.    pthread_create(&tid, ... )
+3.    pthread_create(&tid, ...)
+4.    pthread_join(tid, ...);
+5.    printf("joined");</pre>
+quale  delle seguenti affermazioni è falsa?
+> la stringa "joined" è inviata su stdout solo quando  il thread creato a riga 3 è terminato
+v la stringa "joined" è inviata su stdout quando entrambi i thread sono terminati
+> la chiamata pthread_join(...) attende la terminazione del thread con identificatore tid
+
+52. Si considerino i seguenti frammenti di codice  (R1 e R2)
+<pre>R1: strPtr=(char *) calloc(SIZE_OF_ARRAY, sizeof(char) );
+R2: strPtr=(char *) malloc(SIZE_OF_ARRAY);
+    memset(strPtr, ´\0´, SIZE_OF_ARRAY);</pre>
+v R1 e R2 producono lo stesso risultato
+> R2 dopo aver allocato la memoria la inizializza, mentre R1 no
+> R1 alloca nell’heap, e quindi dopo è consigliabile “pulire" la memoria; mentre R2 alloca nello stack e  quindi non c’è bisogno di “pulire" la memoria.
+
+53. Consideriamo la seguente invocazione della funzione realloc
+<code>strptr1=(char *) realloc(strptr, 10 * SIZE_OF_ARRAY);</code>
+strptr1 può essere diverso da strptr?
+> si, la realloc modifica sempre l'indirizzo di partenza dell'area di memoria ridimensionata
+> no, strptr1 è sempre uguale a strptr
+v sì se a seguito del ridimensionamento della memoria allocata non è possibile trovare un numero sufficiente di locazioni contigue a partire dal strptr 
+
+54. Supponiamo di voler modificare il comportamento di default di un processo quando esso riceve un segnale. Ovvero  vogliamo modificare il gestore (handler) di un segnale.
+Quale, tra  le system call, o combinazione di system call di seguito riportate è possibile utilizzare?
+v sigaction(2)
+> sigaction(2) seguita da una fork(2) che esegue l’handler del segnale
+> signal(2) seguita da una fork(2) che esegue l’handler del segnale
+
+55. Assumiamo di voler settare i permessi di accesso 0600 al file filename mediante l'uso della system call open(2). Quale delle seguenti chiamate è corretta?
+> open( "filename", O_RDWR | O_CREAT | S_IRUSR | S_IWUSR);
+> open("filename",O_RDWR | O_CREAT, S_IRUSR & S_IWUSR);
+v open( "filename", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
+
+56. Si consideri la system call
+<pre>int open(const char *pathname, int flags);
+nel caso venga invocata con il flag impostato a
+O_CREAT | O_EXCL | O_RDONLY</pre>
+Quale è il comportamento atteso?
+v Se il file non esiste viene creato ed aperto in lettura, se invece esiste ritorna errore
+> Se il file non esiste lo crea e lo apre in lettura, altrimenti lo apre in lettura
+> Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in lettura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in lettura
+
+57. Si consideri il seguente frammento di codice
+<pre>char* file = argv[1];
+int fd;
+struct flock lock;
+fd = open (file, O_WRONLY);
+memset (&lock, 0, sizeof(lock));
+lock.l_type = F_WRLCK;
+fcntl (fd, F_SETLKW, &lock);
+....</pre>
+Quale è il suo comportamento?
+> mette un lock mandatory in scrittura sul file file
+> mette un lock advisory in scrittura sul file file
+v mette un lock bloccante in scrittura sul file file.
+
+58. Quale è la differenza tra i seguenti frammenti di codice?
+<pre>C1: int fd, fd1;
+    fd=open(“filename", O_RDWR);
+    fd1=fd;
+</pre>
+<pre>C2: int fd,fd1;
+    fd=open(“filename", O_RDWR);
+    fd1=dup(fd);</pre>
+> Dopo l’esecuzione di C1 e C2 fd1 contiene lo stesso valore
+> Dopo l’esecuzione di C1 i due file descriptor puntano allo stesso file, mentre dopo l’esecuzione di  C2 il file filename viene duplicato
+v Dopo l’eseccuzione di C1 fd1 contiene lo stesso valore di  fd; mentre  dopo l’esecuzione di  C2  fd1 contiene il valore del piu’ piccolo file descriptor disponibile
+
+59. Si consideri  il  seguente frammento di codice
+<pre>int fd,fd1;
+struct stat buf,
+buf1;
+fd=open(“filename", O_RDWR);
+fd1=dup(fd); 
+fstat(fd,&buf);
+fstat(fd1,&buf1);</pre>
+v buf.st_ino è uguale a buf1.st_ino
+> buf.st_ino è diverso da buf1.st_ino
+> st_ino non è membro della struttura stat
+
+60. Supponiamo di avere il seguente  frammento di codice
+<pre>struct dirent *dentry; //directory stream
+    char *filename;
+    DIR *dstr=opendir(“mydir");
+    while ((dentry=readdir(dstr)) != NULL) {
+        /* Memorizzai nome file nella  directory  in filename  */
+         }</pre>
+Quale delle seguenti istruzioni deve  essere  posta all’interno  del  ciclo while per  memorizzare in filename  il nome dei file  contenuti all’interno della directory mydir ?
+v filename = dentry --> d_name;
+> filename = dentry.filename;
+> filename = dentry --> filename;
+
+61. Quali attributi di processo sono preservati dalla system call execve(2)?
+> Memory locks
+> Timer
+v Umask
+
+62. Si consideri la system call execve(2). Quale delle seguenti affermazioni è corretta?
+> la execve(2) permette di generare un proccesso figlio del processo chiamante senza utilizzare una fork ma semplicemente eseguendo un immagine contenuta in un file (execve esegue implicitamente la fork)
+v la execve(2) permette di sostituire l'immagine di un processo con quella di un file eseguibile o di uno script di shell eseguibile
+> la execve(2) è una estensione della funzione system(3). Infatti, execve(2) può eseguire un qualsiasi programma, incluso uno script di shell.
+
+64. Supponiamo di aver mappato un file in memoria con la system call mmap(2). A cosa serve invocare la msync(2)?
+v Impostando il tipo di mapping a MAP_SHARED la msync(2) permette di scrivere le modifiche su disco prima dell' invocazione di una unmap(2) o prima della chiusura del file descriptor. 
+> è necessario invocare sempre la msync(2) se non si vogliono perdere le modifiche fatte in memoria.
+> non serve invocare la mysinc perché quando si chiude il file descriptor tutte le modifiche fatte in memoria vengono scritte su disco
+
+65. Quale delle seguenti affermazioni sui processi Linux è falsa?
+> In un determinato istante, non possono esserci 2 processi distinti con lo stesso PID
+v Per creare i PID dei processi si usano dei numeri interi che crescono sempre
+> In istanti diversi, possono esserci 2 processi distinti con lo stesso PID
+> Ogni processo può conoscere il suo PID
+
+66. Quale delle seguenti affermazioni sui processi Linux è vera?
+> Normalmente, il processo figlio, una volta terminata la sua computazione, attende, con una chiamata alla syscall wait, che il padre termini e gli restituisca il suo exit status
+> Un processo diventa zombie se termina prima di almeno uno dei processi che abbia eventualmente creato
+> Ogni processo può conoscere il proprio PID, ma non quello del processo che l'ha creato
+v Con l'eccezione del primo processo, tutti i processi sono creati con una fork
+
+67. Quale delle seguenti affermazioni sui processi Linux è falsa?
+v Digitare un comando sulla shell genera sempre un nuovo processo
+> Esistono file che non possono essere eseguiti per diventare processi
+> Affinché un file possa diventare un processo è necessario che abbia i permessi di esecuzione
+> Qualsiasi computazione eseguita dal sistema operativo è contenuta dentro un qualche processo
+
+68. Quale delle seguenti affermazioni sui processi Linux è vera?
+v Eseguendo k volte un file eseguibile, si generano k diversi processi
+> Per poter lanciare un file eseguibile, è prima necessario aspettare che il comando precedente sia terminato
+> Tutti i processi sono sempre in stato di RUNNING
+> Un processo è sempre un'istanza di uno script bash
+
+69. Un programma scritto in linguaggio C:
+> Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘\n’
+> Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘^M’
+> Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘0’
+v Rappresenta le stringhe come array di caratteri terminate dal carattere ‘\0’
+
+70. Quale delle seguenti affermazioni è vera?
+> Linus Torvalds ha riscritto i pacchetti di Unix, creando i pacchetti GNU
+> Tutte le opzioni sono false
+> Linus Torvalds ha scritto il primo kernel di Linux all'inizio degli anni '80
+v Richard Stallman ha descritto per primo la licenza GPL
+
+71. Quali delle seguenti affermazioni è vera?
+> A. Nessuna delle opzioni è vera
+> È possibile montare un filesystem solo se è dichiarato nel file /etc/fstab
+v È possibile montare un filesystem solo se è dichiarato nel file /etc/mtab
+> D. Ad ogni filesystem corrisponde un disco fisico o parte di esso (partizione)
+
+72. Si supponga di avere il seguente frammento di codice:
+<code>FILE *stream = fopen(NOMEFILE, "w");</code>
+Quale dei seguenti frammenti di codice ha lo stesso effetto?
+> <code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT, 0666);</code>
+> <code>int fd = open(NOMEFILE, O_WRONLY | O_TRUNC);</code>
+> <code>int fd = open(NOMEFILE, O_WRONLY);</code>
+v <code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT | O_TRUNC, 0666);</code>
+
+73. 10. (questa domanda ha una crisi d'identità) Quale delle seguenti affermazioni sulle syscall di Linux che riguardano i files è falsa?
+> Chiamando la syscall select, è possibile monitorare un insieme di file descriptor, ed essere notificati non appena ce n'è uno che è diventato disponibile per un'operazione di lettura o scrittura
+v Per richiedere un lock su un file (o su una porzione di esso), occorre chiamare la syscall ioctl
+> È possibile usare la syscall select sia in modo bloccante che in modo non bloccante
+> Le syscall ioctl e fcntl ammettono 2 o 3 argomenti, a seconda dell'operazione
+
+74. 11. (☢ UNSAFE, segnalate a @notherealmarco se è corretta o meno 🙏) Quale delle seguenti affermazioni sui segnali Linux è vera?
+> Tutti i segnali, se non opportunamente catturati, provocano la terminazione del processo, con l'eccezione del segnale STOP
+> Per un processo è sempre possibile ridefinire il comportamento di un qualsiasi segnale
+> È possibile per un qualunque processo inviare un segnale ad un qualsiasi altro processo dello stesso utente
+v Nessuna delle altre affermazioni è vera
+
+75. 12. Quale delle seguenti affermazioni sugli errori delle syscall di Linux è vera?
+> Per stampare su stderr la spiegazione di un errore verificatosi in una syscall, il cui nome sia contenuto nella variabile syscall_name (di tipo char *), si può effettuare la seguente chiamata: perror("Si è verificato il seguente errore nella chiamata a %s", syscall_name);
+v Per stampare su stdout la spiegazione di un errore verificatosi in una syscall si può effettuare la seguente chiamata: printf("%s\n", strerror(errno));
+> Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è sufficiente chiamare perror
+> Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è necessario scrivere uno switch sulla variabile globale errno
+
+76. Si supponga di avere il seguente frammento di codice:
+FILE *stream = fopen("file_esistente.txt", "r");
+fseek(stream, -100, SEEK_END);
+long pos = ftell(stream);
+Quale dei seguenti frammenti di codice ha lo stesso effetto?
+a.<pre>
+int fd = open("file_esistente.txt", O_RDONLY);
+lseek(fd, -100, SEEK_END);
+long pos = lseek(fd, 0, SEEK_END);
+</pre>
+b.<pre>
+int fd = open("file_esistente.txt", O_RDONLY);
+lseek(fd, -100, SEEK_END);
+long pos = lseek(fd, 0, SEEK_CUR);
+</pre>
+c.<pre>
+int fd = open("file_esistente.txt", O_RDONLY);
+lseek(fd, -100, SEEK_END);
+long pos = lseek(fd, -100, SEEK_END);
+</pre>
+d.<pre>
+int fd = open("file_esistente.txt", O_RDONLY);
+lseek(fd, -100, SEEK_END);
+long pos = ltell(fd);
+</pre>
+> a
+v b
+> c
+> d
+
+76. Si consideri la seguente funzione <code>f</code>
+<pre>
+char *f(char *dest, const char *src, size_t n) {
+    size_t i;
+    for (i = 0; i < n && src[i] != '\0'; i++)
+        dest[i] = src[i];
+for ( ; i < n; i++)
+dest[i] = '\0';
+return dest;
+}
+</pre>
+Cosa produce come risultato quando eseguita?
+> Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe
+> Concatena la stringa src a dest e restituisce dest
+v Copia la stringa src in dest e restituisce dest
+
+77. Si consideri il seguente frammento di codice
+<pre>
+sigset_t set, oset, pset;
+...
+sigemptyset( &set );
+sigaddset( &set, SIGINT );
+sigaddset( &set, SIGUSR1 );
+sigprocmask( SIG_BLOCK, &set, &oset );
+...
+</pre>
+v Prepara una sezione critica (ovvero dopo la sigprocmask può inizare la sezione critica)
+> Disabilita tutti i segnali tranne SIGINT e SIGUSR1
+> Termina una sezione critica precedentemente iniziata
+
+78. Sia mylink un hard link al file myfile (<code>ln myfile mylink</code>).
+Quale di queste afferrmazioni è vera?
+> myfile e mylink hanno dimensione diversa
+v myfile e mylink hanno lo stesso numero di inode
+> myfile e mylink hanno un diverso numero di inode
+
+79. Supponendo di essere "loggato" in una shell come utente1.
+Quali dei seguenti è un path assoluto?
+> dir1/dir11/dir112/filename
+v <code>~/utente1/dir1/dir11/dir112/filename oppure ~/dir1/dir11/dir112/filename</code>
+
+80. Si supponga che nel sistema esiste un gruppo "studente".
+Si supponga di voler creare "utente1" e di volerlo aggiungere al gruppo studente.
+Quale dei seguenti comandi è corrretto?
+v <code>adduser utente1; adduser utente1 studente</code>
+> <code>adduser utente1 utente1 studente</code>
+> <code>adduser utente1 studente</code>
+
+81. Si considerino le seguenti dichiarazioni di variabili:
+<pre>
+int vect[10];
+int *ptr = NULL;
+</pre>
+Quale delle seguneti assegnazioni è corretta per far sì che ptr contanga il puntatore al vettore vect?
+v ptr = vect;
+> ptr = &vect
+> ptr = vect[1];
+
+82. Si supponda di avere 2 file hw1.c e hw2.c contenenti il seguente codice
+<pre>
+hw1.c:
+#include <stdio.h>
+#include "hw.2.c"
+int f(int argc, char *args[]) {
+printf("Hello World!\n");
+return 256;
+}
+</pre>
+<pre>
+hw2.c:
+int f(int argc, char *args[]);
+int main(int argc, char *args[]) {
+return f(argc, args);
+}
+</pre>
+Quale dei seguneti comandi di compilazione non genera errore?
+v <code>gcc -Wall hw1.c hw2.c -o hw.out</code> oppure <code>gcc -Wall hw1.c -o hw.out</code>
+> <code>gcc -Wall hw2.c -o hw.out</code>
+
+83. Si consideri il seguente frammento di codice
+<pre>
+pid_t pID = fork();
+if (pID == 0) {
+    Blocco_1
+} else if (pID < 0) {
+    Blocco_2
+} else {
+    Blocco_3
+}
+</pre>
+Quale blocco di codice (tra Bloccco_1, Blocco_2 e Blocco_3) verrà eseguito nel caso in cui la fork non vada a buon fine?
+> Blocco_1
+> Blocco_3
+v Blocco_2
+
+84. Si consideri il seguente frammento di codice
+<pre>
+for (i=0;((i<n1)&&(i<n2));i++)
+    m2[i]=m1[i];
+</pre>
+quando termina il ciclo for?
+> Termina solo se n1 è uguale a n2
+> Quando si raggiunge il più grande tra n1 e n2
+v Quando si raggiunge il più piccolo tra n1 e n2
+
+85. A seguito di una chiamata a fork(2), quale dei seguenti attributi del processo padre non è ereditato dal processo figlio?
+> groups id
+v coda dei segnali
+> descrittori dei file
+
+86. Si consideri il seguente frammento di codice
+<pre>
+struct stat *s;
+fd=open(“filename");
+fchmod(fd,00744);
+fstat(fd,s);
+</pre>
+Per visualizzare su sdtout i permessi di accesso a "filename", quale tra le seguenti opzioni è la più appropriata?
+> <code>printf("New File mode %x\n", s.st_mode);</code>
+v <code>printf("New File mode %o\n", s.st_mode);</code>
+> <code>printf("New File mode %s\n", s.st_mode);</code>
+
+87. Si consideri il seguente frammento di codice
+<pre>
+int n=2;
+int r=2 * (n++);
+</pre>
+<pre>
+int n=2;
+int r1=2 * (++n);
+</pre>
+Quale valori assumeranno le variabili r e r1 dopo l'esecuzione?
+> r = r1 = 4
+> r=6 e r1=4
+v r=4 e r1=6
+
+88. Supponiamo di avere la seguenti variabili
+<code>int x=1, y=7;</code>
+Quale delle seguneti espressioni è falsa?
+v <code>(x & y) == 7</code>
+> <code>(x | y) == 7</code>
+> <code>(x || y) == (x & y)</code>
+
+89. Per visualizzare l’atime di un file quale dei seguenti comandi è corretto?
+> <code>ls -lc nomefile</code>
+v <code>ls -lu nomefile</code>
+> <code>ls -la nomefile</code>
+
+90. Quali attributi del processo sono preservati dalla funzione di libreria execve()?
+> Memory locks
+> Timer
+v Umask
+
+91. I permessi di accesso del file eseguibile <code>/usr/bin/passwd</code> sono <code>4755/-rwsr-xr-x</code>
+Cosa significa?
+> Il bit SetUid non è settato
+> Lo sticky bit è settato
+v Il bit SetUid è settato
+
+92. Si assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e si consideri la seguente sequenza di comandi
+(shell_i:cmd indica che cmd è eseguitto nella  shell i, i=1,2).
+<pre>
+shell_1: xterm
+shell_2: ps -C xterm
+#restituisce xtermPID
+shell_2: kill -s SIGINT xtermPID
+</pre>
+Quale è il loro effetto?
+> Il processo xterm viene messo nello stato  stopped (T)
+v Il processo xterm viene terminato con segnale SIGINT
+> Il processo xterm viene messo in background
+
+93. Supponiamo di aver dichiarato ed inizializzato le seguenti variabili
+<code>int x = 1, y = 7;</code>
+Quale delle seguenti espressioni è vera (true)?
+v (x & y) == (x && y)
+> (x && y) == 7
+> (x & y) == (x | y)
+
+94. Si consideri la seguente funzione fa
+<pre>
+char *f(char *dest, const char *src, size_t n) {
+    size_t dest_len = strlen(dest);
+    size_t i;
+    for (i = 0; i < n && src[i] != '\0'; i++)
+        dest[dest_len + i] = src[i];
+    dest[dest_len + i] = '\0';
+return dest;
+}
+</pre>
+> Copia la stringa src in dest e restituisce dest
+v Concatena la stringa src a dest e restituisce dest
+> Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe
+
+95. Si supponga di avere un file di testo (filein) e di voler copiare in un altro file (fileout) 100 caratteri a partire dal decimo.
+Quale di questi comandi è corretto?
+> <code>cp -n10 -i100 filein fileout</code>
+v <code>dd if=filein of=fileout bs=1 skip=10 count=100</code>
+> <code>dd if=filein of=fileout bs=100 skip=10 count = 1</code>
+
+96. Sia mylink un soft link al file myfile (<code>ln -s myfile mylink</code>).
+Quale di queste affermazioni è vera?
+v myfile e mylink hanno un diverso numero di inode
+> myfile e mylink hanno lo stesso numero di inode
+> myfile e mylink hanno la stessa dimensione
+
+97. Si consideri il codice
+<pre>
+struct stat *s;
+fd = open("filename");
+fstat(fs, s);
+</pre>
+Come faccio a sapere se il file "filename" è un link?
+v Se S_ISLINK(s) == 1
+> Se s.st_size == 0
+> Se s_st_nlink == 1
+
+98. Quale tra i seguenti comandi è il modo più corretto per verificare a quali gruppi appartiene un utente?
+> <code>groups nomeutente</code>
+> <code>cat /etc/groups | grep nomeutente</code>
+
+99. Cosa fa sto ciclo?
+<code>for(scoreCount = 0; scanf("%d", &a) == 1; scoreCount++);</code>
+v Legge ripetutamente numeri interi da stdin
+> Legge una sola volta da stdin e poi termina
+> Legge da stdin senza mai terminare
+
+100. Quale delle seguenti funzioni di libreria non alloca nell'heap?
+> calloc
+> malloc
+v alloca
+
+101. Si consideri il seguente frammento di codice
+<pre>
+sigset_t set, oset, pset;
+...
+sigemptyset( &set );
+sigaddset( &set, SIGINT );
+sigaddset( &set, SIGUSR1 );
+sigprocmask( SIG_BLOCK, &set, &oset );
+...
+</pre>
+> Termina una sezione critica precedentemente iniziata
+> Disabilita tutti i segnali tranne SIGINT e SIGUSR1
+v Disabilita i segnali SIGINT e SIGUSR1
+
+102. Per visualizzare contemporaneamente l'access time e status change time di un file, quale dei seguenti comandi è corretto?
+v stat nomefile
+> ls -la nomefile
+> ls -lac nomefile
+
+103. Consideri  il seguente frammento  di codice
+<pre>int *ptr = malloc(sizeof(int));
+ptr = ptr+1;</pre>
+assumendo la malloc assegni a ptr la locazione di memoria 0x55c2b1268420 cosa contiene ptr dopo l’incremento?
+> <code>0x55c2b1268421</code>
+> <code>0x55c2b1268428</code>
+v <code>0x55c2b1268424</code>
+
+104. Che cosa si intende per sudoer nel gergo Linux?
+> Un comando per essere aggiunti al gruppo sudo
+> Un gruppo che permette ai suoi membri di eseguire comandi come super-utente
+v Un utente che appartiene al gruppo di utenti sudo
+
+105. Assumiamo che quando viene creata una directory i suoi permessi di accesso sono 0644.
+Quale sarà la umask?
+> 0644
+> 0022
+v 0133
+
+106. Se una directory ha i permessi di accesso settati come 0222, quali operazioni è possibile fare su di essa?
+v Nessuna operazione
+> Operazioni di scrittura ed e possibile visualizzarne il contenuto senza vedere gli attributi dei file
+> Operazioni di scrittura
+
+107. Assumete di voler visualizzare il numero di inode di un file, quale dei seguenti comandi è più corretto usare?
+> ls -l -n nomefile
+> stat -f nomefile
+v ls -1 -i nomefile
+
+108. Quando si esegue il comando ls -l viene mostrato, come prima informazione, il totale (vedi figura, ma non sul bot :p)
+Quale è il significato di questo campo?
+v Dimensione della directory espressa in numero di blocchi su disco
+> Dimensione della directory espressa in numero di file contenuti in essa e in tutte le sotto-directory
+> Numero totale di sotto directory
+
+109. Si consideri il seguente frammento di codice:
+<pre>
+int num = 5;
+int *numPtr;
+numPtr = &num;
+*numPtr = 10;
+</pre>
+Dopo la sua esecuzione, quale sara' il valore contenuto il num ?
+> 5
+v 10
+> 0x123AF345 (indirizzo di memoria)
+
+110. Si consideri il seguente frammento di codice:
+<pre>
+int n= 2;
+int r= 2*(n++); // r = 2 * 2, n = 3
+int r1= 2*(++n); // n = 3 + 1, r1 = 2 * 4
+</pre>
+Quale delle seguenti espressioni sarà vera (true) una volta eseguito il codice?
+v r < r1
+> r > r1
+> r == r1
+
+112. Si consideri il comando
+<code>gcc -c file.c -o file.o</code>
+Quali delle seguenti affermazioni perché falsa?
+> Il comando produce un file oggetto a partire da un file precompilato
+> Il comando produce un file oggetto
+v Il comando produce un file eseguibile
+
+113. Cosa produce il seguente comando?
+<code>gcc file.o file2.o file3.o</code>
+v Un file eseguibile a.out
+> Nulla, la sintassi è sbagliata
+> Fa il linking dei file oggetto ma non produce nessun risultato finché non si specifica l'output
+
+114. Si consideri il seguente frammento di codice. Cosa fa una volta eseguito?
+<pre>
+scanf("%d",&num);
+while(num!=0); {
+    printf("%d\n",num);
+    scanf("%d",&num);
+}
+</pre>
+> stampa il valore di num almeno una volta
+v cicla infinitamente se num != 0
+> stampa il valore di num se num != 0
+
+115. Cosa produce il seguente comando come risultato?
+<code>cat /etc/group | grep nomeutente</code>
+v Visualizza su stdout tutti i gruppi a cui appartiene l'utente "nomeutente", incluso il gruppo "nomeutente" (se esiste)
+> Visualizza su stdout la lista dei gruppi a cui appartiene il gruppo "nomeutente" (se esiste)
+> Genera un errore in quanto il file /etc/group non esiste
+
+116. Nel caso in cui la system call <code>pid_t waitpid(pid_t pid, int *status, int options);</code>
+sia invocata con valore di pid uguale a -1. Quale è il suo comportamento?
+> Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante
+v Attende la terminazione di un qualunque processo figlio
+> Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia uguale a quello del processo chiamante
+
+117. Quali dei seguenti comandi permette di creare un intero path di directory?
+> mkdir /dir1/dir2/dir3
+v mkdir -p /dir1/dir2/dir3
+> mkdir -m /dir1/dir2/dir3
+
+118. Supponiamo di avere un file di nome filename e di creare un link a filename con il comando
+<code>ln filename link1</code>
+quale delle seguenti affermazioni è vera?
+v filename e link1 hanno lo stesso inode
+> link1 occupa zero blocchi su disco anche se filename ne occupa un numero diverso da 0
+> filename e link1 hanno inode diverso
+
+119. Quali dei seguenti comandi change dir usa un path assoluto? (# indica il prompt di sistema)
+> # cd ../studente/download
+> # cd Immagini/../Immagini/faces/
+v # cd ~/Lezione1/esempi/filesystem
+
+120. Quali sono i permessi MINIMI che devono essere assegnati ad una directory affinchperché sia possibile:
+- leggere il contenuto della directory inclusi gli attributi dei file;
+- impostare la directory come cwd;
+- attraversare la directory.
+> rwx
+v r-x
+> rw-
+
+121. Supponiamo di avere il seguente makefile (memorizzato in un file di nome makefile):
+<pre>
+merge_sorted_lists: merge_sorted_lists.c
+        gcc -Wall -Wextra -O3 merge_sorted_lists.c \
+        -o merge_sorted_lists
+sort_file_int: sort_file_int.c
+        gcc -Wall -Wextra -O3 sort_file_int.c \
+        -o sort_file_int
+.PHONY: clean
+clean:
+        rm -f *.o merge_sorted_lists
+</pre>
+In quali condizioni viene eseguito il target sort_file_int? 
+> Sempre, se invochiamo il comando <code>make sort_file_int</code>
+v Se invochiamo il comando <code>make sort_file_int</code>. e se sort_file_int.c perché stato modificato dopo la data di creazione di sort_file_int.o
+> Il target sort_file_int non verrà mai eseguito
+
+122. SI consideri il seguente frammento di codice:
+<pre>
+int x, y, nread;
+float xx, yy;
+nread=scanf("%d %d",&x, &y);
+printf("x=%d, y=%d, nread=%d \n",x,y,nread);
+printf("xx=%f, yy=%f, nread=%d \n",xx,yy,nread);
+nread=scanf("%f %f",&xx, &yy);
+</pre>
+Assumiamo che, in fase di esecuzione, la prima scanf legge su stdin la sequenza
+<b>1 w</b>
+Quale sara' il valore di nread dopo l'esecuzione della seconda scanf?
+v 0
+> 2
+> dipende dall'input letto su stdin dalla seconda scanf
+
+123. Si consideri il seguente frammento di codice
+<pre>
+ 1: #include <stdio.h>
+ 2:  ....
+ 3: 
+ 4:  char str [80];
+ 5:  float f;
+ 6:  FILE * pFile;
+ 7:
+ 8:  pFile = fopen ("myfile.txt","w+");
+ 9:  fprintf (pFile, "%f %s\n", 3.1416, "PI");
+ 10: close(pFile);
+ 11: rewind (pFile);
+ 12: fscanf (pFile, "%f", &f);
+ 13: fscanf (pFile, "%s", str);
+</pre>
+Le chiamate di funzione a riga 10, 11, 12 e 13 vengono eseguite tutte?
+v Sì
+> Viene eseguita solo riga 10 poi genera errore ed il programma termina
+> No, nessuna
+
+124. Cosa fa il seguente segmento di codice?
+<pre>
+scanf(“%d”,&num); 
+do {
+printf(“%d\n”,num); 
+scanf(“%d”,&num);
+} while(num!=0);
+</pre>
+> stampa il valore di num se num è diverso da 0
+> Il ciclo do-while entra in un loop infinito
+v stampa il valore di num almeno una volta
+
+125. Supponiamo di aver inizializzato un puntatore ad una variabile intera in questo modo
+<pre>
+int num=5, *ptrnum;
+ptrnum=&num;
+</pre>
+> ptrnum = (int *) 10;
+> ptrnum = 10;
+v *ptrnum = 10;
+
+126. Quale dei seguenti dichiarazioni di variabile perché non valida, generando quindi un errore di compilazione?
+v int goto=1;
+> int goTo=1;
+> int go_to=1;
+
+127. Si consideri il seguente frammento di codice
+<pre>
+int scoreCount, a;        
+for(scoreCount=0; scanf("%d",&a)==1; scoreCount++);
+</pre>
+Se la sequenza letta in input dall scanf è
+<pre>
+1 3 7 2 12 w
+</pre>
+Quale valore assumerà scoreCount al termine del ciclo?
+> Il ciclo non termina. La scanf va in errore quando viene letta la w
+v 5
+> 6
+
+128. Si consideri il frammento di codice
+<pre>
+  int K=10, c=0, p=1;
+  while (++K > 10)
+    c=c+1;
+  p--;
+</pre>
+che valore conterrà la variabile K al termine dell'esecuzione del frammento di codice?
+> 11
+v L'esecuziuone del frammento di codice non termina perché Il ciclo entra in un loop infinito
+> 10
+
+129. In quale situazione le system call dup(2) e dup2(2) hanno lo stesso comportamento?
+> Nel caso in cui gli passiamo gli stessi parametri
+> Nel casa in cui invochiamo la dup2(2) settando a NULL il valore del nuovo file descriptor
+v Nel caso in cui la dup2(2) venga invocata specificando che il nuovo file descriptor deve essere il file descriptor disponibile con il numero più piccolo
+
+130. Quali dei seguenti attributi di un processo non perché preservato a seguito di una chiamata alla funzione di libreria execve()?
+> Groups id
+v Memory mapping
+> File locks
+
+131. Quale attributi di un processo non sono ereditati dal processo figlio?
+> Descrittori dei file; terminale di controllo; memoria condivisa
+v I timer, i record lock e i memory lock; i contatori delle risorse 
+> Real ed effective user e group ID; working directory; ambiente del processo
+
+132. Si consideri il seguente frammento di codice
+<pre>
+char* file = argv[1];
+ int fd;
+ struct flock lock;
+ fd = open (file, O_WRONLY);
+ memset (&lock, 0, sizeof(lock));
+ lock.l_type = F_WRLCK; 
+ fcntl (fd, F_GETLK, &lock);
+</pre>
+Quale è il comportamento della system call fcntl?
+> Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file piazza il lock
+v Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file restituisce F_UNLOCK nel campo l_type di lock
+> Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. In caso affermativo il lock viene rimosso ed il lock richiesto dal processo in esecuzione viene piazzato
+
+133. Un processo puo' allocare memoria solo nell'heap?
+> Sì, mediante la funziona di libreria malloc(3) e calloc(3)
+> Sì, mediante le funzioni di libreria malloc(3), calloc(3) e alloca(3)
+v No. Può allocare anche memoria nello stack mediante la funzione di libreria alloca(3)
+
+134. Supponiamo di aver utilizzato, nella nostra funzione C, la funzione di libreria alloca(3) per allocare un'area di memoria.
+È necessario liberare tale area di memoria mediante una free(3) prima della terminazione della funzione?
+v No. l'area di memoria allocata nello stack viene liberata automaticamente
+> Sì, ma mediante la chiamata di funzione dealloca(3) e non mediante la free(3) 
+> Sì, bisogna sempre liberare la memoria per evitare dei memory leak
+
+135. Si consideri la variabile globale errno.
+Se una system call termina con successo, e immediatamente dopo la sua terminazione ispezioniamo il contenuto di errno, cosa otteniamo?
+> Il valore zero essendo la system call terminata con successo
+> Il codice di terminazione (con successo) in quanto non c'è una effettiva differenza tra codice di errore o di terminazione con successo
+v Il codice di errore generato dall'ultima system call o funzione di libreria la cui esecuzione è terminata con errore
+
+136. Si consideri la system call
+<code>
+int open(const char *pathname, int flags);
+</code>
+nel caso venga invocata con il flag impostato a
+<code>
+O_CREAT | O_EXCL | O_WRONLY
+</code>
+Quale è il comportamento atteso?
+v Se il file non esiste viene creato ed aperto in scrittura, se invece esiste ritorna errore
+> Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in scrittura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in scrittura
+> Se il file non esiste lo crea e lo apre in scrittura, altrimenti lo apre in lettura
+
+137. Assumete di voler visualizzare il numero di inode di un file, quale dei seguenti comandi non produce l'output desiderato?
+v stat -f nomefile
+> ls -l -i nomefile
+> stat nomefile
+
+138. Supponiamo di avere un file nomefile memorizzato nel nostro filesystem.
+Quale perché il risultato del comando touch nomefile?
+v Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile  
+> Crea un file vuoto con nome nomefile in sostituzione dell'esistente
+> Crea un file vuoto con nome nomefile in sostituzione dell'esistente e valore del ctime aggiornato al tempo corrente
+
+139. Si consideri un file contenente un programma in linguaggio C. Si assuma che è stata inserita la direttiva #include "stdio.h" . perché la compilazione potrebbe generare errori?
+v Perché la direttiva dice di cercare il file stdio.h nella directory corrente, mentre tale header file è solitamente memorizzato in un altra directory del filesystem
+> perché il file stdio.h potrebbe non esistere nella directory /usr/include, dove la direttiva dice di cercarlo
+> L'inserimento della direttiva non genererà mai errori
+
+140. Dopo aver esegguito il comando
+<code>cpp helloworld.c > hw
+</code>
+cosa conterrà il file hw?
+> Un file identico a helloworld.c
+> L'input per il debugger relativo al file helloworld.c
+v Il precompilato di helloworld.c
+
+141. Quale perché il modo corretto per controllare che due stringhe str1 e str2 sono uguali?
+> <code>if (s1==s2) { printf("stringhe uguali") }</code>
+v <code>if strcmp(s1,s2) == 0 { printf("stringhe uguali") }</code>
+> <code>if strcmp(s1,s2) { printf("stringhe uguali") }</code>
+
+142. Si consideri il seguente frammento di codice
+<pre>
+int i, n1=10, n2=100;	
+for (i=0;((i<n1)&&(i<n2));i++)
+    m2[i]=m1[i];
+</pre>
+quando termina il ciclo for?
+v Quando il valore di i è uguale a n1
+> Quando il valore di i è uguale a n2
+> Non termina perché n1 è diverso da n2
+
+143. Supponiamo di eseguire  separatamente i seguenti frammenti di codice
+<b>Frammento_1</b>
+<pre>close(2);
+if (fopen(".","r")) {
+           perror("main");
+}</pre>
+<b>Frammento_2</b>
+<pre>close(2);
+if (fopen(".","r")) {
+               printf("main: %s \n", strerror(errno));
+}</pre>
+Quale delle seguenti affermazioni è vera?
+v Il frammento_1 non produce alcun output sul terminale
+> La loro esecuzione produce sul terminale due stringhe identiche
+> La loro esecuzione produce sul terminale due stringhe diverse
+
+51. Si consideri  il seguente frammento  di codice  (i numeri a lato sono i numeri di riga delle istruzioni)(uscita 2 volte)
+<pre>1.    Pthread_t tid;
+2.    pthread_create(&tid, ... )
+3.    pthread_create(&tid, ...)
+4.    pthread_join(tid, ...);
+5.    printf("joined");</pre>
+quale  delle seguenti affermazioni è vera?
+v la stringa "joined" è inviata su stdout solo quando  il thread creato a riga 3 è terminato
+> la stringa "joined" è inviata su stdout quando entrambi i thread sono terminati
+> la stringa "joined" è inviata su stdout quando uno dei due thread (non importa quale) è terminato
