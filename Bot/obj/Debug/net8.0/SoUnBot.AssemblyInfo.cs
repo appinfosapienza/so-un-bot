@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HomeBot")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SoUnBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f90b3525e15d7b555f43c99e89fd846983e65c2")]
-[assembly: System.Reflection.AssemblyProductAttribute("HomeBot")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HomeBot")]
+[assembly: System.Reflection.AssemblyProductAttribute("SoUnBot")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SoUnBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

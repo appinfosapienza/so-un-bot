@@ -1,15 +1,15 @@
-﻿using HomeBot.ACL;
-using HomeBot.ModuleLoader;
+﻿using SoUnBot.AccessControl;
+using SoUnBot.ModuleLoader;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace HomeBot.Modules.OttoLinux
+namespace SoUnBot.Modules.OttoLinux
 {
     public class BotGame : IModule
     {
-        private ACM _acm;
+        private AccessManager _accessManager;
         private List<Question> _questions;
         private string _questionsPath;
         private string _name;
@@ -22,9 +22,9 @@ namespace HomeBot.Modules.OttoLinux
 
         private static Random _rng = new Random();
 
-        public BotGame(ACM acm, string name, string path, bool locke, int version = 1)
+        public BotGame(AccessManager accessManager, string name, string path, bool locke, int version = 1)
         {
-            _acm = acm;
+            _accessManager = accessManager;
             _questionsPath = path;
             _name = name;
             _lock = locke;
@@ -38,9 +38,9 @@ namespace HomeBot.Modules.OttoLinux
             if (version == 2) LoadQuestionsV2();
             else LoadQuestions();
         }
-        public BotGame(ACM acm)
+        public BotGame(AccessManager accessManager)
         {
-            _acm = acm;
+            _accessManager = accessManager;
             _questions = new List<Question>();
             _scores = new Dictionary<long, OttoScore>();
             _playingQuestions = new Dictionary<long, Question>();
@@ -142,15 +142,15 @@ namespace HomeBot.Modules.OttoLinux
 
             if (_lock)
             {
-                if (!_acm.CheckPermission(update.Message.From, Cmd(), botClient)) return;
+                if (!_accessManager.CheckPermission(update.Message.From, Cmd(), botClient)) return;
             }
             else
             {
-                if (!_acm.CheckPermission(uid, Cmd()))
+                if (!_accessManager.CheckPermission(uid, Cmd()))
                 {
-                    _acm.GrantPermission(uid, Cmd());
+                    _accessManager.GrantPermission(uid, Cmd());
                     await botClient.SendTextMessageAsync(
-                    chatId: _acm.AdminId,
+                    chatId: _accessManager.AdminId,
                     text: $"ACM: { update.Message.From.Id }\nL'utente { update.Message.From.FirstName } { update.Message.From.LastName } @{ update.Message.From.Username }\nHa iniziato a usare il bot."
                     );
                 }
@@ -343,7 +343,7 @@ namespace HomeBot.Modules.OttoLinux
             {
                 qst = PickRandomQuestion(uid, botClient);
                 botClient.SendTextMessageAsync(
-                    chatId: _acm.AdminId,
+                    chatId: _accessManager.AdminId,
                     text: $"DOMANDA SENZA RISPOSTE -> {qst.Quest}"
                 );
             }

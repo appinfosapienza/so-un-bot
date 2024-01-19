@@ -1,5 +1,5 @@
-﻿using HomeBot.ACL;
-using HomeBot.ModuleLoader;
+﻿using SoUnBot.AccessControl;
+using SoUnBot.ModuleLoader;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Extensions.Polling;
@@ -7,20 +7,20 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace HomeBot.Telegram
+namespace SoUnBot.Telegram
 {
     internal class TelegramBot
     {
-        private ACM _acm;
+        private AccessManager _accessManager;
         private string _moth_path;
         
         private Dictionary<string, IModule> _modules;
         public TelegramBotClient BotClient { get; private set; }
         private Dictionary<long, IModule> _usersContext;
 
-        public TelegramBot(string token, ACM acm, string motd_path, Dictionary<string, IModule> modules)
+        public TelegramBot(string token, AccessManager accessManager, string motd_path, Dictionary<string, IModule> modules)
         {
-            _acm = acm;
+            _accessManager = accessManager;
             _moth_path = motd_path;
             _modules = modules;
             _usersContext = new Dictionary<long, IModule>();
@@ -59,7 +59,7 @@ namespace HomeBot.Telegram
                 {
                     long uid = int.Parse(update.CallbackQuery.Message.Text.Substring(5).Split('\n')[0]);
                     string perm = update.CallbackQuery.Message.Text.Split("Ha richiesto l'accesso a: ")[1];
-                    _acm.GrantPermission(uid, perm);
+                    _accessManager.GrantPermission(uid, perm);
 
                     await botClient.AnswerCallbackQueryAsync(
                         update.CallbackQuery.Id,
@@ -74,7 +74,7 @@ namespace HomeBot.Telegram
                 if (update.CallbackQuery.Message.Text.StartsWith("ACM") && update.CallbackQuery.Data.Contains("🔆 Richiedi accesso"))
                 {
                     string perm = update.CallbackQuery.Message.Text.Split('`')[1];
-                    _acm.AskPermission(update.CallbackQuery.From, perm, botClient);
+                    _accessManager.AskPermission(update.CallbackQuery.From, perm, botClient);
                     await botClient.AnswerCallbackQueryAsync(
                         update.CallbackQuery.Id,
                         "Richiesta effettuata"
@@ -101,32 +101,13 @@ namespace HomeBot.Telegram
 
             if (update.Type == UpdateType.Message && update.Message!.Type == MessageType.Text && update.Message.Text.StartsWith("/spam"))
             {
-                if (!_acm.CheckPermission(update.Message.From, "global.spam", botClient)) return;
+                if (!_accessManager.CheckPermission(update.Message.From, "global.spam", botClient)) return;
 
                 await botClient.SendTextMessageAsync(
                         chatId: chatId,
                         text: "Invio annuncio in corso...",
                         cancellationToken: cancellationToken);
-                foreach (long user in _acm.Users())
-                {
-                    try
-                    {
-                        Console.WriteLine("Sto spammando a" + user.ToString());
-                        await botClient.SendTextMessageAsync(
-                        chatId: user,
-                        text: update.Message.Text.Substring(6)
-                        );
-
-                        await Task.Delay(1000);
-                    } catch
-                    {
-                        Console.WriteLine("Ho fallito");
-                    }
-                }
-                await botClient.SendTextMessageAsync(
-                        chatId: chatId,
-                        text: "✅ Annunciato a tutti!",
-                        cancellationToken: cancellationToken);
+                SendToEveryone(botClient, chatId, update.Message.Text.Substring(6));
                 return;
             }
 
@@ -176,5 +157,27 @@ namespace HomeBot.Telegram
             return Task.CompletedTask;
         }
 
+        private async void SendToEveryone(ITelegramBotClient botClient, long chatId, string text)
+        {
+            foreach (long user in _accessManager.Users())
+            {
+                try
+                {
+                    Console.WriteLine("Sto spammando a" + user.ToString());
+                    await botClient.SendTextMessageAsync(
+                        chatId: user,
+                        text: text
+                    );
+                    await Task.Delay(500);
+                }
+                catch
+                {
+                    Console.WriteLine("Ho fallito");
+                }
+            }
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "✅ Annunciato a tutti!");
+        }
     }
 }

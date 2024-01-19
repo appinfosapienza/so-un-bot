@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeBot.Modules.OttoLinux
+namespace SoUnBot.Modules.OttoLinux
 {
     public class Question
     {

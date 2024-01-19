@@ -1,25 +1,17 @@
-﻿using HomeBot.ModuleLoader;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using HomeBot.Telegram;
+﻿using Newtonsoft.Json;
 using Telegram.Bot;
-using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types;
-using File = Telegram.Bot.Types.File;
+using Telegram.Bot.Types.ReplyMarkups;
 
-namespace HomeBot.ACL
+namespace SoUnBot.AccessControl
 {
-    public class ACM
+    public class AccessManager
     {
         private string _acl_path;
         private Dictionary<long, HashSet<string>> _acl;
         public long AdminId { get; private set; }
 
-        public ACM(string aclPath, long adminId)
+        public AccessManager(string aclPath, long adminId)
         {
             _acl_path = aclPath;
             AdminId = adminId;

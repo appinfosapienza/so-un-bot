@@ -1,7 +1,7 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
 
-namespace HomeBot.ModuleLoader
+namespace SoUnBot.ModuleLoader
 {
     public interface IModule
     {

@@ -1,4 +1,4 @@
-﻿namespace HomeBot.ModuleLoader
+﻿namespace SoUnBot.ModuleLoader
 {
     public class ModuleLoader
     {

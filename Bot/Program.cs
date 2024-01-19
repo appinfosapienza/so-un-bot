@@ -1,7 +1,7 @@
-﻿using HomeBot.ACL;
-using HomeBot.ModuleLoader;
-using HomeBot.Modules.OttoLinux;
-using HomeBot.Telegram;
+﻿using SoUnBot.AccessControl;
+using SoUnBot.ModuleLoader;
+using SoUnBot.Modules.OttoLinux;
+using SoUnBot.Telegram;
 using Telegram.Bot.Types;
 
 string dataPath = Environment.GetEnvironmentVariable("DATA_PATH") ?? "BotData";
@@ -18,7 +18,7 @@ if (!long.TryParse(tgAdminId, out tgAdminLong))
     return;
 }
 
-var acl = new ACM(aclPath, tgAdminLong);
+var acl = new AccessManager(aclPath, tgAdminLong);
 var moduleLoader = new ModuleLoader();
 
 try

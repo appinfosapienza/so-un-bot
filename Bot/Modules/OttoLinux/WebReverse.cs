@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Net;
 using Newtonsoft.Json;
 
-namespace HomeBot.Modules.OttoLinux
+namespace SoUnBot.Modules.OttoLinux
 {
     internal class WebReverse
     {

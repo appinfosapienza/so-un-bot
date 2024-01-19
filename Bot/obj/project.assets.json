@@ -207,9 +207,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/marco/RiderProjects/so-un-bot/Bot/HomeBot.csproj",
-      "projectName": "HomeBot",
-      "projectPath": "/home/marco/RiderProjects/so-un-bot/Bot/HomeBot.csproj",
+      "projectUniqueName": "/home/marco/RiderProjects/so-un-bot/Bot/SoUnBot.csproj",
+      "projectName": "SoUnBot",
+      "projectPath": "/home/marco/RiderProjects/so-un-bot/Bot/SoUnBot.csproj",
       "packagesPath": "/home/marco/.nuget/packages/",
       "outputPath": "/home/marco/RiderProjects/so-un-bot/Bot/obj/",
       "projectStyle": "PackageReference",
@@ -265,7 +265,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.0, 8.0.0]"
+            "version": "[8.0.1, 8.0.1]"
           }
         ],
         "frameworkReferences": {
@@ -273,7 +273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
