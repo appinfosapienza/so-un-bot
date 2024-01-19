@@ -582,3 +582,117 @@ v La soluzione non implementa correttamente la mutua esclusione, ma può essere 
 v Aumentare la dimensione delle pagine ha effetti positivi sulla frammentazione interna
 > Diminuire la dimensione delle pagine ha effetti negativi sulla dimensione della tabella delle pagine
 > Aumentare la dimensione delle pagine ha effetti negativi sulla multiprogrammazione
+
+104) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è falsa?
+v La disabilitazione delle interruzioni impedisce la creazione di nuove interruzioni
+> Se un processo utente può disabilitare le interruzioni tramite un'istruzione macchina dedicata, allora può far diminuire l'uso utile del processore
+> La disabilitazione delle interruzioni non funziona ai fini della concorrenza (gestione sezioni critiche) su sistemi con più processori o più core
+> L'abuso della disabilitazione delle interruzioni fa diminuire la multiprogrammazione, a parità di numero di processi
+
+105) Quale delle seguenti affermazioni non è vera?
+> il kernel rimane in memoria durante l'intera sessione del computer
+v il kernel è costituito da vari moduli che non possono essere caricati nel sistema operativo in esecuzione
+> il kernel è la prima parte del sistema operativo a essere caricata in memoria durante l'avvio
+> Il kernel è il programma che costituisce il nucleo centrale del sistema operativo.
+
+106) In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:
+> In RAM, o in un livello qualsiasi della cache o nella memoria secondaria o nei registri CPU
+> In RAM o in un livello qualsiasi della cache o nei registri CPU
+> Nella cache di livello 1 (L1 cache) o nei registri CPU
+v Nei registri della CPU
+
+107) Il PCB (Process Control Block) e’:
+> Un campo dello stato di un processo che definisce quali operazioni di controllo dei dispositivi a blocchi sono state fatte dal processo
+v Una struttura dati mantenuta dal sistema operativo che contiene tutte le informazioni necessarie all’esecuzione, sospensione e ripresa dell’esecuzione di un processo
+> Una struttura dati mantenuta dal sistema operativo che contiene l’intera immagine di un processo
+> Un’interfaccia di controllo dei processi del sistema operativo
+
+108) Considera un Sistema Operativo con esecuzione all’interno dei processi utente. Quando un processo utente fa una chiamata di sistema, quale delle seguenti affermazioni e’ corretta
+> Il sistema operativo deve effettuare un process switch ed un mode switch per eseguire la funzione richiesta
+> Il sistema operativo deve effettuare soltanto un process switch per eseguire la funzione richiesta
+v Il sistema operativo deve effettuare soltanto un mode switch per eseguire la funzione richiesta
+> Il sistema operativo deve creare un nuovo processo e fare switch ad esso per eseguire la funzione richiesta
+
+109) Quale delle seguenti affermazioni e’ vera:
+> Il dispatcher e’ una componente del medium term scheduler
+> Il dispatcher si occupa di decidere l’ordine di sospensione dei processi
+v Il dispatcher si occupa di scambiare i processi in esecuzione sulla CPU (process switch)
+> Il dispatcher si occupa di scambiare i processi dalla memoria principale alla memoria secondaria
+
+110) In un sistema operativo con I/O buffering, quando c’e’ una scrittura su dispositivo di I/O quale delle seguenti affermazioni e’ vera:
+> Il sistema operativo copia immediatamente il contenuto della scrittura dalla memoria del processo direttamente alla memoria del dispositivo di I/O
+v Il sistema operativo copia immediatamente il contenuto della scrittura dalla memoria utente alla memoria del sistema operativo, e dalla memoria del sistema operativo alla memoria del dispositivo di I/O quando piu’ opportuno
+> Il sistema operativo copia quando piu’ opportuno il contenuto della scrittura dalla memoria del processo direttamente alla memoria del dispositivo di I/O
+> Nessuna delle altre opzioni e’ corretta
+
+111) L’algoritmo di scheduling C-SCAN:
+> Scrivere le richieste su disco in modo tale che il braccio meccanico si muova sempre in una direzione, fino a raggiungere l’ultima traccia, e poi torna indietro scrivendo tutte le richieste fino a raggiungere la prima traccia
+> Puo’ portare a starvation per alcuni processi
+> E’ meno fair (equo) dell’algoritmo SCAN
+v Non favorisce le richieste ai bordi rispetto a SCAN
+
+112) Quale dei seguenti sono requisiti per un File Management System?
+> Ogni utente dev’essere in grado di creare, cancellare, leggere, scrivere e modificare un file
+> Ogni utente deve poter accedere, in modo controllato, ai file di un altro utente
+> Ogni utente deve poter mantenere una copia di backup dei propri file
+v Tutte le opzioni sono requisiti
+
+113) Una sezione critica è un segmento di programma:
+> Che e’ racchiuso tra una coppia di operazioni di semaforo semWait e semSignal
+v In cui si accede a risorse condivise
+> Che evita i deadlock
+> Che deve essere eseguito in un determinato lasso di tempo.
+
+114) Quale dei seguenti NON è vero riguarda il Algoritmo di Dekker per gestire la concorrenza?
+> Garantisce la non-starvation
+> Non richiede nessun supporto dal SO.
+v Richiede supporto dal SO
+> E' deterministico.
+
+115) Quale delle affermazioni è vera riguardo al Translation lookaside buffer per la gestione della memoria?
+> Nel Translation lookaside buffer ci sono tag e chiavi con l'aiuto dei quali viene effettuata la mappatura.
+> Il TLB hit è una condizione in cui la voce desiderata viene trovata nel TLB.
+> Se la voce non viene trovata nel TLB (TLB miss), la CPU deve accedere alla tabella delle pagine nella memoria principale e quindi accedere al frame effettivo nella memoria principale.
+v Tutte le opzioni sono vere.
+
+116) Quale delle seguenti affermazioni sul long-term scheduler e’ vera:
+v Si occupa della decisione di quali processi debbano essere ammessi all’esecuzione nel sistema
+> Si occupa dell’organizzazione di lungo termine dell’ordine di esecuzione dei processi nella CPU
+> Si occupa dell’implementazione della funzione di swapping dei processi alla memoria secondaria
+> Si occupa della transizione dei processi tra gli stati running ed exit
+
+117) Nel modello dei processi a 5 stati, quale affermazione e’ falsa:
+v Un processo puo’ essere spostato allo stato suspended dallo stato blocked e ready
+> Un processo puo’ essere spostato dallo stato running allo stato ready o exit
+> Un processo puo’ essere spostato dallo stato blocked solo allo stato ready
+> Un processo puo’ essere spostato dallo stato ready allo stato running, blocked o exit
+
+118) Riguardo l’efficienza dal punto di vista dell’utilizzo utile della CPU, quale dei seguenti modelli di I/O e’ piu’ efficiente dal punto di vista dell’uso della CPU e perche’?
+> I/O programmato, perche’ consente al programmatore di fare uno scheduling esatto delle operazioni di I/O nei momenti piu’ opportuni
+> I/O basato su DMA (Accesso Diretto alla Memoria), perche’ la CPU deve soltanto occuparsi del trasferimento dei dati
+> I/O basato su interruzioni, perche’ il processore non deve controllare attivamente lo stato del dispositivo di I/O dopo aver effettuato la richiesta
+v I/O basato su DMA (Accesso Diretto alla Memoria), perche’ la CPU deve soltanto occuparsi di inviare la richiesta di I/O e leggere il risultato
+
+119) Dati due processi A e B e due risorse R1 ed R2, si ha sicuramente una situazione di deadlock se:
+v A richiede ed ottiene accesso ad R1, B richiede ed ottiene accesso ad R2. A richiede accesso ad R2, B richiede accesso ad R1
+> A richiede ed ottiene accesso ad R1, B richiede accesso ad R2. A richiede accesso ad R2. B richiede accesso ad R1
+> A richiede ed ottiene accesso ad R2, B richiede accesso ad R1 ed R2. A richiede ed ottiene accesso ad R1
+> B richiede ed ottiene accesso ad R1, A richiede ed ottiene accesso ad R2. B richiede accesso ad R2
+
+120) Quali delle seguenti affermazioni e' vera riguardo la preallocazione rispetto all'allocazione dinamica dello spazio per i file?
+> la preallocazione è più efficiente nell'utilizzo dello spazio su disco
+v nessuna delle opzioni è corretta
+> l'allocazione dinamica rischia di sprecare spazio disco in caso gli utenti/applicazioni sovrastimino la dimensione dei file, mentre questo non è il caso con la preallocazione
+> L'allocazione dinamica impone un overhead di gestione minore per il sistema operativo
+
+121) Quale delle seguenti affermazioni sul file system NTFS è vera?
+v NTFS può, ove possibile, includere direttamente i dati di un file nella master file table
+> NTFS non prevede la possibilità di avere record estesi
+> nessuna delle altre opzioni è vera
+> In NTFS, le informazioni relative alla sequenza di blocchi che contengono il file è interamente contenuta nel record base
+
+122) Quale delle seguenti affermazioni riguardo la rilocazione degli indirizzi di memoria è vera?
+> Nei sistemi con hardware dedicato per la rilocazione, il base register (registro base) viene impostato una sola volta, quando il programma viene caricato in memoria per la prima volta
+> In un sistema con rilocazione a run time, i sistemi di protezione che verificano che un processo non vada ad accedere alla memoria di un'altro processo possono essere eseguiti a tempo di compilazione, prima di eseguire il programma
+> In un sistema a rilocazione con indirizzi logici, non è necessario avere hardware dedicato per effettuare la rilocazione
+v In un sistema a rilocazione con indirizzi assoluti, se si conosce l'indirizzo di memoria dove verrà caricato il programma, il compilatore può inserire direttamente gli indirizzi di memoria corretti nel codice oggetto (programma compilato)
