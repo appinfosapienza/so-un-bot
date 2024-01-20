@@ -125,7 +125,7 @@ v Se viene usata la lista di blocchi liberi, c'è un overhead di spazio, contrar
 > Se ci sono blocchi da 1kB, e il disco contiene 1TB, l'occupazione dovuta alla lista di blocchi liberi è dell'1%
 > Se viene usata la lista di blocchi liberi, una parte viene memorizzata su disco ed una parte in memoria principale
 
-24) UNSAFE (sbagliata secondo Gabriele Pelissetto) Quale delle seguenti azioni va effettuata sia per un process switch che per un mode switch, assumendo di essere in un SO nel quale le funzioni di sistema sono eseguite all'interno dei processi utente?
+24) UNSAFE Quale delle seguenti azioni va effettuata sia per un process switch che per un mode switch, assumendo di essere in un SO nel quale le funzioni di sistema sono eseguite all'interno dei processi utente?
 v Salvataggio del contesto del programma
 > Aggiornamento delle strutture dati per la gestione della memoria
 > Spostamento del process control block nella coda appropriata (ready, blocked, ready/suspend)
@@ -595,7 +595,7 @@ v il kernel è costituito da vari moduli che non possono essere caricati nel sis
 > il kernel è la prima parte del sistema operativo a essere caricata in memoria durante l'avvio
 > Il kernel è il programma che costituisce il nucleo centrale del sistema operativo.
 
-106) (UNSAFE secondo Gabriele Pelissetto, CISC o RISC?) In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:
+106) UNSAFE In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:
 > In RAM, o in un livello qualsiasi della cache o nella memoria secondaria o nei registri CPU
 > In RAM o in un livello qualsiasi della cache o nei registri CPU
 > Nella cache di livello 1 (L1 cache) o nei registri CPU
