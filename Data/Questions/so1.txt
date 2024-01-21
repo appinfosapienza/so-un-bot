@@ -1,14 +1,14 @@
-﻿1) Quale delle seguenti affermazioni sulle directory di un file system è vera?
+1) Quale delle seguenti affermazioni sulle directory di un file system è vera?
 > È sempre necessario identificare un file di un file system fornendone il path assoluto
 > È sempre necessario identificare un file di un file system fornendone il path relativo alla directory corrente
 > È sempre possibile dare lo stesso nome a file diversi
 v Nessuna delle altre opzioni è vera
 
-2) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è falsa?
-> La disabilitazione delle interruzioni impedisce la creazione di nuove interruzioni
+2) UNSAFE Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è falsa?
+v La disabilitazione delle interruzioni impedisce la creazione di nuove interruzioni
 > L'abuso della disabilitazione delle interruzioni fa diminuire la multiprogrammazione, a parità di numero di processi
 > Se un processo può disabilitare le interruzioni tramite un'istruzione macchina dedicata, allora può far diminuire l'uso del processore
-v La disabilitazione delle interruzioni non funziona su sistemi con più processori o più core
+> La disabilitazione delle interruzioni non funziona su sistemi con più processori o più core
 
 3) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni è vera? 
 > Lo scheduler ha, tra i suoi obiettivi, quello di minimizzare il numero di processi che rispettano la propria deadline
@@ -24,8 +24,8 @@ v Ha anche uno stato Zombie: serve per tutti i processi che sono terminati
 
 5) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è falsa? 
 > Quando un indirizzo non viene trovato nel translation lookaside buffer, è necessario consultare la normale tabella delle pagine
-v Il translation lookaside buffer è una particolare cache, ma non è completamente trasparente al sistema operativo
-> Il translation lookaside buffer permette di accedere direttamente al contenuto degli indirizzi di memoria virtuali usati più di recente
+> Il translation lookaside buffer è una particolare cache, ma non è completamente trasparente al sistema operativo
+v Il translation lookaside buffer permette di accedere direttamente al contenuto degli indirizzi di memoria virtuali usati più di recente
 > In assenza di translation lookaside buffer, l'accesso ad un indirizzo virtuale può richiedere almeno 2 accessi in memoria
 
 6) Quale delle seguenti affermazioni sugli obiettivi di sicurezza di un sistema operativo è vera?
@@ -80,7 +80,7 @@ v I processi marcati sono quelli che non sono coinvolti in un deadlock
 16) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sul long-term scheduler è falsa? 
 v Viene chiamato in causa esclusivamente quando viene creato un nuovo processo
 > Avendo le necessarie informazioni, una tipica strategia è mantenere una giusta proporzione, stabilita a priori, tra processi I/O-bound e CPU-bound
-> Avendo le necessarie informazioni, una tipica strategia è ammettere in memoria principale i processi che richiedono dispositivi di I/O diversi da [...]
+> Avendo le necessarie informazioni, una tipica strategia è ammettere in memoria principale i processi che richiedono dispositivi di I/O diversi da quelli richiesti dai processi già attivi
 > Decide quali processi, tra quelli appena creati, possono essere ammessi in memoria principale per l'esecuzione
 
 17) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è vera? 
@@ -101,7 +101,7 @@ v Non deve essere fatta alcuna assunzione sulla velocità di esecuzione dei proc
 v Nessuna delle altre opzioni è corretta
 > La paginazione con memoria virtuale funziona bene nonostante il principio di località
 
-20) UNSAFE Quale delle seguenti affermazioni sullo scambio messaggi per la gestione della concorrenza è vera? 
+20) UNSAFE (sbagliata secondo Gabriele Pelissetto) Quale delle seguenti affermazioni sullo scambio messaggi per la gestione della concorrenza è vera? 
 > Nessuna delle altre opzioni è vera
 > L'implementazione delle primitive per lo scambio messaggi non è garantita atomica dal sistema operativo
 v Se un processo chiama receive, finché il messaggio non viene ricevuto, tutti gli altri processi che proveranno a chiamare receive verranno bloccati
@@ -113,7 +113,7 @@ v Se un processo chiama receive, finché il messaggio non viene ricevuto, tutti 
 v I file system, che adottano il metodo journaling, mantengono un log per le operazioni di sola scrittura da effettuare, realizzandole in seguito
 > Un volume coincide sempre con un disco, quindi se un computer ha 2 dischi avrà 2 volumi
 
-22) Quale delle seguenti affermazioni sui dispositivi di I/O è vera?
+22) (UNSAFE secondo Gabriele Pelissetto vd. gruppo 5 di slide, slide 11) Quale delle seguenti affermazioni sui dispositivi di I/O è vera?
 v Nessuna delle altre opzioni è corretta
 > Il data rate confronta le velocità di 2 diversi dispositivi di I/O
 > Ciascun dispositivo di I/O può essere usato solo da un ben determinato tipo di applicazioni
@@ -133,9 +133,9 @@ v Salvataggio del contesto del programma
 
 25) Quale delle seguenti affermazioni è vera?
 > Nessuna delle altre opzioni è corretta
-v Nell'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache, un blocco passa da un segmento ad un altro esclusivamente per scorrimento
+> Nell'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache, un blocco passa da un segmento ad un altro esclusivamente per scorrimento
 > L'algoritmo di LFU della page cache ha buone performance quando un settore viene acceduto molto spesso in poco tempo, per poi non essere più usato
-> L'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache può non avere buone performance quando un settore viene acceduto spesso, ma tra il primo accesso e quelli successivi ci sono N accessi ad altri settori, diversi tra loro, con N pari alla dimensione del segmento nuovo
+v L'algoritmo di sostituzione basato su frequenza a 2 segmenti della page cache può non avere buone performance quando un settore viene acceduto spesso, ma tra il primo accesso e quelli successivi ci sono N accessi ad altri settori, diversi tra loro, con N pari alla dimensione del segmento nuovo
 
 26) Quale delle seguenti affermazioni sul kernel di un sistema operativo è vera?
 > È responsabile dell'accensione del computer 
@@ -359,7 +359,7 @@ v Per la terminazione normale di un processo, è tipicamente prevista un'apposit
 > Un processo può morire quando si effettua il process spawning
 > Un processo può essere creato dal modulo di gestione della memoria per gestire la traduzione da indirizzi virtuali a fisici
 
-64) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? 
+64) (UNSAFE le decisioni dello scheduler possono influenzare la risposta) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? 
 > Sia l'algoritmo di Dekker che quello di Peterson possono mettere in blocked uno dei 2 processi, quando ciò si rivela necessario
 > Sia l'algoritmo di Dekker che quello di Peterson non funzionano se l'hardware sottostante riordina gli accessi in memoria
 > Nell'algoritmo di Peterson, se la variabile turn è inizializzata ad 1, allora il processo 1 sarà sicuramente il primo ad entrare nella sezione critica nella prima iterazione
@@ -515,7 +515,7 @@ v La matrice C - A può contenere elementi negativi, ma le matrici C ed A conten
 > Il throughput è definito come il numero di processi completati per unità di tempo
 v Il turnaround time è definito, per un dato processo, come il tempo che intercorre tra la sua prima esecuzione sul processore e il suo completamento
 > Un dispatcher con buone prestazioni sul response time deve tipicamente sia minimizzare il valore medio di sistema del response time, sia massimizzare il numero di utenti con un basso valore per il response time
-> Il processor utilization è definito come il rapporto tra il tempo in cui il processore viene usato ed il tempo totoale del sistema
+> Il processor utilization è definito come il rapporto tra il tempo in cui il processore viene usato ed il tempo totale del sistema
 
 93) Quale delle seguenti affermazioni sugli i-node di Unix è vera?
 > Per ogni file-system su disco organizzato con i-node, tutti gli i-node di tutti i file su tale file-system sono memorizzati esclusivamente su disco
@@ -547,13 +547,13 @@ v Sia la tabella dei segmenti che quella delle pagine di un processo contengono,
 > La tabella delle pagine di un processo contiene una pagina speciale dove è memorizzato il process control block del processo stesso
 > Ogni entry di una tabella delle pagine contiene un numero di pagina ed un offset
 
-99) (risposta corretta secondo @notherealmarco e Simone Sestito, non verificata da nessuna parte) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è vera?
+99) (risposta corretta secondo @notherealmarco, Simone Sestito e Gabriele Pelissetto, non verificata da nessuna parte) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è vera?
 v Per avere un overhead accettabile, occorre demandare la traduzione degli indirizzi all'hardware, mentre al software resta da gestire prelievo, posizionamento e sostituzione delle pagine
 > Per avere un overhead accettabile, occorre demandare la traduzione degli indirizzi e la politica di sostituzione delle pagine all'hardware, mentre al software resta da gestire prelievo e posizionamento delle pagine
 > Per avere un overhead accettabile, occorre demandare all'hardware la traduzione degli indirizzi ed il prelievo, il posizionamento e la sostituzione delle pagine
 > Per avere un overhead accettabile, occorre demandare al software anche la traduzione degli indirizzi
 
-96) (risposta corretta secondo @notherealmarco, non verificata da nessuna parte) Riguardo alle differenze tra sistemi batch e sistemi time sharing (degli anni 60/70), quale delle seguenti affermazioni è falsa? 
+96) (risposta corretta secondo @notherealmarco e Gabriele Pelissetto, non verificata da nessuna parte) Riguardo alle differenze tra sistemi batch e sistemi time sharing (degli anni 60/70), quale delle seguenti affermazioni è falsa? 
 v I sistemi time-sharing puntavano a minimizzare l'uso del processore
 > Nei sistemi time-sharing, le direttive al sistema operativo arrivavano dai comandi digitati su terminali
 > Nei sistemi batch, le direttive al sistema operativo arrivavano dai comandi del job control language, che erano non-interattivi
@@ -595,7 +595,7 @@ v il kernel è costituito da vari moduli che non possono essere caricati nel sis
 > il kernel è la prima parte del sistema operativo a essere caricata in memoria durante l'avvio
 > Il kernel è il programma che costituisce il nucleo centrale del sistema operativo.
 
-106) In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:
+106) UNSAFE In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:
 > In RAM, o in un livello qualsiasi della cache o nella memoria secondaria o nei registri CPU
 > In RAM o in un livello qualsiasi della cache o nei registri CPU
 > Nella cache di livello 1 (L1 cache) o nei registri CPU
