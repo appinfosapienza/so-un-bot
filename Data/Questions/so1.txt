@@ -727,7 +727,7 @@ v La frequenza di esecuzione
 > Aumento del throughput
 v Riduzione dell’overhead del sistema operativo
 
-128) UNSAFE ___ fornisce l’indirizzo della prossima istruzione che deve essere eseguita dal processo corrente?
+128) ___> fornisce l’indirizzo della prossima istruzione che deve essere eseguita dal processo corrente?
 > Lo stack del processo
 > Il bus di sistema
 > Nessuno 
@@ -768,3 +768,10 @@ v Tutte le opzioni elencate
 > Fornire supporto per l’I/O da più utenti in contemporanea
 > Minimizzare i dati persi o distrutti
 > Fornire un insieme di interfacce standard per i processi utente
+
+135) In un sistema operativo con allocazione dei file indicizzata, quale delle seguenti opzioni è vera:
+> La tabella di allocazione contiene soltanto l'indirizzo di un blocco, e questo blocco contiene sempre tutte le entry per ogni porzione allocata al file
+> La tabella di allocazione contiene l'indirizzo del primo blocco del file, e ciascun blocco contiene l'indirizzo del prossimo blocco del file
+v La tabella di allocazione contiene soltanto l'indirizzo di un blocco, e questo blocco contiene le entry delle porzioni di file allocate oppure l'indirizzo di altri blocchi usati a loro volta per indicizzare le porzioni di file allocate
+> La tabella di allocazione dei file contiene l'indirizzo di un blocco e la lista dei blocchi del file
+
