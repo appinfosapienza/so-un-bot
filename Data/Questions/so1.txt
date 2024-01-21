@@ -696,3 +696,75 @@ v NTFS può, ove possibile, includere direttamente i dati di un file nella maste
 > In un sistema con rilocazione a run time, i sistemi di protezione che verificano che un processo non vada ad accedere alla memoria di un'altro processo possono essere eseguiti a tempo di compilazione, prima di eseguire il programma
 > In un sistema a rilocazione con indirizzi logici, non è necessario avere hardware dedicato per effettuare la rilocazione
 v In un sistema a rilocazione con indirizzi assoluti, se si conosce l'indirizzo di memoria dove verrà caricato il programma, il compilatore può inserire direttamente gli indirizzi di memoria corretti nel codice oggetto (programma compilato)
+
+123) Quale delle seguenti affermazioni è vera riguardo il concetto di Thrashing?
+> Il SO impiega la maggior parte del suo tempo a swappare pezzi di processi, anziché ad eseguire istruzioni
+> provoca il deterioramento o il crollo delle prestazioni del computer
+> quasi ogni richiesta di pagine da luogo ad una page fault
+v Tutte le opzioni sono vere
+
+124) Il sistema di partizionamento fisso per la memoria principale:
+> Permette di avere partizioni di lunghezza diversa e di modificarle a runtime
+> Nessuna delle opzioni è vera
+> Consente una efficiente della memoria se ci sono molti processi di piccole dimensioni 
+v Impone un numero massimo di processi che possono essere in memoria principale
+
+125) Quale delle seguenti non è un vantaggio dell’attacco dizionario?
+> Semplice da effettuare
+> Versatilità
+v Velocità di computazione in real time degli hash
+> Disponibilità di molti tool per automatizzazione
+
+126) Nello scheduler a breve ed a lungo termine la distizione principale è:
+> Il tipo di processi che gestiscono
+v La frequenza di esecuzione
+> La lunghezza delle loro code
+> Nessuna delle opzioni è corretta
+
+127) Quale dei seguenti NON è un vantaggio della multiprogrammazione?
+> Riduzione dei tempi di risposta
+> Possibilità di assegnare priorità ai lavori
+> Aumento del throughput
+v Riduzione dell’overhead del sistema operativo
+
+128) UNSAFE ___ fornisce l’indirizzo della prossima istruzione che deve essere eseguita dal processo corrente?
+> Lo stack del processo
+> Il bus di sistema
+> Nessuno 
+v Program Counter
+
+129) Quale dei seguenti NON è un valido schema di prevenzione del deadlock?
+> Rilasciare tutte le risorse prima di richiederne una nuova
+v Non chiedere mai una risorsa dopo averne rilasciate altre
+> Si definisce un ordinamento crescente delle risorse, una risorsa viene data solo se esegue quelle che il processo già detiene
+> Richiedere e allocare tutte le risorse necessarie prima dell’esecuzione
+
+130) UNSAFE Quale dei seguenti NON è vero riguardo l’algoritmo di Dekker per gestire la concorrenza?
+v Non usa busy waiting
+> Garantisce la non-starvation
+> Tutte le opzioni elencate
+> Garantisce il non-deadlock
+
+131) Quale delle seguenti non è una tabella di controllo del sistema operativo?
+v Tabella dei processi sospesi
+> Tabelle di memoria
+> Tabelle di controllo di accesso
+> Tabelle di I/O
+
+132) In un sistema con modello di interruzioni (interrupt) annidate, se un interrupt (I-2) è ricevuto durante la gestione di un altro interrupt(I-1)
+v La cpu sospende l’esecuzione del codice corrente, ed avvia l’handler del nuovo interrupt ricevuto
+> La cpu completa l’esecuzione del codice corrente, e successivamente avvia l’handler del nuovo interrupt ricevuto
+> La cpu gestisce entrambi gli handler in parallelo
+> La cpu termina (aborts,kills) l’esecuzione del codice corrente, ed avvia l’handler del nuovo interrupt ricevuto
+
+133) Il numero di processi completati per unità di tempo è chiamato _____
+> Produzione
+v Throughput
+> Capacità
+> Nessuno
+
+134) Quale dei seguenti sono obiettivi per un file Management System?
+v Tutte le opzioni elencate
+> Fornire supporto per l’I/O da più utenti in contemporanea
+> Minimizzare i dati persi o distrutti
+> Fornire un insieme di interfacce standard per i processi utente
