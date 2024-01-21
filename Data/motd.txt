@@ -31,8 +31,6 @@ Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanent
 /ingsw (Ingegneria del Software)
 /sicurezza (Sicurezza ⚠️)
 
-/ium_unive (IUM, Università Ca' Foscari di Venezia)
-/so1_unive (Sistemi Opeativi I, Università Ca' Foscari di Venezia)
-/diritto_inf_unive (Diritto, Università Ca' Foscari di Venezia)
+N.B. I corsi relativi all'Università di Venezia sono stati trasferiti al bot @so_1_unive_bot, mantenuto da @WAPEETY
 
 Per cambiare modulo puoi usare il comando /leave
