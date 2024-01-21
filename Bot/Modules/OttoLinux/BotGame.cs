@@ -108,6 +108,7 @@ namespace SoUnBot.Modules.OttoLinux
 
             //var number = int.Parse(new StreamReader(w.GetResponse().GetResponseStream()).ReadToEnd());
             var number = _rng.Next(1, _questions.Count - 1);
+            while (_questions[number].Quest == "") number = _rng.Next(1, _questions.Count - 1);
 
 
             if (!_playedQuestions.ContainsKey(player)) _playedQuestions.Add(player, new List<int>());
@@ -336,8 +337,22 @@ namespace SoUnBot.Modules.OttoLinux
         {
             var qst = PickRandomQuestion(uid, botClient);
 
-            if (qst.Quest.StartsWith("img=")) Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(qst.Quest.IndexOf("\n"), 7) + " a " + uid);
-            else Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(0, 7) + " a " + uid);
+            try
+            {
+                if (qst.Quest.StartsWith("img="))
+                    Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(qst.Quest.IndexOf("\n"), 7) +
+                                      " a " + uid);
+                else Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(0, 7) + " a " + uid);
+
+            }
+            catch(Exception e)
+            {
+                botClient.SendTextMessageAsync(
+                    chatId: _accessManager.AdminId,
+                    text: $"Question is malformed -> {qst.Quest} \n" + e.Message
+                );
+                return;
+            }
 
             while (qst.Answers.Count == 0)
             {
