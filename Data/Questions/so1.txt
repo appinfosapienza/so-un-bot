@@ -774,4 +774,3 @@ v Tutte le opzioni elencate
 > La tabella di allocazione contiene l'indirizzo del primo blocco del file, e ciascun blocco contiene l'indirizzo del prossimo blocco del file
 v La tabella di allocazione contiene soltanto l'indirizzo di un blocco, e questo blocco contiene le entry delle porzioni di file allocate oppure l'indirizzo di altri blocchi usati a loro volta per indicizzare le porzioni di file allocate
 > La tabella di allocazione dei file contiene l'indirizzo di un blocco e la lista dei blocchi del file
-
