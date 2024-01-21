@@ -107,7 +107,11 @@ namespace SoUnBot.Telegram
                         chatId: chatId,
                         text: "Invio annuncio in corso...",
                         cancellationToken: cancellationToken);
-                SendToEveryone(botClient, chatId, update.Message.Text.Substring(6));
+                new Thread(() => 
+                {
+                    Thread.CurrentThread.IsBackground = true; 
+                    SendToEveryone(botClient, chatId, update.Message.Text.Substring(6));
+                }).Start();
                 return;
             }
 
