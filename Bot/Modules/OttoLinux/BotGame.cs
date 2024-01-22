@@ -1,4 +1,5 @@
-﻿using SoUnBot.AccessControl;
+﻿using System.Collections;
+using SoUnBot.AccessControl;
 using SoUnBot.ModuleLoader;
 using Telegram.Bot;
 using Telegram.Bot.Types;
@@ -72,6 +73,7 @@ namespace SoUnBot.Modules.OttoLinux
                 }
             }
             _questions.Add(cur);
+            SanitizeQuestions();
         }
 
         private void LoadQuestionsV2()
@@ -99,6 +101,31 @@ namespace SoUnBot.Modules.OttoLinux
                 }
                 _questions.Add(cur);
             }
+            SanitizeQuestions();
+        }
+
+        private void SanitizeQuestions()
+        {
+            var invalidQuestions = new List<Question>();
+            foreach (var qst in _questions)
+            {
+                while (qst.Quest.StartsWith("\n")) qst.Quest = qst.Quest.Substring(1);
+                for (int i = 0; i < qst.Answers.Count; i++)
+                {
+                    while (qst.Answers[i].StartsWith("\n")) qst.Answers[i] = qst.Answers[i].Substring(1);
+                }
+                if (qst.Quest == "")
+                {
+                    invalidQuestions.Add(qst);
+                    Console.WriteLine("an empty question was found, skipping it");
+                }
+                else if(qst.Answers.Count == 0)
+                {
+                    invalidQuestions.Add(qst);
+                    Console.WriteLine($"The following question: {qst.Quest} \nhas no answers, skipping it");
+                }
+            }
+            _questions = _questions.Except(invalidQuestions).ToList();
         }
 
         public Question PickRandomQuestion(long player, ITelegramBotClient botClient)
@@ -107,9 +134,11 @@ namespace SoUnBot.Modules.OttoLinux
             //w.Method = "GET";
 
             //var number = int.Parse(new StreamReader(w.GetResponse().GetResponseStream()).ReadToEnd());
-            var number = _rng.Next(1, _questions.Count - 1);
-            while (_questions[number].Quest == "") number = _rng.Next(1, _questions.Count - 1);
-
+            var number = _rng.Next(0, _questions.Count - 1);
+            while (_questions[number].Quest == "")
+            {
+                number = _rng.Next(0, _questions.Count - 1);
+            }
 
             if (!_playedQuestions.ContainsKey(player)) _playedQuestions.Add(player, new List<int>());
 
@@ -185,8 +214,7 @@ namespace SoUnBot.Modules.OttoLinux
 
                     await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: $"✅ Risposte indovinate {item} volte:\n{msg}",
-                    cancellationToken: cancellationToken);
+                    text: $"✅ Risposte indovinate {item} volte:\n{msg}");
 
                     c++;
                 }
@@ -209,8 +237,7 @@ namespace SoUnBot.Modules.OttoLinux
 
                     await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: $"❌ Risposte sbagliate {item} volte:\n{msg}",
-                    cancellationToken: cancellationToken);
+                    text: $"❌ Risposte sbagliate {item} volte:\n{msg}");
 
                     c++;
                 }
@@ -233,8 +260,7 @@ namespace SoUnBot.Modules.OttoLinux
 
                     await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: $"🟡 Risposte non date {item} volte:\n{msg}",
-                    cancellationToken: cancellationToken);
+                    text: $"🟡 Risposte non date {item} volte:\n{msg}");
 
                     c++;
                 }
@@ -247,15 +273,13 @@ namespace SoUnBot.Modules.OttoLinux
                 {
                     await botClient.SendTextMessageAsync(
                         chatId: uid,
-                        text: "❌ Non c'è niente da eliminare!",
-                        cancellationToken: cancellationToken);
+                        text: "❌ Non c'è niente da eliminare!");
                     return;
                 }
                 _playedQuestions[uid].Clear();
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: "✅ Memoria eliminata!",
-                    cancellationToken: cancellationToken);
+                    text: "✅ Memoria eliminata!");
                 return;
             }
 
@@ -278,8 +302,7 @@ namespace SoUnBot.Modules.OttoLinux
 
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: wrongMsg,
-                    cancellationToken: cancellationToken
+                    text: wrongMsg
                 );
 
                 SendRandomQuestion(uid, botClient, cancellationToken);
@@ -293,12 +316,10 @@ namespace SoUnBot.Modules.OttoLinux
             {
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: "❓ scusa, non ho capito 😭",
-                    cancellationToken: cancellationToken);
+                    text: "❓ scusa, non ho capito 😭");
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: "⭕️ per uscire da 8linux, scrivi /leave",
-                    cancellationToken: cancellationToken);
+                    text: "⭕️ per uscire da 8linux, scrivi /leave");
                 return;
             }
             pick -= 1;
@@ -308,8 +329,7 @@ namespace SoUnBot.Modules.OttoLinux
             {
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: "✅ Risposta esatta!",
-                    cancellationToken: cancellationToken);
+                    text: "✅ Risposta esatta!");
 
                 _scores[uid].Correct += 1;
                 _questionStats[cur].Correct += 1;
@@ -318,12 +338,10 @@ namespace SoUnBot.Modules.OttoLinux
             {
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: "❌ Risposta errata!",
-                    cancellationToken: cancellationToken);
+                    text: "❌ Risposta errata!");
                 await botClient.SendTextMessageAsync(
                     chatId: uid,
-                    text: wrongMsg,
-                    cancellationToken: cancellationToken);
+                    text: wrongMsg);
 
                 _scores[uid].Wrong += 1;
                 _questionStats[cur].Wrong += 1;
@@ -339,28 +357,22 @@ namespace SoUnBot.Modules.OttoLinux
 
             try
             {
-                if (qst.Quest.StartsWith("img="))
-                    Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(qst.Quest.IndexOf("\n"), 7) +
-                                      " a " + uid);
-                else Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(0, 7) + " a " + uid);
-
+                if (qst.Quest.Length <= 40)
+                {
+                    Console.WriteLine("Sto inviando la domanda " + qst.Quest + " a " + uid);
+                }
+                else
+                {
+                    Console.WriteLine("Sto inviando la domanda " + qst.Quest.Substring(0, 40) + " a " + uid);
+                }
             }
             catch(Exception e)
             {
                 botClient.SendTextMessageAsync(
                     chatId: _accessManager.AdminId,
-                    text: $"Question is malformed -> {qst.Quest} \n" + e.Message
+                    text: $"Question is malformed -> {qst.Quest} \n {e.Message}"
                 );
                 return;
-            }
-
-            while (qst.Answers.Count == 0)
-            {
-                qst = PickRandomQuestion(uid, botClient);
-                botClient.SendTextMessageAsync(
-                    chatId: _accessManager.AdminId,
-                    text: $"DOMANDA SENZA RISPOSTE -> {qst.Quest}"
-                );
             }
 
             if (!_questionStats.ContainsKey(qst)) _questionStats.Add(qst, new OttoScore());
@@ -484,20 +496,14 @@ namespace SoUnBot.Modules.OttoLinux
 
             var total = stats.Correct + stats.Wrong + stats.Blank;
 
-            Message sentMessage = await botClient.SendTextMessageAsync(
+            await botClient.SendTextMessageAsync(
                 chatId: uid,
-                text: stats.Correct + " corrette (" + ((float)stats.Correct / (float)total) * 100f + "%)\n" + stats.Wrong + " errate (" + ((float)stats.Wrong / (float)total) * 100f + "%)\n" + stats.Blank + " non date (" + ((float)stats.Blank / (float)total) * 100f + "%)\n",
-                cancellationToken: cancellationToken);
+                text: stats.Correct + " corrette (" + ((float)stats.Correct / (float)total) * 100f + "%)\n" + stats.Wrong + " errate (" + ((float)stats.Wrong / (float)total) * 100f + "%)\n" + stats.Blank + " non date (" + ((float)stats.Blank / (float)total) * 100f + "%)\n");
         }
 
         public string GetName()
         {
             return _name;
-        }
-
-        public void ProcessUpdate(ITelegramBotClient botClient, global::Telegram.Bot.Types.Update update, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
         }
 
         public List<Question> GetQuestions()

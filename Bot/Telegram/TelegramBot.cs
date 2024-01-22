@@ -50,7 +50,9 @@ namespace SoUnBot.Telegram
 
         async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
-            long chatId;
+            try
+            {
+                            long chatId;
 
             if (update.Type == UpdateType.CallbackQuery)
             {
@@ -105,8 +107,7 @@ namespace SoUnBot.Telegram
 
                 await botClient.SendTextMessageAsync(
                         chatId: chatId,
-                        text: "Invio annuncio in corso...",
-                        cancellationToken: cancellationToken);
+                        text: "Invio annuncio in corso...");
                 new Thread(() => 
                 {
                     Thread.CurrentThread.IsBackground = true; 
@@ -144,21 +145,32 @@ namespace SoUnBot.Telegram
             // Echo received message text
             Message sentMessage = await botClient.SendTextMessageAsync(
                 chatId: chatId,
-                text: motd,
-                cancellationToken: cancellationToken);
+                text: motd);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Error handling the update: " + e.Message);
+            }
         }
 
-        Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+        async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
         {
-            var ErrorMessage = exception switch
+            if (exception is ApiRequestException apiRequestException)
             {
-                ApiRequestException apiRequestException
-                    => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
-                _ => exception.ToString()
-            };
+                await botClient.SendTextMessageAsync(_accessManager.AdminId, apiRequestException.ToString());
+            }
 
-            Console.WriteLine(ErrorMessage);
-            return Task.CompletedTask;
+            // Restart the bot (otherwise it would become an amoeba)
+            using var cts = new CancellationTokenSource();
+            var receiverOptions = new ReceiverOptions
+            {
+                AllowedUpdates = { }
+            };
+            BotClient.StartReceiving(
+                HandleUpdateAsync,
+                HandleErrorAsync,
+                receiverOptions,
+                cancellationToken: cts.Token);
         }
 
         private async void SendToEveryone(ITelegramBotClient botClient, long chatId, string text)
@@ -172,7 +184,7 @@ namespace SoUnBot.Telegram
                         chatId: user,
                         text: text
                     );
-                    await Task.Delay(500);
+                    await Task.Delay(100);
                 }
                 catch
                 {
