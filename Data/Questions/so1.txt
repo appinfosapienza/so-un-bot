@@ -559,19 +559,22 @@ v I sistemi time-sharing puntavano a minimizzare l'uso del processore
 > Nei sistemi batch, le direttive al sistema operativo arrivavano dai comandi del job control language, che erano non-interattivi
 > I sistemi batch puntavano a massimizzare l'uso del processore
 
-img=https://i.imgur.com/orqyjeh.png%12) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi: Quale delle seguenti affermazioni è falsa?
+img=https://i.imgur.com/orqyjeh.png
+12) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi: Quale delle seguenti affermazioni è falsa?
 > Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling a feedback classico di Unix
 > Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling Virtual Round-Robin
 > Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling Round-Robin
 v Non ci sono sufficienti informazioni per determinare come si comporterebbe l'algoritmo di scheduling SRT
 
-img=https://i.imgur.com/orqyjeh.png%13) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi: Assegnare questo insieme di processi ad un processore usando l'algoritmo di scheduling SRT, ﬁno a che non terminano tutti. Quale delle seguenti affermazioni è falsa?
+img=https://i.imgur.com/orqyjeh.png
+13) Considerare un insieme di cinque processi P1, P2, P3, P4, P5 con i seguenti tempi di arrivo e tempi di esecuzione in millisecondi: Assegnare questo insieme di processi ad un processore usando l'algoritmo di scheduling SRT, ﬁno a che non terminano tutti. Quale delle seguenti affermazioni è falsa?
 v Gli unici 2 processi che non sono serviti subito (ovvero, appena arrivati) sono P3 e P5
 > Il tempo medio di attesa è tra 10 ed 11 ms
 > Il processo con il più lungo tempo di attesa è P1
-> Il tempo medio di turnaround è tra 2 e 3 ms 
+> Il tempo medio di turnaround è tra 2 e 3 ms
 
-img=https://i.imgur.com/5nWWwyF.png%101) Si consideri il seguente modo di implementare la mutua esclusione: Quale delle seguenti affermazioni è vera?
+img=https://i.imgur.com/5nWWwyF.png
+101) Si consideri il seguente modo di implementare la mutua esclusione: Quale delle seguenti affermazioni è vera?
 > La soluzione non implementa correttamente la mutua esclusione, ma può essere corretta nel seguente modo: int bolt = 0; void P(int i) { int key; while(true) { do (exchange(key, bolt) == 0) while(key != 0); critical_section(); bolt = 0; key = 1; } } 
 > La soluzione non implementa correttamente la mutua esclusione, in quanto key deve essere una variabile globale
 v La soluzione non implementa correttamente la mutua esclusione, ma può essere corretta nel seguente modo: int bolt = 0; void P(int i) { int key; while(true) { key = 1; do (exchange(key, bolt) == 0) while(key != 0); critical_section(); bolt = 0; } } 
