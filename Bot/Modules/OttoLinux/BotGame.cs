@@ -16,6 +16,7 @@ namespace SoUnBot.Modules.OttoLinux
         private string _questionsPath;
         private string _name;
         private bool _lock;
+        private string _webBaseURL;
 
         private Dictionary<long, OttoScore> _scores;
         private Dictionary<long, Question> _playingQuestions;
@@ -24,12 +25,13 @@ namespace SoUnBot.Modules.OttoLinux
 
         private static Random _rng = new Random();
 
-        public BotGame(AccessManager accessManager, string name, string path, bool locke, int version = 1)
+        public BotGame(AccessManager accessManager, string name, string path, bool locke, string webBaseUrl, int version = 1)
         {
             _accessManager = accessManager;
             _questionsPath = path;
             _name = name;
             _lock = locke;
+            _webBaseURL = webBaseUrl;
 
             _questions = new List<Question>();
             _scores = new Dictionary<long, OttoScore>();
@@ -416,13 +418,26 @@ namespace SoUnBot.Modules.OttoLinux
             };
 
             string quest = qst.Quest;
+            if (qst.Image != "")
+            {
+                try
+                {
+                    await botClient.SendPhotoAsync(
+                        chatId: uid,
+                        photo: qst.Image.Contains("http") ? qst.Image : _webBaseURL + "/" + qst.Image);
+                }
+                catch(Exception e)
+                {
+                    CatchParsingError(botClient, quest, uid, e);
+                }
+            }
             if (qst.Quest.StartsWith("img="))
             {
                 try
                 {
                     await botClient.SendPhotoAsync(
-                    chatId: uid,
-                    photo: quest.Substring(4).Split('\n')[0]);
+                        chatId: uid,
+                        photo: quest.Substring(4).Split('\n')[0].Contains("http") ? quest.Substring(4).Split('\n')[0] : _webBaseURL + "/" + quest.Substring(4).Split('\n')[0]);
                 }
                 catch(Exception e)
                 {
@@ -453,7 +468,7 @@ namespace SoUnBot.Modules.OttoLinux
                         {
                             await botClient.SendPhotoAsync(
                             chatId: uid,
-                            photo: qst.Answers[i].Split('\n')[0].Substring(4),
+                            photo: qst.Answers[i].Split('\n')[0].Substring(4).Contains("http") ? qst.Answers[i].Split('\n')[0].Substring(4) : _webBaseURL + "/" + qst.Answers[i].Split('\n')[0].Substring(4),
                             caption: "✏️ Risposta " + (i + 1) + ": " + qst.Answers[i].Substring(qst.Answers[i].Split('\n')[0].Length)
                         );
                         }

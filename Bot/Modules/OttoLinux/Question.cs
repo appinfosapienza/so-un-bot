@@ -15,6 +15,8 @@ namespace SoUnBot.Modules.OttoLinux
         public List<string> Answers { get; }
         [JsonProperty("correct")]
         public int Correct { get; private set; }
+        [JsonProperty("image")]
+        public string Image { get; private set; }
 
         public Question(String quest)
         {

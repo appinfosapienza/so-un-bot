@@ -13,7 +13,7 @@ namespace SoUnBot.Telegram
     {
         private AccessManager _accessManager;
         private string _moth_path;
-        
+
         private Dictionary<string, IModule> _modules;
         public TelegramBotClient BotClient { get; private set; }
         private Dictionary<long, IModule> _usersContext;
