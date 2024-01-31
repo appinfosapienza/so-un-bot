@@ -25,13 +25,20 @@ try
 {
     foreach (string f in Directory.GetFiles(dataPath + "/Questions"))
     {
-        if (!f.EndsWith("txt"))
+        if (f.EndsWith("txt"))
+        {
+            Console.WriteLine("Loading module " + Path.GetFileNameWithoutExtension(f));
+            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false));
+        }
+        else if (f.EndsWith("json"))
+        {
+            Console.WriteLine("Loading module " + Path.GetFileNameWithoutExtension(f));
+            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false, 3));
+        }
+        else
         {
             Console.WriteLine("Skipping " + Path.GetFileName(f) + " as the file extension is not supported");
-            continue;
         }
-        Console.WriteLine("Loading module " + Path.GetFileNameWithoutExtension(f));
-        moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false));
     }
     foreach (string d in Directory.GetDirectories(dataPath + "/Questions"))
     {

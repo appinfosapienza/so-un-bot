@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace SoUnBot.Modules.OttoLinux
 {
     public class Question
     {
+        [JsonProperty("quest")]
         public String Quest { get; set; }
+        [JsonProperty("answers")]
         public List<string> Answers { get; }
+        [JsonProperty("correct")]
         public int Correct { get; private set; }
 
         public Question(String quest)

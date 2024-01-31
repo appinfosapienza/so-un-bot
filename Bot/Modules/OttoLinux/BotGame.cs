@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Newtonsoft.Json;
 using SoUnBot.AccessControl;
 using SoUnBot.ModuleLoader;
 using Telegram.Bot;
@@ -37,6 +38,7 @@ namespace SoUnBot.Modules.OttoLinux
             _playedQuestions = new Dictionary<long, List<int>>();
 
             if (version == 2) LoadQuestionsV2();
+            else if (version == 3) LoadQuestionsJSON();
             else LoadQuestions();
         }
         public BotGame(AccessManager accessManager)
@@ -102,6 +104,13 @@ namespace SoUnBot.Modules.OttoLinux
                 _questions.Add(cur);
             }
             SanitizeQuestions();
+        }
+
+        private void LoadQuestionsJSON()
+        {
+            var json = System.IO.File.ReadAllText(_questionsPath);
+            var quests = JsonConvert.DeserializeObject<Question[]>(json);
+            if (quests != null) _questions = quests.ToList();
         }
 
         private void SanitizeQuestions()
