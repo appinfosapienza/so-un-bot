@@ -9,6 +9,7 @@ string aclPath = Environment.GetEnvironmentVariable("ACL_PATH") ?? "BotData/ACL"
 string tgToken = Environment.GetEnvironmentVariable("TELEGRAM_TOKEN") ?? "this-string-is-not-a-token";
 string tgAdminId = Environment.GetEnvironmentVariable("TELEGRAM_ADMIN_ID") ?? "000000";
 string webBaseURL = Environment.GetEnvironmentVariable("WEB_BASE_URL") ?? "http://localhost:8001";
+string imagesPath = dataPath + "/Images";
 
 Console.WriteLine("Welcome to SO un bot!");
 
@@ -29,12 +30,12 @@ try
         if (f.EndsWith("txt"))
         {
             Console.WriteLine("Loading module " + Path.GetFileNameWithoutExtension(f));
-            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false, webBaseURL));
+            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false, imagesPath));
         }
         else if (f.EndsWith("json"))
         {
             Console.WriteLine("Loading module " + Path.GetFileNameWithoutExtension(f));
-            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false, webBaseURL, 3));
+            moduleLoader.LoadModule(new BotGame(acl, Path.GetFileNameWithoutExtension(f), f, false, imagesPath, 3));
         }
         else
         {
@@ -44,7 +45,7 @@ try
     foreach (string d in Directory.GetDirectories(dataPath + "/Questions"))
     {
         Console.WriteLine("Loading module " + Path.GetFileName(d));
-        moduleLoader.LoadModule(new BotGame(acl, Path.GetFileName(d), d, false, webBaseURL, 2));
+        moduleLoader.LoadModule(new BotGame(acl, Path.GetFileName(d), d, false, imagesPath, 2));
     }
 }
 catch (System.Exception ex)
@@ -55,8 +56,6 @@ catch (System.Exception ex)
 
 Console.WriteLine("Starting Telegram bot listener...");
 new TelegramBot(tgToken, acl, dataPath + "/motd.txt", moduleLoader.Modules);
-
-new PhotoServer(dataPath + "/Images");
 
 // worst way ever to keep the main thread running, I know
 while (true)

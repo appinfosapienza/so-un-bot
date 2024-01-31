@@ -5,7 +5,9 @@ using SoUnBot.ModuleLoader;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.InputFiles;
 using Telegram.Bot.Types.ReplyMarkups;
+using File = System.IO.File;
 
 namespace SoUnBot.Modules.OttoLinux
 {
@@ -16,7 +18,7 @@ namespace SoUnBot.Modules.OttoLinux
         private string _questionsPath;
         private string _name;
         private bool _lock;
-        private string _webBaseURL;
+        private string _imgBaseDir;
 
         private Dictionary<long, OttoScore> _scores;
         private Dictionary<long, Question> _playingQuestions;
@@ -25,13 +27,13 @@ namespace SoUnBot.Modules.OttoLinux
 
         private static Random _rng = new Random();
 
-        public BotGame(AccessManager accessManager, string name, string path, bool locke, string webBaseUrl, int version = 1)
+        public BotGame(AccessManager accessManager, string name, string path, bool locke, string imgBaseDir, int version = 1)
         {
             _accessManager = accessManager;
             _questionsPath = path;
             _name = name;
             _lock = locke;
-            _webBaseURL = webBaseUrl;
+            _imgBaseDir = imgBaseDir;
 
             _questions = new List<Question>();
             _scores = new Dictionary<long, OttoScore>();
@@ -422,9 +424,18 @@ namespace SoUnBot.Modules.OttoLinux
             {
                 try
                 {
-                    await botClient.SendPhotoAsync(
-                        chatId: uid,
-                        photo: qst.Image.Contains("http") ? qst.Image : _webBaseURL + "/" + qst.Image);
+                    if (qst.Image.Contains("http"))
+                    {
+                        await botClient.SendPhotoAsync(
+                            chatId: uid,
+                            photo: qst.Image);
+                    }
+                    else
+                    {
+                        await botClient.SendPhotoAsync(
+                            chatId: uid,
+                            photo: File.OpenRead(_imgBaseDir + "/" + qst.Image));
+                    }
                 }
                 catch(Exception e)
                 {
@@ -435,9 +446,18 @@ namespace SoUnBot.Modules.OttoLinux
             {
                 try
                 {
-                    await botClient.SendPhotoAsync(
-                        chatId: uid,
-                        photo: quest.Substring(4).Split('\n')[0].Contains("http") ? quest.Substring(4).Split('\n')[0] : _webBaseURL + "/" + quest.Substring(4).Split('\n')[0]);
+                    if (qst.Image.Contains("http"))
+                    {
+                        await botClient.SendPhotoAsync(
+                            chatId: uid,
+                            photo: quest.Substring(4).Split('\n')[0]);
+                    }
+                    else
+                    {
+                        await botClient.SendPhotoAsync(
+                            chatId: uid,
+                            photo: File.OpenRead(_imgBaseDir + "/" + quest.Substring(4).Split('\n')[0]));
+                    }
                 }
                 catch(Exception e)
                 {
@@ -466,11 +486,18 @@ namespace SoUnBot.Modules.OttoLinux
                     {
                         try
                         {
-                            await botClient.SendPhotoAsync(
-                            chatId: uid,
-                            photo: qst.Answers[i].Split('\n')[0].Substring(4).Contains("http") ? qst.Answers[i].Split('\n')[0].Substring(4) : _webBaseURL + "/" + qst.Answers[i].Split('\n')[0].Substring(4),
-                            caption: "✏️ Risposta " + (i + 1) + ": " + qst.Answers[i].Substring(qst.Answers[i].Split('\n')[0].Length)
-                        );
+                            if (qst.Image.Contains("http"))
+                            {
+                                await botClient.SendPhotoAsync(
+                                    chatId: uid,
+                                    photo: qst.Answers[i].Split('\n')[0].Substring(4));
+                            }
+                            else
+                            {
+                                await botClient.SendPhotoAsync(
+                                    chatId: uid,
+                                    photo: File.OpenRead(_imgBaseDir + "/" + qst.Answers[i].Split('\n')[0].Substring(4)));
+                            }
                         }
                         catch(Exception e)
                         {
