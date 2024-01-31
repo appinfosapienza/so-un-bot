@@ -11,6 +11,8 @@ services:
     # for example: in the production server is pve-docer.net.mrlc.cc
     domainname: ${DNS_ZONE}
     pull_policy: build
+    networks:
+      - proxynet
     environment:
       # Leave /data unless you want to point to an external volume
       - DATA_PATH=/data
@@ -28,3 +30,8 @@ services:
       - "traefik.http.routers.so-un-bot.rule=Host(`so-un-bot.srv.mrlc.cc`)"
       - "traefik.http.routers.so-un-bot.tls=true"
       - "traefik.http.routers.so-un-bot.tls.certresolver=production"
+      - "traefik.http.services.so-un-bot.loadbalancer.server.port=8001"
+
+networks:
+  proxynet:
+    external: true
