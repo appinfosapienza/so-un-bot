@@ -11,8 +11,6 @@ services:
     # for example: in the production server is pve-docer.net.mrlc.cc
     domainname: ${DNS_ZONE}
     pull_policy: build
-    networks:
-      - proxynet
     environment:
       # Leave /data unless you want to point to an external volume
       - DATA_PATH=/data
