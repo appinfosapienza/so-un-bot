@@ -19,5 +19,12 @@ services:
       - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
       # User id of the administrator user (will receive logs for errors)
       - TELEGRAM_ADMIN_ID=${TELEGRAM_ADMIN_ID}
+      - WEB_BASE_URL=https://so-un-bot.srv.mrlc.cc
     volumes:
       - ${ACL_DIR}:/acl
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.so-un-bot.entrypoints=web, websecure"
+      - "traefik.http.routers.so-un-bot.rule=Host(`so-un-bot.srv.mrlc.cc`)"
+      - "traefik.http.routers.so-un-bot.tls=true"
+      - "traefik.http.routers.so-un-bot.tls.certresolver=production"
