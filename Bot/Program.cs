@@ -8,7 +8,6 @@ string dataPath = Environment.GetEnvironmentVariable("DATA_PATH") ?? "BotData";
 string aclPath = Environment.GetEnvironmentVariable("ACL_PATH") ?? "BotData/ACL";
 string tgToken = Environment.GetEnvironmentVariable("TELEGRAM_TOKEN") ?? "this-string-is-not-a-token";
 string tgAdminId = Environment.GetEnvironmentVariable("TELEGRAM_ADMIN_ID") ?? "000000";
-string webBaseURL = Environment.GetEnvironmentVariable("WEB_BASE_URL") ?? "http://localhost:8001";
 string imagesPath = dataPath + "/Images";
 
 Console.WriteLine("Welcome to SO un bot!");
