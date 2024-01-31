@@ -420,7 +420,7 @@ namespace SoUnBot.Modules.OttoLinux
             };
 
             string quest = qst.Quest;
-            if (qst.Image != "")
+            if (!string.IsNullOrEmpty(qst.Image))
             {
                 try
                 {
