@@ -2,7 +2,6 @@
 using SoUnBot.ModuleLoader;
 using SoUnBot.Modules.OttoLinux;
 using SoUnBot.Telegram;
-using Telegram.Bot.Types;
 
 string dataPath = Environment.GetEnvironmentVariable("DATA_PATH") ?? "BotData";
 string aclPath = Environment.GetEnvironmentVariable("ACL_PATH") ?? "BotData/ACL";
