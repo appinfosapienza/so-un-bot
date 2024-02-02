@@ -1,4 +1,4 @@
-1) Quale delle seguenti affermazioni sulle directory di un file system è vera?
+﻿1) Quale delle seguenti affermazioni sulle directory di un file system è vera?
 > È sempre necessario identificare un file di un file system fornendone il path assoluto
 > È sempre necessario identificare un file di un file system fornendone il path relativo alla directory corrente
 > È sempre possibile dare lo stesso nome a file diversi
@@ -777,3 +777,39 @@ v Tutte le opzioni elencate
 > La tabella di allocazione contiene l'indirizzo del primo blocco del file, e ciascun blocco contiene l'indirizzo del prossimo blocco del file
 v La tabella di allocazione contiene soltanto l'indirizzo di un blocco, e questo blocco contiene le entry delle porzioni di file allocate oppure l'indirizzo di altri blocchi usati a loro volta per indicizzare le porzioni di file allocate
 > La tabella di allocazione dei file contiene l'indirizzo di un blocco e la lista dei blocchi del file
+
+136) Quale delle seguenti affermazioni riguardo algoritmi di scheduling del disco è vera
+> L'algoritmo SCAN può portare a starvation delle richieste
+> L'algoritmo FSCAN è una versione di SCAN che rimuove il problema della starvation delle richieste, ma che rende l'algoritmo meno fair rispetto a SCAN
+> L'algoritmo Minimo Tempo di Servizio non richiede di conoscere la posizione della testina del disco per operare
+v N-step-SCAN è una generalizzazione di FSCAN che è fair e può avere prestazioni molto simili a quelle di SCAN
+
+137) Quali dei seguenti NON è un tipo di scheduling dei sistemi operativi:
+> Short term scheduling
+> Long term scheduling
+> Disk scheduling
+v File scheduling
+
+138) Nei sistemi operativi che usano paginazione SEMPLICE per la gestione della memoria
+> ai processi devono essere allocati frame di memoria necessariamente contigui per poter consentire l'esecuzione del processo
+> il sistema operativo deve utilizzare la tabella delle pagine per tradurre gli indirizzi. Qualora una pagina non sia presente in memoria principale, il sistema la deve caricare dinamicamente per consentire il proseguimento dell'esecuzione di un processo
+> non c'è necessità di traduzione degli indirizzi, in quanto tutte le pagine di un processo sono sempre caricate in un frame nella memoria principale
+v nessuna delle altre opzioni è corretta
+
+139) Nei sistemi operativi che usano journaling logico
+> non c'è possibilità di perdita dei dati in quanto, in caso di arresto imprevisto, il sistema operativo può usare il journal per ricostruire interamente le operazioni non andate a buon fine
+> il sistema operativo usa il journal solo per copiare i dati prima di farne la scrittura anche nel file system, ma non lo utilizza per i metadati
+v il sistema operativo usa il journal solo per copiare i metadati prima di aggiornare le strutture del file system, ma non lo utilizza per i dati
+> nessuna delle opzioni è corretta
+
+140) Il sistema operativo linux per la gestione dei file
+v nessuna delle altre opzioni è corretta
+> utilizza un sistema misto di allocazione contigua e concatenata in modo da minimizzare l'overhead di sistema e massimizzare le performance
+> utilizza un sistema di allocazione concatenata basato sulla struttura dati conosciuta come inode
+> usa gli inode per tenere traccia dei blocchi su disco allocati a ciascun file. Ogni inode contiene al suo interno la lista completa di tutti i blocchi su disco che compongono il file corrispondente
+
+141) Nei sistemi Unix
+> gli hard links sono dei file speciali che contengono il cammino completo sul file system di un altro file, effettivamente creando un "puntatore" a quel file
+v gli hard link sono puntatori diretti al descrittore di un file (inode). Un contatore viene utilizzato per tenere traccia di quanti hard link puntino ad un determinato inode. Questo fa si che il file non possa essere cancellato fintantoché ci sono hard link che continuano a puntarlo
+> possono esistere hard link a file non più esistenti, ad esempio se il file a cui l'hard link puntava viene cancellato
+> nessuna delle altre risposte è corretta
