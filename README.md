@@ -1,3 +1,7 @@
+# WARNING
+**We are working on a completely new version of the bot, written in Python. Stay tuned!**
+
+---
 # so-un-bot
 The official https://t.me/so_1_bot questions repository
 
