@@ -1,0 +1,15 @@
+# The configuration used to deploy the bot on the production server
+# You can adapt it to create your own instance
+version: '3.8'
+services:
+  pim-a-bot:
+    image: 'wapeety/pim-a-bot:latest'
+    container_name: so-un-bot
+    restart: unless-stopped
+    environment:
+        - API_KEY=${TELEGRAM_TOKEN}
+        - ADMIN_ID=${TELEGRAM_ADMIN_ID}
+    volumes:
+      - "../data/questions:/app/data/questions"
+      - "../data/config:/app/data/config"
+      - "${ACL_DIR}:/app/data"

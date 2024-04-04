@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SEGQ12m9AW+QER7Y2rV+jE8A1HXwy7fhpFirLSBhBNS7WqVkdPM2naTyYcFc+MOC1gyeO3WdP0+uVYxDWUvDRA==",
+  "success": true,
+  "projectFilePath": "/home/marco/RiderProjects/so-un-bot/Bot/SoUnBot.csproj",
+  "expectedPackageFiles": [
+    "/home/marco/.nuget/packages/jetbrains.annotations/2021.3.0/jetbrains.annotations.2021.3.0.nupkg.sha512",
+    "/home/marco/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/marco/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
+    "/home/marco/.nuget/packages/telegram.bot/17.0.0/telegram.bot.17.0.0.nupkg.sha512",
+    "/home/marco/.nuget/packages/telegram.bot.extensions.polling/1.0.0/telegram.bot.extensions.polling.1.0.0.nupkg.sha512",
+    "/home/marco/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

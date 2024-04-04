@@ -1,0 +1,1 @@
+Transition coverage: 100%

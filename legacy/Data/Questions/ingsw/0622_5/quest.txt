@@ -1,0 +1,1 @@
+Si consideri un software sviluppato seguendo un approccio iterativo implementato con due fasi: F1 seguita da F2. Ciascuna fase ha costo 10000 Eur e deve essere ripetuta una seconda volta con probabilità 0.1. Qual'e' il costo atteso dello sviluppo dell'intero software?

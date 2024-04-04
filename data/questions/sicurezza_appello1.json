@@ -1,0 +1,754 @@
+[
+  {
+    "quest": "1) L'input affidabile (reliable) è un requisito per il controllo degli accessi",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "2) I / Le __________ forniscono un mezzo per adattare RBAC alle specifiche delle politiche amministrative e di sicurezza in un'organizzazione",
+    "answers": [
+      {
+        "answer": "cardinalità (cardinality)",
+        "image": ""
+      },
+      {
+        "answer": "vincoli (constraints)",
+        "image": ""
+      },
+      {
+        "answer": "ruoli che si escludono a vicenda (mutually exclusive roles)",
+        "image": ""
+      },
+      {
+        "answer": "prerequisiti (prerequisites)",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "3) _______________ è il metodo tradizionale per implementare il controllo degli accessi",
+    "answers": [
+      {
+        "answer": "MBAC",
+        "image": ""
+      },
+      {
+        "answer": "RBAC",
+        "image": ""
+      },
+      {
+        "answer": "DAC",
+        "image": ""
+      },
+      {
+        "answer": "MAC",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "4) Qualsiasi programma di proprietà e con SetUID del \"superutente\" potenzialmente concede l'accesso illimitato al sistema a qualsiasi utente che esegue quel programma",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "5) Le minacce (thrats) sono attacchi effettuati",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "6) Masquerade, falsificazione e ripudio sono azioni di minaccia che causano conseguenze di minaccia di __________",
+    "answers": [
+      {
+        "answer": "Inganno (deception)",
+        "image": ""
+      },
+      {
+        "answer": "Usurpazione (usurpation)",
+        "image": ""
+      },
+      {
+        "answer": "Divulgazione non autorizzata (unauthorized disclosure)",
+        "image": ""
+      },
+      {
+        "answer": "Interruzione (disruption)",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "7) La \"A\" nella triade CIA sta per \"autenticità\"",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "8) Un difetto (flow) o debolezza (weakness) nella progettazione, implementazione o funzionamento e gestione di un sistema che potrebbe essere sfruttato per violare la politica di sicurezza del sistema è un / una __________",
+    "answers": [
+      {
+        "answer": "Contromisura",
+        "image": ""
+      },
+      {
+        "answer": "Vulnerabilità",
+        "image": ""
+      },
+      {
+        "answer": "Avversario",
+        "image": ""
+      },
+      {
+        "answer": "Rischio",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "9) La presentazione o la generazione di informazioni di autenticazione che confermano il legame tra l'entità e l'identificatore è la ___________",
+    "answers": [
+      {
+        "answer": "Fase di autnticazione (authentication step)",
+        "image": ""
+      },
+      {
+        "answer": "Fase di conferma (confirmation step)",
+        "image": ""
+      },
+      {
+        "answer": "Fase di identificazione (identification step)",
+        "image": ""
+      },
+      {
+        "answer": "Fase di verifica (verification step)",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "10) L'autenticazione dell'utente è la base per la maggior parte dei tipi di controllo degli accessi (Access control) e della responsabilità dell'utente (User accountability)",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "11) Un attacco __________ coinvolge un avversario che ripete una risposta dell'utente acquisita in precedenza",
+    "answers": [
+      {
+        "answer": "Eavesdropping",
+        "image": ""
+      },
+      {
+        "answer": "Client",
+        "image": ""
+      },
+      {
+        "answer": "Replay",
+        "image": ""
+      },
+      {
+        "answer": "Trojan horse",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "12) L'autenticazione dell'utente è una procedura che consente ai soggetti comunicanti di verificare che i contenuti di un messaggio ricevuto non siano stati alterati e che la fonte sia autentica",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "13) Due svantaggi della crittografia dei database sono la gestione delle chiavi e la poca flessibilità",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "14) Il / La / L' __________ è il processo di esecuzione di query autorizzate e deduzione di informazioni non autorizzate dalle risposte legittime ricevute",
+    "answers": [
+      {
+        "answer": "compromesso (compromise)",
+        "image": ""
+      },
+      {
+        "answer": "inferenza (inference)",
+        "image": ""
+      },
+      {
+        "answer": "perturbazione (perturbation)",
+        "image": ""
+      },
+      {
+        "answer": "partizionamento (partitioning)",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "15) Un SQL Server consente agli utenti di creare ruoli a cui è possibile assegnare diritti di accesso a porzioni del database",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "16) La crittografia è l'ultima linea di difesa nella sicurezza del database",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "17) Un ______ attiva un bug nel software di gestione della rete del sistema, provocandone l'arresto anomalo e il sistema non può più comunicare sulla rete fino a quando questo software non viene ricaricato",
+    "answers": [
+      {
+        "answer": "pacchetto di echo (echo packet)",
+        "image": ""
+      },
+      {
+        "answer": "reflection attack",
+        "image": ""
+      },
+      {
+        "answer": "attacco flash flood (flash flood attack)",
+        "image": ""
+      },
+      {
+        "answer": "pacchetto avvelenato (poison packet)",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "18) Gli attacchi Reflector e Amplifier utilizzano sistemi compromessi che eseguono i programmi dell'aggressore",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "19) Un attacco DoS che prende di mira le risorse dell'applicazione in genere mira a sovraccaricare o arrestare in modo anomalo il software di gestione della rete",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "20) Il ______ attacca la capacità di un server di rete di rispondere alle richieste di connessione TCP sovraccaricando le tabelle utilizzate per gestire tali connessioni",
+    "answers": [
+      {
+        "answer": "poison packet attack",
+        "image": ""
+      },
+      {
+        "answer": "SYN spoofing attack",
+        "image": ""
+      },
+      {
+        "answer": "DNS amplification attack",
+        "image": ""
+      },
+      {
+        "answer": "basic flooding attack",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "21) Il codice metamorfico (metamorphic code) è un software che può essere spedito invariato a un insieme eterogenea di piattaforme ed eseguito con semantica identica",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "22) I / Gli / La __________ si integrerà con il sistema operativo di un computer host e monitorerà il comportamento del programma in tempo reale per azioni dannose",
+    "answers": [
+      {
+        "answer": "scanner basati su fingerprint (fingerprint-based scanners)",
+        "image": ""
+      },
+      {
+        "answer": "scanner che bloccano il comportamento (behavior-blocking scanners)",
+        "image": ""
+      },
+      {
+        "answer": "tecnologie di decrittazione generica (generic decryption technology)",
+        "image": ""
+      },
+      {
+        "answer": "scanner euristici (heuristic scanners)",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "23) Un macro virus infetta porzioni eseguibili di codice",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "24) Un / Una __________ è un codice inserito in un malware che rimane dormiente finché non viene soddisfatta una condizione predefinita, che attiva un'azione non autorizzata",
+    "answers": [
+      {
+        "answer": "worm",
+        "image": ""
+      },
+      {
+        "answer": "trojan horse",
+        "image": ""
+      },
+      {
+        "answer": "logic bomb",
+        "image": ""
+      },
+      {
+        "answer": "trapdoor",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "25) La / Le __________ possono impedire attacchi di buffer overflow, in genere a dati globali, che tentano di sovrascrivere regioni adiacenti nello spazio degli indirizzi dei processi, come la tabella di offset globale",
+    "answers": [
+      {
+        "answer": "MMU",
+        "image": ""
+      },
+      {
+        "answer": "pagine di protezione (guard pages)",
+        "image": ""
+      },
+      {
+        "answer": "Heaps",
+        "image": ""
+      },
+      {
+        "answer": "Tutto quanto elencato precedentemente",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "26) Una conseguenza di un errore di buffer overflow è la / il / __________",
+    "answers": [
+      {
+        "answer": "corruzione dei dati utilizzati dal programma",
+        "image": ""
+      },
+      {
+        "answer": "trasferimento imprevisto del controllo del programma",
+        "image": ""
+      },
+      {
+        "answer": "possibile violazione dell'accesso alla memoria",
+        "image": ""
+      },
+      {
+        "answer": "tutto quanto elencato precedentemente",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "27) Un overflow dello stack può provocare, su di un sistema, una qualche forma di attacco denial-of-service",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "28) Java, anche se è un linguaggio di programmazione di alto livello, soffre ancora della vulnerabilità di buffer overflow perché consente di salvare più dati in un buffer di quanti ne possa contenere",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "29) Un _________ controlla le caratteristiche di un singolo host e gli eventi che si verificano all'interno di tale host per attività sospette",
+    "answers": [
+      {
+        "answer": "rilevamento delle intrusioni (intrusion detection)",
+        "image": ""
+      },
+      {
+        "answer": "IDS basato sulla rete (network-based IDS)",
+        "image": ""
+      },
+      {
+        "answer": "intrusione nella sicurezza (security intrusion)",
+        "image": ""
+      },
+      {
+        "answer": "IDS basato sull'host (host-based IDS)",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "30) Il _________ comporta la raccolta di dati relativi al comportamento degli utenti legittimi in un periodo di tempo",
+    "answers": [
+      {
+        "answer": "rilevamento basato sul profilo (profile-based detection)",
+        "image": ""
+      },
+      {
+        "answer": "rilevamento delle anomalie (anomaly detection)",
+        "image": ""
+      },
+      {
+        "answer": "rilevamento della firma (signature detection)",
+        "image": ""
+      },
+      {
+        "answer": "rilevamento di soglia (threshold detection)",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "31) Un sensore NIDS è solitamente posizionato all'interno del firewall esterno",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "32) Gli approcci di intrusion detection basati sulle firme (signature-based) tentano di definire i comportamenti normali, o attesi, mentre gli approcci basati su anomalia (anomaly-based) tentano di definire il comportamento corretto",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "33) SHA-1 produce un valore di hash di ______ bits",
+    "answers": [
+      {
+        "answer": "384",
+        "image": ""
+      },
+      {
+        "answer": "160",
+        "image": ""
+      },
+      {
+        "answer": "180",
+        "image": ""
+      },
+      {
+        "answer": "256",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "34) Una funzione hash come SHA-1 non è stata progettata per essere utilizzata come MAC e non può essere utilizzata direttamente a tale scopo perché non si basa su una chiave segreta",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "35) Gli attacchi di tipo Timing (timing attacks) sono applicabili solo a RSA",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "36) Gli attacchi _________ usano diversi approcci, tutti equivalenti, in termini di costo, a fattorizzare il prodotto di due numeri primi",
+    "answers": [
+      {
+        "answer": "matematici",
+        "image": ""
+      },
+      {
+        "answer": "a testo cifrato scelto",
+        "image": ""
+      },
+      {
+        "answer": "di Timing",
+        "image": ""
+      },
+      {
+        "answer": "di forza bruta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "37) Per la trasmissione orientata al flusso (stream-oriented) su un canale rumoroso, in genere si utilizza la modalità di cifratura a blocchi _______",
+    "answers": [
+      {
+        "answer": "CBC (Cipher Block Chaining)",
+        "image": ""
+      },
+      {
+        "answer": "OFB (Output Feedback)",
+        "image": ""
+      },
+      {
+        "answer": "ECB (Electronic Code Book)",
+        "image": ""
+      },
+      {
+        "answer": "CTR (Counter)",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "38) Per la trasmissione generica orientata ai blocchi (block-oriented), in genere si utilizza la modalità di cifratura a blocchi ________",
+    "answers": [
+      {
+        "answer": "CFB (Cipher Feedback)",
+        "image": ""
+      },
+      {
+        "answer": "OFB (Output Feedback)",
+        "image": ""
+      },
+      {
+        "answer": "CBC (Cipher Block Chaining)",
+        "image": ""
+      },
+      {
+        "answer": "CTR (Counter)",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "39) È possibile convertire qualsiasi cifrario a blocchi in un cifrario a flusso utilizzando la modalità Cipher Feedback (CFB)",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "40) AES usa una struttura di Feistel",
+    "answers": [
+      {
+        "answer": "V",
+        "image": ""
+      },
+      {
+        "answer": "F",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  }
+]

@@ -1,0 +1,1193 @@
+[
+  {
+    "quest": "1) La tecnica di gestione della memoria con paginazione e tabelle delle pagine multilivello porta _______ dimensione della tabella delle pagine in memoria e _____ l’overhead di memoria nelle operazioni di gestione.",
+    "answers": [
+      {
+        "answer": "\"ad una riduzione della\" e \"può ridurre\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ad un aumento della\" e \"può aumentare\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ad un aumento della\" e \"può ridurre\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ad una riduzione della\" e \"può aumentare\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "2) La tecnica di gestione della memoria con paginazione basata su tabella inversa delle pagine _______ l’indirizzo della memoria secondaria e la tabella ha una dimensione pari alla cardinalità del _______.",
+    "answers": [
+      {
+        "answer": "\"non memorizza\" e \"numero di pagine riferite\"",
+        "image": ""
+      },
+      {
+        "answer": "\"non memorizza\" e \"numero di page frame\"",
+        "image": ""
+      },
+      {
+        "answer": "\"memorizza\" e \"numero di page frame\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "3) La tecnica di gestione della memoria con paginazione e sostituzione delle pagine ‘Far’ sostituisce la pagina più lontana nel grafo delle pagine da _______, dove il grafo rappresenta le pagine come _______.",
+    "answers": [
+      {
+        "answer": "\"l'ultitima pagina riferita\" e \"nodi\"",
+        "image": ""
+      },
+      {
+        "answer": "\"qualsiasi pagina riferita\" e \"entità\"",
+        "image": ""
+      },
+      {
+        "answer": "\"qualsiasi pagina riferita\" e \"nodi\"",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "4) Nella gestione della memoria basata sulla segmentazione si possono verificare errori di traduzione, nella traduzione si controllano i campi _____ e si può avere un’eccezione di _______",
+    "answers": [
+      {
+        "answer": "\"bit di residenza, di protezione, di lunghezza\" e \"overflow del segmento / protezione del segmento\"",
+        "image": ""
+      },
+      {
+        "answer": "\"bit di validità\" e \"validità del segmento\"",
+        "image": ""
+      },
+      {
+        "answer": "\"bit di residenza, e di validitù\" e \"overflow del segmento / protezione del segmento\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "5) Le strategie di sostituzione di pagina globali rispetto a quelle locali _______",
+    "answers": [
+      {
+        "answer": "non ignorano i comportamenti dei singoli processi.",
+        "image": ""
+      },
+      {
+        "answer": "tengono conto dello stato del processo",
+        "image": ""
+      },
+      {
+        "answer": "ignorano i comportamenti dei singoli processi.",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "6) La strategia di sostituzione di pagina a orologio _____",
+    "answers": [
+      {
+        "answer": "è una variante della strategia FIFO",
+        "image": ""
+      },
+      {
+        "answer": "è una variante della strategia LIFO",
+        "image": ""
+      },
+      {
+        "answer": "ignora possibili collisioni",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "7) Il modello working set nella gestione della memoria con paginazione si basa sull’osservazione della dipendenza del _______ dalla quantità di memoria per le pagine di un processo.",
+    "answers": [
+      {
+        "answer": "tasso di page fault",
+        "image": ""
+      },
+      {
+        "answer": "grado di multiprogrammazione",
+        "image": ""
+      },
+      {
+        "answer": "tempo in cui una pagina è caricata in memoria",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "8) Il working set definisce un ______ durante l’intervallo di tempo [t – w, t]",
+    "answers": [
+      {
+        "answer": "tempo limite",
+        "image": ""
+      },
+      {
+        "answer": "insieme di pagine riferite",
+        "image": ""
+      },
+      {
+        "answer": "approssimazione",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "9) La strategia del working set unito all’algoritmo del clock per gestire i page fault si basa su una ______",
+    "answers": [
+      {
+        "answer": "lista circolare",
+        "image": ""
+      },
+      {
+        "answer": "coda di massima priorità",
+        "image": ""
+      },
+      {
+        "answer": "lista doppiamente linkata",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "10) Nella gestione della memoria virtuale, la tecnica di traduzione dell'indirizzo da virtuale a reale si basa sulla tabella delle pagine. Per migliorare le prestazioni della traduzione in alcuni casi tale tabella _____. E Per la miglior gestione della sostituzione di pagine si usano ______",
+    "answers": [
+      {
+        "answer": "\"può essere tutta o in parte inserita in memoria associativa\" e \"bit di modifica e di riferimento\"",
+        "image": ""
+      },
+      {
+        "answer": "\"può essere inserita interamente in memoria secondaria\" e \"bit di modifica e di riferimento\"",
+        "image": ""
+      },
+      {
+        "answer": "\"può essere tutta o in parte inserita in memoria associativa\" e \"variabili globali\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "11) Nella tecnica di paginazione per la gestione della memoria, la scelta della dimensione della pagina di piccole dimensioni ______ la frammentazione interna, _____ la quantità di memoria per mantenere il working set di un processo e può ______ la dimensione della tabella delle pagine.",
+    "answers": [
+      {
+        "answer": "\"può ridurre\" e \"può ridurre\" e \"aumentare\"",
+        "image": ""
+      },
+      {
+        "answer": "\"può ridurre\" e \"può ridurre\" e \"dimunuire\"",
+        "image": ""
+      },
+      {
+        "answer": "\"può aumentare\" e \"può aumentare\" e \"aumentare\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "12) La tecnica di gestione basata su DMA permette di interagire con il dispositivo ______ e le interruzioni ______",
+    "answers": [
+      {
+        "answer": "\"indipendentemente dalla CPU\" e \"sono ridotte\"",
+        "image": ""
+      },
+      {
+        "answer": "\"tramite la CPU\" e \"sono ridotte\"",
+        "image": ""
+      },
+      {
+        "answer": "\"indipendentemente dalla CPU\" e \"possono aumentare\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "13) In un file system quando ad un record fisico corrisponde un record logico si parla di file con ______",
+    "answers": [
+      {
+        "answer": "record non bloccati",
+        "image": ""
+      },
+      {
+        "answer": "indipendenza logica",
+        "image": ""
+      },
+      {
+        "answer": "record bloccanti",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "14) La variazione della posizione fisica di un file rende un hard link non valido e un soft link _____ ",
+    "answers": [
+      {
+        "answer": "rimane valido",
+        "image": ""
+      },
+      {
+        "answer": "viene invalidato di conseguenza",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "15) In un file system la dimensione di un blocco influenza alcuni indici di prestazioni. All’aumentare della dimensione del blocco si osserva ______ e _____",
+    "answers": [
+      {
+        "answer": "\"un minor spreco di spazio\" e \"un maggior spreco di tempo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"un minor spreco di spazio\" e \"un minor spreco di tempo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"un maggior spreco di spazio\" e \"un minor spreco di tempo\"",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "16) Per migliorare le prestazioni del file system con il metodo della allocazione non contigua e tabellare si usa una tabella per memorizzare i puntatori ai blocchi. La sua dimensione cresce con ______",
+    "answers": [
+      {
+        "answer": "il solo aumentare dei puntatori ai blocchi",
+        "image": ""
+      },
+      {
+        "answer": "il solo aumentare dei blocchi",
+        "image": ""
+      },
+      {
+        "answer": "#blocchi x indirizzo di blocco",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "17) In una allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, i record logici sono ______. Questa tecnica permette generalmente di ottenere ______ prestazioni; inoltre può dare luogo al fenomeno della ______. ",
+    "answers": [
+      {
+        "answer": "\"fisicamente adiacenti\" e \"buone\" e \"frammentazione interna\"",
+        "image": ""
+      },
+      {
+        "answer": "\"fisicamente adiacenti\" e \"scarse\" e \"frammentazione esterna\"",
+        "image": ""
+      },
+      {
+        "answer": "\"fisicamente adiacenti\" e \"scarse\" e \"frammentazione interna\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "18) In un file system le tecniche di backup e recovery includono backup fisico e logico. Il backup incrementale si applica per _____",
+    "answers": [
+      {
+        "answer": "il backup logico che memorizza solo i dati del file system che sono stati modificati rispetto al backup precedente",
+        "image": ""
+      },
+      {
+        "answer": "dati critici o sensibili",
+        "image": ""
+      },
+      {
+        "answer": "risorse limitate",
+        "image": ""
+      },
+      {
+        "answer": "ripristino rapido",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "19) Per effettuare backup e recovery in file system si utilizzano principalmente tecniche di _____. Un backup incrementale si basa su ______. Un backup logico ha il vantaggio di _____.",
+    "answers": [
+      {
+        "answer": "\"esportazione delle copie\" e \"memorizzazione dei dati critici o sensibili\" e \"garantire i dati in ogni copia\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ridondanza con copie multiple\" e \"memorizzazione dei soli dati modificati all’ultimo backup\" e \"mantenere la struttura del file system\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ridondanza con copie multiple\" e \"memorizzazione dei dati di tutti i backup\" e \"mantenere la struttura del file system\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "20) Nella gestione dei dispositivi di I/O i metodi che comprendo l’ I/O programmato con busy waiting che è caratterizzato da ______.",
+    "answers": [
+      {
+        "answer": "complessità esponenziale",
+        "image": ""
+      },
+      {
+        "answer": "la necessità di performance discrete",
+        "image": ""
+      },
+      {
+        "answer": "semplicità",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "21) Nella gerarchia di gestione dei dispositivi di I/O i gestori degli interrupt ______ dall’utente e si trovano concettualmente ______ dei driver dei dispositivi. Un driver di dispositivo si trova tipicamente ______",
+    "answers": [
+      {
+        "answer": "\"non sono visibili\" e \"sotto livello\" e \"nel nucleo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"non sono visibili\" e \"sotto livello\" e \"a livello applicazione\"",
+        "image": ""
+      },
+      {
+        "answer": "\"visibili\" e \"sotto livello\" e \"nel nucleo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"visibli\" e \"sotto livello\" e \"a livello applicazione\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "22) I sistemi RAID per la gestione dei dischi per incrementare l’affidabilità usano un meccanismo di ______, per incrementare le prestazioni usano _____ ",
+    "answers": [
+      {
+        "answer": "\"ridondanza\" e \"distribuzione e partizione sulle copie dei dischi trasparenti\"",
+        "image": ""
+      },
+      {
+        "answer": "\"trasparenza\" e \"copie scalabili orizzontalmente\"",
+        "image": ""
+      },
+      {
+        "answer": "\"ridondanza\" e \"copie di blocchi di memoria salvati nella memoria secondaria secondo algoritmi appositi\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "23) Gli algoritmo di scheduling del disco di tipo SCAN includono il C-SCAN che _____, le varianti ‘Freeze’ e ‘N-step’ che _____.",
+    "answers": [
+      {
+        "answer": "\"aumenta inizialmente i tempi di risposta a favore di una maggiore organizzazione dei dati per accessi futuri\" e \"permettono di velocizzare la ricerca\"",
+        "image": ""
+      },
+      {
+        "answer": "\"riduce la varianza dei tempi di risposta, a scapito del throughput e del tempo medio di risposta\" e \"prevengono l’attesa infinita / riducono la varianza dei tempi di risposta.\"",
+        "image": ""
+      },
+      {
+        "answer": "\"riduce il tempo di latenza\" e \"possono portare a una lunga latenza di accesso se le richieste sono disperse su posizioni diverse del disco\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "24) Il primo algoritmo di scheduling SCAN ricerca del cilindro _____",
+    "answers": [
+      {
+        "answer": "tempo più breve di seek in una direzione preferita",
+        "image": ""
+      },
+      {
+        "answer": "tempo più lungo di seek in una direzione preferita",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "25) La formattazione di un disco con la tecnica dell’interleaving si applica per gestire il problema ______",
+    "answers": [
+      {
+        "answer": "della deviazione del cilindro tra le tracce",
+        "image": ""
+      },
+      {
+        "answer": "della fremmentazione",
+        "image": ""
+      },
+      {
+        "answer": "della latenza casuale",
+        "image": ""
+      },
+      {
+        "answer": "della complessità di allucazione dei file",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "26) L’algoritmo di scheduling del disco Shortest Seek Time First fornisce ______ rispetto all algoritmo FIFO. ",
+    "answers": [
+      {
+        "answer": "nessuna delle altre",
+        "image": ""
+      },
+      {
+        "answer": "throughput maggiore",
+        "image": ""
+      },
+      {
+        "answer": "throughput minore",
+        "image": ""
+      },
+      {
+        "answer": "latenza maggiore",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "27) L’algoritmo di scheduling del disco SCAN si basa su una ricerca del cilindro  ______",
+    "answers": [
+      {
+        "answer": "cercando i dati più vicino alle posizioni correnti delle teste di lettura/scrittura del disco.",
+        "image": ""
+      },
+      {
+        "answer": "in direzioni variabili quando si raggiunge un estremo",
+        "image": ""
+      },
+      {
+        "answer": "cercando i dati prioritizzando le posizioni più distanti delle teste di lettura/scrittura del disco",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "28) Nel sistema operativo Windows, gli oggetti sono nomi di ____",
+    "answers": [
+      {
+        "answer": "risorse logiche",
+        "image": ""
+      },
+      {
+        "answer": "risorse fisiche",
+        "image": ""
+      },
+      {
+        "answer": "collegamenti simbolici",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "29) Ogni oggetto nel sistema Windows: ",
+    "answers": [
+      {
+        "answer": "condivide delle risorse con altri oggetti",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle due",
+        "image": ""
+      },
+      {
+        "answer": "\"può essere con o senza nome\" e \"può avere puntatori e handle (hanno significato diverso)\"",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "30) In un sistema operativo Windows le interruzioni sono organizzate in livelli di priorità che includono i livelli, nell’ordine, dal basso: _____ e i thread sono schedulati con una disciplina a _____ ",
+    "answers": [
+      {
+        "answer": "\"hardware e critiche, chiamate differite, chiamate di procedura asincrone, passivo\" e \"Priority Scheduling\"",
+        "image": ""
+      },
+      {
+        "answer": "\"passivo, chiamate di procedura asincrone, chiamate differite, hardware e critiche\" e \" priorità di code round robin\"",
+        "image": ""
+      },
+      {
+        "answer": "\"passivo, chiamate di procedura asincrone, chiamate differite, hardware e critiche\" e \"Multilevel Feedback Queue Scheduling\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "31) Nel sistema operativo Windows, il nucleo NTOS include: ",
+    "answers": [
+      {
+        "answer": "Le tradizionali chiamate di sistema",
+        "image": ""
+      },
+      {
+        "answer": "le interfacce utente",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "32) Nel sistema operativo Windows, il livello Executive si trova:",
+    "answers": [
+      {
+        "answer": "sopra al livello nucleo",
+        "image": ""
+      },
+      {
+        "answer": "sotto al livello applicazione di sistema",
+        "image": ""
+      },
+      {
+        "answer": "sotto al livello applicazioni utenti",
+        "image": ""
+      },
+      {
+        "answer": "nel Kernel Executive Layer",
+        "image": ""
+      },
+      {
+        "answer": "sotto al livello nucleo",
+        "image": ""
+      }
+    ],
+    "correct": 4,
+    "image": ""
+  },
+  {
+    "quest": "33) Il sistema operativo Linux ha una organizzazione della memoria basata su ______. Le tabelle delle pagine sono organizzate ______. La memoria fisica è divisa in ____",
+    "answers": [
+      {
+        "answer": "\"algoritmi di scheduling\" e \"in colonne\" e \"blocchi\"",
+        "image": ""
+      },
+      {
+        "answer": "\"paginazione\" e \"secondo uno schema creato al momento\"  e \"aree di utilizzo\" ",
+        "image": ""
+      },
+      {
+        "answer": "\"paginazione\" e \"su tre o quattro livelli\" e \"tre zone e in pagine\"",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "34) Il sistema opeartivo Linux: ",
+    "answers": [
+      {
+        "answer": "e di tipo microkernel ",
+        "image": ""
+      },
+      {
+        "answer": "è di tipo monolitico, ma con componenti modulari",
+        "image": ""
+      },
+      {
+        "answer": "ha un kernel organizzato a livelli",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "35) Nel sistema sistema opeartivo Linux con porting si intende:  ",
+    "answers": [
+      {
+        "answer": "l'esportazione di componenti del kernel",
+        "image": ""
+      },
+      {
+        "answer": "l'aggiunta di feature da un kernel all'altro",
+        "image": ""
+      },
+      {
+        "answer": "il processo di modifica del nucleo per supportare una nuova piattaforma",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "36) [GENERAZIONI] Algoritmi di scheduling di processi basati sui quanti di tempo",
+    "answers": [
+      {
+        "answer": "III Generazione",
+        "image": ""
+      },
+      {
+        "answer": "IV Generazione",
+        "image": ""
+      },
+      {
+        "answer": "I generazione",
+        "image": ""
+      },
+      {
+        "answer": "V Generaione",
+        "image": ""
+      },
+      {
+        "answer": "II Generazine",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "37) [GENERAZIONI] Definizione e uso della memoria virutale:",
+    "answers": [
+      {
+        "answer": "III Generazione",
+        "image": ""
+      },
+      {
+        "answer": "IV Generazione",
+        "image": ""
+      },
+      {
+        "answer": "I generazione",
+        "image": ""
+      },
+      {
+        "answer": "V Generaione",
+        "image": ""
+      },
+      {
+        "answer": "II Generazine",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "38) [GENERAZIONI] Interfacce grafiche: IV Generazione ",
+    "answers": [
+      {
+        "answer": "III Generazione",
+        "image": ""
+      },
+      {
+        "answer": "IV Generazione",
+        "image": ""
+      },
+      {
+        "answer": "I generazione",
+        "image": ""
+      },
+      {
+        "answer": "V Generaione",
+        "image": ""
+      },
+      {
+        "answer": "II Generazine",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "39) Quale di queste istruzioni dovrebbe essere consentità solo in modalità nucleo disabilitare gli interrupt: _____; leggere il dispositivo che calcola l’ora corrente: _____; impostare il dispositivo che calcola l’ora corrente: ______;",
+    "answers": [
+      {
+        "answer": "\"anche utente\" e \"anche utente\" e \"solo nucleo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"solo nucleo\" e \"solo nucleo\" e \"solo nucleo\"",
+        "image": ""
+      },
+      {
+        "answer": "\"solo utente\" e \"solo nucleo\" e \"anche utente\"",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "40) [architetture ideali] efficienza e prestazioni:",
+    "answers": [
+      {
+        "answer": "monolitico",
+        "image": ""
+      },
+      {
+        "answer": "microkernel",
+        "image": ""
+      },
+      {
+        "answer": "a livelli",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "41) [architetture ideali] flessibilità e modificabilità:",
+    "answers": [
+      {
+        "answer": "monolitico",
+        "image": ""
+      },
+      {
+        "answer": "microkernel",
+        "image": ""
+      },
+      {
+        "answer": "a livelli",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "42) [architetture ideali] isolamento delle funzioni:",
+    "answers": [
+      {
+        "answer": "monolitico",
+        "image": ""
+      },
+      {
+        "answer": "microkernel",
+        "image": ""
+      },
+      {
+        "answer": "a livelli",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "43) In un file system che contiene un insieme di record, un record fisico corrisponde a un record logico se si parla di file con :",
+    "answers": [
+      {
+        "answer": "record definiti",
+        "image": ""
+      },
+      {
+        "answer": "record non bloccati ",
+        "image": ""
+      },
+      {
+        "answer": "record bloccati ",
+        "image": ""
+      },
+      {
+        "answer": "record di dimensioni variabili",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "44) L'uso di link in un file system permette di creare dei collegamenti ai file. Se un file viene ritoccato fisicamente nel sistema, un eventuale hard link al file ______ e un eventuale soft link ______ .",
+    "answers": [
+      {
+        "answer": "\"rimane valido\" e \"diventa non più valido\"",
+        "image": ""
+      },
+      {
+        "answer": "\"rimane valido\" e \"diventa valido\"",
+        "image": ""
+      },
+      {
+        "answer": "\"diventa non più valido\" e \"rimane valido\"",
+        "image": ""
+      },
+      {
+        "answer": "\"viene collegato ad un diverso file\" e \"è indefinito\"",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "45) Considerare un sistema operativo della IV generazione, include la caratteristica \"sviluppo di interfacce grafiche\"?",
+    "answers": [
+      {
+        "answer": "no, nella V generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella III generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella II generazione",
+        "image": ""
+      },
+      {
+        "answer": "sì, nella IV generazione",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "46) Considerare un sistema operativo della IV generazione, include la caratteristica \"gestione vincoli real-time\"?",
+    "answers": [
+      {
+        "answer": "no, nella V generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella III generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella II generazione",
+        "image": ""
+      },
+      {
+        "answer": "sì, nella IV generazione",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "47) Considerare un sistema operativo della IV generazione, include la caratteristica \"memoria virtuale\"?",
+    "answers": [
+      {
+        "answer": "no, nella V generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella III generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella II generazione",
+        "image": ""
+      },
+      {
+        "answer": "sì, nella IV generazione",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "48) Considerare un sistema operativo della IV generazione, include la caratteristica \"scheduling di processi basato sul tempo\"?",
+    "answers": [
+      {
+        "answer": "no, nella V generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella III generazione",
+        "image": ""
+      },
+      {
+        "answer": "no, nella II generazione",
+        "image": ""
+      },
+      {
+        "answer": "sì, nella IV generazione",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "49) Considerare un sistema operativo per un moderno sistema di elaborazione con connessione ad una rete. Il sistema operativo: ",
+    "answers": [
+      {
+        "answer": "aumenta il livello di comunicazione fra moduli",
+        "image": ""
+      },
+      {
+        "answer": "usa un approccio a livelli",
+        "image": ""
+      },
+      {
+        "answer": "supporta funzioni per connessione alla rete",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "50) Considerare un sistema operativo per un moderno sistema di elaborazione con connessione ad una rete. Il sistema operativo: ",
+    "answers": [
+      {
+        "answer": "aumenta il livello di comunicazione fra moduli",
+        "image": ""
+      },
+      {
+        "answer": "gestisce un sistema connesso alla rete",
+        "image": ""
+      },
+      {
+        "answer": "usa un approccio a livelli",
+        "image": ""
+      },
+      {
+        "answer": "gestisce un singolo client connesso alla rete",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "51) I sistemi time-sharing e i sistemi con multiprogrammazione in che relazione sono fra loro?",
+    "answers": [
+      {
+        "answer": "il sistema time-sharing prevede anche multiprogrammazione",
+        "image": ""
+      },
+      {
+        "answer": "il sistema time-sharing dipende dal livello di multiprogrammazione",
+        "image": ""
+      },
+      {
+        "answer": "il sistema con multiprogrammazione può comportarsi come un sistema time-sharing ",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "52) Considerando gli stati di un processo, se un processo è dispatched se:",
+    "answers": [
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Bloccato\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Bloccato\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Pronto\" allo stato \"Esecuzione\"",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "52) Considerando gli stati di un processo, un processo che riceve una notifica attesa di un evento:",
+    "answers": [
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Bloccato\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Bloccato\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Pronto\" allo stato \"Esecuzione\"",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "53) Considerando gli stati di un processo, se il processo si blocca in attesa di un evento esterno:",
+    "answers": [
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Esecuzione\" allo stato \"Bloccato\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Bloccato\" allo stato \"Pronto\"",
+        "image": ""
+      },
+      {
+        "answer": "passa dallo stato \"Pronto\" allo stato \"Esecuzione\"",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "54) In una allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, i record logici sono _____ .",
+    "answers": [
+      {
+        "answer": "dipendenti l'uno dall'altro ",
+        "image": ""
+      },
+      {
+        "answer": "anche fisici",
+        "image": ""
+      },
+      {
+        "answer": "fisicamente adiacenti",
+        "image": ""
+      },
+      {
+        "answer": "fisicamente lontani l'uno dall'altro",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "55) L'allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, permette generalmente: ",
+    "answers": [
+      {
+        "answer": "di ottenere ottime prestazioni",
+        "image": ""
+      },
+      {
+        "answer": "frammentazione interna ",
+        "image": ""
+      },
+      {
+        "answer": "di ottenere scarse prestazioni",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "55) L'allocazione contigua di file su un dispositivo di memoria secondaria, considerando un disco, permette generalmente: ",
+    "answers": [
+      {
+        "answer": "di ottenere ottime prestazioni",
+        "image": ""
+      },
+      {
+        "answer": "frammentazione interna ",
+        "image": ""
+      },
+      {
+        "answer": "frammentazione esterna",
+        "image": ""
+      },
+      {
+        "answer": "nessuna delle precedenti",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  }
+]

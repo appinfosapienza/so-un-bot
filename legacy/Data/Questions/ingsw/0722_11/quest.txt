@@ -1,0 +1,22 @@
+Una Condition è una proposizione booleana, cioè una espressione con valore booleano che non può essere decomposta 
+in espressioni boolean più semplici. Ad esempio, (x + y <= 3) è una condition.
+
+Una Decision è una espressione booleana composta da conditions e zero o più operatori booleani. Ad esempio, sono decisions:
+(x + y <= 3) 
+((x + y <= 3) || (x - y > 7))
+Un insieme di test cases T soddisfa il criterio di  Condition/Decision coverage se tutte le seguenti condizioni sono soddisfatte:
+
+1) Ciascun punto di entrata ed uscita nel programma è eseguito in almeno un test;
+2) Per ogni decision d nel programma, per ogni condition c in d, esiste un test in T in cui c è true ed un test in T in cui c è false.
+3) Per ogni decision d nel programma, esiste un test in T in cui d è true ed un test in T in cui d è false.
+
+Si consideri la seguente funzione:
+int f(int a, int b, int c)
+{    if ( (a  + b >= 6) && (b - c <= 1) )
+          return (1);    // punto di uscita 1
+      else if ((b - c <= 1)  || (b + c >= 5))
+           then return (2);   // punto di uscita 2
+           else return (3);   // punto di uscita 3
+}
+
+Quale dei seguenti test set soddisfa il criterio della Condition/Decision coverage ?

@@ -1,0 +1,1 @@
+La risposta corretta è: La variabile x è nell'intervallo [1, 4] oppure nell'intervallo [15, 20]

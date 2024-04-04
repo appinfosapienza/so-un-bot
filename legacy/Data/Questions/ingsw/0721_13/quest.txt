@@ -1,0 +1,4 @@
+Si consideri l'automa seguente:
+0->1 e 1->0
+
+Quale dei seguenti modelli Modelica fornisce un modello ragionevole per l'automa di cui sopra.

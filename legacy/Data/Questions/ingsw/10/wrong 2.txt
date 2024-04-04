@@ -1,0 +1,1 @@
+La variabile x è fuori dall'intervallo [1, 4] e fuori dall'intervallo [15, 20]

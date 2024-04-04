@@ -1,0 +1,2 @@
+img=https://i.imgur.com/okpLYQL.png
+Quale dei seguenti modelli Modelica rappresenta lo state diagram in figura ?

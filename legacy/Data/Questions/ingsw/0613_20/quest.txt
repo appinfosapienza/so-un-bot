@@ -1,0 +1,6 @@
+img=https://unspectacular-subdi.000webhostapp.com/0613_domanda_20.png
+Si consideri il processo software con due fasi (0 ed 1) rappresentato con la Markov chain in figura. Lo stato iniziale 0 e p è in (0, 1).  Il tempo necessario per completare la fase x è time(x). La fase 0 è la fase di design, che ha probabilità p di dover essere ripetuta causa errori. La fase 1 rappreenta il completamento del processo software, e quindi time(1) = 0.
+Il tempo di una istanza del processo software descritto sopra è la somma dei tempi degli stati (fasi) attraversati (tenendo presente che si parte sempre dallo stato 0.
+Quindi il costo Time(X) della sequenza di stati X = x(0), x(1), x(2), .... è Time(X) = time(x(0)) + time(x(1)) + time(x(2)) + ...
+Ad esempio se X = 0, 1 abbiamo Time(X) = time(0) + time(1) = time(0)  (poichè time(1) = 0).
+Quale delle seguenti formule calcola il valore atteso del costo per completare il processo software di cui sopra
