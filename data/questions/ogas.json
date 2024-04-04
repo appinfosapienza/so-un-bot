@@ -3,11 +3,11 @@
     "quest": "1) I manager sono dei visionari e hanno un'alta propensione al rischio",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -18,11 +18,11 @@
     "quest": "2) Il prototitpo di un modello di business può presentarsi come un foglio di calcolo che simula il funzionamento del nuovo business",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -33,11 +33,11 @@
     "quest": "3) Il budget è l'output dell'attività di programmazione",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -48,11 +48,11 @@
     "quest": "4) Nel processo di pianificazione di un business il meccanismo di controllo assume caratteristiche più rilevanti rispetto a quello della programmazione",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -63,11 +63,11 @@
     "quest": "5) La propensione al rischio, che secondo alcuni studiosi è tipica dell'orientamento imprenditoriale, è l'inclinazione a intraprendere nuovi progetti avventurandosi in ambienti incerti",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -78,11 +78,11 @@
     "quest": "6) I primi tasselli indispensabili per la formazione di uno schema di Business Plan sono i 'Ricavi' e gli 'Investimenti durevoli'",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -93,11 +93,11 @@
     "quest": "7) Il business plan è in grado di fornire una stima della probabilità di successo di una startup",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -108,11 +108,11 @@
     "quest": "8) La fattibilità economica è quella fase della pianificazione il cui output è il piano operativo",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -123,11 +123,11 @@
     "quest": "9) Il pensiero visuale è una tecnica di progettazione dei modelli di business",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -138,11 +138,11 @@
     "quest": "10) Il business model CANVAS è strutturato in sette blocchi",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -153,11 +153,11 @@
     "quest": "11) Gli scenari possono rivelarsi utili come guide per la progettazione di nuovi modelli di business in quanto aiutano gli innovatori a riflettere sul modello più appropriato per ciascuna delle ambientazioni future (Scenario Planning)",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -168,11 +168,11 @@
     "quest": "12) Il manager, così come l'imprenditore, potrebbe rischiare il proprio capitale",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -183,11 +183,11 @@
     "quest": "13) Il business plan non è in grado di fornire una stima della probabilità di successo di una startup",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -198,11 +198,11 @@
     "quest": "14) La condizione di vitalità dell'impresa è RICAVI >= COSTI",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -213,11 +213,11 @@
     "quest": "15) Il business model è composto da elementi che mostrano la logica con cui un'azienda intende creare valore",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -228,11 +228,11 @@
     "quest": "16) La struttura organizzativa rappresenta il sistema di processi e di attività di un'organizzazione, cioè il suo modo di funzionare",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -243,11 +243,11 @@
     "quest": "17) L'equilibrio finanziario è rappresentato dall'equazione ∑ Ricavi = ∑ Costi + margine di profitto equo",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -258,11 +258,11 @@
     "quest": "18) In un sistema di impresa, compito della direzione è la ricerca di una coordinazione fra sub-sistemi, come condizione per la coordinazione generale",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -273,11 +273,11 @@
     "quest": "19) Quando combinata con il CANVAS la SWOT Analysis permette una precisa valutazione del modello di business di un'organizzazione e dei suoi elementi di base",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -288,11 +288,11 @@
     "quest": "20) I modelli di business sono progettati in ambienti specifici che possono essere considerati \"spazi di progettazione\"",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -303,11 +303,11 @@
     "quest": "21) Il capitale di rischio rappresenta i mezzi monetari apportati da terzi finanziatori",
     "answers": [
       {
-        "answer": "V",
+        "text": "V",
         "image": ""
       },
       {
-        "answer": "F",
+        "text": "F",
         "image": ""
       }
     ],
@@ -318,15 +318,15 @@
     "quest": "22) L'attitudine all'imprenditorialità si manifesta",
     "answers": [
       {
-        "answer": "nell'ideazione dell'attività intrapresa dall'imprenditore",
+        "text": "nell'ideazione dell'attività intrapresa dall'imprenditore",
         "image": ""
       },
       {
-        "answer": "nell'avviamento e gestione dell'attività oggetto dell'impresa",
+        "text": "nell'avviamento e gestione dell'attività oggetto dell'impresa",
         "image": ""
       },
       {
-        "answer": "nell'ideazione, ma anche nell'avviamento e gestione dell'attività intrapresa dall'imprenditore",
+        "text": "nell'ideazione, ma anche nell'avviamento e gestione dell'attività intrapresa dall'imprenditore",
         "image": ""
       }
     ],
@@ -337,15 +337,15 @@
     "quest": "23) Nelle società per azioni, il rischio aziendale",
     "answers": [
       {
-        "answer": "rimane in capo ai soci, nei limiti delle azioni sottoscritte",
+        "text": "rimane in capo ai soci, nei limiti delle azioni sottoscritte",
         "image": ""
       },
       {
-        "answer": "viene delegato al consiglio di amministrazione",
+        "text": "viene delegato al consiglio di amministrazione",
         "image": ""
       },
       {
-        "answer": "è assunto dal top management",
+        "text": "è assunto dal top management",
         "image": ""
       }
     ],
@@ -356,15 +356,15 @@
     "quest": "24) L'interesse patrimoniale consiste",
     "answers": [
       {
-        "answer": "nel compenso spettante al titolare per la messa a disposizione del capitale",
+        "text": "nel compenso spettante al titolare per la messa a disposizione del capitale",
         "image": ""
       },
       {
-        "answer": "nel compenso per il rischio sopportato con l'investimento",
+        "text": "nel compenso per il rischio sopportato con l'investimento",
         "image": ""
       },
       {
-        "answer": "nel compenso per l'attività che il titolare svolge in azienda",
+        "text": "nel compenso per l'attività che il titolare svolge in azienda",
         "image": ""
       }
     ],
@@ -375,15 +375,15 @@
     "quest": "25) La redditività coincide con l'economicità",
     "answers": [
       {
-        "answer": "in ogni caso",
+        "text": "in ogni caso",
         "image": ""
       },
       {
-        "answer": "nel caso in cui il reddito realizzato sia anche equo",
+        "text": "nel caso in cui il reddito realizzato sia anche equo",
         "image": ""
       },
       {
-        "answer": "nel caso in cui i ricavi coprano esattamente tutti i costi della gestione",
+        "text": "nel caso in cui i ricavi coprano esattamente tutti i costi della gestione",
         "image": ""
       }
     ],
@@ -394,15 +394,15 @@
     "quest": "26) L'ordine di composizione si riferisce",
     "answers": [
       {
-        "answer": "all'ottimale combinazione dei fattori produttivi",
+        "text": "all'ottimale combinazione dei fattori produttivi",
         "image": ""
       },
       {
-        "answer": "all'ordinata sequenza ed alla correta attuazione delle operazioni di gestione",
+        "text": "all'ordinata sequenza ed alla correta attuazione delle operazioni di gestione",
         "image": ""
       },
       {
-        "answer": "all'instaurazione di corretti rapporti con l'ambiente di riferimento",
+        "text": "all'instaurazione di corretti rapporti con l'ambiente di riferimento",
         "image": ""
       }
     ],
@@ -413,15 +413,15 @@
     "quest": "27) Il budget è",
     "answers": [
       {
-        "answer": "il documento sintetico che scaturisce al termine del processo di programmazione",
+        "text": "il documento sintetico che scaturisce al termine del processo di programmazione",
         "image": ""
       },
       {
-        "answer": "il documento sintetico che scaturisce al termine del processo di pianificazione",
+        "text": "il documento sintetico che scaturisce al termine del processo di pianificazione",
         "image": ""
       },
       {
-        "answer": "uno strumento di analisi dei problemi gestionali",
+        "text": "uno strumento di analisi dei problemi gestionali",
         "image": ""
       }
     ],
@@ -432,15 +432,15 @@
     "quest": "28) Il gruppo autarchicoera caratterizzato da una politica rivolta",
     "answers": [
       {
-        "answer": "all'oggi e al domani proprio e all'oggi e al domani altrui",
+        "text": "all'oggi e al domani proprio e all'oggi e al domani altrui",
         "image": ""
       },
       {
-        "answer": "all'oggi proprio e al domani altrui",
+        "text": "all'oggi proprio e al domani altrui",
         "image": ""
       },
       {
-        "answer": "all'oggi proprio e al domani proprio",
+        "text": "all'oggi proprio e al domani proprio",
         "image": ""
       }
     ],
@@ -451,15 +451,15 @@
     "quest": "29) La fase cognitiva, nell'ambito dell'attività umana per il soddisfacimento dei bisogni, si riferisce",
     "answers": [
       {
-        "answer": "all'attuazione della produzione, mediante il principio del minimo mezzo",
+        "text": "all'attuazione della produzione, mediante il principio del minimo mezzo",
         "image": ""
       },
       {
-        "answer": "all'acquisizione dei beni necessari per il consumo",
+        "text": "all'acquisizione dei beni necessari per il consumo",
         "image": ""
       },
       {
-        "answer": "alla selezione dei bisogni e all'individuazione delle vie più convenienti per la produzione",
+        "text": "alla selezione dei bisogni e all'individuazione delle vie più convenienti per la produzione",
         "image": ""
       }
     ],
@@ -470,15 +470,15 @@
     "quest": "30) Le imprese sono",
     "answers": [
       {
-        "answer": "aziende che producono per il mercato",
+        "text": "aziende che producono per il mercato",
         "image": ""
       },
       {
-        "answer": "aziende che producono per gli associati",
+        "text": "aziende che producono per gli associati",
         "image": ""
       },
       {
-        "answer": "aziende che producono per la collettività",
+        "text": "aziende che producono per la collettività",
         "image": ""
       }
     ],
@@ -489,15 +489,15 @@
     "quest": "31) Lo scambio è una fase economica che ha origine",
     "answers": [
       {
-        "answer": "nel momento dell'introduzione della moneta",
+        "text": "nel momento dell'introduzione della moneta",
         "image": ""
       },
       {
-        "answer": "nel momento in cui il gruppo economico da chiuso diventa aperto",
+        "text": "nel momento in cui il gruppo economico da chiuso diventa aperto",
         "image": ""
       },
       {
-        "answer": "nelle epoche in cui la produzione avveniva nei limiti del consumo",
+        "text": "nelle epoche in cui la produzione avveniva nei limiti del consumo",
         "image": ""
       }
     ],
@@ -508,15 +508,15 @@
     "quest": "32) Le associazioni sono aziende nelle quali prevale",
     "answers": [
       {
-        "answer": "lo scopo di lucro",
+        "text": "lo scopo di lucro",
         "image": ""
       },
       {
-        "answer": "l'elemento personale",
+        "text": "l'elemento personale",
         "image": ""
       },
       {
-        "answer": "l'elemento patrimoniale",
+        "text": "l'elemento patrimoniale",
         "image": ""
       }
     ],
@@ -527,15 +527,15 @@
     "quest": "33) Il concepimento delle linee strategico-tattiche si riferisce all'impegno umano in azienda",
     "answers": [
       {
-        "answer": "di tipo esecutivo",
+        "text": "di tipo esecutivo",
         "image": ""
       },
       {
-        "answer": "di tipo volitivo",
+        "text": "di tipo volitivo",
         "image": ""
       },
       {
-        "answer": "di tipo direttivo",
+        "text": "di tipo direttivo",
         "image": ""
       }
     ],
@@ -546,15 +546,15 @@
     "quest": "34) Il passaggio da capitale generico a capitale disponibile si attua",
     "answers": [
       {
-        "answer": "con la progettazione dell'azienda",
+        "text": "con la progettazione dell'azienda",
         "image": ""
       },
       {
-        "answer": "con l'ingresso del capitale in azienda",
+        "text": "con l'ingresso del capitale in azienda",
         "image": ""
       },
       {
-        "answer": "con l'ingresso in azienda dei fattori produttivi",
+        "text": "con l'ingresso in azienda dei fattori produttivi",
         "image": ""
       }
     ],
@@ -565,15 +565,15 @@
     "quest": "35) La cognizione post-operativa, si riferisce",
     "answers": [
       {
-        "answer": "alla fase del controllo dell'esito della gestione",
+        "text": "alla fase del controllo dell'esito della gestione",
         "image": ""
       },
       {
-        "answer": "alla fase esecutiva della gestione",
+        "text": "alla fase esecutiva della gestione",
         "image": ""
       },
       {
-        "answer": "alla fase di pianificazione della gestione",
+        "text": "alla fase di pianificazione della gestione",
         "image": ""
       }
     ],
@@ -584,15 +584,15 @@
     "quest": "36) Il passaggio da capitale inerte a capitale attivato si ha",
     "answers": [
       {
-        "answer": "quando il capitale monetario viene rimborsato al titolare",
+        "text": "quando il capitale monetario viene rimborsato al titolare",
         "image": ""
       },
       {
-        "answer": "quando il capitale monetario viene convertito nei fattori produttivi con esso acquisiti",
+        "text": "quando il capitale monetario viene convertito nei fattori produttivi con esso acquisiti",
         "image": ""
       },
       {
-        "answer": "con l'applicazione delle capacità potenziali del lavoro alle utilità del capitale",
+        "text": "con l'applicazione delle capacità potenziali del lavoro alle utilità del capitale",
         "image": ""
       }
     ],
@@ -603,15 +603,15 @@
     "quest": "37) Il soggetto istituzionale è",
     "answers": [
       {
-        "answer": "colui che svolge il lavoro direttivo in azienda",
+        "text": "colui che svolge il lavoro direttivo in azienda",
         "image": ""
       },
       {
-        "answer": "colui che progetta l'azienda e le linee fondamentali dell'attività",
+        "text": "colui che progetta l'azienda e le linee fondamentali dell'attività",
         "image": ""
       },
       {
-        "answer": "colui che svolge il lavoro esecutivo in azienda",
+        "text": "colui che svolge il lavoro esecutivo in azienda",
         "image": ""
       }
     ],
@@ -622,15 +622,15 @@
     "quest": "38) Il soggetto giuridico, in un'azienda individuale",
     "answers": [
       {
-        "answer": "coincide sempre con il soggetto economico",
+        "text": "coincide sempre con il soggetto economico",
         "image": ""
       },
       {
-        "answer": "non può mai coincidere con il soggetto economico",
+        "text": "non può mai coincidere con il soggetto economico",
         "image": ""
       },
       {
-        "answer": "è rappresentato dal titolare dell'azienda",
+        "text": "è rappresentato dal titolare dell'azienda",
         "image": ""
       }
     ],
@@ -641,15 +641,15 @@
     "quest": "39) Nelle società per azioni, il rischio aziendale",
     "answers": [
       {
-        "answer": "rimane in capo ai soci, nei limiti delle azioni sottoscritte",
+        "text": "rimane in capo ai soci, nei limiti delle azioni sottoscritte",
         "image": ""
       },
       {
-        "answer": "viene delegato al consiglio di amministrazione",
+        "text": "viene delegato al consiglio di amministrazione",
         "image": ""
       },
       {
-        "answer": "è assunto dal top management",
+        "text": "è assunto dal top management",
         "image": ""
       }
     ],
@@ -660,15 +660,15 @@
     "quest": "40) Il capitale di rischio rappresenta",
     "answers": [
       {
-        "answer": "mezzi monetari apportati da terzi finanziatori",
+        "text": "mezzi monetari apportati da terzi finanziatori",
         "image": ""
       },
       {
-        "answer": "mezzi monetari apportati dal titolare",
+        "text": "mezzi monetari apportati dal titolare",
         "image": ""
       },
       {
-        "answer": "l'insieme dei mezzi monetari e del lavoro del titolare",
+        "text": "l'insieme dei mezzi monetari e del lavoro del titolare",
         "image": ""
       }
     ],
@@ -679,15 +679,15 @@
     "quest": "41) Le combinazioni di processi sono",
     "answers": [
       {
-        "answer": "raggruppamenti di operazioni di gestione",
+        "text": "raggruppamenti di operazioni di gestione",
         "image": ""
       },
       {
-        "answer": "raggruppamenti di funzioni amministrative",
+        "text": "raggruppamenti di funzioni amministrative",
         "image": ""
       },
       {
-        "answer": "operazioni collegate sotto il profilo spaziale",
+        "text": "operazioni collegate sotto il profilo spaziale",
         "image": ""
       }
     ],
@@ -698,15 +698,15 @@
     "quest": "42) Nelle società per azioni, la titolarità dei diritti e degli obblighi è in capo",
     "answers": [
       {
-        "answer": "ai soci",
+        "text": "ai soci",
         "image": ""
       },
       {
-        "answer": "al consiglio di amministrazione",
+        "text": "al consiglio di amministrazione",
         "image": ""
       },
       {
-        "answer": "alla società",
+        "text": "alla società",
         "image": ""
       }
     ],
@@ -717,15 +717,15 @@
     "quest": "43) La redditività coincide con l'economicità",
     "answers": [
       {
-        "answer": "in ogni caso",
+        "text": "in ogni caso",
         "image": ""
       },
       {
-        "answer": "nel caso in cui il reddito realizzato sia anche equo",
+        "text": "nel caso in cui il reddito realizzato sia anche equo",
         "image": ""
       },
       {
-        "answer": "nel caso in cui i ricavi coprano esattamente tutti i costi della gestione",
+        "text": "nel caso in cui i ricavi coprano esattamente tutti i costi della gestione",
         "image": ""
       }
     ],
@@ -736,15 +736,15 @@
     "quest": "44) L'ordine di composizionesi riferisce",
     "answers": [
       {
-        "answer": "all'ottimale combinazione dei fattori produttivi",
+        "text": "all'ottimale combinazione dei fattori produttivi",
         "image": ""
       },
       {
-        "answer": "all'ordinata sequenza ed alla corretta attuazione delle operazioni di gestione",
+        "text": "all'ordinata sequenza ed alla corretta attuazione delle operazioni di gestione",
         "image": ""
       },
       {
-        "answer": "all'instaurazione di corretti rapporti con l'ambiente di riferimento",
+        "text": "all'instaurazione di corretti rapporti con l'ambiente di riferimento",
         "image": ""
       }
     ],
@@ -755,15 +755,15 @@
     "quest": "46) Affinché si abbia equilibrio economico, i ricavi",
     "answers": [
       {
-        "answer": "devono limitarsi a reintegrare i costi storici",
+        "text": "devono limitarsi a reintegrare i costi storici",
         "image": ""
       },
       {
-        "answer": "devono coprire anche i costi prospettici di ricostituzione",
+        "text": "devono coprire anche i costi prospettici di ricostituzione",
         "image": ""
       },
       {
-        "answer": "devono coprire anche i costi prospettici di sviluppo",
+        "text": "devono coprire anche i costi prospettici di sviluppo",
         "image": ""
       }
     ],
@@ -774,15 +774,15 @@
     "quest": "47) L'ordine",
     "answers": [
       {
-        "answer": "è sinonimo di economicità",
+        "text": "è sinonimo di economicità",
         "image": ""
       },
       {
-        "answer": "è il presupposto dell'economicità",
+        "text": "è il presupposto dell'economicità",
         "image": ""
       },
       {
-        "answer": "è dipendente dall'economicità",
+        "text": "è dipendente dall'economicità",
         "image": ""
       }
     ],
@@ -793,7 +793,7 @@
     "quest": "48) DOMANDA APERTA: Come dovrebbe evolvere il modello di business in un ambiente che cambia?",
     "answers": [
       {
-        "answer": "So rispondere",
+        "text": "So rispondere",
         "image": ""
       }
     ],
@@ -804,7 +804,7 @@
     "quest": "49) DOMANDA APERTA: Progettare un modello di business nuovo o innovativo e rappresentarne uno esistente: descrivere la differenza principale.",
     "answers": [
       {
-        "answer": "So rispondere",
+        "text": "So rispondere",
         "image": ""
       }
     ],
@@ -815,7 +815,7 @@
     "quest": "50) DOMANDA APERTA: Il business plan: descrizione e scopi",
     "answers": [
       {
-        "answer": "So rispondere",
+        "text": "So rispondere",
         "image": ""
       }
     ],
@@ -826,7 +826,7 @@
     "quest": "51) DOMANDA APERTA: Progettare un modello di business. Finalità e tecniche",
     "answers": [
       {
-        "answer": "So rispondere",
+        "text": "So rispondere",
         "image": ""
       }
     ],
@@ -837,15 +837,15 @@
     "quest": "52) Il business plan è",
     "answers": [
       {
-        "answer": "non conosco la risposta (a)",
+        "text": "non conosco la risposta (a)",
         "image": ""
       },
       {
-        "answer": "il documento sintetico che scaturisce al termine del processo di pianificazione",
+        "text": "il documento sintetico che scaturisce al termine del processo di pianificazione",
         "image": ""
       },
       {
-        "answer": "non conosco la risposta (c)",
+        "text": "non conosco la risposta (c)",
         "image": ""
       }
     ],
@@ -856,15 +856,15 @@
     "quest": "53) Il break-even operativo",
     "answers": [
       {
-        "answer": "rappresenta il punto di pareggio tra costi totali e ricavi totali, espresso in volumi di vendita",
+        "text": "rappresenta il punto di pareggio tra costi totali e ricavi totali, espresso in volumi di vendita",
         "image": ""
       },
       {
-        "answer": "non conosco la risposta (b)",
+        "text": "non conosco la risposta (b)",
         "image": ""
       },
       {
-        "answer": "non conosco la risposta (c)",
+        "text": "non conosco la risposta (c)",
         "image": ""
       }
     ],
@@ -875,15 +875,15 @@
     "quest": "54) Organizzazione è un concetto polisemico",
     "answers": [
       {
-        "answer": "con molteplici significati e due accezioni prevalenti",
+        "text": "con molteplici significati e due accezioni prevalenti",
         "image": ""
       },
       {
-        "answer": "con molteplici significati e un' accezione prevalente",
+        "text": "con molteplici significati e un' accezione prevalente",
         "image": ""
       },
       {
-        "answer": "con molteplici significati e molte accezioni",
+        "text": "con molteplici significati e molte accezioni",
         "image": ""
       }
     ],
@@ -894,15 +894,15 @@
     "quest": "55) Le due grandi dimensioni del problema organizzativo",
     "answers": [
       {
-        "answer": "divisione del lavoro e controllo",
+        "text": "divisione del lavoro e controllo",
         "image": ""
       },
       {
-        "answer": "divisione del lavoro e coordinamento",
+        "text": "divisione del lavoro e coordinamento",
         "image": ""
       },
       {
-        "answer": "coordinamento e potere",
+        "text": "coordinamento e potere",
         "image": ""
       }
     ],
@@ -913,7 +913,7 @@
     "quest": "56) DOMANDA APERTA: Si descrivano le funzioni del business plan",
     "answers": [
       {
-        "answer": "So rispondere",
+        "text": "So rispondere",
         "image": ""
       }
     ],
@@ -924,23 +924,23 @@
     "quest": "57) Cosa hai appreso durante il corso?",
     "answers": [
       {
-        "answer": "Se non investi in azioni non sei nessuno",
+        "text": "Se non investi in azioni non sei nessuno",
         "image": ""
       },
       {
-        "answer": "Se non hai l'Audi non sei nessuno",
+        "text": "Se non hai l'Audi non sei nessuno",
         "image": ""
       },
       {
-        "answer": "Se non hai la Amex Platinum non sei nessuno",
+        "text": "Se non hai la Amex Platinum non sei nessuno",
         "image": ""
       },
       {
-        "answer": "Miriam",
+        "text": "Miriam",
         "image": ""
       },
       {
-        "answer": "Tutte le risposte sono corrette",
+        "text": "Tutte le risposte sono corrette",
         "image": ""
       }
     ],
@@ -951,27 +951,27 @@
     "quest": "58) Cosa hai appreso durante il corso?",
     "answers": [
       {
-        "answer": "Berlusconi usa delle scorciatoie",
+        "text": "Berlusconi usa delle scorciatoie",
         "image": ""
       },
       {
-        "answer": "I conquistatori inglesi sono violenti",
+        "text": "I conquistatori inglesi sono violenti",
         "image": ""
       },
       {
-        "answer": "Saremo schiavi della Cina",
+        "text": "Saremo schiavi della Cina",
         "image": ""
       },
       {
-        "answer": "Il voto dell'esame è espresso in trentesimi",
+        "text": "Il voto dell'esame è espresso in trentesimi",
         "image": ""
       },
       {
-        "answer": "Gli ospedali offrono servizi di problem solving",
+        "text": "Gli ospedali offrono servizi di problem solving",
         "image": ""
       },
       {
-        "answer": "Tutte le risposte sono corrette",
+        "text": "Tutte le risposte sono corrette",
         "image": ""
       }
     ],
@@ -982,23 +982,23 @@
     "quest": "45) Cosa hai appreso durante il corso?",
     "answers": [
       {
-        "answer": "Gli imprenditori hanno le visioni, in pratica pippano",
+        "text": "Gli imprenditori hanno le visioni, in pratica pippano",
         "image": ""
       },
       {
-        "answer": "L'attività del progettista comprende pratiche di proiezione astrale per \"estendere il pensiero\"",
+        "text": "L'attività del progettista comprende pratiche di proiezione astrale per \"estendere il pensiero\"",
         "image": ""
       },
       {
-        "answer": "Uno di noi sarà il nuovo Steve Jobs (no niente poi ci ha ripensato e ha detto che non starebbe ad informatica)",
+        "text": "Uno di noi sarà il nuovo Steve Jobs (no niente poi ci ha ripensato e ha detto che non starebbe ad informatica)",
         "image": ""
       },
       {
-        "answer": "POPI (https://popipopi.win) è la miglior idea del 2023",
+        "text": "POPI (https://popipopi.win) è la miglior idea del 2023",
         "image": ""
       },
       {
-        "answer": "Tutte le risposte sono corrette",
+        "text": "Tutte le risposte sono corrette",
         "image": ""
       }
     ],
@@ -1009,35 +1009,35 @@
     "quest": "59) Cosa hai appreso durante il corso?",
     "answers": [
       {
-        "answer": "Che la prof vuole un personal trainer figo, un azzardo",
+        "text": "Che la prof vuole un personal trainer figo, un azzardo",
         "image": ""
       },
       {
-        "answer": "Che il cane della prof ce l'ha con gli attrezzi da palestra",
+        "text": "Che il cane della prof ce l'ha con gli attrezzi da palestra",
         "image": ""
       },
       {
-        "answer": "I foulard Gucci sono meglio dei Rolex e delle Mercedes",
+        "text": "I foulard Gucci sono meglio dei Rolex e delle Mercedes",
         "image": ""
       },
       {
-        "answer": "I vegani sono facilmente abbindolati dai guru",
+        "text": "I vegani sono facilmente abbindolati dai guru",
         "image": ""
       },
       {
-        "answer": "I lavoratori hanno troppi diritti",
+        "text": "I lavoratori hanno troppi diritti",
         "image": ""
       },
       {
-        "answer": "La televisione è un mezzo del mezzo",
+        "text": "La televisione è un mezzo del mezzo",
         "image": ""
       },
       {
-        "answer": "I mezzi sono essi stessi un mezzo",
+        "text": "I mezzi sono essi stessi un mezzo",
         "image": ""
       },
       {
-        "answer": "Tutte le risposte sono corrette",
+        "text": "Tutte le risposte sono corrette",
         "image": ""
       }
     ],
@@ -1048,15 +1048,15 @@
     "quest": "60) L'orale è:",
     "answers": [
       {
-        "answer": "Obbligatorio",
+        "text": "Obbligatorio",
         "image": ""
       },
       {
-        "answer": "Facoltativo",
+        "text": "Facoltativo",
         "image": ""
       },
       {
-        "answer": "FACOLTATIVO",
+        "text": "FACOLTATIVO",
         "image": ""
       }
     ],

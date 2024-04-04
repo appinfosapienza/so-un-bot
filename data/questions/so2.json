@@ -3,15 +3,15 @@
     "quest": "1. A quanti gruppi può appartenere un utente nel SO Linux?",
     "answers": [
       {
-        "answer": "Ad almeno un gruppo",
+        "text": "Ad almeno un gruppo",
         "image": ""
       },
       {
-        "answer": "Ad un solo gruppo",
+        "text": "Ad un solo gruppo",
         "image": ""
       },
       {
-        "answer": "A zero o più gruppi",
+        "text": "A zero o più gruppi",
         "image": ""
       }
     ],
@@ -22,15 +22,15 @@
     "quest": "2. Si supponga che nel sistema esiste un gruppo \"studente\" ed anche l'utente \"utente1\".\nSi supponga quindi di eseguire il comando <code>adduser utente1 studente</code>.\nQuale delle seguenti affermazioni è sbagliata?",
     "answers": [
       {
-        "answer": "Il comando genera un errore perché per aggiungere un utente ad un gruppo si può utilizzare solo il comando addgroup ",
+        "text": "Il comando genera un errore perché per aggiungere un utente ad un gruppo si può utilizzare solo il comando addgroup ",
         "image": ""
       },
       {
-        "answer": "Se \"utente1\" non appartiene al gruppo \"studente\" lo aggiunge a tale gruppo altrimenti non lo aggiunge",
+        "text": "Se \"utente1\" non appartiene al gruppo \"studente\" lo aggiunge a tale gruppo altrimenti non lo aggiunge",
         "image": ""
       },
       {
-        "answer": "Aggiunge utente1 al gruppo studente oppure genera un messaggio del tipo L'utente «utente1» fa già parte del gruppo «studente»",
+        "text": "Aggiunge utente1 al gruppo studente oppure genera un messaggio del tipo L'utente «utente1» fa già parte del gruppo «studente»",
         "image": ""
       }
     ],
@@ -41,15 +41,15 @@
     "quest": "3. Si supponga che nel sistema esiste un gruppo \"studente\" e non esista ancora l'utente \"utente1\".\nSi supponga quindi di eseguire il comando <code>sudo adduser utente1 studente</code>\nQuale sarà il risultato?",
     "answers": [
       {
-        "answer": "Da errore perché utente1 non esiste",
+        "text": "Da errore perché utente1 non esiste",
         "image": ""
       },
       {
-        "answer": "Crea utente1 e, oltre a creare il gruppo utente1 lo aggiunge al gruppo studente",
+        "text": "Crea utente1 e, oltre a creare il gruppo utente1 lo aggiunge al gruppo studente",
         "image": ""
       },
       {
-        "answer": "Crea utente1, lo aggiunge al gruppo studente e non crea il gruppo utente1",
+        "text": "Crea utente1, lo aggiunge al gruppo studente e non crea il gruppo utente1",
         "image": ""
       }
     ],
@@ -60,15 +60,15 @@
     "quest": "4. Supponga di eseguire, come utente sudoer, i seguenti comandi: C1) sudo ls /home, C2) sudo su --command=’ls /homè. Quale affermazioneè corretta?",
     "answers": [
       {
-        "answer": "C2 da errore \"comando non trovato\"",
+        "text": "C2 da errore \"comando non trovato\"",
         "image": ""
       },
       {
-        "answer": "C1 e C2 sono equivalenti",
+        "text": "C1 e C2 sono equivalenti",
         "image": ""
       },
       {
-        "answer": "C2 esegue una setUID mentre C1 no",
+        "text": "C2 esegue una setUID mentre C1 no",
         "image": ""
       }
     ],
@@ -79,15 +79,15 @@
     "quest": "5. Quale è la differenza tra i comandi sudo e su",
     "answers": [
       {
-        "answer": "sudo è un comando che permette di eseguire altri comandi come root; su è una scorciatoia per invocare il comando sudo",
+        "text": "sudo è un comando che permette di eseguire altri comandi come root; su è una scorciatoia per invocare il comando sudo",
         "image": ""
       },
       {
-        "answer": "su è un comando che permette di cambiare utente. sudo è un camando che permette di eseguire altri comandi come super-utente ",
+        "text": "su è un comando che permette di cambiare utente. sudo è un camando che permette di eseguire altri comandi come super-utente ",
         "image": ""
       },
       {
-        "answer": "sudo si riferisce ad un gruppo di utenti. su è invece un comando che permette di cambiare utente",
+        "text": "sudo si riferisce ad un gruppo di utenti. su è invece un comando che permette di cambiare utente",
         "image": ""
       }
     ],
@@ -98,15 +98,15 @@
     "quest": "6. Di quante sezioni è composto il man di Linux?",
     "answers": [
       {
-        "answer": "5",
+        "text": "5",
         "image": ""
       },
       {
-        "answer": "7",
+        "text": "7",
         "image": ""
       },
       {
-        "answer": "9",
+        "text": "9",
         "image": ""
       }
     ],
@@ -117,15 +117,15 @@
     "quest": "7. Supponga di voler creare un file vuoto e di voler settare il tempo di ultimo accesso al \"2 giugno 2020 ore 12:00\". Quale dei seguenti comandi è corretto?",
     "answers": [
       {
-        "answer": "touch -at202006021200 filename",
+        "text": "touch -at202006021200 filename",
         "image": ""
       },
       {
-        "answer": "touch -cat202006021200 filename",
+        "text": "touch -cat202006021200 filename",
         "image": ""
       },
       {
-        "answer": "touch -ct202006021200 filename",
+        "text": "touch -ct202006021200 filename",
         "image": ""
       }
     ],
@@ -136,15 +136,15 @@
     "quest": "8. Quale è il risultato del comando touch nomefile?",
     "answers": [
       {
-        "answer": "Crea un file vuoto con nome nomefile",
+        "text": "Crea un file vuoto con nome nomefile",
         "image": ""
       },
       {
-        "answer": "Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile ",
+        "text": "Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile ",
         "image": ""
       },
       {
-        "answer": "Crea un file vuoto con nome nomefile e ctime uguale al tempo corrente. Se si usa l'opzione -t o -d si può specificare un altro tempo di creazione ",
+        "text": "Crea un file vuoto con nome nomefile e ctime uguale al tempo corrente. Se si usa l'opzione -t o -d si può specificare un altro tempo di creazione ",
         "image": ""
       }
     ],
@@ -155,15 +155,15 @@
     "quest": "9. I premessi di acceesso della directory /tmp sono <code>1777/drwxrwxrwt</code>\nCosa significa?",
     "answers": [
       {
-        "answer": "Il bit SetGid è settato",
+        "text": "Il bit SetGid è settato",
         "image": ""
       },
       {
-        "answer": "Lo sticky bit non è settatto",
+        "text": "Lo sticky bit non è settatto",
         "image": ""
       },
       {
-        "answer": "Lo sticky bit è settato",
+        "text": "Lo sticky bit è settato",
         "image": ""
       }
     ],
@@ -174,15 +174,15 @@
     "quest": "10. Supponga di voler mostrare l’albero delle directory con radice dir1 e con profondità 3.\nQuale tra i seguenti comandi è il più apprropriato usare?(uscito 2 volte)",
     "answers": [
       {
-        "answer": "tree -d 3 dir1",
+        "text": "tree -d 3 dir1",
         "image": ""
       },
       {
-        "answer": "tree -L 3 dir1",
+        "text": "tree -L 3 dir1",
         "image": ""
       },
       {
-        "answer": "tree --max-depth=3 dir1",
+        "text": "tree --max-depth=3 dir1",
         "image": ""
       }
     ],
@@ -193,15 +193,15 @@
     "quest": "11. Supponiamo vogliate visualizzare l’albero delle directory con radice nella vostra home. In particolare volete visualizzare solo le directory e non i file in esse contenuti.\nQuali tra i seguenti comandi è il più appropriato?",
     "answers": [
       {
-        "answer": "tree -d ~",
+        "text": "tree -d ~",
         "image": ""
       },
       {
-        "answer": "tree -d -L 3 /home/myhomedir",
+        "text": "tree -d -L 3 /home/myhomedir",
         "image": ""
       },
       {
-        "answer": "tree -a ~",
+        "text": "tree -a ~",
         "image": ""
       }
     ],
@@ -212,15 +212,15 @@
     "quest": "12. Si supponga di avere un file di testo (filein) e di voler copiare in un altro file (fileout) i primi 100 caratteri. Quale di questi comandi è corretto?",
     "answers": [
       {
-        "answer": "dd if=filein of=fileout bs=100 count=1",
+        "text": "dd if=filein of=fileout bs=100 count=1",
         "image": ""
       },
       {
-        "answer": "dd if=filein of=fileout bs=1 skip=1 count=100",
+        "text": "dd if=filein of=fileout bs=1 skip=1 count=100",
         "image": ""
       },
       {
-        "answer": "dd if=filein of=fileout bs=10 skip=10 count=10",
+        "text": "dd if=filein of=fileout bs=10 skip=10 count=10",
         "image": ""
       }
     ],
@@ -231,15 +231,15 @@
     "quest": "13. Si supponga di avere un file di testo (filein) contenente 1000 caratteri e di voler copiare in un altro file (fileout) 100 caratteri a partire dal decimo. Quale di questi comandi non produce il risultato atteso?",
     "answers": [
       {
-        "answer": "dd if=filein of=fileout bs=1 skip=10 count=100",
+        "text": "dd if=filein of=fileout bs=1 skip=10 count=100",
         "image": ""
       },
       {
-        "answer": "dd if=filein of=fileout bs=100 seek=10 count=1",
+        "text": "dd if=filein of=fileout bs=100 seek=10 count=1",
         "image": ""
       },
       {
-        "answer": "dd if=filein of=fileout bs=10 skip=1 count=10",
+        "text": "dd if=filein of=fileout bs=10 skip=1 count=10",
         "image": ""
       }
     ],
@@ -250,15 +250,15 @@
     "quest": "14. Quanti job in background crea il comando seguente?\n<code>sleep 30 | sleep 15 | sleep 10 &</code> ",
     "answers": [
       {
-        "answer": "1",
+        "text": "1",
         "image": ""
       },
       {
-        "answer": "Nessuno, da errore",
+        "text": "Nessuno, da errore",
         "image": ""
       },
       {
-        "answer": "3",
+        "text": "3",
         "image": ""
       }
     ],
@@ -269,15 +269,15 @@
     "quest": "15. Quanti file system principali ha linux?",
     "answers": [
       {
-        "answer": "dipende dal numero di filesystem mondati al boot",
+        "text": "dipende dal numero di filesystem mondati al boot",
         "image": ""
       },
       {
-        "answer": "1",
+        "text": "1",
         "image": ""
       },
       {
-        "answer": "dipende dal numero di dischi installati",
+        "text": "dipende dal numero di dischi installati",
         "image": ""
       }
     ],
@@ -288,15 +288,15 @@
     "quest": "16. In che file è contenuta la lista dei filesystem montati al boot?",
     "answers": [
       {
-        "answer": "/etc/mdev",
+        "text": "/etc/mdev",
         "image": ""
       },
       {
-        "answer": "/etc/mtab",
+        "text": "/etc/mtab",
         "image": ""
       },
       {
-        "answer": "/etc/fstab",
+        "text": "/etc/fstab",
         "image": ""
       }
     ],
@@ -307,15 +307,15 @@
     "quest": "17. perché il comando passwd (ovvero il file eseguibile /usr/bin/passwd) ha il SetUID bit settato?",
     "answers": [
       {
-        "answer": "Per consentire a qualsiasi utente di modificare la propria password",
+        "text": "Per consentire a qualsiasi utente di modificare la propria password",
         "image": ""
       },
       {
-        "answer": "Per evitare che un utente possa cancellare il file eseguibile passwd",
+        "text": "Per evitare che un utente possa cancellare il file eseguibile passwd",
         "image": ""
       },
       {
-        "answer": "Per evitare che un utente possa modificare le password degli altri utenti",
+        "text": "Per evitare che un utente possa modificare le password degli altri utenti",
         "image": ""
       }
     ],
@@ -326,15 +326,15 @@
     "quest": "18. Supponiamo di avere il seguente makefile (memorizzato in un file di nome makefile):\n<pre>merge_sorted_lists: merge_sorted_lists.c\ngcc -Wall -Wextra -O3 merge_sorted_lists.c \\\n-o merge_sorted_lists\nsort_file_int: sort_file_int.c\ngcc -Wall -Wextra -O3 sort_file_int.c \\\n-o sort_file_int\n.PHONY: clean\nclean:\nrm -f *.o merge_sorted_lists</pre>\nsupponendo che non esistono entrambi i file merge_sorted_lists e sort_file_int e lanciando il comando make, quale target viene eseguito?\n<b>Adesso posso scrivere in bold con l'HTML nelle domande yeee</b>",
     "answers": [
       {
-        "answer": "merge_sorted_list",
+        "text": "merge_sorted_list",
         "image": ""
       },
       {
-        "answer": "entrambi",
+        "text": "entrambi",
         "image": ""
       },
       {
-        "answer": "nessuno dei due. Va specificato quale vogliamo eseguire con il comando make <nome_target>",
+        "text": "nessuno dei due. Va specificato quale vogliamo eseguire con il comando make <nome_target>",
         "image": ""
       }
     ],
@@ -345,15 +345,15 @@
     "quest": "19.\tAssumiamo di compilare un file .c nei seguenti modi\n<pre>gcc file.c -o file1.o\ngcc -g file.c -o file2.o\n</pre>\nperché le dimensioni di file2.o sono diverse da quelle di file1.o?",
     "answers": [
       {
-        "answer": "perché file2.o è stato ottimizzato, per occupare meno spazio in memoria, rispetto a file1.o",
+        "text": "perché file2.o è stato ottimizzato, per occupare meno spazio in memoria, rispetto a file1.o",
         "image": ""
       },
       {
-        "answer": "perché file2.o contiene informazioni aggiuntive rispetto a file1.o utili per il debug",
+        "text": "perché file2.o contiene informazioni aggiuntive rispetto a file1.o utili per il debug",
         "image": ""
       },
       {
-        "answer": "non è vero che i due comandi di compilazione producono file di dimensioni diverse",
+        "text": "non è vero che i due comandi di compilazione producono file di dimensioni diverse",
         "image": ""
       }
     ],
@@ -364,15 +364,15 @@
     "quest": "20.\tAssuma di avere due shell aperte, etichettate come shell_1 e shell_2 e supponga di eseguire la sequenza di comandi che segue\n(shell_i: cmd indica che cmd è eseguitto nella shell_i, i=1,2).\n<pre>shell_1: xterm\nshell_2: ps -C xterm\n#restituisce xtermPID\nshell_2: kill -s SIGSTOP xtermPID\nshell_2: kill -s SIGCONT xtermPID</pre>\nQuale è il loro effetto su processo xterm?\n<code>\n(NOTA BENE: la risposta 3 viene data come corretta all'esame, anche se errata)\n</code>",
     "answers": [
       {
-        "answer": "Il processo xterm viene prima mandato in esecuzione in background e poi riportato in foreground",
+        "text": "Il processo xterm viene prima mandato in esecuzione in background e poi riportato in foreground",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene mandato in esecuzione in background ",
+        "text": "Il processo xterm viene mandato in esecuzione in background ",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene prima portato nello stato stopped (T) e poi mandato in esecuzione in foreground",
+        "text": "Il processo xterm viene prima portato nello stato stopped (T) e poi mandato in esecuzione in foreground",
         "image": ""
       }
     ],
@@ -383,15 +383,15 @@
     "quest": "21.\tSi assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e si consideri la seguente sequenza di comandi\n(shell_i:cmd indica che cmd è eseguitto nella shell i, i=1,2)\n<pre>shell_1: xterm\nshell_2: ps -C xterm\n#restituisce xtermPID\nshell_2: kill -s SIGSTOP xtermPID</pre>\nQuale è il loro effetto?",
     "answers": [
       {
-        "answer": "Il processo xterm viene terminato con segnale SIGSTOP",
+        "text": "Il processo xterm viene terminato con segnale SIGSTOP",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene mandato in esecuzione in background",
+        "text": "Il processo xterm viene mandato in esecuzione in background",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene messo in stato stopped (T)",
+        "text": "Il processo xterm viene messo in stato stopped (T)",
         "image": ""
       }
     ],
@@ -402,15 +402,15 @@
     "quest": "22.\tSupponga di avere 2 file hw1.c e hw2.c contenenti il seguente codice(uscita 2 volte)\nhw1.c:\n<pre>#include <stdio.h>\n#include \"hw2.c\"\nint f(int argc, char *args[]) {\n  printf(\"Hello World!\\n\");\n  return 256;\n}\n</pre>\nhw2.c:<pre>\nint f(int argc, char *args[]);\nint main(int argc, char *args[]) {\n  return f(argc, args);\n}\n</pre>\nQuale dei seguenti comandi di compilazione genera errore?",
     "answers": [
       {
-        "answer": "gcc -Wall hw1.c -o hw.out",
+        "text": "gcc -Wall hw1.c -o hw.out",
         "image": ""
       },
       {
-        "answer": "gcc -Wall hw1.c hw2.c -o hw.out",
+        "text": "gcc -Wall hw1.c hw2.c -o hw.out",
         "image": ""
       },
       {
-        "answer": "gcc hw1.c",
+        "text": "gcc hw1.c",
         "image": ""
       }
     ],
@@ -421,15 +421,15 @@
     "quest": "23.\tSupponiamo di avere il file eseguibile (ottenuto dalla compilazione di una programma C) mioprogramma\nQuesti due modi di invocare il programma sono equivalenti?\n<code>$ ./mioprogramma A B C</code>\n<code>$ ./mioprogramma < input.txt</code>\ndove input.txt contiene A B C",
     "answers": [
       {
-        "answer": "no, nel primo caso A B C vengono caricati in argv, nel secondo caso vengono inviati sullo stdin",
+        "text": "no, nel primo caso A B C vengono caricati in argv, nel secondo caso vengono inviati sullo stdin",
         "image": ""
       },
       {
-        "answer": "dipende dalla logica del codice",
+        "text": "dipende dalla logica del codice",
         "image": ""
       },
       {
-        "answer": "si sono equivalenti",
+        "text": "si sono equivalenti",
         "image": ""
       }
     ],
@@ -440,15 +440,15 @@
     "quest": "24.\tQuale è la differenza tra thread posix e processo linux (uscito 2 volte)",
     "answers": [
       {
-        "answer": "Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti pure",
+        "text": "Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti pure",
         "image": ""
       },
       {
-        "answer": "Thread concorrenti condividono lo stack; i processi concorrenti anche",
+        "text": "Thread concorrenti condividono lo stack; i processi concorrenti anche",
         "image": ""
       },
       {
-        "answer": "Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti no",
+        "text": "Thread concorrenti condividono codice, segmento dati e file; i processi concorrenti no",
         "image": ""
       }
     ],
@@ -459,15 +459,15 @@
     "quest": "25.\tPer mostare il pid dei job in esecuzione in backgroud quali di questi comandi è corretto?",
     "answers": [
       {
-        "answer": "jobs -p",
+        "text": "jobs -p",
         "image": ""
       },
       {
-        "answer": "ps -p -u",
+        "text": "ps -p -u",
         "image": ""
       },
       {
-        "answer": "jobs",
+        "text": "jobs",
         "image": ""
       }
     ],
@@ -478,15 +478,15 @@
     "quest": "26. Quale di queste stringhe non è valida come identificatore in C?",
     "answers": [
       {
-        "answer": "_voltage",
+        "text": "_voltage",
         "image": ""
       },
       {
-        "answer": "rerun",
+        "text": "rerun",
         "image": ""
       },
       {
-        "answer": "x-axis",
+        "text": "x-axis",
         "image": ""
       }
     ],
@@ -497,15 +497,15 @@
     "quest": "27. Quale di queste stringe è valida come identificatore in C?",
     "answers": [
       {
-        "answer": "_voltage",
+        "text": "_voltage",
         "image": ""
       },
       {
-        "answer": "x-ray",
+        "text": "x-ray",
         "image": ""
       },
       {
-        "answer": "return",
+        "text": "return",
         "image": ""
       }
     ],
@@ -516,15 +516,15 @@
     "quest": "28. Si consideri la seguente funzione  f\n<pre>char *f(char *a, const char *b, size_t n) {\n    size_t i;\n    for (i = 0; i < n && b[i] != '\\0'; i++)\n        a[i] = b[i];\n    for ( ; i < n; i++)\n           a[i] = '\\0';\n        return a;\n}</pre>\nCosa  produce come risultato quando eseguita?",
     "answers": [
       {
-        "answer": "Copia esattamente n caratteri della stringa b nella stringa a e restituisce a",
+        "text": "Copia esattamente n caratteri della stringa b nella stringa a e restituisce a",
         "image": ""
       },
       {
-        "answer": "Concatena al piò n caratteri della stringa  b alla stringa a e restituisce a",
+        "text": "Concatena al piò n caratteri della stringa  b alla stringa a e restituisce a",
         "image": ""
       },
       {
-        "answer": "Copia al piò n caratteri della stringa b nella stringa a e restituisce a",
+        "text": "Copia al piò n caratteri della stringa b nella stringa a e restituisce a",
         "image": ""
       }
     ],
@@ -535,15 +535,15 @@
     "quest": "29. Si consideri la seguente funzione  f\n<pre>char *f(char *a, const char *b, size_t n) {\n    size_t l = strlen(a);\n    size_t i;\n    for (i = 0 ; i < n && b[i] != '\\0' ; i++)\n        a[l + i] = b[i];\n    a[l + i] = '\\0';\nreturn a;\n}</pre>\nCosa  produce come risultato quando eseguita?",
     "answers": [
       {
-        "answer": "Copia al piò n caratteri della stringa b in a e restituisce a",
+        "text": "Copia al piò n caratteri della stringa b in a e restituisce a",
         "image": ""
       },
       {
-        "answer": "Copia esattamente n caratteri della stringa b nella stringa a e restituisce a",
+        "text": "Copia esattamente n caratteri della stringa b nella stringa a e restituisce a",
         "image": ""
       },
       {
-        "answer": "Concatena i primi n caratteri della stringa b alla stringa  a  e restituisce a",
+        "text": "Concatena i primi n caratteri della stringa b alla stringa  a  e restituisce a",
         "image": ""
       }
     ],
@@ -554,15 +554,15 @@
     "quest": "30. Si consideri la seguente dichiarazione di struttura\n<pre>struct point2D {\n    double x; // coordinata x\n    double y; // coordinata y\n}  pA={0, 0}, pB={1, 5};</pre>\nQuale delle seguenti assegnazioni è corretta?",
     "answers": [
       {
-        "answer": "pA -> x = pB -> x; pA -> y = pB -> y;",
+        "text": "pA -> x = pB -> x; pA -> y = pB -> y;",
         "image": ""
       },
       {
-        "answer": "pA = &pB",
+        "text": "pA = &pB",
         "image": ""
       },
       {
-        "answer": "pA = pB;",
+        "text": "pA = pB;",
         "image": ""
       }
     ],
@@ -573,15 +573,15 @@
     "quest": "31. Si consideri il seguente ciclo for\n<pre>int scoreCount, a;\nfor(scoreCount=0; scanf(\"%d\",&a)==1; scoreCount++);</pre>\nCosa produrebbe come risultato, se eseguito?",
     "answers": [
       {
-        "answer": "Legge una sola volta da stdin e  poi termina, qualunque sia l'input",
+        "text": "Legge una sola volta da stdin e  poi termina, qualunque sia l'input",
         "image": ""
       },
       {
-        "answer": "Legge  da stdin senza mai terminare",
+        "text": "Legge  da stdin senza mai terminare",
         "image": ""
       },
       {
-        "answer": "Legge ripetutamente numeri interi da stdin fintanto che è fornito un input di tipo diverso (ad esempio un carattere)",
+        "text": "Legge ripetutamente numeri interi da stdin fintanto che è fornito un input di tipo diverso (ad esempio un carattere)",
         "image": ""
       }
     ],
@@ -592,15 +592,15 @@
     "quest": "32. Consideri  il seguente frammento  di codice\n<pre>int *ptr = malloc(sizeof(int));\nptr = ptr+1;</pre>\nassumendo la malloc assegni a ptr la locazione di memoria 0x55c2b1268420 cosa contiene ptr dopo l’incremento?",
     "answers": [
       {
-        "answer": "<code>0x55c2b1268421</code>",
+        "text": "<code>0x55c2b1268421</code>",
         "image": ""
       },
       {
-        "answer": "l'incremento della variabile prt genera un errore di segmentazione in fase di esecuzione",
+        "text": "l'incremento della variabile prt genera un errore di segmentazione in fase di esecuzione",
         "image": ""
       },
       {
-        "answer": "<code>0x55c2b1268424</code>",
+        "text": "<code>0x55c2b1268424</code>",
         "image": ""
       }
     ],
@@ -611,15 +611,15 @@
     "quest": "33. Cosa  stampa su stdout la seguente chiamata a printf? \n<code>printf(\"aaaaa\\nbbbbb\\f\\rccccc\\r\\fddddd\\reeeee\\n\");</code>",
     "answers": [
       {
-        "answer": "aaaaa bbbbb ccccc eeeee",
+        "text": "aaaaa bbbbb ccccc eeeee",
         "image": ""
       },
       {
-        "answer": "aaaaa bbbbb ccccc ddddd",
+        "text": "aaaaa bbbbb ccccc ddddd",
         "image": ""
       },
       {
-        "answer": "aaaaa bbbbb ccccc ddddd eeeee",
+        "text": "aaaaa bbbbb ccccc ddddd eeeee",
         "image": ""
       }
     ],
@@ -630,15 +630,15 @@
     "quest": "34. Si consideri il seguente frammento di codice\n<pre>char **mptr, **mptr1, *ptr1;\nint i;\nmptr = calloc(10,sizeof(char *));\nmptr1 = mptr;\nfor(i=0;i<10;i++){\n    mptr[i]=(char *)malloc(10);    \n}</pre>\nPer de-allocare tutta la memoria allocata, quale delle seguenti opzioni è coretta?",
     "answers": [
       {
-        "answer": "for(i=0;i<10;i++) free(mptr1[i]);",
+        "text": "for(i=0;i<10;i++) free(mptr1[i]);",
         "image": ""
       },
       {
-        "answer": "for(i=0;i<10;i++) free(mptr1[i]); free(mptr1);",
+        "text": "for(i=0;i<10;i++) free(mptr1[i]); free(mptr1);",
         "image": ""
       },
       {
-        "answer": "free(mptr1);",
+        "text": "free(mptr1);",
         "image": ""
       }
     ],
@@ -649,15 +649,15 @@
     "quest": "35. Si consideri il seguente frammento di codice\n<pre>char **mptr, *ptr1;\nint i;\nmptr = calloc(10,sizeof(char *));\nfor(i=0;i<10;i++){\n    mptr[i]=(char *)malloc(10);    \n}</pre>\nQuale delle seguenti strategie di de-allocazione crea un memory leakage?",
     "answers": [
       {
-        "answer": "free(mptr);",
+        "text": "free(mptr);",
         "image": ""
       },
       {
-        "answer": "for(i=0;i<10;i++) free(mptr[i]);",
+        "text": "for(i=0;i<10;i++) free(mptr[i]);",
         "image": ""
       },
       {
-        "answer": "entrambe, ovvero sia (1) che (2)",
+        "text": "entrambe, ovvero sia (1) che (2)",
         "image": ""
       }
     ],
@@ -668,15 +668,15 @@
     "quest": "36. Si consideri un file contenente un programma in linguaggio C. Si assuma che è stata inserita la direttiva #include \"stdio.h\" . perché la compilazione potrebbe generare errori?",
     "answers": [
       {
-        "answer": "perché cerca il file \"stdio.h\" nella directory corrente",
+        "text": "perché cerca il file \"stdio.h\" nella directory corrente",
         "image": ""
       },
       {
-        "answer": "La compilazione non genera errori a meno che il file non esista nel filesystem",
+        "text": "La compilazione non genera errori a meno che il file non esista nel filesystem",
         "image": ""
       },
       {
-        "answer": "perché il file stdio.h potrebbe non esistere",
+        "text": "perché il file stdio.h potrebbe non esistere",
         "image": ""
       }
     ],
@@ -687,15 +687,15 @@
     "quest": "37. Quale delle seguenti dichiarazioni di variabile inizializza una stringa?",
     "answers": [
       {
-        "answer": "<code>char r[10] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code>",
+        "text": "<code>char r[10] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code>",
         "image": ""
       },
       {
-        "answer": "<code>char r[] = ``L9 4apr´´;</code>",
+        "text": "<code>char r[] = ``L9 4apr´´;</code>",
         "image": ""
       },
       {
-        "answer": "<code>char r[] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code> ",
+        "text": "<code>char r[] = {`L´,`9´,` ´,`4´,`a´,`p`,`r´};</code> ",
         "image": ""
       }
     ],
@@ -706,15 +706,15 @@
     "quest": "39. Si consideri il seguente frammento di codice\n<pre>\nFILE * pFile;\npFile = open(\"myfile.txt\",\"rw+\");\nfprintf(pFile, \"%f %s\", 3.1416, \"PI\");\n</pre>\nAssumendo che myfile.txt non esiste, quale delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "Il programma genera  un errore in fase di esecuzione",
+        "text": "Il programma genera  un errore in fase di esecuzione",
         "image": ""
       },
       {
-        "answer": "Il programma genera errore in fase di compilazione",
+        "text": "Il programma genera errore in fase di compilazione",
         "image": ""
       },
       {
-        "answer": "Il programma scrive sul file myfile.txt la stringa 3.1416 PI",
+        "text": "Il programma scrive sul file myfile.txt la stringa 3.1416 PI",
         "image": ""
       }
     ],
@@ -725,19 +725,19 @@
     "quest": "40. Cosa fa il seguente segmento di codice se eseguito?\n<pre>scanf(“%d\",&num); \ndo; {\nprintf(“%d\\n\",num); \nscanf(“%d\",&num);\n}  while(num!=0);</pre>",
     "answers": [
       {
-        "answer": "Stampa il valore di num almeno una  volta",
+        "text": "Stampa il valore di num almeno una  volta",
         "image": ""
       },
       {
-        "answer": "Cicla infinitamente se num è diverso da 0",
+        "text": "Cicla infinitamente se num è diverso da 0",
         "image": ""
       },
       {
-        "answer": "Popipopi S.p.A. > CD Click s.r.l.",
+        "text": "Popipopi S.p.A. > CD Click s.r.l.",
         "image": ""
       },
       {
-        "answer": "Genera errore  in fase di compilazione",
+        "text": "Genera errore  in fase di compilazione",
         "image": ""
       }
     ],
@@ -748,15 +748,15 @@
     "quest": "41. Si consideri il frammento di codice\n<pre>i=0; c=0; p=1;\nwhile (i++ < 10)\nc=c+1;\np--;</pre>\nche valore conterrà p al termine dell'esecuzione del frammento di codice?",
     "answers": [
       {
-        "answer": "0",
+        "text": "0",
         "image": ""
       },
       {
-        "answer": "-10",
+        "text": "-10",
         "image": ""
       },
       {
-        "answer": "-9",
+        "text": "-9",
         "image": ""
       }
     ],
@@ -767,15 +767,15 @@
     "quest": "42. Supponiamo di eseguire  separatamente i seguenti frammenti di codice\n<b>Frammento_1</b>\n<pre>close(2);\nif (fopen(\".\",\"r\")) {\n           perror(\"main\");\n}</pre>\n<b>Frammento_2</b>\n<pre>close(2);\nif (fopen(\".\",\"r\")) {\n               printf(\"main: %s \\n\", strerror(errno));\n}</pre>\nQuale delle seguenti affermazioni è falsa?",
     "answers": [
       {
-        "answer": "Il frammento_1 non produce alcun output sul terminale",
+        "text": "Il frammento_1 non produce alcun output sul terminale",
         "image": ""
       },
       {
-        "answer": "La loro esecuzione produce sul terminale due stringhe identiche",
+        "text": "La loro esecuzione produce sul terminale due stringhe identiche",
         "image": ""
       },
       {
-        "answer": "Il frammento_2 produce un output sullo stdout",
+        "text": "Il frammento_2 produce un output sullo stdout",
         "image": ""
       }
     ],
@@ -786,15 +786,15 @@
     "quest": "43. Consideriamo queste due line di codice\n1. <code>printf(\"main:%s\\n\",strerror(errno));</code>\n2. <code>perror(\"main\");</code>\nQuali delle seguenti affermazioni è corretta?\n<code>\n(NOTA BENE: la risposta 1 viene data come corretta all'esame, anche se in realtà differiscono di uno spazio)\n</code>",
     "answers": [
       {
-        "answer": "Producono stringhe diverse e la prima la invia su stdout mentre la seconda su stderr.",
+        "text": "Producono stringhe diverse e la prima la invia su stdout mentre la seconda su stderr.",
         "image": ""
       },
       {
-        "answer": "Inviano la stessa stringa su stdout",
+        "text": "Inviano la stessa stringa su stdout",
         "image": ""
       },
       {
-        "answer": "producono la stessa stringa ma la 1 la invia su stdout, mentre la 2 su stderr ",
+        "text": "producono la stessa stringa ma la 1 la invia su stdout, mentre la 2 su stderr ",
         "image": ""
       }
     ],
@@ -805,15 +805,15 @@
     "quest": "44. Quale delle seguenti funzioni di libreria alloca memoria nello stack?",
     "answers": [
       {
-        "answer": "void *calloc( size_t nmemb, size_t size );",
+        "text": "void *calloc( size_t nmemb, size_t size );",
         "image": ""
       },
       {
-        "answer": "void *alloca( size_t size );",
+        "text": "void *alloca( size_t size );",
         "image": ""
       },
       {
-        "answer": "void *malloc( size_t size );",
+        "text": "void *malloc( size_t size );",
         "image": ""
       }
     ],
@@ -824,15 +824,15 @@
     "quest": "45. Un processo può allocare memoria nello stack?",
     "answers": [
       {
-        "answer": "no un processo può allocare memoria sono nell'heap",
+        "text": "no un processo può allocare memoria sono nell'heap",
         "image": ""
       },
       {
-        "answer": "si mediante la funziona di libreria malloc(3)",
+        "text": "si mediante la funziona di libreria malloc(3)",
         "image": ""
       },
       {
-        "answer": "si mediante la funzione di libreria alloca(3) ",
+        "text": "si mediante la funzione di libreria alloca(3) ",
         "image": ""
       }
     ],
@@ -843,15 +843,15 @@
     "quest": "46. Quale è la differenza tra la system call _exit(2) e la funzione di libreria exit(3)? (uscita 2 volte) ",
     "answers": [
       {
-        "answer": "_exit(2) chiude tutti i file descriptor mentre exit(3) no",
+        "text": "_exit(2) chiude tutti i file descriptor mentre exit(3) no",
         "image": ""
       },
       {
-        "answer": "_exit(2) non invoca gli handler registrati con  atexit e on_exit mentre exit(3) li invoca",
+        "text": "_exit(2) non invoca gli handler registrati con  atexit e on_exit mentre exit(3) li invoca",
         "image": ""
       },
       {
-        "answer": "_exit(2) invoca gli handler registrati con atexit e on_exit mentre exit(3) non li invoca",
+        "text": "_exit(2) invoca gli handler registrati con atexit e on_exit mentre exit(3) non li invoca",
         "image": ""
       }
     ],
@@ -862,15 +862,15 @@
     "quest": "47. Quale attributi di un processo sono ereditati dal processo figlio?",
     "answers": [
       {
-        "answer": "parent pid, timer, contatori risorse ",
+        "text": "parent pid, timer, contatori risorse ",
         "image": ""
       },
       {
-        "answer": "working directory, descrittori dei file, memoria condivisa",
+        "text": "working directory, descrittori dei file, memoria condivisa",
         "image": ""
       },
       {
-        "answer": "timer, lock, coda dei segnali",
+        "text": "timer, lock, coda dei segnali",
         "image": ""
       }
     ],
@@ -881,15 +881,15 @@
     "quest": "48. Si consideri il seguente frammento di codice\n<pre>pid_t pID = fork();\nif (pID == 0) {\n    Blocco_1\n} else if (pID < 0) {\n    Blocco_2\n} else {\n  Blocco_3\n}</pre>\nQuale blocco di codice (tra Bloccco_1,  Blocco_2 e  Blocco_3) verrà eseguito dal processo figlio?",
     "answers": [
       {
-        "answer": "Blocco_3",
+        "text": "Blocco_3",
         "image": ""
       },
       {
-        "answer": "Blocco_1",
+        "text": "Blocco_1",
         "image": ""
       },
       {
-        "answer": "Blocco_2",
+        "text": "Blocco_2",
         "image": ""
       }
     ],
@@ -900,15 +900,15 @@
     "quest": "49. Si consideri il seguente frammento di codice\n<pre>pid_t pID = fork();\nif (pID == 0) {\n    Blocco_1\n} else if (pID < 0) {\n    Blocco_2\n} else {\n  Blocco_3\n}</pre>\nQuale blocco di codice (tra Bloccco_1,  Blocco_2 e  Blocco_3) verrà eseguito dal processo padre?",
     "answers": [
       {
-        "answer": "Blocco_3",
+        "text": "Blocco_3",
         "image": ""
       },
       {
-        "answer": "Blocco_1",
+        "text": "Blocco_1",
         "image": ""
       },
       {
-        "answer": "Blocco_2",
+        "text": "Blocco_2",
         "image": ""
       }
     ],
@@ -919,15 +919,15 @@
     "quest": "50. Supponiamo che la system call\n<code>pid_t waitpid(pid_t pid, int *status, int options);</code>\nsia invocata con valore di pid uguale a 0. Quale è il suo comportamento?\nScegli un'alternativa:",
     "answers": [
       {
-        "answer": "attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante",
+        "text": "attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante",
         "image": ""
       },
       {
-        "answer": "attende la terminazione di qualunque processo figlio il cui gruppo ID  sia uguale a quello del processo chiamante (ovvero il processo padre)",
+        "text": "attende la terminazione di qualunque processo figlio il cui gruppo ID  sia uguale a quello del processo chiamante (ovvero il processo padre)",
         "image": ""
       },
       {
-        "answer": "attende la terminazione di qualunque processo figlio",
+        "text": "attende la terminazione di qualunque processo figlio",
         "image": ""
       }
     ],
@@ -938,15 +938,15 @@
     "quest": "51. Si consideri  il seguente frammento  di codice  (i numeri a lato sono i numeri di riga delle istruzioni)(uscita 2 volte)\n<pre>1.    Pthread_t tid;\n2.    pthread_create(&tid, ... )\n3.    pthread_create(&tid, ...)\n4.    pthread_join(tid, ...);\n5.    printf(\"joined\");</pre>\nquale  delle seguenti affermazioni è falsa?",
     "answers": [
       {
-        "answer": "la stringa \"joined\" è inviata su stdout solo quando  il thread creato a riga 3 è terminato",
+        "text": "la stringa \"joined\" è inviata su stdout solo quando  il thread creato a riga 3 è terminato",
         "image": ""
       },
       {
-        "answer": "la stringa \"joined\" è inviata su stdout quando entrambi i thread sono terminati",
+        "text": "la stringa \"joined\" è inviata su stdout quando entrambi i thread sono terminati",
         "image": ""
       },
       {
-        "answer": "la chiamata pthread_join(...) attende la terminazione del thread con identificatore tid",
+        "text": "la chiamata pthread_join(...) attende la terminazione del thread con identificatore tid",
         "image": ""
       }
     ],
@@ -957,15 +957,15 @@
     "quest": "52. Si considerino i seguenti frammenti di codice  (R1 e R2)\n<pre>R1: strPtr=(char *) calloc(SIZE_OF_ARRAY, sizeof(char) );\nR2: strPtr=(char *) malloc(SIZE_OF_ARRAY);\n    memset(strPtr, ´\\0´, SIZE_OF_ARRAY);</pre>",
     "answers": [
       {
-        "answer": "R1 e R2 producono lo stesso risultato",
+        "text": "R1 e R2 producono lo stesso risultato",
         "image": ""
       },
       {
-        "answer": "R2 dopo aver allocato la memoria la inizializza, mentre R1 no",
+        "text": "R2 dopo aver allocato la memoria la inizializza, mentre R1 no",
         "image": ""
       },
       {
-        "answer": "R1 alloca nell’heap, e quindi dopo è consigliabile “pulire\" la memoria; mentre R2 alloca nello stack e  quindi non c’è bisogno di “pulire\" la memoria.",
+        "text": "R1 alloca nell’heap, e quindi dopo è consigliabile “pulire\" la memoria; mentre R2 alloca nello stack e  quindi non c’è bisogno di “pulire\" la memoria.",
         "image": ""
       }
     ],
@@ -976,15 +976,15 @@
     "quest": "53. Consideriamo la seguente invocazione della funzione realloc\n<code>strptr1=(char *) realloc(strptr, 10 * SIZE_OF_ARRAY);</code>\nstrptr1 può essere diverso da strptr?",
     "answers": [
       {
-        "answer": "si, la realloc modifica sempre l'indirizzo di partenza dell'area di memoria ridimensionata",
+        "text": "si, la realloc modifica sempre l'indirizzo di partenza dell'area di memoria ridimensionata",
         "image": ""
       },
       {
-        "answer": "no, strptr1 è sempre uguale a strptr",
+        "text": "no, strptr1 è sempre uguale a strptr",
         "image": ""
       },
       {
-        "answer": "sì se a seguito del ridimensionamento della memoria allocata non è possibile trovare un numero sufficiente di locazioni contigue a partire dal strptr ",
+        "text": "sì se a seguito del ridimensionamento della memoria allocata non è possibile trovare un numero sufficiente di locazioni contigue a partire dal strptr ",
         "image": ""
       }
     ],
@@ -995,15 +995,15 @@
     "quest": "54. Supponiamo di voler modificare il comportamento di default di un processo quando esso riceve un segnale. Ovvero  vogliamo modificare il gestore (handler) di un segnale.\nQuale, tra  le system call, o combinazione di system call di seguito riportate è possibile utilizzare?",
     "answers": [
       {
-        "answer": "sigaction(2)",
+        "text": "sigaction(2)",
         "image": ""
       },
       {
-        "answer": "sigaction(2) seguita da una fork(2) che esegue l’handler del segnale",
+        "text": "sigaction(2) seguita da una fork(2) che esegue l’handler del segnale",
         "image": ""
       },
       {
-        "answer": "signal(2) seguita da una fork(2) che esegue l’handler del segnale",
+        "text": "signal(2) seguita da una fork(2) che esegue l’handler del segnale",
         "image": ""
       }
     ],
@@ -1014,15 +1014,15 @@
     "quest": "55. Assumiamo di voler settare i permessi di accesso 0600 al file filename mediante l'uso della system call open(2). Quale delle seguenti chiamate è corretta?",
     "answers": [
       {
-        "answer": "open( \"filename\", O_RDWR | O_CREAT | S_IRUSR | S_IWUSR);",
+        "text": "open( \"filename\", O_RDWR | O_CREAT | S_IRUSR | S_IWUSR);",
         "image": ""
       },
       {
-        "answer": "open(\"filename\",O_RDWR | O_CREAT, S_IRUSR & S_IWUSR);",
+        "text": "open(\"filename\",O_RDWR | O_CREAT, S_IRUSR & S_IWUSR);",
         "image": ""
       },
       {
-        "answer": "open( \"filename\", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);",
+        "text": "open( \"filename\", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);",
         "image": ""
       }
     ],
@@ -1033,15 +1033,15 @@
     "quest": "56. Si consideri la system call\n<pre>int open(const char *pathname, int flags);\nnel caso venga invocata con il flag impostato a\nO_CREAT | O_EXCL | O_RDONLY</pre>\nQuale è il comportamento atteso?",
     "answers": [
       {
-        "answer": "Se il file non esiste viene creato ed aperto in lettura, se invece esiste ritorna errore",
+        "text": "Se il file non esiste viene creato ed aperto in lettura, se invece esiste ritorna errore",
         "image": ""
       },
       {
-        "answer": "Se il file non esiste lo crea e lo apre in lettura, altrimenti lo apre in lettura",
+        "text": "Se il file non esiste lo crea e lo apre in lettura, altrimenti lo apre in lettura",
         "image": ""
       },
       {
-        "answer": "Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in lettura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in lettura",
+        "text": "Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in lettura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in lettura",
         "image": ""
       }
     ],
@@ -1052,15 +1052,15 @@
     "quest": "57. Si consideri il seguente frammento di codice\n<pre>char* file = argv[1];\nint fd;\nstruct flock lock;\nfd = open (file, O_WRONLY);\nmemset (&lock, 0, sizeof(lock));\nlock.l_type = F_WRLCK;\nfcntl (fd, F_SETLKW, &lock);\n....</pre>\nQuale è il suo comportamento?",
     "answers": [
       {
-        "answer": "mette un lock mandatory in scrittura sul file file",
+        "text": "mette un lock mandatory in scrittura sul file file",
         "image": ""
       },
       {
-        "answer": "mette un lock advisory in scrittura sul file file",
+        "text": "mette un lock advisory in scrittura sul file file",
         "image": ""
       },
       {
-        "answer": "mette un lock bloccante in scrittura sul file file.",
+        "text": "mette un lock bloccante in scrittura sul file file.",
         "image": ""
       }
     ],
@@ -1071,15 +1071,15 @@
     "quest": "58. Quale è la differenza tra i seguenti frammenti di codice?\n<pre>C1: int fd, fd1;\n    fd=open(“filename\", O_RDWR);\n    fd1=fd;\n</pre>\n<pre>C2: int fd,fd1;\n    fd=open(“filename\", O_RDWR);\n    fd1=dup(fd);</pre>",
     "answers": [
       {
-        "answer": "Dopo l’esecuzione di C1 e C2 fd1 contiene lo stesso valore",
+        "text": "Dopo l’esecuzione di C1 e C2 fd1 contiene lo stesso valore",
         "image": ""
       },
       {
-        "answer": "Dopo l’esecuzione di C1 i due file descriptor puntano allo stesso file, mentre dopo l’esecuzione di  C2 il file filename viene duplicato",
+        "text": "Dopo l’esecuzione di C1 i due file descriptor puntano allo stesso file, mentre dopo l’esecuzione di  C2 il file filename viene duplicato",
         "image": ""
       },
       {
-        "answer": "Dopo l’eseccuzione di C1 fd1 contiene lo stesso valore di  fd; mentre  dopo l’esecuzione di  C2  fd1 contiene il valore del piu’ piccolo file descriptor disponibile",
+        "text": "Dopo l’eseccuzione di C1 fd1 contiene lo stesso valore di  fd; mentre  dopo l’esecuzione di  C2  fd1 contiene il valore del piu’ piccolo file descriptor disponibile",
         "image": ""
       }
     ],
@@ -1090,15 +1090,15 @@
     "quest": "59. Si consideri  il  seguente frammento di codice\n<pre>int fd,fd1;\nstruct stat buf,\nbuf1;\nfd=open(“filename\", O_RDWR);\nfd1=dup(fd); \nfstat(fd,&buf);\nfstat(fd1,&buf1);</pre>",
     "answers": [
       {
-        "answer": "buf.st_ino è uguale a buf1.st_ino",
+        "text": "buf.st_ino è uguale a buf1.st_ino",
         "image": ""
       },
       {
-        "answer": "buf.st_ino è diverso da buf1.st_ino",
+        "text": "buf.st_ino è diverso da buf1.st_ino",
         "image": ""
       },
       {
-        "answer": "st_ino non è membro della struttura stat",
+        "text": "st_ino non è membro della struttura stat",
         "image": ""
       }
     ],
@@ -1109,15 +1109,15 @@
     "quest": "60. Supponiamo di avere il seguente  frammento di codice\n<pre>struct dirent *dentry; //directory stream\n    char *filename;\n    DIR *dstr=opendir(“mydir\");\n    while ((dentry=readdir(dstr)) != NULL) {\n        /* Memorizzai nome file nella  directory  in filename  */\n         }</pre>\nQuale delle seguenti istruzioni deve  essere  posta all’interno  del  ciclo while per  memorizzare in filename  il nome dei file  contenuti all’interno della directory mydir ?",
     "answers": [
       {
-        "answer": "filename = dentry --> d_name;",
+        "text": "filename = dentry --> d_name;",
         "image": ""
       },
       {
-        "answer": "filename = dentry.filename;",
+        "text": "filename = dentry.filename;",
         "image": ""
       },
       {
-        "answer": "filename = dentry --> filename;",
+        "text": "filename = dentry --> filename;",
         "image": ""
       }
     ],
@@ -1128,15 +1128,15 @@
     "quest": "61. Quali attributi di processo sono preservati dalla system call execve(2)?",
     "answers": [
       {
-        "answer": "Memory locks",
+        "text": "Memory locks",
         "image": ""
       },
       {
-        "answer": "Timer",
+        "text": "Timer",
         "image": ""
       },
       {
-        "answer": "Umask",
+        "text": "Umask",
         "image": ""
       }
     ],
@@ -1147,15 +1147,15 @@
     "quest": "62. Si consideri la system call execve(2). Quale delle seguenti affermazioni è corretta?",
     "answers": [
       {
-        "answer": "la execve(2) permette di generare un proccesso figlio del processo chiamante senza utilizzare una fork ma semplicemente eseguendo un immagine contenuta in un file (execve esegue implicitamente la fork)",
+        "text": "la execve(2) permette di generare un proccesso figlio del processo chiamante senza utilizzare una fork ma semplicemente eseguendo un immagine contenuta in un file (execve esegue implicitamente la fork)",
         "image": ""
       },
       {
-        "answer": "la execve(2) permette di sostituire l'immagine di un processo con quella di un file eseguibile o di uno script di shell eseguibile",
+        "text": "la execve(2) permette di sostituire l'immagine di un processo con quella di un file eseguibile o di uno script di shell eseguibile",
         "image": ""
       },
       {
-        "answer": "la execve(2) è una estensione della funzione system(3). Infatti, execve(2) può eseguire un qualsiasi programma, incluso uno script di shell.",
+        "text": "la execve(2) è una estensione della funzione system(3). Infatti, execve(2) può eseguire un qualsiasi programma, incluso uno script di shell.",
         "image": ""
       }
     ],
@@ -1166,15 +1166,15 @@
     "quest": "64. Supponiamo di aver mappato un file in memoria con la system call mmap(2). A cosa serve invocare la msync(2)?",
     "answers": [
       {
-        "answer": "Impostando il tipo di mapping a MAP_SHARED la msync(2) permette di scrivere le modifiche su disco prima dell' invocazione di una unmap(2) o prima della chiusura del file descriptor. ",
+        "text": "Impostando il tipo di mapping a MAP_SHARED la msync(2) permette di scrivere le modifiche su disco prima dell' invocazione di una unmap(2) o prima della chiusura del file descriptor. ",
         "image": ""
       },
       {
-        "answer": "è necessario invocare sempre la msync(2) se non si vogliono perdere le modifiche fatte in memoria.",
+        "text": "è necessario invocare sempre la msync(2) se non si vogliono perdere le modifiche fatte in memoria.",
         "image": ""
       },
       {
-        "answer": "non serve invocare la mysinc perché quando si chiude il file descriptor tutte le modifiche fatte in memoria vengono scritte su disco",
+        "text": "non serve invocare la mysinc perché quando si chiude il file descriptor tutte le modifiche fatte in memoria vengono scritte su disco",
         "image": ""
       }
     ],
@@ -1185,19 +1185,19 @@
     "quest": "65. Quale delle seguenti affermazioni sui processi Linux è falsa?",
     "answers": [
       {
-        "answer": "In un determinato istante, non possono esserci 2 processi distinti con lo stesso PID",
+        "text": "In un determinato istante, non possono esserci 2 processi distinti con lo stesso PID",
         "image": ""
       },
       {
-        "answer": "Per creare i PID dei processi si usano dei numeri interi che crescono sempre",
+        "text": "Per creare i PID dei processi si usano dei numeri interi che crescono sempre",
         "image": ""
       },
       {
-        "answer": "In istanti diversi, possono esserci 2 processi distinti con lo stesso PID",
+        "text": "In istanti diversi, possono esserci 2 processi distinti con lo stesso PID",
         "image": ""
       },
       {
-        "answer": "Ogni processo può conoscere il suo PID",
+        "text": "Ogni processo può conoscere il suo PID",
         "image": ""
       }
     ],
@@ -1208,19 +1208,19 @@
     "quest": "66. Quale delle seguenti affermazioni sui processi Linux è vera?",
     "answers": [
       {
-        "answer": "Normalmente, il processo figlio, una volta terminata la sua computazione, attende, con una chiamata alla syscall wait, che il padre termini e gli restituisca il suo exit status",
+        "text": "Normalmente, il processo figlio, una volta terminata la sua computazione, attende, con una chiamata alla syscall wait, che il padre termini e gli restituisca il suo exit status",
         "image": ""
       },
       {
-        "answer": "Un processo diventa zombie se termina prima di almeno uno dei processi che abbia eventualmente creato",
+        "text": "Un processo diventa zombie se termina prima di almeno uno dei processi che abbia eventualmente creato",
         "image": ""
       },
       {
-        "answer": "Ogni processo può conoscere il proprio PID, ma non quello del processo che l'ha creato",
+        "text": "Ogni processo può conoscere il proprio PID, ma non quello del processo che l'ha creato",
         "image": ""
       },
       {
-        "answer": "Con l'eccezione del primo processo, tutti i processi sono creati con una fork",
+        "text": "Con l'eccezione del primo processo, tutti i processi sono creati con una fork",
         "image": ""
       }
     ],
@@ -1231,19 +1231,19 @@
     "quest": "67. Quale delle seguenti affermazioni sui processi Linux è falsa?",
     "answers": [
       {
-        "answer": "Digitare un comando sulla shell genera sempre un nuovo processo",
+        "text": "Digitare un comando sulla shell genera sempre un nuovo processo",
         "image": ""
       },
       {
-        "answer": "Esistono file che non possono essere eseguiti per diventare processi",
+        "text": "Esistono file che non possono essere eseguiti per diventare processi",
         "image": ""
       },
       {
-        "answer": "Affinché un file possa diventare un processo è necessario che abbia i permessi di esecuzione",
+        "text": "Affinché un file possa diventare un processo è necessario che abbia i permessi di esecuzione",
         "image": ""
       },
       {
-        "answer": "Qualsiasi computazione eseguita dal sistema operativo è contenuta dentro un qualche processo",
+        "text": "Qualsiasi computazione eseguita dal sistema operativo è contenuta dentro un qualche processo",
         "image": ""
       }
     ],
@@ -1254,19 +1254,19 @@
     "quest": "68. Quale delle seguenti affermazioni sui processi Linux è vera?",
     "answers": [
       {
-        "answer": "Eseguendo k volte un file eseguibile, si generano k diversi processi",
+        "text": "Eseguendo k volte un file eseguibile, si generano k diversi processi",
         "image": ""
       },
       {
-        "answer": "Per poter lanciare un file eseguibile, è prima necessario aspettare che il comando precedente sia terminato",
+        "text": "Per poter lanciare un file eseguibile, è prima necessario aspettare che il comando precedente sia terminato",
         "image": ""
       },
       {
-        "answer": "Tutti i processi sono sempre in stato di RUNNING",
+        "text": "Tutti i processi sono sempre in stato di RUNNING",
         "image": ""
       },
       {
-        "answer": "Un processo è sempre un'istanza di uno script bash",
+        "text": "Un processo è sempre un'istanza di uno script bash",
         "image": ""
       }
     ],
@@ -1277,19 +1277,19 @@
     "quest": "69. Un programma scritto in linguaggio C:",
     "answers": [
       {
-        "answer": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘\\n’",
+        "text": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘\\n’",
         "image": ""
       },
       {
-        "answer": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘^M’",
+        "text": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘^M’",
         "image": ""
       },
       {
-        "answer": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘0’",
+        "text": "Rappresenta le stringhe ESCLUSIVAMENTE come array di caratteri terminate dal carattere ‘0’",
         "image": ""
       },
       {
-        "answer": "Rappresenta le stringhe come array di caratteri terminate dal carattere ‘\\0’",
+        "text": "Rappresenta le stringhe come array di caratteri terminate dal carattere ‘\\0’",
         "image": ""
       }
     ],
@@ -1300,19 +1300,19 @@
     "quest": "70. Quale delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "Linus Torvalds ha riscritto i pacchetti di Unix, creando i pacchetti GNU",
+        "text": "Linus Torvalds ha riscritto i pacchetti di Unix, creando i pacchetti GNU",
         "image": ""
       },
       {
-        "answer": "Tutte le opzioni sono false",
+        "text": "Tutte le opzioni sono false",
         "image": ""
       },
       {
-        "answer": "Linus Torvalds ha scritto il primo kernel di Linux all'inizio degli anni '80",
+        "text": "Linus Torvalds ha scritto il primo kernel di Linux all'inizio degli anni '80",
         "image": ""
       },
       {
-        "answer": "Richard Stallman ha descritto per primo la licenza GPL",
+        "text": "Richard Stallman ha descritto per primo la licenza GPL",
         "image": ""
       }
     ],
@@ -1323,19 +1323,19 @@
     "quest": "71. Quali delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "A. Nessuna delle opzioni è vera",
+        "text": "A. Nessuna delle opzioni è vera",
         "image": ""
       },
       {
-        "answer": "È possibile montare un filesystem solo se è dichiarato nel file /etc/fstab",
+        "text": "È possibile montare un filesystem solo se è dichiarato nel file /etc/fstab",
         "image": ""
       },
       {
-        "answer": "È possibile montare un filesystem solo se è dichiarato nel file /etc/mtab",
+        "text": "È possibile montare un filesystem solo se è dichiarato nel file /etc/mtab",
         "image": ""
       },
       {
-        "answer": "D. Ad ogni filesystem corrisponde un disco fisico o parte di esso (partizione)",
+        "text": "D. Ad ogni filesystem corrisponde un disco fisico o parte di esso (partizione)",
         "image": ""
       }
     ],
@@ -1346,19 +1346,19 @@
     "quest": "72. Si supponga di avere il seguente frammento di codice:\n<code>FILE *stream = fopen(NOMEFILE, \"w\");</code>\nQuale dei seguenti frammenti di codice ha lo stesso effetto?",
     "answers": [
       {
-        "answer": "<code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT, 0666);</code>",
+        "text": "<code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT, 0666);</code>",
         "image": ""
       },
       {
-        "answer": "<code>int fd = open(NOMEFILE, O_WRONLY | O_TRUNC);</code>",
+        "text": "<code>int fd = open(NOMEFILE, O_WRONLY | O_TRUNC);</code>",
         "image": ""
       },
       {
-        "answer": "<code>int fd = open(NOMEFILE, O_WRONLY);</code>",
+        "text": "<code>int fd = open(NOMEFILE, O_WRONLY);</code>",
         "image": ""
       },
       {
-        "answer": "<code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT | O_TRUNC, 0666);</code>",
+        "text": "<code>int fd = open(NOMEFILE, O_WRONLY | O_CREAT | O_TRUNC, 0666);</code>",
         "image": ""
       }
     ],
@@ -1369,19 +1369,19 @@
     "quest": "73. 10. (questa domanda ha una crisi d'identità) Quale delle seguenti affermazioni sulle syscall di Linux che riguardano i files è falsa?",
     "answers": [
       {
-        "answer": "Chiamando la syscall select, è possibile monitorare un insieme di file descriptor, ed essere notificati non appena ce n'è uno che è diventato disponibile per un'operazione di lettura o scrittura",
+        "text": "Chiamando la syscall select, è possibile monitorare un insieme di file descriptor, ed essere notificati non appena ce n'è uno che è diventato disponibile per un'operazione di lettura o scrittura",
         "image": ""
       },
       {
-        "answer": "Per richiedere un lock su un file (o su una porzione di esso), occorre chiamare la syscall ioctl",
+        "text": "Per richiedere un lock su un file (o su una porzione di esso), occorre chiamare la syscall ioctl",
         "image": ""
       },
       {
-        "answer": "È possibile usare la syscall select sia in modo bloccante che in modo non bloccante",
+        "text": "È possibile usare la syscall select sia in modo bloccante che in modo non bloccante",
         "image": ""
       },
       {
-        "answer": "Le syscall ioctl e fcntl ammettono 2 o 3 argomenti, a seconda dell'operazione",
+        "text": "Le syscall ioctl e fcntl ammettono 2 o 3 argomenti, a seconda dell'operazione",
         "image": ""
       }
     ],
@@ -1392,19 +1392,19 @@
     "quest": "74. 11. (☢ UNSAFE, segnalate a @notherealmarco se è corretta o meno 🙏) Quale delle seguenti affermazioni sui segnali Linux è vera?",
     "answers": [
       {
-        "answer": "Tutti i segnali, se non opportunamente catturati, provocano la terminazione del processo, con l'eccezione del segnale STOP",
+        "text": "Tutti i segnali, se non opportunamente catturati, provocano la terminazione del processo, con l'eccezione del segnale STOP",
         "image": ""
       },
       {
-        "answer": "Per un processo è sempre possibile ridefinire il comportamento di un qualsiasi segnale",
+        "text": "Per un processo è sempre possibile ridefinire il comportamento di un qualsiasi segnale",
         "image": ""
       },
       {
-        "answer": "È possibile per un qualunque processo inviare un segnale ad un qualsiasi altro processo dello stesso utente",
+        "text": "È possibile per un qualunque processo inviare un segnale ad un qualsiasi altro processo dello stesso utente",
         "image": ""
       },
       {
-        "answer": "Nessuna delle altre affermazioni è vera",
+        "text": "Nessuna delle altre affermazioni è vera",
         "image": ""
       }
     ],
@@ -1415,19 +1415,19 @@
     "quest": "75. 12. Quale delle seguenti affermazioni sugli errori delle syscall di Linux è vera?",
     "answers": [
       {
-        "answer": "Per stampare su stderr la spiegazione di un errore verificatosi in una syscall, il cui nome sia contenuto nella variabile syscall_name (di tipo char *), si può effettuare la seguente chiamata: perror(\"Si è verificato il seguente errore nella chiamata a %s\", syscall_name);",
+        "text": "Per stampare su stderr la spiegazione di un errore verificatosi in una syscall, il cui nome sia contenuto nella variabile syscall_name (di tipo char *), si può effettuare la seguente chiamata: perror(\"Si è verificato il seguente errore nella chiamata a %s\", syscall_name);",
         "image": ""
       },
       {
-        "answer": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall si può effettuare la seguente chiamata: printf(\"%s\\n\", strerror(errno));",
+        "text": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall si può effettuare la seguente chiamata: printf(\"%s\\n\", strerror(errno));",
         "image": ""
       },
       {
-        "answer": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è sufficiente chiamare perror",
+        "text": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è sufficiente chiamare perror",
         "image": ""
       },
       {
-        "answer": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è necessario scrivere uno switch sulla variabile globale errno",
+        "text": "Per stampare su stdout la spiegazione di un errore verificatosi in una syscall è necessario scrivere uno switch sulla variabile globale errno",
         "image": ""
       }
     ],
@@ -1438,19 +1438,19 @@
     "quest": "76. Si supponga di avere il seguente frammento di codice:\nFILE *stream = fopen(\"file_esistente.txt\", \"r\");\nfseek(stream, -100, SEEK_END);\nlong pos = ftell(stream);\nQuale dei seguenti frammenti di codice ha lo stesso effetto?\na.<pre>\nint fd = open(\"file_esistente.txt\", O_RDONLY);\nlseek(fd, -100, SEEK_END);\nlong pos = lseek(fd, 0, SEEK_END);\n</pre>\nb.<pre>\nint fd = open(\"file_esistente.txt\", O_RDONLY);\nlseek(fd, -100, SEEK_END);\nlong pos = lseek(fd, 0, SEEK_CUR);\n</pre>\nc.<pre>\nint fd = open(\"file_esistente.txt\", O_RDONLY);\nlseek(fd, -100, SEEK_END);\nlong pos = lseek(fd, -100, SEEK_END);\n</pre>\nd.<pre>\nint fd = open(\"file_esistente.txt\", O_RDONLY);\nlseek(fd, -100, SEEK_END);\nlong pos = ltell(fd);\n</pre>",
     "answers": [
       {
-        "answer": "a",
+        "text": "a",
         "image": ""
       },
       {
-        "answer": "b",
+        "text": "b",
         "image": ""
       },
       {
-        "answer": "c",
+        "text": "c",
         "image": ""
       },
       {
-        "answer": "d",
+        "text": "d",
         "image": ""
       }
     ],
@@ -1461,15 +1461,15 @@
     "quest": "76. Si consideri la seguente funzione <code>f</code>\n<pre>\nchar *f(char *dest, const char *src, size_t n) {\n    size_t i;\n    for (i = 0; i < n && src[i] != '\\0'; i++)\n        dest[i] = src[i];\nfor ( ; i < n; i++)\ndest[i] = '\\0';\nreturn dest;\n}\n</pre>\nCosa produce come risultato quando eseguita?",
     "answers": [
       {
-        "answer": "Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe",
+        "text": "Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe",
         "image": ""
       },
       {
-        "answer": "Concatena la stringa src a dest e restituisce dest",
+        "text": "Concatena la stringa src a dest e restituisce dest",
         "image": ""
       },
       {
-        "answer": "Copia la stringa src in dest e restituisce dest",
+        "text": "Copia la stringa src in dest e restituisce dest",
         "image": ""
       }
     ],
@@ -1480,15 +1480,15 @@
     "quest": "77. Si consideri il seguente frammento di codice\n<pre>\nsigset_t set, oset, pset;\n...\nsigemptyset( &set );\nsigaddset( &set, SIGINT );\nsigaddset( &set, SIGUSR1 );\nsigprocmask( SIG_BLOCK, &set, &oset );\n...\n</pre>",
     "answers": [
       {
-        "answer": "Prepara una sezione critica (ovvero dopo la sigprocmask può inizare la sezione critica)",
+        "text": "Prepara una sezione critica (ovvero dopo la sigprocmask può inizare la sezione critica)",
         "image": ""
       },
       {
-        "answer": "Disabilita tutti i segnali tranne SIGINT e SIGUSR1",
+        "text": "Disabilita tutti i segnali tranne SIGINT e SIGUSR1",
         "image": ""
       },
       {
-        "answer": "Termina una sezione critica precedentemente iniziata",
+        "text": "Termina una sezione critica precedentemente iniziata",
         "image": ""
       }
     ],
@@ -1499,15 +1499,15 @@
     "quest": "78. Sia mylink un hard link al file myfile (<code>ln myfile mylink</code>).\nQuale di queste afferrmazioni è vera?",
     "answers": [
       {
-        "answer": "myfile e mylink hanno dimensione diversa",
+        "text": "myfile e mylink hanno dimensione diversa",
         "image": ""
       },
       {
-        "answer": "myfile e mylink hanno lo stesso numero di inode",
+        "text": "myfile e mylink hanno lo stesso numero di inode",
         "image": ""
       },
       {
-        "answer": "myfile e mylink hanno un diverso numero di inode",
+        "text": "myfile e mylink hanno un diverso numero di inode",
         "image": ""
       }
     ],
@@ -1518,11 +1518,11 @@
     "quest": "79. Supponendo di essere \"loggato\" in una shell come utente1.\nQuali dei seguenti è un path assoluto?",
     "answers": [
       {
-        "answer": "dir1/dir11/dir112/filename",
+        "text": "dir1/dir11/dir112/filename",
         "image": ""
       },
       {
-        "answer": "<code>~/utente1/dir1/dir11/dir112/filename oppure ~/dir1/dir11/dir112/filename</code>",
+        "text": "<code>~/utente1/dir1/dir11/dir112/filename oppure ~/dir1/dir11/dir112/filename</code>",
         "image": ""
       }
     ],
@@ -1533,15 +1533,15 @@
     "quest": "80. Si supponga che nel sistema esiste un gruppo \"studente\".\nSi supponga di voler creare \"utente1\" e di volerlo aggiungere al gruppo studente.\nQuale dei seguenti comandi è corrretto?",
     "answers": [
       {
-        "answer": "<code>adduser utente1; adduser utente1 studente</code>",
+        "text": "<code>adduser utente1; adduser utente1 studente</code>",
         "image": ""
       },
       {
-        "answer": "<code>adduser utente1 utente1 studente</code>",
+        "text": "<code>adduser utente1 utente1 studente</code>",
         "image": ""
       },
       {
-        "answer": "<code>adduser utente1 studente</code>",
+        "text": "<code>adduser utente1 studente</code>",
         "image": ""
       }
     ],
@@ -1552,15 +1552,15 @@
     "quest": "81. Si considerino le seguenti dichiarazioni di variabili:\n<pre>\nint vect[10];\nint *ptr = NULL;\n</pre>\nQuale delle seguneti assegnazioni è corretta per far sì che ptr contanga il puntatore al vettore vect?",
     "answers": [
       {
-        "answer": "ptr = vect;",
+        "text": "ptr = vect;",
         "image": ""
       },
       {
-        "answer": "ptr = &vect",
+        "text": "ptr = &vect",
         "image": ""
       },
       {
-        "answer": "ptr = vect[1];",
+        "text": "ptr = vect[1];",
         "image": ""
       }
     ],
@@ -1571,11 +1571,11 @@
     "quest": "82. Si supponda di avere 2 file hw1.c e hw2.c contenenti il seguente codice\n<pre>\nhw1.c:\n#include <stdio.h>\n#include \"hw.2.c\"\nint f(int argc, char *args[]) {\nprintf(\"Hello World!\\n\");\nreturn 256;\n}\n</pre>\n<pre>\nhw2.c:\nint f(int argc, char *args[]);\nint main(int argc, char *args[]) {\nreturn f(argc, args);\n}\n</pre>\nQuale dei seguneti comandi di compilazione non genera errore?",
     "answers": [
       {
-        "answer": "<code>gcc -Wall hw1.c hw2.c -o hw.out</code> oppure <code>gcc -Wall hw1.c -o hw.out</code>",
+        "text": "<code>gcc -Wall hw1.c hw2.c -o hw.out</code> oppure <code>gcc -Wall hw1.c -o hw.out</code>",
         "image": ""
       },
       {
-        "answer": "<code>gcc -Wall hw2.c -o hw.out</code>",
+        "text": "<code>gcc -Wall hw2.c -o hw.out</code>",
         "image": ""
       }
     ],
@@ -1586,15 +1586,15 @@
     "quest": "83. Si consideri il seguente frammento di codice\n<pre>\npid_t pID = fork();\nif (pID == 0) {\n    Blocco_1\n} else if (pID < 0) {\n    Blocco_2\n} else {\n    Blocco_3\n}\n</pre>\nQuale blocco di codice (tra Bloccco_1, Blocco_2 e Blocco_3) verrà eseguito nel caso in cui la fork non vada a buon fine?",
     "answers": [
       {
-        "answer": "Blocco_1",
+        "text": "Blocco_1",
         "image": ""
       },
       {
-        "answer": "Blocco_3",
+        "text": "Blocco_3",
         "image": ""
       },
       {
-        "answer": "Blocco_2",
+        "text": "Blocco_2",
         "image": ""
       }
     ],
@@ -1605,15 +1605,15 @@
     "quest": "84. Si consideri il seguente frammento di codice\n<pre>\nfor (i=0;((i<n1)&&(i<n2));i++)\n    m2[i]=m1[i];\n</pre>\nquando termina il ciclo for?",
     "answers": [
       {
-        "answer": "Termina solo se n1 è uguale a n2",
+        "text": "Termina solo se n1 è uguale a n2",
         "image": ""
       },
       {
-        "answer": "Quando si raggiunge il più grande tra n1 e n2",
+        "text": "Quando si raggiunge il più grande tra n1 e n2",
         "image": ""
       },
       {
-        "answer": "Quando si raggiunge il più piccolo tra n1 e n2",
+        "text": "Quando si raggiunge il più piccolo tra n1 e n2",
         "image": ""
       }
     ],
@@ -1624,15 +1624,15 @@
     "quest": "85. A seguito di una chiamata a fork(2), quale dei seguenti attributi del processo padre non è ereditato dal processo figlio?",
     "answers": [
       {
-        "answer": "groups id",
+        "text": "groups id",
         "image": ""
       },
       {
-        "answer": "coda dei segnali",
+        "text": "coda dei segnali",
         "image": ""
       },
       {
-        "answer": "descrittori dei file",
+        "text": "descrittori dei file",
         "image": ""
       }
     ],
@@ -1643,15 +1643,15 @@
     "quest": "86. Si consideri il seguente frammento di codice\n<pre>\nstruct stat *s;\nfd=open(“filename\");\nfchmod(fd,00744);\nfstat(fd,s);\n</pre>\nPer visualizzare su sdtout i permessi di accesso a \"filename\", quale tra le seguenti opzioni è la più appropriata?",
     "answers": [
       {
-        "answer": "<code>printf(\"New File mode %x\\n\", s.st_mode);</code>",
+        "text": "<code>printf(\"New File mode %x\\n\", s.st_mode);</code>",
         "image": ""
       },
       {
-        "answer": "<code>printf(\"New File mode %o\\n\", s.st_mode);</code>",
+        "text": "<code>printf(\"New File mode %o\\n\", s.st_mode);</code>",
         "image": ""
       },
       {
-        "answer": "<code>printf(\"New File mode %s\\n\", s.st_mode);</code>",
+        "text": "<code>printf(\"New File mode %s\\n\", s.st_mode);</code>",
         "image": ""
       }
     ],
@@ -1662,15 +1662,15 @@
     "quest": "87. Si consideri il seguente frammento di codice\n<pre>\nint n=2;\nint r=2 * (n++);\n</pre>\n<pre>\nint n=2;\nint r1=2 * (++n);\n</pre>\nQuale valori assumeranno le variabili r e r1 dopo l'esecuzione?",
     "answers": [
       {
-        "answer": "r = r1 = 4",
+        "text": "r = r1 = 4",
         "image": ""
       },
       {
-        "answer": "r=6 e r1=4",
+        "text": "r=6 e r1=4",
         "image": ""
       },
       {
-        "answer": "r=4 e r1=6",
+        "text": "r=4 e r1=6",
         "image": ""
       }
     ],
@@ -1681,15 +1681,15 @@
     "quest": "88. Supponiamo di avere la seguenti variabili\n<code>int x=1, y=7;</code>\nQuale delle seguneti espressioni è falsa?",
     "answers": [
       {
-        "answer": "<code>(x & y) == 7</code>",
+        "text": "<code>(x & y) == 7</code>",
         "image": ""
       },
       {
-        "answer": "<code>(x | y) == 7</code>",
+        "text": "<code>(x | y) == 7</code>",
         "image": ""
       },
       {
-        "answer": "<code>(x || y) == (x & y)</code>",
+        "text": "<code>(x || y) == (x & y)</code>",
         "image": ""
       }
     ],
@@ -1700,15 +1700,15 @@
     "quest": "89. Per visualizzare l’atime di un file quale dei seguenti comandi è corretto?",
     "answers": [
       {
-        "answer": "<code>ls -lc nomefile</code>",
+        "text": "<code>ls -lc nomefile</code>",
         "image": ""
       },
       {
-        "answer": "<code>ls -lu nomefile</code>",
+        "text": "<code>ls -lu nomefile</code>",
         "image": ""
       },
       {
-        "answer": "<code>ls -la nomefile</code>",
+        "text": "<code>ls -la nomefile</code>",
         "image": ""
       }
     ],
@@ -1719,15 +1719,15 @@
     "quest": "90. Quali attributi del processo sono preservati dalla funzione di libreria execve()?",
     "answers": [
       {
-        "answer": "Memory locks",
+        "text": "Memory locks",
         "image": ""
       },
       {
-        "answer": "Timer",
+        "text": "Timer",
         "image": ""
       },
       {
-        "answer": "Umask",
+        "text": "Umask",
         "image": ""
       }
     ],
@@ -1738,15 +1738,15 @@
     "quest": "91. I permessi di accesso del file eseguibile <code>/usr/bin/passwd</code> sono <code>4755/-rwsr-xr-x</code>\nCosa significa?",
     "answers": [
       {
-        "answer": "Il bit SetUid non è settato",
+        "text": "Il bit SetUid non è settato",
         "image": ""
       },
       {
-        "answer": "Lo sticky bit è settato",
+        "text": "Lo sticky bit è settato",
         "image": ""
       },
       {
-        "answer": "Il bit SetUid è settato",
+        "text": "Il bit SetUid è settato",
         "image": ""
       }
     ],
@@ -1757,15 +1757,15 @@
     "quest": "92. Si assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e si consideri la seguente sequenza di comandi\n(shell_i:cmd indica che cmd è eseguitto nella  shell i, i=1,2).\n<pre>\nshell_1: xterm\nshell_2: ps -C xterm\n#restituisce xtermPID\nshell_2: kill -s SIGINT xtermPID\n</pre>\nQuale è il loro effetto?",
     "answers": [
       {
-        "answer": "Il processo xterm viene messo nello stato  stopped (T)",
+        "text": "Il processo xterm viene messo nello stato  stopped (T)",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene terminato con segnale SIGINT",
+        "text": "Il processo xterm viene terminato con segnale SIGINT",
         "image": ""
       },
       {
-        "answer": "Il processo xterm viene messo in background",
+        "text": "Il processo xterm viene messo in background",
         "image": ""
       }
     ],
@@ -1776,15 +1776,15 @@
     "quest": "93. Supponiamo di aver dichiarato ed inizializzato le seguenti variabili\n<code>int x = 1, y = 7;</code>\nQuale delle seguenti espressioni è vera (true)?",
     "answers": [
       {
-        "answer": "(x & y) == (x && y)",
+        "text": "(x & y) == (x && y)",
         "image": ""
       },
       {
-        "answer": "(x && y) == 7",
+        "text": "(x && y) == 7",
         "image": ""
       },
       {
-        "answer": "(x & y) == (x | y)",
+        "text": "(x & y) == (x | y)",
         "image": ""
       }
     ],
@@ -1795,15 +1795,15 @@
     "quest": "94. Si consideri la seguente funzione fa\n<pre>\nchar *f(char *dest, const char *src, size_t n) {\n    size_t dest_len = strlen(dest);\n    size_t i;\n    for (i = 0; i < n && src[i] != '\\0'; i++)\n        dest[dest_len + i] = src[i];\n    dest[dest_len + i] = '\\0';\nreturn dest;\n}\n</pre>",
     "answers": [
       {
-        "answer": "Copia la stringa src in dest e restituisce dest",
+        "text": "Copia la stringa src in dest e restituisce dest",
         "image": ""
       },
       {
-        "answer": "Concatena la stringa src a dest e restituisce dest",
+        "text": "Concatena la stringa src a dest e restituisce dest",
         "image": ""
       },
       {
-        "answer": "Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe",
+        "text": "Genera sempre errore in fase di esecuzione perché non c'è alcun controllo sulla dimensione delle stringhe",
         "image": ""
       }
     ],
@@ -1814,15 +1814,15 @@
     "quest": "95. Si supponga di avere un file di testo (filein) e di voler copiare in un altro file (fileout) 100 caratteri a partire dal decimo.\nQuale di questi comandi è corretto?",
     "answers": [
       {
-        "answer": "<code>cp -n10 -i100 filein fileout</code>",
+        "text": "<code>cp -n10 -i100 filein fileout</code>",
         "image": ""
       },
       {
-        "answer": "<code>dd if=filein of=fileout bs=1 skip=10 count=100</code>",
+        "text": "<code>dd if=filein of=fileout bs=1 skip=10 count=100</code>",
         "image": ""
       },
       {
-        "answer": "<code>dd if=filein of=fileout bs=100 skip=10 count = 1</code>",
+        "text": "<code>dd if=filein of=fileout bs=100 skip=10 count = 1</code>",
         "image": ""
       }
     ],
@@ -1833,15 +1833,15 @@
     "quest": "96. Sia mylink un soft link al file myfile (<code>ln -s myfile mylink</code>).\nQuale di queste affermazioni è vera?",
     "answers": [
       {
-        "answer": "myfile e mylink hanno un diverso numero di inode",
+        "text": "myfile e mylink hanno un diverso numero di inode",
         "image": ""
       },
       {
-        "answer": "myfile e mylink hanno lo stesso numero di inode",
+        "text": "myfile e mylink hanno lo stesso numero di inode",
         "image": ""
       },
       {
-        "answer": "myfile e mylink hanno la stessa dimensione",
+        "text": "myfile e mylink hanno la stessa dimensione",
         "image": ""
       }
     ],
@@ -1852,15 +1852,15 @@
     "quest": "97. Si consideri il codice\n<pre>\nstruct stat *s;\nfd = open(\"filename\");\nfstat(fs, s);\n</pre>\nCome faccio a sapere se il file \"filename\" è un link?",
     "answers": [
       {
-        "answer": "Se S_ISLINK(s) == 1",
+        "text": "Se S_ISLINK(s) == 1",
         "image": ""
       },
       {
-        "answer": "Se s.st_size == 0",
+        "text": "Se s.st_size == 0",
         "image": ""
       },
       {
-        "answer": "Se s_st_nlink == 1",
+        "text": "Se s_st_nlink == 1",
         "image": ""
       }
     ],
@@ -1871,11 +1871,11 @@
     "quest": "98. Quale tra i seguenti comandi è il modo più corretto per verificare a quali gruppi appartiene un utente?",
     "answers": [
       {
-        "answer": "<code>groups nomeutente</code>",
+        "text": "<code>groups nomeutente</code>",
         "image": ""
       },
       {
-        "answer": "<code>cat /etc/groups | grep nomeutente</code>",
+        "text": "<code>cat /etc/groups | grep nomeutente</code>",
         "image": ""
       }
     ],
@@ -1886,15 +1886,15 @@
     "quest": "99. Cosa fa sto ciclo?\n<code>for(scoreCount = 0; scanf(\"%d\", &a) == 1; scoreCount++);</code>",
     "answers": [
       {
-        "answer": "Legge ripetutamente numeri interi da stdin",
+        "text": "Legge ripetutamente numeri interi da stdin",
         "image": ""
       },
       {
-        "answer": "Legge una sola volta da stdin e poi termina",
+        "text": "Legge una sola volta da stdin e poi termina",
         "image": ""
       },
       {
-        "answer": "Legge da stdin senza mai terminare",
+        "text": "Legge da stdin senza mai terminare",
         "image": ""
       }
     ],
@@ -1905,15 +1905,15 @@
     "quest": "100. Quale delle seguenti funzioni di libreria non alloca nell'heap?",
     "answers": [
       {
-        "answer": "calloc",
+        "text": "calloc",
         "image": ""
       },
       {
-        "answer": "malloc",
+        "text": "malloc",
         "image": ""
       },
       {
-        "answer": "alloca",
+        "text": "alloca",
         "image": ""
       }
     ],
@@ -1924,15 +1924,15 @@
     "quest": "101. Si consideri il seguente frammento di codice\n<pre>\nsigset_t set, oset, pset;\n...\nsigemptyset( &set );\nsigaddset( &set, SIGINT );\nsigaddset( &set, SIGUSR1 );\nsigprocmask( SIG_BLOCK, &set, &oset );\n...\n</pre>",
     "answers": [
       {
-        "answer": "Termina una sezione critica precedentemente iniziata",
+        "text": "Termina una sezione critica precedentemente iniziata",
         "image": ""
       },
       {
-        "answer": "Disabilita tutti i segnali tranne SIGINT e SIGUSR1",
+        "text": "Disabilita tutti i segnali tranne SIGINT e SIGUSR1",
         "image": ""
       },
       {
-        "answer": "Disabilita i segnali SIGINT e SIGUSR1",
+        "text": "Disabilita i segnali SIGINT e SIGUSR1",
         "image": ""
       }
     ],
@@ -1943,15 +1943,15 @@
     "quest": "102. Per visualizzare contemporaneamente l'access time e status change time di un file, quale dei seguenti comandi è corretto?",
     "answers": [
       {
-        "answer": "stat nomefile",
+        "text": "stat nomefile",
         "image": ""
       },
       {
-        "answer": "ls -la nomefile",
+        "text": "ls -la nomefile",
         "image": ""
       },
       {
-        "answer": "ls -lac nomefile",
+        "text": "ls -lac nomefile",
         "image": ""
       }
     ],
@@ -1962,15 +1962,15 @@
     "quest": "103. Consideri  il seguente frammento  di codice\n<pre>int *ptr = malloc(sizeof(int));\nptr = ptr+1;</pre>\nassumendo la malloc assegni a ptr la locazione di memoria 0x55c2b1268420 cosa contiene ptr dopo l’incremento?",
     "answers": [
       {
-        "answer": "<code>0x55c2b1268421</code>",
+        "text": "<code>0x55c2b1268421</code>",
         "image": ""
       },
       {
-        "answer": "<code>0x55c2b1268428</code>",
+        "text": "<code>0x55c2b1268428</code>",
         "image": ""
       },
       {
-        "answer": "<code>0x55c2b1268424</code>",
+        "text": "<code>0x55c2b1268424</code>",
         "image": ""
       }
     ],
@@ -1981,15 +1981,15 @@
     "quest": "104. Che cosa si intende per sudoer nel gergo Linux?",
     "answers": [
       {
-        "answer": "Un comando per essere aggiunti al gruppo sudo",
+        "text": "Un comando per essere aggiunti al gruppo sudo",
         "image": ""
       },
       {
-        "answer": "Un gruppo che permette ai suoi membri di eseguire comandi come super-utente",
+        "text": "Un gruppo che permette ai suoi membri di eseguire comandi come super-utente",
         "image": ""
       },
       {
-        "answer": "Un utente che appartiene al gruppo di utenti sudo",
+        "text": "Un utente che appartiene al gruppo di utenti sudo",
         "image": ""
       }
     ],
@@ -2000,15 +2000,15 @@
     "quest": "105. Assumiamo che quando viene creata una directory i suoi permessi di accesso sono 0644.\nQuale sarà la umask?",
     "answers": [
       {
-        "answer": "0644",
+        "text": "0644",
         "image": ""
       },
       {
-        "answer": "0022",
+        "text": "0022",
         "image": ""
       },
       {
-        "answer": "0133",
+        "text": "0133",
         "image": ""
       }
     ],
@@ -2019,15 +2019,15 @@
     "quest": "106. Se una directory ha i permessi di accesso settati come 0222, quali operazioni è possibile fare su di essa?",
     "answers": [
       {
-        "answer": "Nessuna operazione",
+        "text": "Nessuna operazione",
         "image": ""
       },
       {
-        "answer": "Operazioni di scrittura ed e possibile visualizzarne il contenuto senza vedere gli attributi dei file",
+        "text": "Operazioni di scrittura ed e possibile visualizzarne il contenuto senza vedere gli attributi dei file",
         "image": ""
       },
       {
-        "answer": "Operazioni di scrittura",
+        "text": "Operazioni di scrittura",
         "image": ""
       }
     ],
@@ -2038,15 +2038,15 @@
     "quest": "107. Assumete di voler visualizzare il numero di inode di un file, quale dei seguenti comandi è più corretto usare?",
     "answers": [
       {
-        "answer": "ls -l -n nomefile",
+        "text": "ls -l -n nomefile",
         "image": ""
       },
       {
-        "answer": "stat -f nomefile",
+        "text": "stat -f nomefile",
         "image": ""
       },
       {
-        "answer": "ls -1 -i nomefile",
+        "text": "ls -1 -i nomefile",
         "image": ""
       }
     ],
@@ -2057,15 +2057,15 @@
     "quest": "108. Quando si esegue il comando ls -l viene mostrato, come prima informazione, il totale (vedi figura, ma non sul bot :p)\nQuale è il significato di questo campo?",
     "answers": [
       {
-        "answer": "Dimensione della directory espressa in numero di blocchi su disco",
+        "text": "Dimensione della directory espressa in numero di blocchi su disco",
         "image": ""
       },
       {
-        "answer": "Dimensione della directory espressa in numero di file contenuti in essa e in tutte le sotto-directory",
+        "text": "Dimensione della directory espressa in numero di file contenuti in essa e in tutte le sotto-directory",
         "image": ""
       },
       {
-        "answer": "Numero totale di sotto directory",
+        "text": "Numero totale di sotto directory",
         "image": ""
       }
     ],
@@ -2076,15 +2076,15 @@
     "quest": "109. Si consideri il seguente frammento di codice:\n<pre>\nint num = 5;\nint *numPtr;\nnumPtr = &num;\n*numPtr = 10;\n</pre>\nDopo la sua esecuzione, quale sara' il valore contenuto il num ?",
     "answers": [
       {
-        "answer": "5",
+        "text": "5",
         "image": ""
       },
       {
-        "answer": "10",
+        "text": "10",
         "image": ""
       },
       {
-        "answer": "0x123AF345 (indirizzo di memoria)",
+        "text": "0x123AF345 (indirizzo di memoria)",
         "image": ""
       }
     ],
@@ -2095,15 +2095,15 @@
     "quest": "110. Si consideri il seguente frammento di codice:\n<pre>\nint n= 2;\nint r= 2*(n++); // r = 2 * 2, n = 3\nint r1= 2*(++n); // n = 3 + 1, r1 = 2 * 4\n</pre>\nQuale delle seguenti espressioni sarà vera (true) una volta eseguito il codice?",
     "answers": [
       {
-        "answer": "r < r1",
+        "text": "r < r1",
         "image": ""
       },
       {
-        "answer": "r > r1",
+        "text": "r > r1",
         "image": ""
       },
       {
-        "answer": "r == r1",
+        "text": "r == r1",
         "image": ""
       }
     ],
@@ -2114,15 +2114,15 @@
     "quest": "112. Si consideri il comando\n<code>gcc -c file.c -o file.o</code>\nQuali delle seguenti affermazioni perché falsa?",
     "answers": [
       {
-        "answer": "Il comando produce un file oggetto a partire da un file precompilato",
+        "text": "Il comando produce un file oggetto a partire da un file precompilato",
         "image": ""
       },
       {
-        "answer": "Il comando produce un file oggetto",
+        "text": "Il comando produce un file oggetto",
         "image": ""
       },
       {
-        "answer": "Il comando produce un file eseguibile",
+        "text": "Il comando produce un file eseguibile",
         "image": ""
       }
     ],
@@ -2133,15 +2133,15 @@
     "quest": "113. Cosa produce il seguente comando?\n<code>gcc file.o file2.o file3.o</code>",
     "answers": [
       {
-        "answer": "Un file eseguibile a.out",
+        "text": "Un file eseguibile a.out",
         "image": ""
       },
       {
-        "answer": "Nulla, la sintassi è sbagliata",
+        "text": "Nulla, la sintassi è sbagliata",
         "image": ""
       },
       {
-        "answer": "Fa il linking dei file oggetto ma non produce nessun risultato finché non si specifica l'output",
+        "text": "Fa il linking dei file oggetto ma non produce nessun risultato finché non si specifica l'output",
         "image": ""
       }
     ],
@@ -2152,15 +2152,15 @@
     "quest": "114. Si consideri il seguente frammento di codice. Cosa fa una volta eseguito?\n<pre>\nscanf(\"%d\",&num);\nwhile(num!=0); {\n    printf(\"%d\\n\",num);\n    scanf(\"%d\",&num);\n}\n</pre>",
     "answers": [
       {
-        "answer": "stampa il valore di num almeno una volta",
+        "text": "stampa il valore di num almeno una volta",
         "image": ""
       },
       {
-        "answer": "cicla infinitamente se num != 0",
+        "text": "cicla infinitamente se num != 0",
         "image": ""
       },
       {
-        "answer": "stampa il valore di num se num != 0",
+        "text": "stampa il valore di num se num != 0",
         "image": ""
       }
     ],
@@ -2171,15 +2171,15 @@
     "quest": "115. Cosa produce il seguente comando come risultato?\n<code>cat /etc/group | grep nomeutente</code>",
     "answers": [
       {
-        "answer": "Visualizza su stdout tutti i gruppi a cui appartiene l'utente \"nomeutente\", incluso il gruppo \"nomeutente\" (se esiste)",
+        "text": "Visualizza su stdout tutti i gruppi a cui appartiene l'utente \"nomeutente\", incluso il gruppo \"nomeutente\" (se esiste)",
         "image": ""
       },
       {
-        "answer": "Visualizza su stdout la lista dei gruppi a cui appartiene il gruppo \"nomeutente\" (se esiste)",
+        "text": "Visualizza su stdout la lista dei gruppi a cui appartiene il gruppo \"nomeutente\" (se esiste)",
         "image": ""
       },
       {
-        "answer": "Genera un errore in quanto il file /etc/group non esiste",
+        "text": "Genera un errore in quanto il file /etc/group non esiste",
         "image": ""
       }
     ],
@@ -2190,15 +2190,15 @@
     "quest": "116. Nel caso in cui la system call <code>pid_t waitpid(pid_t pid, int *status, int options);</code>\nsia invocata con valore di pid uguale a -1. Quale è il suo comportamento?",
     "answers": [
       {
-        "answer": "Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante",
+        "text": "Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia diverso da quello del processo chiamante",
         "image": ""
       },
       {
-        "answer": "Attende la terminazione di un qualunque processo figlio",
+        "text": "Attende la terminazione di un qualunque processo figlio",
         "image": ""
       },
       {
-        "answer": "Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia uguale a quello del processo chiamante",
+        "text": "Attende la terminazione di qualunque processo figlio il cui gruppo ID del processo sia uguale a quello del processo chiamante",
         "image": ""
       }
     ],
@@ -2209,15 +2209,15 @@
     "quest": "117. Quali dei seguenti comandi permette di creare un intero path di directory?",
     "answers": [
       {
-        "answer": "mkdir /dir1/dir2/dir3",
+        "text": "mkdir /dir1/dir2/dir3",
         "image": ""
       },
       {
-        "answer": "mkdir -p /dir1/dir2/dir3",
+        "text": "mkdir -p /dir1/dir2/dir3",
         "image": ""
       },
       {
-        "answer": "mkdir -m /dir1/dir2/dir3",
+        "text": "mkdir -m /dir1/dir2/dir3",
         "image": ""
       }
     ],
@@ -2228,15 +2228,15 @@
     "quest": "118. Supponiamo di avere un file di nome filename e di creare un link a filename con il comando\n<code>ln filename link1</code>\nquale delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "filename e link1 hanno lo stesso inode",
+        "text": "filename e link1 hanno lo stesso inode",
         "image": ""
       },
       {
-        "answer": "link1 occupa zero blocchi su disco anche se filename ne occupa un numero diverso da 0",
+        "text": "link1 occupa zero blocchi su disco anche se filename ne occupa un numero diverso da 0",
         "image": ""
       },
       {
-        "answer": "filename e link1 hanno inode diverso",
+        "text": "filename e link1 hanno inode diverso",
         "image": ""
       }
     ],
@@ -2247,15 +2247,15 @@
     "quest": "119. Quali dei seguenti comandi change dir usa un path assoluto? (# indica il prompt di sistema)",
     "answers": [
       {
-        "answer": "# cd ../studente/download",
+        "text": "# cd ../studente/download",
         "image": ""
       },
       {
-        "answer": "# cd Immagini/../Immagini/faces/",
+        "text": "# cd Immagini/../Immagini/faces/",
         "image": ""
       },
       {
-        "answer": "# cd ~/Lezione1/esempi/filesystem",
+        "text": "# cd ~/Lezione1/esempi/filesystem",
         "image": ""
       }
     ],
@@ -2266,15 +2266,15 @@
     "quest": "120. Quali sono i permessi MINIMI che devono essere assegnati ad una directory affinchperché sia possibile:\n- leggere il contenuto della directory inclusi gli attributi dei file;\n- impostare la directory come cwd;\n- attraversare la directory.",
     "answers": [
       {
-        "answer": "rwx",
+        "text": "rwx",
         "image": ""
       },
       {
-        "answer": "r-x",
+        "text": "r-x",
         "image": ""
       },
       {
-        "answer": "rw-",
+        "text": "rw-",
         "image": ""
       }
     ],
@@ -2285,15 +2285,15 @@
     "quest": "121. Supponiamo di avere il seguente makefile (memorizzato in un file di nome makefile):\n<pre>\nmerge_sorted_lists: merge_sorted_lists.c\n        gcc -Wall -Wextra -O3 merge_sorted_lists.c \\\n        -o merge_sorted_lists\nsort_file_int: sort_file_int.c\n        gcc -Wall -Wextra -O3 sort_file_int.c \\\n        -o sort_file_int\n.PHONY: clean\nclean:\n        rm -f *.o merge_sorted_lists\n</pre>\nIn quali condizioni viene eseguito il target sort_file_int? ",
     "answers": [
       {
-        "answer": "Sempre, se invochiamo il comando <code>make sort_file_int</code>",
+        "text": "Sempre, se invochiamo il comando <code>make sort_file_int</code>",
         "image": ""
       },
       {
-        "answer": "Se invochiamo il comando <code>make sort_file_int</code>. e se sort_file_int.c perché stato modificato dopo la data di creazione di sort_file_int.o",
+        "text": "Se invochiamo il comando <code>make sort_file_int</code>. e se sort_file_int.c perché stato modificato dopo la data di creazione di sort_file_int.o",
         "image": ""
       },
       {
-        "answer": "Il target sort_file_int non verrà mai eseguito",
+        "text": "Il target sort_file_int non verrà mai eseguito",
         "image": ""
       }
     ],
@@ -2304,15 +2304,15 @@
     "quest": "122. SI consideri il seguente frammento di codice:\n<pre>\nint x, y, nread;\nfloat xx, yy;\nnread=scanf(\"%d %d\",&x, &y);\nprintf(\"x=%d, y=%d, nread=%d \\n\",x,y,nread);\nprintf(\"xx=%f, yy=%f, nread=%d \\n\",xx,yy,nread);\nnread=scanf(\"%f %f\",&xx, &yy);\n</pre>\nAssumiamo che, in fase di esecuzione, la prima scanf legge su stdin la sequenza\n<b>1 w</b>\nQuale sara' il valore di nread dopo l'esecuzione della seconda scanf?",
     "answers": [
       {
-        "answer": "0",
+        "text": "0",
         "image": ""
       },
       {
-        "answer": "2",
+        "text": "2",
         "image": ""
       },
       {
-        "answer": "dipende dall'input letto su stdin dalla seconda scanf",
+        "text": "dipende dall'input letto su stdin dalla seconda scanf",
         "image": ""
       }
     ],
@@ -2323,15 +2323,15 @@
     "quest": "123. Si consideri il seguente frammento di codice\n<pre>\n 1: #include <stdio.h>\n 2:  ....\n 3: \n 4:  char str [80];\n 5:  float f;\n 6:  FILE * pFile;\n 7:\n 8:  pFile = fopen (\"myfile.txt\",\"w+\");\n 9:  fprintf (pFile, \"%f %s\\n\", 3.1416, \"PI\");\n 10: close(pFile);\n 11: rewind (pFile);\n 12: fscanf (pFile, \"%f\", &f);\n 13: fscanf (pFile, \"%s\", str);\n</pre>\nLe chiamate di funzione a riga 10, 11, 12 e 13 vengono eseguite tutte?",
     "answers": [
       {
-        "answer": "Sì",
+        "text": "Sì",
         "image": ""
       },
       {
-        "answer": "Viene eseguita solo riga 10 poi genera errore ed il programma termina",
+        "text": "Viene eseguita solo riga 10 poi genera errore ed il programma termina",
         "image": ""
       },
       {
-        "answer": "No, nessuna",
+        "text": "No, nessuna",
         "image": ""
       }
     ],
@@ -2342,15 +2342,15 @@
     "quest": "124. Cosa fa il seguente segmento di codice?\n<pre>\nscanf(“%d”,&num); \ndo {\nprintf(“%d\\n”,num); \nscanf(“%d”,&num);\n} while(num!=0);\n</pre>",
     "answers": [
       {
-        "answer": "stampa il valore di num se num è diverso da 0",
+        "text": "stampa il valore di num se num è diverso da 0",
         "image": ""
       },
       {
-        "answer": "Il ciclo do-while entra in un loop infinito",
+        "text": "Il ciclo do-while entra in un loop infinito",
         "image": ""
       },
       {
-        "answer": "stampa il valore di num almeno una volta",
+        "text": "stampa il valore di num almeno una volta",
         "image": ""
       }
     ],
@@ -2361,15 +2361,15 @@
     "quest": "125. Supponiamo di aver inizializzato un puntatore ad una variabile intera in questo modo\n<pre>\nint num=5, *ptrnum;\nptrnum=&num;\n</pre>",
     "answers": [
       {
-        "answer": "ptrnum = (int *) 10;",
+        "text": "ptrnum = (int *) 10;",
         "image": ""
       },
       {
-        "answer": "ptrnum = 10;",
+        "text": "ptrnum = 10;",
         "image": ""
       },
       {
-        "answer": "*ptrnum = 10;",
+        "text": "*ptrnum = 10;",
         "image": ""
       }
     ],
@@ -2380,15 +2380,15 @@
     "quest": "126. Quale dei seguenti dichiarazioni di variabile perché non valida, generando quindi un errore di compilazione?",
     "answers": [
       {
-        "answer": "int goto=1;",
+        "text": "int goto=1;",
         "image": ""
       },
       {
-        "answer": "int goTo=1;",
+        "text": "int goTo=1;",
         "image": ""
       },
       {
-        "answer": "int go_to=1;",
+        "text": "int go_to=1;",
         "image": ""
       }
     ],
@@ -2399,15 +2399,15 @@
     "quest": "127. Si consideri il seguente frammento di codice\n<pre>\nint scoreCount, a;        \nfor(scoreCount=0; scanf(\"%d\",&a)==1; scoreCount++);\n</pre>\nSe la sequenza letta in input dall scanf è\n<pre>\n1 3 7 2 12 w\n</pre>\nQuale valore assumerà scoreCount al termine del ciclo?",
     "answers": [
       {
-        "answer": "Il ciclo non termina. La scanf va in errore quando viene letta la w",
+        "text": "Il ciclo non termina. La scanf va in errore quando viene letta la w",
         "image": ""
       },
       {
-        "answer": "5",
+        "text": "5",
         "image": ""
       },
       {
-        "answer": "6",
+        "text": "6",
         "image": ""
       }
     ],
@@ -2418,15 +2418,15 @@
     "quest": "128. Si consideri il frammento di codice\n<pre>\n  int K=10, c=0, p=1;\n  while (++K > 10)\n    c=c+1;\n  p--;\n</pre>\nche valore conterrà la variabile K al termine dell'esecuzione del frammento di codice?",
     "answers": [
       {
-        "answer": "11",
+        "text": "11",
         "image": ""
       },
       {
-        "answer": "L'esecuziuone del frammento di codice non termina perché Il ciclo entra in un loop infinito",
+        "text": "L'esecuziuone del frammento di codice non termina perché Il ciclo entra in un loop infinito",
         "image": ""
       },
       {
-        "answer": "10",
+        "text": "10",
         "image": ""
       }
     ],
@@ -2437,15 +2437,15 @@
     "quest": "129. In quale situazione le system call dup(2) e dup2(2) hanno lo stesso comportamento?",
     "answers": [
       {
-        "answer": "Nel caso in cui gli passiamo gli stessi parametri",
+        "text": "Nel caso in cui gli passiamo gli stessi parametri",
         "image": ""
       },
       {
-        "answer": "Nel casa in cui invochiamo la dup2(2) settando a NULL il valore del nuovo file descriptor",
+        "text": "Nel casa in cui invochiamo la dup2(2) settando a NULL il valore del nuovo file descriptor",
         "image": ""
       },
       {
-        "answer": "Nel caso in cui la dup2(2) venga invocata specificando che il nuovo file descriptor deve essere il file descriptor disponibile con il numero più piccolo",
+        "text": "Nel caso in cui la dup2(2) venga invocata specificando che il nuovo file descriptor deve essere il file descriptor disponibile con il numero più piccolo",
         "image": ""
       }
     ],
@@ -2456,15 +2456,15 @@
     "quest": "130. Quali dei seguenti attributi di un processo non perché preservato a seguito di una chiamata alla funzione di libreria execve()?",
     "answers": [
       {
-        "answer": "Groups id",
+        "text": "Groups id",
         "image": ""
       },
       {
-        "answer": "Memory mapping",
+        "text": "Memory mapping",
         "image": ""
       },
       {
-        "answer": "File locks",
+        "text": "File locks",
         "image": ""
       }
     ],
@@ -2475,15 +2475,15 @@
     "quest": "131. Quale attributi di un processo non sono ereditati dal processo figlio?",
     "answers": [
       {
-        "answer": "Descrittori dei file; terminale di controllo; memoria condivisa",
+        "text": "Descrittori dei file; terminale di controllo; memoria condivisa",
         "image": ""
       },
       {
-        "answer": "I timer, i record lock e i memory lock; i contatori delle risorse ",
+        "text": "I timer, i record lock e i memory lock; i contatori delle risorse ",
         "image": ""
       },
       {
-        "answer": "Real ed effective user e group ID; working directory; ambiente del processo",
+        "text": "Real ed effective user e group ID; working directory; ambiente del processo",
         "image": ""
       }
     ],
@@ -2494,15 +2494,15 @@
     "quest": "132. Si consideri il seguente frammento di codice\n<pre>\nchar* file = argv[1];\n int fd;\n struct flock lock;\n fd = open (file, O_WRONLY);\n memset (&lock, 0, sizeof(lock));\n lock.l_type = F_WRLCK; \n fcntl (fd, F_GETLK, &lock);\n</pre>\nQuale è il comportamento della system call fcntl?",
     "answers": [
       {
-        "answer": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file piazza il lock",
+        "text": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file piazza il lock",
         "image": ""
       },
       {
-        "answer": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file restituisce F_UNLOCK nel campo l_type di lock",
+        "text": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. Nel caso in cui nessun processo detiene un lock su file restituisce F_UNLOCK nel campo l_type di lock",
         "image": ""
       },
       {
-        "answer": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. In caso affermativo il lock viene rimosso ed il lock richiesto dal processo in esecuzione viene piazzato",
+        "text": "Verifica se sul file file perché gia' presente un lock descritto dalla struttura lock. In caso affermativo il lock viene rimosso ed il lock richiesto dal processo in esecuzione viene piazzato",
         "image": ""
       }
     ],
@@ -2513,15 +2513,15 @@
     "quest": "133. Un processo puo' allocare memoria solo nell'heap?",
     "answers": [
       {
-        "answer": "Sì, mediante la funziona di libreria malloc(3) e calloc(3)",
+        "text": "Sì, mediante la funziona di libreria malloc(3) e calloc(3)",
         "image": ""
       },
       {
-        "answer": "Sì, mediante le funzioni di libreria malloc(3), calloc(3) e alloca(3)",
+        "text": "Sì, mediante le funzioni di libreria malloc(3), calloc(3) e alloca(3)",
         "image": ""
       },
       {
-        "answer": "No. Può allocare anche memoria nello stack mediante la funzione di libreria alloca(3)",
+        "text": "No. Può allocare anche memoria nello stack mediante la funzione di libreria alloca(3)",
         "image": ""
       }
     ],
@@ -2532,15 +2532,15 @@
     "quest": "134. Supponiamo di aver utilizzato, nella nostra funzione C, la funzione di libreria alloca(3) per allocare un'area di memoria.\nÈ necessario liberare tale area di memoria mediante una free(3) prima della terminazione della funzione?",
     "answers": [
       {
-        "answer": "No. l'area di memoria allocata nello stack viene liberata automaticamente",
+        "text": "No. l'area di memoria allocata nello stack viene liberata automaticamente",
         "image": ""
       },
       {
-        "answer": "Sì, ma mediante la chiamata di funzione dealloca(3) e non mediante la free(3) ",
+        "text": "Sì, ma mediante la chiamata di funzione dealloca(3) e non mediante la free(3) ",
         "image": ""
       },
       {
-        "answer": "Sì, bisogna sempre liberare la memoria per evitare dei memory leak",
+        "text": "Sì, bisogna sempre liberare la memoria per evitare dei memory leak",
         "image": ""
       }
     ],
@@ -2551,15 +2551,15 @@
     "quest": "135. Si consideri la variabile globale errno.\nSe una system call termina con successo, e immediatamente dopo la sua terminazione ispezioniamo il contenuto di errno, cosa otteniamo?",
     "answers": [
       {
-        "answer": "Il valore zero essendo la system call terminata con successo",
+        "text": "Il valore zero essendo la system call terminata con successo",
         "image": ""
       },
       {
-        "answer": "Il codice di terminazione (con successo) in quanto non c'è una effettiva differenza tra codice di errore o di terminazione con successo",
+        "text": "Il codice di terminazione (con successo) in quanto non c'è una effettiva differenza tra codice di errore o di terminazione con successo",
         "image": ""
       },
       {
-        "answer": "Il codice di errore generato dall'ultima system call o funzione di libreria la cui esecuzione è terminata con errore",
+        "text": "Il codice di errore generato dall'ultima system call o funzione di libreria la cui esecuzione è terminata con errore",
         "image": ""
       }
     ],
@@ -2570,15 +2570,15 @@
     "quest": "136. Si consideri la system call\n<code>\nint open(const char *pathname, int flags);\n</code>\nnel caso venga invocata con il flag impostato a\n<code>\nO_CREAT | O_EXCL | O_WRONLY\n</code>\nQuale è il comportamento atteso?",
     "answers": [
       {
-        "answer": "Se il file non esiste viene creato ed aperto in scrittura, se invece esiste ritorna errore",
+        "text": "Se il file non esiste viene creato ed aperto in scrittura, se invece esiste ritorna errore",
         "image": ""
       },
       {
-        "answer": "Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in scrittura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in scrittura",
+        "text": "Se il file non esiste viene creato con i permessi di esecuzione (x) ed aperto in scrittura. Se esiste vengono aggiunti i permessi di esecuzione se già non settati ed il file è aperto in scrittura",
         "image": ""
       },
       {
-        "answer": "Se il file non esiste lo crea e lo apre in scrittura, altrimenti lo apre in lettura",
+        "text": "Se il file non esiste lo crea e lo apre in scrittura, altrimenti lo apre in lettura",
         "image": ""
       }
     ],
@@ -2589,15 +2589,15 @@
     "quest": "137. Assumete di voler visualizzare il numero di inode di un file, quale dei seguenti comandi non produce l'output desiderato?",
     "answers": [
       {
-        "answer": "stat -f nomefile",
+        "text": "stat -f nomefile",
         "image": ""
       },
       {
-        "answer": "ls -l -i nomefile",
+        "text": "ls -l -i nomefile",
         "image": ""
       },
       {
-        "answer": "stat nomefile",
+        "text": "stat nomefile",
         "image": ""
       }
     ],
@@ -2608,15 +2608,15 @@
     "quest": "138. Supponiamo di avere un file nomefile memorizzato nel nostro filesystem.\nQuale perché il risultato del comando touch nomefile?",
     "answers": [
       {
-        "answer": "Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile  ",
+        "text": "Aggiorna, al tempo corrente, gli atttributi atime e mtime di nomefile  ",
         "image": ""
       },
       {
-        "answer": "Crea un file vuoto con nome nomefile in sostituzione dell'esistente",
+        "text": "Crea un file vuoto con nome nomefile in sostituzione dell'esistente",
         "image": ""
       },
       {
-        "answer": "Crea un file vuoto con nome nomefile in sostituzione dell'esistente e valore del ctime aggiornato al tempo corrente",
+        "text": "Crea un file vuoto con nome nomefile in sostituzione dell'esistente e valore del ctime aggiornato al tempo corrente",
         "image": ""
       }
     ],
@@ -2627,15 +2627,15 @@
     "quest": "139. Si consideri un file contenente un programma in linguaggio C. Si assuma che è stata inserita la direttiva #include \"stdio.h\" . perché la compilazione potrebbe generare errori?",
     "answers": [
       {
-        "answer": "Perché la direttiva dice di cercare il file stdio.h nella directory corrente, mentre tale header file è solitamente memorizzato in un altra directory del filesystem",
+        "text": "Perché la direttiva dice di cercare il file stdio.h nella directory corrente, mentre tale header file è solitamente memorizzato in un altra directory del filesystem",
         "image": ""
       },
       {
-        "answer": "perché il file stdio.h potrebbe non esistere nella directory /usr/include, dove la direttiva dice di cercarlo",
+        "text": "perché il file stdio.h potrebbe non esistere nella directory /usr/include, dove la direttiva dice di cercarlo",
         "image": ""
       },
       {
-        "answer": "L'inserimento della direttiva non genererà mai errori",
+        "text": "L'inserimento della direttiva non genererà mai errori",
         "image": ""
       }
     ],
@@ -2646,15 +2646,15 @@
     "quest": "140. Dopo aver esegguito il comando\n<code>cpp helloworld.c > hw\n</code>\ncosa conterrà il file hw?",
     "answers": [
       {
-        "answer": "Un file identico a helloworld.c",
+        "text": "Un file identico a helloworld.c",
         "image": ""
       },
       {
-        "answer": "L'input per il debugger relativo al file helloworld.c",
+        "text": "L'input per il debugger relativo al file helloworld.c",
         "image": ""
       },
       {
-        "answer": "Il precompilato di helloworld.c",
+        "text": "Il precompilato di helloworld.c",
         "image": ""
       }
     ],
@@ -2665,15 +2665,15 @@
     "quest": "141. Quale perché il modo corretto per controllare che due stringhe str1 e str2 sono uguali?",
     "answers": [
       {
-        "answer": "<code>if (s1==s2) { printf(\"stringhe uguali\") }</code>",
+        "text": "<code>if (s1==s2) { printf(\"stringhe uguali\") }</code>",
         "image": ""
       },
       {
-        "answer": "<code>if strcmp(s1,s2) == 0 { printf(\"stringhe uguali\") }</code>",
+        "text": "<code>if strcmp(s1,s2) == 0 { printf(\"stringhe uguali\") }</code>",
         "image": ""
       },
       {
-        "answer": "<code>if strcmp(s1,s2) { printf(\"stringhe uguali\") }</code>",
+        "text": "<code>if strcmp(s1,s2) { printf(\"stringhe uguali\") }</code>",
         "image": ""
       }
     ],
@@ -2684,15 +2684,15 @@
     "quest": "142. Si consideri il seguente frammento di codice\n<pre>\nint i, n1=10, n2=100;\t\nfor (i=0;((i<n1)&&(i<n2));i++)\n    m2[i]=m1[i];\n</pre>\nquando termina il ciclo for?",
     "answers": [
       {
-        "answer": "Quando il valore di i è uguale a n1",
+        "text": "Quando il valore di i è uguale a n1",
         "image": ""
       },
       {
-        "answer": "Quando il valore di i è uguale a n2",
+        "text": "Quando il valore di i è uguale a n2",
         "image": ""
       },
       {
-        "answer": "Non termina perché n1 è diverso da n2",
+        "text": "Non termina perché n1 è diverso da n2",
         "image": ""
       }
     ],
@@ -2703,15 +2703,15 @@
     "quest": "143. Supponiamo di eseguire  separatamente i seguenti frammenti di codice\n<b>Frammento_1</b>\n<pre>close(2);\nif (fopen(\".\",\"r\")) {\n           perror(\"main\");\n}</pre>\n<b>Frammento_2</b>\n<pre>close(2);\nif (fopen(\".\",\"r\")) {\n               printf(\"main: %s \\n\", strerror(errno));\n}</pre>\nQuale delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "Il frammento_1 non produce alcun output sul terminale",
+        "text": "Il frammento_1 non produce alcun output sul terminale",
         "image": ""
       },
       {
-        "answer": "La loro esecuzione produce sul terminale due stringhe identiche",
+        "text": "La loro esecuzione produce sul terminale due stringhe identiche",
         "image": ""
       },
       {
-        "answer": "La loro esecuzione produce sul terminale due stringhe diverse",
+        "text": "La loro esecuzione produce sul terminale due stringhe diverse",
         "image": ""
       }
     ],
@@ -2722,15 +2722,15 @@
     "quest": "51. Si consideri  il seguente frammento  di codice  (i numeri a lato sono i numeri di riga delle istruzioni)(uscita 2 volte)\n<pre>1.    Pthread_t tid;\n2.    pthread_create(&tid, ... )\n3.    pthread_create(&tid, ...)\n4.    pthread_join(tid, ...);\n5.    printf(\"joined\");</pre>\nquale  delle seguenti affermazioni è vera?",
     "answers": [
       {
-        "answer": "la stringa \"joined\" è inviata su stdout solo quando  il thread creato a riga 3 è terminato",
+        "text": "la stringa \"joined\" è inviata su stdout solo quando  il thread creato a riga 3 è terminato",
         "image": ""
       },
       {
-        "answer": "la stringa \"joined\" è inviata su stdout quando entrambi i thread sono terminati",
+        "text": "la stringa \"joined\" è inviata su stdout quando entrambi i thread sono terminati",
         "image": ""
       },
       {
-        "answer": "la stringa \"joined\" è inviata su stdout quando uno dei due thread (non importa quale) è terminato",
+        "text": "la stringa \"joined\" è inviata su stdout quando uno dei due thread (non importa quale) è terminato",
         "image": ""
       }
     ],

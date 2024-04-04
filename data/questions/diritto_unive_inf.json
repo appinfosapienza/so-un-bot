@@ -3,11 +3,11 @@
     "quest": "1) Esiste un codice di diritto dell’informatica?",
     "answers": [
       {
-        "answer": "No.",
+        "text": "No.",
         "image": ""
       },
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       }
     ],
@@ -18,15 +18,15 @@
     "quest": "2) Cosa si intende con principio di neutralità della rete?",
     "answers": [
       {
-        "answer": "Che opera nella rete non deve discriminare politicamente",
+        "text": "Che opera nella rete non deve discriminare politicamente",
         "image": ""
       },
       {
-        "answer": "Che chi opera nella rete non deve discriminare tra tecnologie di accesso.",
+        "text": "Che chi opera nella rete non deve discriminare tra tecnologie di accesso.",
         "image": ""
       },
       {
-        "answer": "Che chi opera nella rete non deve discriminare i consumatori",
+        "text": "Che chi opera nella rete non deve discriminare i consumatori",
         "image": ""
       }
     ],
@@ -37,15 +37,15 @@
     "quest": "3) Quando in Italia la riservatezza è divenuto diritto tutelato delle leggi? ",
     "answers": [
       {
-        "answer": "A metà degli anni ‘70",
+        "text": "A metà degli anni ‘70",
         "image": ""
       },
       {
-        "answer": "A metà degli anni ‘90",
+        "text": "A metà degli anni ‘90",
         "image": ""
       },
       {
-        "answer": "Dal 2023",
+        "text": "Dal 2023",
         "image": ""
       }
     ],
@@ -56,15 +56,15 @@
     "quest": "4) Perché di solito un internet provider non chiede un canone all’utente?",
     "answers": [
       {
-        "answer": "Perché vende le informazioni sugli interessi dell'utente",
+        "text": "Perché vende le informazioni sugli interessi dell'utente",
         "image": ""
       },
       {
-        "answer": "Perché riceve dallo Stato un apposito finanziamento per far funzionare l rete",
+        "text": "Perché riceve dallo Stato un apposito finanziamento per far funzionare l rete",
         "image": ""
       },
       {
-        "answer": "Perché ricava gli utili da altri servizi che offre agli utenti",
+        "text": "Perché ricava gli utili da altri servizi che offre agli utenti",
         "image": ""
       }
     ],
@@ -75,15 +75,15 @@
     "quest": "5) Un file è un documento valido?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si ma solo se firmato digitalmente.",
+        "text": "Si ma solo se firmato digitalmente.",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -94,15 +94,15 @@
     "quest": "6) Cosa è la dematerializzazione dei titoli finanziari?",
     "answers": [
       {
-        "answer": "Il fatto che ormai nessuno è più interessato a questi documenti",
+        "text": "Il fatto che ormai nessuno è più interessato a questi documenti",
         "image": ""
       },
       {
-        "answer": "Il fatto che si sta passando dalla moneta cartacea a quella digitale (bitcoins e simili)",
+        "text": "Il fatto che si sta passando dalla moneta cartacea a quella digitale (bitcoins e simili)",
         "image": ""
       },
       {
-        "answer": "Il fatto che i titoli di carta sono stati sostituiti da scritturazioni elettroniche.",
+        "text": "Il fatto che i titoli di carta sono stati sostituiti da scritturazioni elettroniche.",
         "image": ""
       }
     ],
@@ -113,15 +113,15 @@
     "quest": "7) Cos’è l’informatizzazione dei registri immobiliari?  ",
     "answers": [
       {
-        "answer": "Il fatto che i registri di carta sono ora digitali",
+        "text": "Il fatto che i registri di carta sono ora digitali",
         "image": ""
       },
       {
-        "answer": "Il fatto che chiunque può accedere telematicamente ai registri digitali.",
+        "text": "Il fatto che chiunque può accedere telematicamente ai registri digitali.",
         "image": ""
       },
       {
-        "answer": "Il fatto che i notati si trasmettono gli atti ai registri in formato digitale",
+        "text": "Il fatto che i notati si trasmettono gli atti ai registri in formato digitale",
         "image": ""
       }
     ],
@@ -132,15 +132,15 @@
     "quest": "8) I bitcoins sono una moneta?",
     "answers": [
       {
-        "answer": "Si, digitale",
+        "text": "Si, digitale",
         "image": ""
       },
       {
-        "answer": "Si ma privata",
+        "text": "Si ma privata",
         "image": ""
       },
       {
-        "answer": "No, sono un mezzo di scambio.",
+        "text": "No, sono un mezzo di scambio.",
         "image": ""
       }
     ],
@@ -151,15 +151,15 @@
     "quest": "9) Il commercio elettronico riguarda?",
     "answers": [
       {
-        "answer": "Consumatori e/o imprese.",
+        "text": "Consumatori e/o imprese.",
         "image": ""
       },
       {
-        "answer": "solo i consumatori",
+        "text": "solo i consumatori",
         "image": ""
       },
       {
-        "answer": "solo le imprese",
+        "text": "solo le imprese",
         "image": ""
       }
     ],
@@ -170,15 +170,15 @@
     "quest": "10) Per effettuare una comunicazione commerciale:",
     "answers": [
       {
-        "answer": "occorre il preventivo consenso del destinatario.",
+        "text": "occorre il preventivo consenso del destinatario.",
         "image": ""
       },
       {
-        "answer": "occorre che siano dirette solo ad imprese, non a consumatori",
+        "text": "occorre che siano dirette solo ad imprese, non a consumatori",
         "image": ""
       },
       {
-        "answer": "occorre che chiariscano di essere comunicazioni commerciali",
+        "text": "occorre che chiariscano di essere comunicazioni commerciali",
         "image": ""
       }
     ],
@@ -189,15 +189,15 @@
     "quest": "11) A cosa servono i marchi di qualità?",
     "answers": [
       {
-        "answer": "Per attestare la qualità del prodotto",
+        "text": "Per attestare la qualità del prodotto",
         "image": ""
       },
       {
-        "answer": "Per acquistare la fiducia dei cliente sulla bontà del prodotto",
+        "text": "Per acquistare la fiducia dei cliente sulla bontà del prodotto",
         "image": ""
       },
       {
-        "answer": "Per rispettare le norme sulla etichettatura dei prodotti",
+        "text": "Per rispettare le norme sulla etichettatura dei prodotti",
         "image": ""
       }
     ],
@@ -208,15 +208,15 @@
     "quest": "12) Si possono utilizzare tecniche digitali per bloccare l’accesso a proprie opere d’ingegno?",
     "answers": [
       {
-        "answer": "Si sempre.",
+        "text": "Si sempre.",
         "image": ""
       },
       {
-        "answer": "Si ma solo se sono opere che hanno carattere creativo",
+        "text": "Si ma solo se sono opere che hanno carattere creativo",
         "image": ""
       },
       {
-        "answer": "Si ogni volta che sono brevettate",
+        "text": "Si ogni volta che sono brevettate",
         "image": ""
       }
     ],
@@ -227,15 +227,15 @@
     "quest": "13) Esistono norme penali contro l’uso improprio del software?",
     "answers": [
       {
-        "answer": "Si ma riguardano solo gli hacker",
+        "text": "Si ma riguardano solo gli hacker",
         "image": ""
       },
       {
-        "answer": "Si ma riguardano solo la violazione del diritto d’autore.",
+        "text": "Si ma riguardano solo la violazione del diritto d’autore.",
         "image": ""
       },
       {
-        "answer": "Si e riguardano anche i mezzi di pagamento",
+        "text": "Si e riguardano anche i mezzi di pagamento",
         "image": ""
       }
     ],
@@ -246,15 +246,15 @@
     "quest": "14) I provider devono controllare il materiale che viene inserito dagli utenti?",
     "answers": [
       {
-        "answer": "Si ",
+        "text": "Si ",
         "image": ""
       },
       {
-        "answer": "Si se si tratta di tutela dei minori o di terrorismo",
+        "text": "Si se si tratta di tutela dei minori o di terrorismo",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -265,15 +265,15 @@
     "quest": "15) Quali regole disciplinano i social network?",
     "answers": [
       {
-        "answer": "Il contratto ed eventuali norme di legge",
+        "text": "Il contratto ed eventuali norme di legge",
         "image": ""
       },
       {
-        "answer": "L’apposita disciplina legale e poi il contratto.",
+        "text": "L’apposita disciplina legale e poi il contratto.",
         "image": ""
       },
       {
-        "answer": "Non ci sono regole",
+        "text": "Non ci sono regole",
         "image": ""
       }
     ],
@@ -284,15 +284,15 @@
     "quest": "16) Da quando è la legge scritta a tutelare la privacy?",
     "answers": [
       {
-        "answer": "Dagli anni ‘50",
+        "text": "Dagli anni ‘50",
         "image": ""
       },
       {
-        "answer": "Dagli anni ‘70",
+        "text": "Dagli anni ‘70",
         "image": ""
       },
       {
-        "answer": "Dagli anni ‘90",
+        "text": "Dagli anni ‘90",
         "image": ""
       }
     ],
@@ -303,15 +303,15 @@
     "quest": "17) Chi è il \"responsabile\" nel trattamento dei dati personali?",
     "answers": [
       {
-        "answer": "Chi paga i danni se non ci sono le autorizzazioni",
+        "text": "Chi paga i danni se non ci sono le autorizzazioni",
         "image": ""
       },
       {
-        "answer": "Chi è titolare delle modalità di trattamento",
+        "text": "Chi è titolare delle modalità di trattamento",
         "image": ""
       },
       {
-        "answer": "Chi fa apporre la firma per il consenso al soggetto interessato",
+        "text": "Chi fa apporre la firma per il consenso al soggetto interessato",
         "image": ""
       }
     ],
@@ -322,15 +322,15 @@
     "quest": "18) Dove si trovano le regole sulla trasparenza nelle comunicazioni elettroniche?",
     "answers": [
       {
-        "answer": "Nel codice delle telecomunicazioni",
+        "text": "Nel codice delle telecomunicazioni",
         "image": ""
       },
       {
-        "answer": "Nel codice penale",
+        "text": "Nel codice penale",
         "image": ""
       },
       {
-        "answer": "Nel codice civile",
+        "text": "Nel codice civile",
         "image": ""
       }
     ],
@@ -341,15 +341,15 @@
     "quest": "19) Le regole del codice dell'amministrazione digitale sui documenti informatici valgono per i privati?",
     "answers": [
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       },
       {
-        "answer": "Si, ma solo se autorizzati",
+        "text": "Si, ma solo se autorizzati",
         "image": ""
       },
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       }
     ],
@@ -360,11 +360,11 @@
     "quest": "20) Si può imporre ad un'amministrazione di rispondere via pec alle istanze dei privati?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -375,15 +375,15 @@
     "quest": "21) Quali mezzi di comunicazione hanno la data certa opponibile a tutti?",
     "answers": [
       {
-        "answer": "La mail e il fax",
+        "text": "La mail e il fax",
         "image": ""
       },
       {
-        "answer": "La pec",
+        "text": "La pec",
         "image": ""
       },
       {
-        "answer": "La pec ed il fax.",
+        "text": "La pec ed il fax.",
         "image": ""
       }
     ],
@@ -394,15 +394,15 @@
     "quest": "22) Cosa è il processo civile telematico?",
     "answers": [
       {
-        "answer": "Il processo civile in cui il deposito degli atti avviene in forma telematica.",
+        "text": "Il processo civile in cui il deposito degli atti avviene in forma telematica.",
         "image": ""
       },
       {
-        "answer": "Il processo civile che ha per oggetto una lite informatica",
+        "text": "Il processo civile che ha per oggetto una lite informatica",
         "image": ""
       },
       {
-        "answer": "Il fatto che nella società moderna vi è un processo di sostituzione della carta con il mezzo informatico",
+        "text": "Il fatto che nella società moderna vi è un processo di sostituzione della carta con il mezzo informatico",
         "image": ""
       }
     ],
@@ -413,15 +413,15 @@
     "quest": "23) Cos'è la moneta elettronica?",
     "answers": [
       {
-        "answer": "Il bitcoin",
+        "text": "Il bitcoin",
         "image": ""
       },
       {
-        "answer": "Carte di debito e di credito",
+        "text": "Carte di debito e di credito",
         "image": ""
       },
       {
-        "answer": "Un valore monetario memorizzato elettronicamente.",
+        "text": "Un valore monetario memorizzato elettronicamente.",
         "image": ""
       }
     ],
@@ -432,15 +432,15 @@
     "quest": "24) I bitcoins hanno valore stabile?",
     "answers": [
       {
-        "answer": "Tendenzialmente si",
+        "text": "Tendenzialmente si",
         "image": ""
       },
       {
-        "answer": "Tendenzialmente no;",
+        "text": "Tendenzialmente no;",
         "image": ""
       },
       {
-        "answer": "Non esistono dati rilevati",
+        "text": "Non esistono dati rilevati",
         "image": ""
       }
     ],
@@ -451,15 +451,15 @@
     "quest": "25) I pagamenti mediante bitcoins sono tracciati?",
     "answers": [
       {
-        "answer": "Si, ma non i loro autori",
+        "text": "Si, ma non i loro autori",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       },
       {
-        "answer": "No ma sono tracciati i loro autori",
+        "text": "No ma sono tracciati i loro autori",
         "image": ""
       }
     ],
@@ -470,15 +470,15 @@
     "quest": "26) Si possono fornire ai consumatori beni non richiesti?",
     "answers": [
       {
-        "answer": "No, occorre un previo ordine di acquisto",
+        "text": "No, occorre un previo ordine di acquisto",
         "image": ""
       },
       {
-        "answer": "No, a meno che il venditore li offra gratuitamente",
+        "text": "No, a meno che il venditore li offra gratuitamente",
         "image": ""
       },
       {
-        "answer": "No, a meno che il venditore si impegni a ritirarli gratuitamente a richiesta",
+        "text": "No, a meno che il venditore si impegni a ritirarli gratuitamente a richiesta",
         "image": ""
       }
     ],
@@ -489,15 +489,15 @@
     "quest": "27) A cosa servono i marchi di qualità?",
     "answers": [
       {
-        "answer": "È una dichiarazione di un terzo circa l'affidabilità di un soggetto",
+        "text": "È una dichiarazione di un terzo circa l'affidabilità di un soggetto",
         "image": ""
       },
       {
-        "answer": "È un marchio che protegge un software o un sito web",
+        "text": "È un marchio che protegge un software o un sito web",
         "image": ""
       },
       {
-        "answer": "È un marchio rilasciato dallo stato ad imprenditori che hanno certe qualifiche",
+        "text": "È un marchio rilasciato dallo stato ad imprenditori che hanno certe qualifiche",
         "image": ""
       }
     ],
@@ -508,15 +508,15 @@
     "quest": "28) Le banche dati sono tutelate?",
     "answers": [
       {
-        "answer": "Si sempre.",
+        "text": "Si sempre.",
         "image": ""
       },
       {
-        "answer": "Si ogni volta che hanno carattere creativo",
+        "text": "Si ogni volta che hanno carattere creativo",
         "image": ""
       },
       {
-        "answer": "Si ogni volta che sono brevettate",
+        "text": "Si ogni volta che sono brevettate",
         "image": ""
       }
     ],
@@ -527,15 +527,15 @@
     "quest": "29) Esiste un' autorità centrale che governa Internet?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si ma non in Italia",
+        "text": "Si ma non in Italia",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -546,15 +546,15 @@
     "quest": "30) Cosa si intende per privacy?",
     "answers": [
       {
-        "answer": "Il diritto di mantenere il controllo sulle proprie informazioni",
+        "text": "Il diritto di mantenere il controllo sulle proprie informazioni",
         "image": ""
       },
       {
-        "answer": "Il diritto alla proprietà privata",
+        "text": "Il diritto alla proprietà privata",
         "image": ""
       },
       {
-        "answer": "Il diritto alla non ingerenza nella sfera sessuale",
+        "text": "Il diritto alla non ingerenza nella sfera sessuale",
         "image": ""
       }
     ],
@@ -565,15 +565,15 @@
     "quest": "31) I privati possono raccogliere i dati personali altrui?",
     "answers": [
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       },
       {
-        "answer": "Si, ma solo se autorizzati",
+        "text": "Si, ma solo se autorizzati",
         "image": ""
       },
       {
-        "answer": "Si ma solo se non sono destinati alla diffusione.",
+        "text": "Si ma solo se non sono destinati alla diffusione.",
         "image": ""
       }
     ],
@@ -584,15 +584,15 @@
     "quest": "32) Quando non si adottano misure minime di sicurezza nella conservazione dei dati vi è una responsabilità?",
     "answers": [
       {
-        "answer": "Civile",
+        "text": "Civile",
         "image": ""
       },
       {
-        "answer": "Penale.",
+        "text": "Penale.",
         "image": ""
       },
       {
-        "answer": "Amministrativa",
+        "text": "Amministrativa",
         "image": ""
       }
     ],
@@ -603,15 +603,15 @@
     "quest": "33) I documenti informatici?",
     "answers": [
       {
-        "answer": "Sono validi nei soli casi previsti dalla legge",
+        "text": "Sono validi nei soli casi previsti dalla legge",
         "image": ""
       },
       {
-        "answer": "Sono validi se con firma digitale.",
+        "text": "Sono validi se con firma digitale.",
         "image": ""
       },
       {
-        "answer": "Sono validi a tutti gli effetti",
+        "text": "Sono validi a tutti gli effetti",
         "image": ""
       }
     ],
@@ -622,15 +622,15 @@
     "quest": "34) Quando un documento inviato a mezzo posta certificata si considera consegnato?",
     "answers": [
       {
-        "answer": "Quando viene inviato dal proprio server",
+        "text": "Quando viene inviato dal proprio server",
         "image": ""
       },
       {
-        "answer": "Quando arriva al server del destinatario",
+        "text": "Quando arriva al server del destinatario",
         "image": ""
       },
       {
-        "answer": "Quando viene letto dal destinatario",
+        "text": "Quando viene letto dal destinatario",
         "image": ""
       }
     ],
@@ -641,15 +641,15 @@
     "quest": "35) Chi emette i bitcoins?",
     "answers": [
       {
-        "answer": "Le autorità dei vari paesi controllano le loro emissioni",
+        "text": "Le autorità dei vari paesi controllano le loro emissioni",
         "image": ""
       },
       {
-        "answer": "Le banche centrali",
+        "text": "Le banche centrali",
         "image": ""
       },
       {
-        "answer": "Colui che li ha inventati",
+        "text": "Colui che li ha inventati",
         "image": ""
       }
     ],
@@ -660,15 +660,15 @@
     "quest": "36) I bitcoins sono convertibili in denaro?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       },
       {
-        "answer": "Solo se la conversione è autorizzata dalle banche centrali",
+        "text": "Solo se la conversione è autorizzata dalle banche centrali",
         "image": ""
       }
     ],
@@ -679,15 +679,15 @@
     "quest": "37) Il commercio elettronico disciplinato dal codice del consumo vale:",
     "answers": [
       {
-        "answer": "Per qualsiasi transazione effettuata con strumenti telematici",
+        "text": "Per qualsiasi transazione effettuata con strumenti telematici",
         "image": ""
       },
       {
-        "answer": "Per le transazioni con strumenti telematici tra consumatori",
+        "text": "Per le transazioni con strumenti telematici tra consumatori",
         "image": ""
       },
       {
-        "answer": "Per le transazioni con strumenti telematici tra consumatori ed imprese.",
+        "text": "Per le transazioni con strumenti telematici tra consumatori ed imprese.",
         "image": ""
       }
     ],
@@ -698,15 +698,15 @@
     "quest": "38) In caso di acquisti online si può recedere dall'acquisto?",
     "answers": [
       {
-        "answer": "Per qualsiasi transazione effettuata con strumenti telematici",
+        "text": "Per qualsiasi transazione effettuata con strumenti telematici",
         "image": ""
       },
       {
-        "answer": "Per le transazioni con strumenti telematici tra consumatori",
+        "text": "Per le transazioni con strumenti telematici tra consumatori",
         "image": ""
       },
       {
-        "answer": "Per le transazioni con strumenti telematici tra consumatori ed imprese",
+        "text": "Per le transazioni con strumenti telematici tra consumatori ed imprese",
         "image": ""
       }
     ],
@@ -717,15 +717,15 @@
     "quest": "39) Il commercio elettronico disciplinato dalla disciplina delle società dell'informazione riguarda:",
     "answers": [
       {
-        "answer": "Qualsiasi transazione effettuata con strumenti telematici con imprese",
+        "text": "Qualsiasi transazione effettuata con strumenti telematici con imprese",
         "image": ""
       },
       {
-        "answer": "Le transazioni con strumenti telematici tra consumatori",
+        "text": "Le transazioni con strumenti telematici tra consumatori",
         "image": ""
       },
       {
-        "answer": "Le transazioni con strumenti telematici tra consumatori ed imprese",
+        "text": "Le transazioni con strumenti telematici tra consumatori ed imprese",
         "image": ""
       }
     ],
@@ -736,15 +736,15 @@
     "quest": "40) Quando inizia il trattamento dei dati personali?",
     "answers": [
       {
-        "answer": "Da quando inizia la raccolta dei dati",
+        "text": "Da quando inizia la raccolta dei dati",
         "image": ""
       },
       {
-        "answer": "Da quando l’interessato rilascia il consenso",
+        "text": "Da quando l’interessato rilascia il consenso",
         "image": ""
       },
       {
-        "answer": "Da quando i dati vengono elaborati",
+        "text": "Da quando i dati vengono elaborati",
         "image": ""
       }
     ],
@@ -755,15 +755,15 @@
     "quest": "41) I codici di autoregolamento sono obbligatori?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si, se lo dice la legge",
+        "text": "Si, se lo dice la legge",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -774,15 +774,15 @@
     "quest": "42) Scannerizzo ed appongo la mia firma ad un documento, questa è una firma elettronica avanzata?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si se poi non la contesto",
+        "text": "Si se poi non la contesto",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -793,15 +793,15 @@
     "quest": "43) Si può concludere un contratto via mail?\t",
     "answers": [
       {
-        "answer": "Si.",
+        "text": "Si.",
         "image": ""
       },
       {
-        "answer": "Si se poi non lo contestano",
+        "text": "Si se poi non lo contestano",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -812,15 +812,15 @@
     "quest": "45) Se compro il pc ed il software è in licenza:",
     "answers": [
       {
-        "answer": "posso acquistare il software pagando un ulteriore somma",
+        "text": "posso acquistare il software pagando un ulteriore somma",
         "image": ""
       },
       {
-        "answer": "Il software non è mio.",
+        "text": "Il software non è mio.",
         "image": ""
       },
       {
-        "answer": "ho pagato e quindi anche il software è mio",
+        "text": "ho pagato e quindi anche il software è mio",
         "image": ""
       }
     ],
@@ -831,15 +831,15 @@
     "quest": "46) Cos’è il fascicolo telematico?",
     "answers": [
       {
-        "answer": "È il fascicolo digitale del processo civile.",
+        "text": "È il fascicolo digitale del processo civile.",
         "image": ""
       },
       {
-        "answer": "Il fascicolo delle comunicazioni digitali con la pubblica amministrazione",
+        "text": "Il fascicolo delle comunicazioni digitali con la pubblica amministrazione",
         "image": ""
       },
       {
-        "answer": "Il fascicolo digitale dove l’università conserva tutti i dati dello studente",
+        "text": "Il fascicolo digitale dove l’università conserva tutti i dati dello studente",
         "image": ""
       }
     ],
@@ -850,15 +850,15 @@
     "quest": "47) Si può fare una copia di un programma che si ha in licenza?",
     "answers": [
       {
-        "answer": "Sì pagando un’apposita royalties",
+        "text": "Sì pagando un’apposita royalties",
         "image": ""
       },
       {
-        "answer": "Si ma solo se pattuito all’inizio del contratto",
+        "text": "Si ma solo se pattuito all’inizio del contratto",
         "image": ""
       },
       {
-        "answer": "Si ma senza commercializzarlo e per l’uso del programma stesso.",
+        "text": "Si ma senza commercializzarlo e per l’uso del programma stesso.",
         "image": ""
       }
     ],
@@ -869,15 +869,15 @@
     "quest": "48) Cosa è una wireless community network?",
     "answers": [
       {
-        "answer": "Un insieme di persone che sostiene il diritto alla libertà su internet",
+        "text": "Un insieme di persone che sostiene il diritto alla libertà su internet",
         "image": ""
       },
       {
-        "answer": "Un insieme di persone che crea una rete di comunicazioni wireless.",
+        "text": "Un insieme di persone che crea una rete di comunicazioni wireless.",
         "image": ""
       },
       {
-        "answer": "È un modo di designare gli utenti dei social network",
+        "text": "È un modo di designare gli utenti dei social network",
         "image": ""
       }
     ],
@@ -888,15 +888,15 @@
     "quest": "49) Le regole di comportamento previste nella piattaforma di un social network?",
     "answers": [
       {
-        "answer": "Non sono regole giuridiche",
+        "text": "Non sono regole giuridiche",
         "image": ""
       },
       {
-        "answer": "Sono regole locali",
+        "text": "Sono regole locali",
         "image": ""
       },
       {
-        "answer": "Sono regole contrattuali.",
+        "text": "Sono regole contrattuali.",
         "image": ""
       }
     ],
@@ -907,15 +907,15 @@
     "quest": "50) Cliccando su accetto sull’iscrizione ad un social network si conclude un contratto?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si ma poi serve un documento scritto",
+        "text": "Si ma poi serve un documento scritto",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -926,15 +926,15 @@
     "quest": "51) Quando sono protette le banche dati?",
     "answers": [
       {
-        "answer": "Sempre se hanno carattere creativo",
+        "text": "Sempre se hanno carattere creativo",
         "image": ""
       },
       {
-        "answer": "Sempre se sono brevettate",
+        "text": "Sempre se sono brevettate",
         "image": ""
       },
       {
-        "answer": "Sempre se sono rese pubbliche.",
+        "text": "Sempre se sono rese pubbliche.",
         "image": ""
       }
     ],
@@ -945,19 +945,19 @@
     "quest": "52) Cosa si intende per deterritorializzazione?",
     "answers": [
       {
-        "answer": "La perdita di sovranità derivante della tecnologia informatica.",
+        "text": "La perdita di sovranità derivante della tecnologia informatica.",
         "image": ""
       },
       {
-        "answer": "Il fatto che tra gli stati stanno venendo meno i conflitti",
+        "text": "Il fatto che tra gli stati stanno venendo meno i conflitti",
         "image": ""
       },
       {
-        "answer": "Il fatto che ognuno può installare un provider nello stato che preferisce",
+        "text": "Il fatto che ognuno può installare un provider nello stato che preferisce",
         "image": ""
       },
       {
-        "answer": "Il fatto che gli stati non riescono a controllare gli illeciti compiuti in rete",
+        "text": "Il fatto che gli stati non riescono a controllare gli illeciti compiuti in rete",
         "image": ""
       }
     ],
@@ -968,11 +968,11 @@
     "quest": "53) Un nome di dominio è un bene?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -983,15 +983,15 @@
     "quest": "54) Un documento elettronico privo di firma digitale?",
     "answers": [
       {
-        "answer": "Non è valido",
+        "text": "Non è valido",
         "image": ""
       },
       {
-        "answer": "È valido",
+        "text": "È valido",
         "image": ""
       },
       {
-        "answer": "È valido ma un giudice può anche ritenerlo inidoneo.",
+        "text": "È valido ma un giudice può anche ritenerlo inidoneo.",
         "image": ""
       }
     ],
@@ -1002,15 +1002,15 @@
     "quest": "55) Un internet provider è responsabile degli insulti pubblici dai suoi utenti?",
     "answers": [
       {
-        "answer": "No se svolge un ruolo meramente passivo nelle loro attività.",
+        "text": "No se svolge un ruolo meramente passivo nelle loro attività.",
         "image": ""
       },
       {
-        "answer": "No ma solo se ha messo delle regole contrattuali che li vietino",
+        "text": "No ma solo se ha messo delle regole contrattuali che li vietino",
         "image": ""
       },
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       }
     ],
@@ -1021,15 +1021,15 @@
     "quest": "56) Cos’è il trattamento dei dati personali?",
     "answers": [
       {
-        "answer": "La raccolta dei dati personali di un soggetto tramite strumenti informatici",
+        "text": "La raccolta dei dati personali di un soggetto tramite strumenti informatici",
         "image": ""
       },
       {
-        "answer": "La raccolta, l’elaborazione e la conservazione dei dati personali di un soggetto tramite strumenti informatici.",
+        "text": "La raccolta, l’elaborazione e la conservazione dei dati personali di un soggetto tramite strumenti informatici.",
         "image": ""
       },
       {
-        "answer": "Praticamente ogni attività che coinvolga i dati personali di un soggetto",
+        "text": "Praticamente ogni attività che coinvolga i dati personali di un soggetto",
         "image": ""
       }
     ],
@@ -1040,15 +1040,15 @@
     "quest": "57) È legittimo prendere una decisione (es. di tipo contrattuale) automatizzata utilizzando un algoritmo?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "Si ma solo se vi è coinvolgimento umano nella decisione",
+        "text": "Si ma solo se vi è coinvolgimento umano nella decisione",
         "image": ""
       },
       {
-        "answer": "No",
+        "text": "No",
         "image": ""
       }
     ],
@@ -1059,11 +1059,11 @@
     "quest": "58) Le criptovalute sono monete?",
     "answers": [
       {
-        "answer": "Si",
+        "text": "Si",
         "image": ""
       },
       {
-        "answer": "No, sono beni digitali.",
+        "text": "No, sono beni digitali.",
         "image": ""
       }
     ],
@@ -1074,15 +1074,15 @@
     "quest": "59) Cosa si intende con dematerializzazione?",
     "answers": [
       {
-        "answer": "il fatto che esistono beni immateriali",
+        "text": "il fatto che esistono beni immateriali",
         "image": ""
       },
       {
-        "answer": "Il fatto che sempre più beni stanno assumendo forma digitale anziché materiale.",
+        "text": "Il fatto che sempre più beni stanno assumendo forma digitale anziché materiale.",
         "image": ""
       },
       {
-        "answer": "il fatto che nella legge si progetta la futura sostituzione di beni materiali con beni digitali",
+        "text": "il fatto che nella legge si progetta la futura sostituzione di beni materiali con beni digitali",
         "image": ""
       }
     ],
@@ -1093,15 +1093,15 @@
     "quest": "60) Cosa vuol dire che il contratto è fonte delle regole?",
     "answers": [
       {
-        "answer": "Che molti rapporti digitali sono regolati quasi interamente da contratti , mancando regole specifiche.",
+        "text": "Che molti rapporti digitali sono regolati quasi interamente da contratti , mancando regole specifiche.",
         "image": ""
       },
       {
-        "answer": "che il contratto fa parte delle fonti legali di regole",
+        "text": "che il contratto fa parte delle fonti legali di regole",
         "image": ""
       },
       {
-        "answer": "che molti internet provider utilizzano regole uguali nei rapporti con gli utenti",
+        "text": "che molti internet provider utilizzano regole uguali nei rapporti con gli utenti",
         "image": ""
       }
     ],
@@ -1112,15 +1112,15 @@
     "quest": "61) Cosa si intende con / cos'è il principio di neutralità tecnologica?",
     "answers": [
       {
-        "answer": "l’obbligo di utilizzare una medisca tecnologia informatica",
+        "text": "l’obbligo di utilizzare una medisca tecnologia informatica",
         "image": ""
       },
       {
-        "answer": "L’obbligo di non discriminare tra diverse tecnologie.",
+        "text": "L’obbligo di non discriminare tra diverse tecnologie.",
         "image": ""
       },
       {
-        "answer": "il divieto di discriminazione di ogni tipo tramite social network",
+        "text": "il divieto di discriminazione di ogni tipo tramite social network",
         "image": ""
       }
     ],
@@ -1131,15 +1131,15 @@
     "quest": "62) Cos’è il digital divide?",
     "answers": [
       {
-        "answer": "La scarsa distribuzione di risorse e conoscenze informatiche.",
+        "text": "La scarsa distribuzione di risorse e conoscenze informatiche.",
         "image": ""
       },
       {
-        "answer": "L’utilizzo di pc e softwares non aggiornati",
+        "text": "L’utilizzo di pc e softwares non aggiornati",
         "image": ""
       },
       {
-        "answer": "l’insieme dei rischi connessi all’utilizzo di strumenti informativi",
+        "text": "l’insieme dei rischi connessi all’utilizzo di strumenti informativi",
         "image": ""
       }
     ],
@@ -1150,15 +1150,15 @@
     "quest": "63) L’acquisto di competenze digitali:",
     "answers": [
       {
-        "answer": "È oggetto di leggi che lo agevolano.",
+        "text": "È oggetto di leggi che lo agevolano.",
         "image": ""
       },
       {
-        "answer": "dipende solo dalla volontà di ognuno",
+        "text": "dipende solo dalla volontà di ognuno",
         "image": ""
       },
       {
-        "answer": "è affidato alle società che trattano big data",
+        "text": "è affidato alle società che trattano big data",
         "image": ""
       }
     ],
@@ -1169,15 +1169,15 @@
     "quest": "64) Si può caricare su un social network l’immagine di una persona?",
     "answers": [
       {
-        "answer": "si sempre ma solo se è maggiorenne",
+        "text": "si sempre ma solo se è maggiorenne",
         "image": ""
       },
       {
-        "answer": "si ma va tolta se lo chiede",
+        "text": "si ma va tolta se lo chiede",
         "image": ""
       },
       {
-        "answer": "Si ma dopo aver avuto il suo consenso.",
+        "text": "Si ma dopo aver avuto il suo consenso.",
         "image": ""
       }
     ],
@@ -1188,15 +1188,15 @@
     "quest": "65) Il cyberbullismo: ",
     "answers": [
       {
-        "answer": "è una questione di maleducazione",
+        "text": "è una questione di maleducazione",
         "image": ""
       },
       {
-        "answer": "È un comportamento vietato dalla legge",
+        "text": "È un comportamento vietato dalla legge",
         "image": ""
       },
       {
-        "answer": "è un comportamento regolato dai singoli social network",
+        "text": "è un comportamento regolato dai singoli social network",
         "image": ""
       }
     ],
@@ -1207,15 +1207,15 @@
     "quest": "66) Cos’è lo SPID?",
     "answers": [
       {
-        "answer": "È un sistema pubblico di identificazione di oggetti.",
+        "text": "È un sistema pubblico di identificazione di oggetti.",
         "image": ""
       },
       {
-        "answer": "è un sistema pubblico di attribuzione di posta certificata",
+        "text": "è un sistema pubblico di attribuzione di posta certificata",
         "image": ""
       },
       {
-        "answer": "è un sistema pubblico per accedere a determinati servizi di trading on line",
+        "text": "è un sistema pubblico per accedere a determinati servizi di trading on line",
         "image": ""
       }
     ],
@@ -1226,15 +1226,15 @@
     "quest": "67) Cos’è un domicilio digitale?",
     "answers": [
       {
-        "answer": "l’indirizzo pec che indica dove siamo residenti",
+        "text": "l’indirizzo pec che indica dove siamo residenti",
         "image": ""
       },
       {
-        "answer": "l'indirizzo pec che dobbiamo aver per i nostri rapporti con il fisco",
+        "text": "l'indirizzo pec che dobbiamo aver per i nostri rapporti con il fisco",
         "image": ""
       },
       {
-        "answer": "L’indirizzo pec che vale per comunicazioni aventi valore legale.",
+        "text": "L’indirizzo pec che vale per comunicazioni aventi valore legale.",
         "image": ""
       }
     ],
