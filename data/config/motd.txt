@@ -1,15 +1,7 @@
 "Benvenuto 👑
-Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica! 🤞.
+Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Informatica della Sapienza! 🤞.
 
 ✅ Il bot è mantenuto da @notherealmarco con l'aiuto di alcuni studenti del corso, un enorme grazie a @simone_s0, @loryspat, @Deco71, @mmatex123ab, Raffaele Ruggeri e sicuramente ne scordo qualcuno, perdonatemi 😢
-
-ℹ️ Sistemi Operativi I si riferisce al corso del prof. Melatti (canale I)
-
-ℹ️ Sistemi Operativi II si riferisce al corso del prof. Casalicchio (canale II)
-
-ℹ️ OGA si riferisce al corso della prof.ssa Castaldo
-
-ℹ️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande presenti sono prese dai test ufficiali forniti dagli autori del libro (versione inglese)
 
 Per contribuire (aggiungere o correggere domande), il bot si sincronizza con il seguente repository:
 https://github.com/appinfosapienza/so-un-bot
@@ -18,16 +10,18 @@ Pull requests sono ben accette! 🫂❤️
 🆘 Per segnalare errori, per proporre nuove domande 🙏, o semplicemente se questo bot ti fa schifo 😢, non esitare a contattarmi: @notherealmarco
 (Oppure puoi correggere errori in autonomia inviando una PR al repository GitHub)
 
-⭕️ Informativa sulla privacy:
-Il bot, per garantire il corretto funzionamento, potrebbe memorizzare il vostro ID utente Telegram in modo permanente.
-Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanente e persistono in memoria RAM solo durante l'esecuzione di un quiz.
+⭕️ Informativa sulla privacy: https://so-un-bot.mrlc.cc/privacy.pdf
 
-👷‍♀️Per avviare un modulo puoi utilizzare i seguenti comandi:
-/so1 (SO Modulo I)
-/so2 (SO Modulo II)
-/ogas (quiz OGAS)
-/sicurezza (Sicurezza ⚠️)
+Per esercitare il diritto all'eliminazione dei dati personali, puoi inviare il comando /unregister.
+I dati verranno immediatamente eliminati, l'azione del comando non è reversibile.
 
-N.B. I corsi relativi all'Università di Venezia sono stati trasferiti al bot @so_1_unive_bot, mantenuto da @WAPEETY
 
-Per cambiare modulo puoi usare il comando /leave
+👷‍♀️Per avviare un quiz puoi utilizzare i seguenti comandi:
+/so1 -> Sistemi Operativi I, prof. Melatti (canale I)
+/so2 -> Sistemi Operativi II, prof. Casalicchio (canale II)
+/ogas -> Organizzazione e Gestione per lo Startup Aziendale, prof.ssa Castaldo
+/sicurezza -> Sicurezza, prof. Casalicchio. Domande in inglese (l'esame usa le stesse domande ma tradotte in italiano)
+
+Per interrompere il quiz puoi usare il comando /leave
+
+N.B. I quiz relativi all'Università di Venezia sono stati trasferiti al bot @so_1_unive_bot, mantenuto da @WAPEETY
