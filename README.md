@@ -1,6 +1,6 @@
-### work in progress
+### so-un-bot
 
-È in corso una fase di migrazione del bot alla sua nuova versione: [https://github.com/WAPEETY/pIm-a-bot](https://github.com/WAPEETY/pIm-a-bot).
-Al momento sono attive solo le funzioni di base del bot [@so_1_bot](https://t.me/so_1_bot).
+🇮🇹 Repository ufficiale del bot [@so_1_bot](https://t.me/so_1_bot).
+Il bot si basa sul progetto: [https://github.com/WAPEETY/pIm-a-bot](https://github.com/WAPEETY/pIm-a-bot) mantenuto da [notherealmarco](https://github.com/notherealmarco) e [wapeety](https://github.com/wapeety).
 
-Rispetto alla precedente versione, il bot accetta domande esclusivamente in formato JSON. Tutte le domande precedenti sono state convertite nel nuovo formato e sono già disponibili sul bot.
+Il bot sincronizza le domande automaticamente con questo repository.
