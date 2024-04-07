@@ -9,8 +9,6 @@ Con questo bot puoi esercitarti con le domande di alcuni esami del corso di Info
 
 ℹ️ OGA si riferisce al corso della prof.ssa Castaldo
 
-ℹ️ Ingegneria del Software si riferisce al corso del prof. Tronci
-
 ℹ️ Sicurezza si riferisce al corso tenuto dal prof. Casalicchio. Le domande presenti sono prese dai test ufficiali forniti dagli autori del libro (versione inglese)
 
 Per contribuire (aggiungere o correggere domande), il bot si sincronizza con il seguente repository:
@@ -28,7 +26,6 @@ Dati sulle risposte date NON vengono in alcun modo memorizzati in modo permanent
 /so1 (SO Modulo I)
 /so2 (SO Modulo II)
 /ogas (quiz OGAS)
-/ingsw (Ingegneria del Software)
 /sicurezza (Sicurezza ⚠️)
 
 N.B. I corsi relativi all'Università di Venezia sono stati trasferiti al bot @so_1_unive_bot, mantenuto da @WAPEETY
