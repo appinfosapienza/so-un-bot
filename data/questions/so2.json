@@ -1389,7 +1389,7 @@
     "image": ""
   },
   {
-    "quest": "74. 11. (☢ UNSAFE, segnalate a @notherealmarco se è corretta o meno 🙏) Quale delle seguenti affermazioni sui segnali Linux è vera?",
+    "quest": "74. 11. Quale delle seguenti affermazioni sui segnali Linux è vera?",
     "answers": [
       {
         "text": "Tutti i segnali, se non opportunamente catturati, provocano la terminazione del processo, con l'eccezione del segnale STOP",
@@ -1408,7 +1408,7 @@
         "image": ""
       }
     ],
-    "correct": 3,
+    "correct": 2,
     "image": ""
   },
   {
