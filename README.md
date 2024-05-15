@@ -13,3 +13,7 @@ Le domande disponibili sul bot vengono automaticamente sincronizate con questo r
 La directory `legacy` contiene il sorgente della precedente versione del bot, non piu in uso; pertanto pull requests che aggiornano domande in `legacy/` verranno chiuse.
 
 Le domande utilizzate dal bot si trovano in `data/questions`
+
+---
+mirror disponibili:
+- [https://git.marcorealacci.me/marcorealacci/so-un-bot](https://git.marcorealacci.me/marcorealacci/so-un-bot)
