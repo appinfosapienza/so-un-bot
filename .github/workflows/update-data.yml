@@ -1,0 +1,14 @@
+name: Update bot data
+
+# Configures this workflow to run every time a change is pushed to the branch called `release`.
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call webhook
+        run: curl -X POST ${{secrets.DEPLOY_WEBHOOK}}
