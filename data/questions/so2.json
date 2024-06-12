@@ -2736,5 +2736,162 @@
     ],
     "correct": 0,
     "image": ""
+  },
+  {
+    "quest": "144. Supponiamo di avere una directory\n<code>/home/dir</code>\ncreate da root con diritti di accesso\n<code>1777/drwxrwxrwt</code>\ned al suo interno il file filename, creato da root, con diritti di accesso\n<code>0770/-rwxrwx---</code>\nSupponiamo quindi di eseguire il comando\n<code>rm /home/dir/filename</code>\neseguito come utente normale (non root). Quale delle seguneti affermazioni e’ corretta?\n\n Scegli un'alternativa:",
+",
+    "answers": [
+      {
+        "text": "Il file non verra’ cancellato perche’ lo steaky bit e’ settato",
+        "image": ""
+      },
+      {
+        "text": "Il file verra’ cancellato perche’ lo steaky bit non e’ settato",
+        "image": ""
+      },
+      {
+        "text": "Il file non verra’ cancellato perche’ il proprietario del file e’ root ed  i diritti per il gruppo others sono tutti resettati",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "145. Si supponga di avere un file di testo (filein) contenente 1000 caratteri e di voler copiare in un altro file (fileout) 100 caratteri a partire dal decimo. Quale di questi comandi non produce il risultato atteso?",
+    "answers": [
+      {
+        "text": "dd if=filein of=fileout bs=1 seek=10 count=100",
+        "image": ""
+      },
+      {
+        "text": "dd if=filein of=fileout bs=1 skip=10 count=100",
+        "image": ""
+      },
+      {
+        "text": "dd if=filein of=fileout bs=10 skip=1 count=10",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "146. Supponendo di essere “loggato” in una shell come utente1. Quali dei seguenti e’ un path assoluto?",
+    "answers": [
+      {
+        "text": "dir1/dir11/dir112/filename",
+        "image": ""
+      },
+      {
+        "text": "~/utente1/dir1/dir11/dir112/filename",
+        "image": ""
+      },
+      {
+        "text": "~/dir1/dir11/dir112/filename",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "147. Assumiamo di avere un file eseguibile il cui proprietario e' l'utente root ad esempio\n<code>-rwxr-xr-x 1 root root 60296 feb 22 2017 /bin/chmod</code>\n Affinche l'effective UID del processo cambi quando eseguito da un utente senza privilegi di root cosa bisogna fare?",
+    "answers": [
+      {
+        "text": "Impostare il permesso speciale Setuid bit",
+        "image": ""
+      },
+      {
+        "text": "Nessuna risposta (0 punti)",
+        "image": ""
+      },
+      {
+        "text": "Impostare il permesso speciale stiky bit",
+        "image": ""
+      },
+      {
+        "text": "Non occorre fare nulla perche' quello descritto e' il comportamento standard, ovvero l'effective UID cambia sempre in quello dell'utente che esegue il file.",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "148. Si supponga di eseguire, come utente sudoer, i seguenti comandi\n \n C1) sudo ls  /home\n C2) sudo su -c’ls /home’\n Quale affermazione e' corretta?",
+    "answers": [
+      {
+        "text": "C1 e C2 sono equivalenti",
+        "image": ""
+      },
+      {
+        "text": "C2 da errore “comando non trovato”",
+        "image": ""
+      },
+      {
+        "text": "C2 esegue una setUID mentre C1 no",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "149. Che cosa stampa il seguente frammento di codice: <code>\n \n void func1() {\n extern int myvar;\n void nestfunc1() {\n myvar = 0;\n }\n nestfunc1();\n myvar = 1;\n }\n \n \n int myvar = 8;\n void main(void) {\n func1();\n printf(\"myvar = %d\n\", myvar);\n }\n</code> ",
+    "answers": [
+      {
+        "text": "myvar = 0",
+        "image": ""
+      },
+      {
+        "text": "myvar = 8",
+        "image": ""
+      },
+      {
+        "text": "myvar = 1",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "150. Come si dichiara un puntatore a funzione myptr per una funzione che ritorna un int e richiede un int?",
+    "answers": [
+      {
+        "text": "int (*)myptr(int)",
+        "image": ""
+      },
+      {
+        "text": "int *myptr()",
+        "image": ""
+      },
+      {
+        "text": "int (*myptr)(int)",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "151. Che cosa stampa il seguente frammento di codice: \n <code> static int myvar;\n void func1() {\n myvar++;\n }\n void main(void) {\n func1();\n printf(\"myvar = %d\n\", myvar);\n }\n </code>",
+    "answers": [
+      {
+        "text": "Nulla, il compilatore da' errore perché si e' usata la clausola static al di fuori di una funzione.",
+        "image": ""
+      },
+      {
+        "text": "myvar = n+1, dove n e' un numero casuale scelto dal compilatore",
+        "image": ""
+      },
+      {
+        "text": "myvar = 1",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
   }
 ]
