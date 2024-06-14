@@ -1,9 +1,7 @@
-name: Update bot data
+name: Validate questions
 
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
-on:
-  push:
-    branches: ['main']
+on: [pull_request]
 
 jobs:
   validate-questions:
@@ -15,9 +13,3 @@ jobs:
       - name: Validate questions
         run: python scripts/validate_questions.py
         shell: sh
-
-  update-data:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Call webhook
-        run: curl -X POST ${{secrets.DEPLOY_WEBHOOK}}
