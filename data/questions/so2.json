@@ -1079,7 +1079,7 @@
         "image": ""
       },
       {
-        "text": "Dopo l’eseccuzione di C1 fd1 contiene lo stesso valore di  fd; mentre  dopo l’esecuzione di  C2  fd1 contiene il valore del piu’ piccolo file descriptor disponibile",
+        "text": "Dopo l’eseccuzione di C1 fd1 contiene lo stesso valore di  fd; mentre  dopo l’esecuzione di  C2  fd1 contiene il valore del più piccolo file descriptor disponibile",
         "image": ""
       }
     ],
@@ -2738,19 +2738,18 @@
     "image": ""
   },
   {
-    "quest": "144. Supponiamo di avere una directory\n<code>/home/dir</code>\ncreate da root con diritti di accesso\n<code>1777/drwxrwxrwt</code>\ned al suo interno il file filename, creato da root, con diritti di accesso\n<code>0770/-rwxrwx---</code>\nSupponiamo quindi di eseguire il comando\n<code>rm /home/dir/filename</code>\neseguito come utente normale (non root). Quale delle seguneti affermazioni e’ corretta?\n\n Scegli un'alternativa:",
-",
+    "quest": "144. Supponiamo di avere una directory\n<code>/home/dir</code>\ncreate da root con diritti di accesso\n<code>1777/drwxrwxrwt</code>\ned al suo interno il file filename, creato da root, con diritti di accesso\n<code>0770/-rwxrwx---</code>\nSupponiamo quindi di eseguire il comando\n<code>rm /home/dir/filename</code>\neseguito come utente normale (non root). Quale delle seguneti affermazioni è corretta?\n\n Scegli un'alternativa:",
     "answers": [
       {
-        "text": "Il file non verra’ cancellato perche’ lo steaky bit e’ settato",
+        "text": "Il file non verrà cancellato perché lo sticky bit è settato",
         "image": ""
       },
       {
-        "text": "Il file verra’ cancellato perche’ lo steaky bit non e’ settato",
+        "text": "Il file verrà cancellato perché lo sticky bit non è settato",
         "image": ""
       },
       {
-        "text": "Il file non verra’ cancellato perche’ il proprietario del file e’ root ed  i diritti per il gruppo others sono tutti resettati",
+        "text": "Il file non verrà cancellato perché il proprietario del file è root ed  i diritti per il gruppo others sono tutti resettati",
         "image": ""
       }
     ],
@@ -2777,7 +2776,7 @@
     "image": ""
   },
   {
-    "quest": "146. Supponendo di essere “loggato” in una shell come utente1. Quali dei seguenti e’ un path assoluto?",
+    "quest": "146. Supponendo di essere “loggato” in una shell come utente1. Quali dei seguenti è un path assoluto?",
     "answers": [
       {
         "text": "dir1/dir11/dir112/filename",
