@@ -22,10 +22,11 @@ for filename in os.listdir("data/questions"):
                     raise Exception(str(data.index(q)) + ": Question has no answers.")
 
                 for a in q["answers"]:
-                    if a["text"] == "" and a["image"] == "":
-                        raise Exception(str(data.index(q)) + ": Answer's text and image cannot both be empty.")
                     if type(a["text"]) is not str or type(a["image"]) is not str:
                         raise Exception(str(data.index(q)) + ": Some answer's parameters are null, missing or their type is wrong.")
+
+                    if a["text"] == "" and a["image"] == "":
+                        raise Exception(str(data.index(q)) + ": Answer's text and image cannot both be empty.")
 
         except Exception as e:
             logging.error(getattr(e, 'message', repr(e)))
