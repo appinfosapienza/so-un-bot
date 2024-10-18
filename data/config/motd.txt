@@ -17,10 +17,15 @@ I dati verranno immediatamente eliminati, l'azione del comando non è reversibil
 
 
 👷‍♀️Per avviare un quiz puoi utilizzare i seguenti comandi:
+
+Corso di laurea in Informatica:
 /so1 -> Sistemi Operativi I, prof. Melatti (canale I)
 /so2 -> Sistemi Operativi II, prof. Casalicchio (canale II)
 /ogas -> Organizzazione e Gestione per lo Startup Aziendale, prof.ssa Castaldo
 /sicurezza -> Sicurezza, prof. Casalicchio. Domande in inglese (l'esame usa le stesse domande ma tradotte in italiano)
+
+Corso di laurea in Computer Science:
+/fds -> Foundation of Data Science, prof. Galasso. Domande attualmente aggiornate al 2022
 
 Per interrompere il quiz puoi usare il comando /leave
 
