@@ -640,7 +640,7 @@
         "image": ""
       }
     ],
-    "correct": 2,
+    "correct": 3,
     "image": ""
   },
   {
@@ -693,7 +693,7 @@
     "quest": "33) Quale delle seguenti informazioni non è presente in una tipica entry di una directory di un ﬁle system?",
     "answers": [
       {
-        "text": "Il gruppo cui appartiene l'utente che ha creato il ﬁle",
+        "text": "L'utente che ha creato il ﬁle",
         "image": ""
       },
       {
