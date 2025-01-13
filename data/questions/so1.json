@@ -3103,5 +3103,327 @@
     ],
     "correct": 1,
     "image": ""
+  },
+  {
+    "quest": "142) Quale delle affermazioni è vera riguardo alla Segmentazione per la gestione della memoria?",
+    "answers": [
+      {
+        "text": "Permette al programmatore di vedere la memoria come un insieme di spazi di indirizzi",
+        "image": ""
+      },
+      {
+        "text": "Non permette di condividere dati",
+        "image": ""
+      },
+      {
+        "text": "Non permette di proteggere dati",
+        "image": ""
+      },
+      {
+        "text": "Nessuna delle opzioni è vera",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "143) Quale opzione non appartiene alla triade della sicurezza?",
+    "answers": [
+      {
+        "text": "Integrità",
+        "image": ""
+      },
+      {
+        "text": "Disponibilità",
+        "image": ""
+      },
+      {
+        "text": "Confidenzialità",
+        "image": ""
+      },
+      {
+        "text": "Autenticità",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "144) Quale dei seguenti elementi non e contenuto nel Process Control Block (PCB)?",
+    "answers": [
+      {
+        "text": "Stack del processo",
+        "image": ""
+      },
+      {
+        "text": "Codice del programma",
+        "image": ""
+      },
+      {
+        "text": "Programma Bootstrap",
+        "image": ""
+      },
+      {
+        "text": "Nessuna delle opzioni e contenuta nel PCB",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "145) Il multiprocessore viene utilizzato perché:",
+    "answers": [
+      {
+        "text": "Capacità distribuita",
+        "image": ""
+      },
+      {
+        "text": "Aumentano l'affidabilità",
+        "image": ""
+      },
+      {
+        "text": "Consentono di risparmiare denaro rispetto a più sistemi singoli",
+        "image": ""
+      },
+      {
+        "text": "Tutte queste cose",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "146) Considerando solo risorse riusabili, quali delle seguenti condizioni non è necessaria per avere deadlock?",
+    "answers": [
+      {
+        "text": "Mutua esclusione",
+        "image": ""
+      },
+      {
+        "text": "Hold-and-wait: richiesta di una risorsa quando già se ne detiene una",
+        "image": ""
+      },
+      {
+        "text": "Preemption delle risorse",
+        "image": ""
+      },
+      {
+        "text": "Attesa circolare",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "147) Il buffering dell'I/O:",
+    "answers": [
+      {
+        "text": "non introduce alcun overhead nei sistemi operativi che lo usano rispetto a quelli che fanno I/O diretto senza buffering",
+        "image": ""
+      },
+      {
+        "text": "è utile per appianare le differenze tra diversi dispositivi di I/O rispetto alla loro velocità ed al tipo di trasferimento dati (blocchi, stream)",
+        "image": ""
+      },
+      {
+        "text": "richiede l'uso di buffer aggiuntivi nell'area di memoria dedicata ai dispositivi di I/O e nell'area di memoria dedicata ai processi utente, ma non nell'area del sistema operativo",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "148) I sistemi operativi che usano partizionamento dinamico della memoria:",
+    "answers": [
+      {
+        "text": "non soffrono mai di frammentazione interna",
+        "image": ""
+      },
+      {
+        "text": "non soffrono mai di frammentazione esterna",
+        "image": ""
+      },
+      {
+        "text": "soffrono in alcuni casi di frammentazione interna, quando diversi processi a cui erano assegnate diverse aree di memoria vengono rimossi e sostituiti da altri processi con dimensioni diverse",
+        "image": ""
+      },
+      {
+        "text": "necessitano dell'uso di tecniche di compattazione della memoria per risolvere il problema della frammentazione interna",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "149) Quale dei seguenti è un tipo di partizionamento della memoria?",
+    "answers": [
+      {
+        "text": "Partizionamento fisso",
+        "image": ""
+      },
+      {
+        "text": "Partizionamento dinamico",
+        "image": ""
+      },
+      {
+        "text": "Segmentazione con memoria virtuale",
+        "image": ""
+      },
+      {
+        "text": "Tutte le opzioni sono vere",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "150) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è vera?",
+    "answers": [
+      {
+        "text": "La disabilitazione delle interruzioni non impedisce la creazione di nuove interruzioni, ma solo la loro gestione",
+        "image": ""
+      },
+      {
+        "text": "Se un processo utente può disabilitare le interruzioni tramite un'istruzione macchina dedicata, allora può far diminuire l'uso utile del processore",
+        "image": ""
+      },
+      {
+        "text": "La disabilitazione delle interruzioni non funziona ai fini della concorrenza (gestione sezioni critiche) su sistemi con più processori o più core",
+        "image": ""
+      },
+      {
+        "text": "Tutte le opzioni sono vere",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "151) Quale delle seguenti affermazioni sulla traduzione di un indirizzo virtuale in fisico, in un sistema con memoria virtuale con paginazione (avente tabella delle pagine ad 1 livello), è vera?",
+    "answers": [
+      {
+        "text": "Il numero di frame dell'indirizzo fisico è contenuto già nell'indirizzo virtuale",
+        "image": ""
+      },
+      {
+        "text": "L'hardware deve usare il numero di pagina per accedere alla tabella delle pagine del processo in esecuzione. A tal proposito, deve conoscere l'inizio di tale tabella, che viene definito dal software (sistema operativo). Tale indirizzo può cambiare durante l'esecuzione del processo: sta al sistema operativo mantenerlo aggiornato",
+        "image": ""
+      },
+      {
+        "text": "L'hardware deve usare il numero della pagina per comporre, insieme con l'offset originale, l'indirizzo fisico. Tale operazione è equivalente ad uno shift seguito da una somma",
+        "image": ""
+      },
+      {
+        "text": "L'hardware deve effettuare una ricerca sequenziale del numero di pagina nelle entries della tabella delle pagine del processo in esecuzione",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "152) Il file system NTFS",
+    "answers": [
+      {
+        "text": "utilizza un sistema di lista concatenata per tenere traccia dei blocchi del disco assegnati ai diversi file",
+        "image": ""
+      },
+      {
+        "text": "utilizza un sistema di allocazione simile all'allocazione indicizzata basato su record di attributi per ciascun file, dove un il tipo di attributo DATA contiene puntatori individuali a tutti i blocchi che compongono un dato file",
+        "image": ""
+      },
+      {
+        "text": "utilizza un sistema di allocazione simile all'allocazione indicizzata basato su record di attributi per ciascun file, dove un il tipo di attributo DATA contiene puntatori a sequenze di blocchi contigue (runs) che compongono un dato file",
+        "image": ""
+      },
+      {
+        "text": "utilizza un sistema di allocazione simile all'allocazione indicizzata simile agli inode di UNIX, in cui un campo DATA all'interno dell'inode del file contiene la sequenza completa dei blocchi che compongono un dato file",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "153) Nei sistemi operativi con memoria virtuale paginata, tipicamente",
+    "answers": [
+      {
+        "text": "il sistema usa sempre e comunque l'allocatore di memoria standard a pagine, senza consentire richieste speciali come ad esempio allocazioni contigue di memoria. Questo per assicurarsi di evitare i problemi di frammentazione interna od esterna",
+        "image": ""
+      },
+      {
+        "text": "il sistema operativo, in casi speciali, può usare allocatori di memoria specializzati che consentano ad esempio allocazioni di porzioni di memoria contigue per richieste particolari (come ad esempio per il DMA)",
+        "image": ""
+      },
+      {
+        "text": "il sistema può modificare dinamicamente la dimensione delle pagine in base alla quantità di memoria richiesta da un processo, in modo tale da minimizzare la frammentazione interna",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle altre opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "154) Nel sistema di partizionamento fisso variabile della memoria",
+    "answers": [
+      {
+        "text": "la memoria è divisa dinamicamente a tempo di esecuzione dal sistema operativo in base alle richieste di allocazione effettuate dai processi in esecuzione",
+        "image": ""
+      },
+      {
+        "text": "la memoria viene suddivisa in un numero fisso e predefinito di partizioni, tuttavia diversi gruppi di partizioni hanno dimensioni diverse (ad es. N partizioni da 2MB, M partizioni da 4MB, e cosi via)",
+        "image": ""
+      },
+      {
+        "text": "la memoria è divisa a tempo di esecuzione dal sistema operativo in partizioni della stessa dimensione, in base alla dimensione media di memoria richiesta dai diversi processi",
+        "image": ""
+      },
+      {
+        "text": "il sistema operativo deve mantenere una tabella di traduzione degli indirizzi che consentano di tradurre un indirizzo relativo nel codice del programma ad un indirizzo assoluto, in base alla dimensione della partizione di memoria assegnatagli",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "155) Nei sistemi Unix",
+    "answers": [
+      {
+        "text": "i symbolic links sono dei simboli speciali che possono essere usati nelle chiamate di sistema per collegare le aree di memoria di diversi processi",
+        "image": ""
+      },
+      {
+        "text": "i symbolic links sono dei puntatori diretti ai descrittori di un file (inode) che consentono di creare un collegamento a quel file in una qualsiasi directory del file system",
+        "image": ""
+      },
+      {
+        "text": "ogni volta che viene creato un symbolic link tra due processi, deve essere incrementato il contatore che tiene traccia del numero di collegamenti creati. Questo per poter consentire di de-allocare le aree di memoria collegate quando tutti i processi sono terminati",
+        "image": ""
+      },
+      {
+        "text": "i symbolic links sono dei file che contengono il cammino completo sul file system di un altro file, effettivamente creando un "puntatore" a quel file",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
   }
 ]
