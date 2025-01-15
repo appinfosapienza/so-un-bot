@@ -23,7 +23,7 @@
     "image": ""
   },
   {
-    "quest": "2) UNSAFE Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è falsa?",
+    "quest": "2) Quale delle seguenti affermazioni sulla concorrenza tra processi o thread è falsa?",
     "answers": [
       {
         "text": "La disabilitazione delle interruzioni impedisce la creazione di nuove interruzioni",
@@ -153,7 +153,7 @@
         "image": ""
       },
       {
-        "text": "Può consistere nel completare un'istruzione di output I (è una i) dopo che alcune istruzioni successive ad I siano state eseguite ",
+        "text": "Può consistere nel completare un'istruzione di output I dopo che alcune istruzioni successive ad I siano state eseguite",
         "image": ""
       }
     ],
@@ -391,7 +391,7 @@
     "image": ""
   },
   {
-    "quest": "20) UNSAFE (sbagliata secondo Gabriele Pelissetto) Quale delle seguenti affermazioni sullo scambio messaggi per la gestione della concorrenza è vera? ",
+    "quest": "20) Quale delle seguenti affermazioni sullo scambio messaggi per la gestione della concorrenza è vera? ",
     "answers": [
       {
         "text": "Nessuna delle altre opzioni è vera",
@@ -437,18 +437,18 @@
     "image": ""
   },
   {
-    "quest": "22) (UNSAFE secondo Gabriele Pelissetto vd. gruppo 5 di slide, slide 11) Quale delle seguenti affermazioni sui dispositivi di I/O è vera?",
+    "quest": "22) Quale delle seguenti affermazioni sui dispositivi di I/O è vera?",
     "answers": [
       {
         "text": "Nessuna delle altre opzioni è corretta",
         "image": ""
       },
       {
-        "text": "Il data rate confronta le velocità di 2 diversi dispositivi di I/O",
+        "text": "Il data rate confronta le velocità di trasferimento dati tra 2 diversi dispositivi di I/O",
         "image": ""
       },
       {
-        "text": "Ciascun dispositivo di I/O può essere usato solo da un ben determinato tipo di applicazioni",
+        "text": "Ciascun dispositivo di I/O può essere usato solo da uno specifico tipo di applicazione",
         "image": ""
       },
       {
@@ -483,7 +483,7 @@
     "image": ""
   },
   {
-    "quest": "24) UNSAFE Quale delle seguenti azioni va effettuata sia per un process switch che per un mode switch, assumendo di essere in un SO nel quale le funzioni di sistema sono eseguite all'interno dei processi utente?",
+    "quest": "24) Quale delle seguenti azioni va effettuata sia per un process switch che per un mode switch, assumendo di essere in un SO nel quale le funzioni di sistema sono eseguite all'interno dei processi utente?",
     "answers": [
       {
         "text": "Salvataggio del contesto del programma",
@@ -598,7 +598,7 @@
     "image": ""
   },
   {
-    "quest": "29)  Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling è vera?",
+    "quest": "29) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling è vera?",
     "answers": [
       {
         "text": "Con lo scheduler Shortest Process Next, i processi con una grande immagine su RAM potrebbero soffrire di starvation",
@@ -1380,7 +1380,7 @@
     "image": ""
   },
   {
-    "quest": "64) (UNSAFE le decisioni dello scheduler possono influenzare la risposta) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? ",
+    "quest": "64) Le decisioni dello scheduler possono influenzare la risposta) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? ",
     "answers": [
       {
         "text": "Sia l'algoritmo di Dekker che quello di Peterson possono mettere in blocked uno dei 2 processi, quando ciò si rivela necessario",
@@ -1399,7 +1399,7 @@
         "image": ""
       }
     ],
-    "correct": 3,
+    "correct": 0,
     "image": ""
   },
   {
@@ -1449,7 +1449,7 @@
     "image": ""
   },
   {
-    "quest": "67) (corretta secondo @loryspat e @notherealmarco, da controllare) Quale delle seguenti affermazioni sulla paginazione della memoria è vera? ",
+    "quest": "67) Quale delle seguenti affermazioni sulla paginazione della memoria è vera? ",
     "answers": [
       {
         "text": "La differenza tra paginazione semplice e paginazione con memoria virtuale è che nella seconda viene richiesto che tutte le pagine di un processo siano in memoria principale, affinché il processo stesso possa essere eseguito",
@@ -1518,7 +1518,7 @@
     "image": ""
   },
   {
-    "quest": "70) (corretta secondo Simone Sestito e @loryspat) Quale delle seguenti affermazioni sul deadlock è falsa? ",
+    "quest": "70) Quale delle seguenti affermazioni sul deadlock è falsa?",
     "answers": [
       {
         "text": "Affinchè ci sia un deadlock, sono necessarie le condizioni di attesa circolare, hold-and-wait, mutua esclusione e no preemption",
@@ -1656,7 +1656,7 @@
     "image": ""
   },
   {
-    "quest": "77) UNSAFE Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è falsa?",
+    "quest": "77) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è falsa?",
     "answers": [
       {
         "text": "Il translation lookaside buffer, su alcuni processori, contiene un campo per il PID dei processi",
@@ -1702,7 +1702,7 @@
     "image": ""
   },
   {
-    "quest": "79) UNSAFE Quale delle seguenti affermazioni, riguardanti la classificazione delle risorse di un sistema operativo e la loro relazione con il deadlock, è vera?",
+    "quest": "79) Quale delle seguenti affermazioni, riguardanti la classificazione delle risorse di un sistema operativo e la loro relazione con il deadlock, è vera?",
     "answers": [
       {
         "text": "Nel caso delle risorse consumabili, se c'è un deadlock allora è stata richiesta almeno una risorsa già detenuta da un altro processo",
@@ -1725,7 +1725,7 @@
     "image": ""
   },
   {
-    "quest": "80) UNSAFE Si supponga che ci siano N processi attivi, giostrati da uno scheduler round-robin su un sistema monoprocessore. Quale delle seguenti affermazioni è vera?",
+    "quest": "80) Si supponga che ci siano N processi attivi, giostrati da uno scheduler round-robin su un sistema monoprocessore. Quale delle seguenti affermazioni è vera?",
     "answers": [
       {
         "text": "Dal punto di vista del processore, ogni processo esegue sempre le proprie istruzioni senza interruzioni",
@@ -2001,7 +2001,7 @@
     "image": ""
   },
   {
-    "quest": "94) UNSAFE Quale delle seguenti affermazioni sul modello dei processi a 7 stati è vera?",
+    "quest": "94) Quale delle seguenti affermazioni sul modello dei processi a 7 stati è vera?",
     "answers": [
       {
         "text": "Nessuna delle altre opzioni è vera",
@@ -2047,7 +2047,7 @@
     "image": ""
   },
   {
-    "quest": "98) UNSAFE Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling è vera?",
+    "quest": "98) Assumendo un sistema monoprocessore, quale delle seguenti affermazioni sugli algoritmi di scheduling è vera?",
     "answers": [
       {
         "text": "L'exponential averaging permette di stimare la dimensione dell'immagine di un processo, a partire dalle precedenti immagini di quello stesso processo",
@@ -2066,7 +2066,7 @@
         "image": ""
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "image": ""
   },
   {
@@ -2093,7 +2093,7 @@
     "image": ""
   },
   {
-    "quest": "99) (risposta corretta secondo @notherealmarco, Simone Sestito e Gabriele Pelissetto, non verificata da nessuna parte) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è vera?",
+    "quest": "99) Quale delle seguenti affermazioni sulla memoria virtuale con paginazione è vera?",
     "answers": [
       {
         "text": "Per avere un overhead accettabile, occorre demandare la traduzione degli indirizzi all'hardware, mentre al software resta da gestire prelievo, posizionamento e sostituzione delle pagine",
@@ -2116,7 +2116,7 @@
     "image": ""
   },
   {
-    "quest": "96) (risposta corretta secondo @notherealmarco e Gabriele Pelissetto, non verificata da nessuna parte) Riguardo alle differenze tra sistemi batch e sistemi time sharing (degli anni 60/70), quale delle seguenti affermazioni è falsa? ",
+    "quest": "96) Riguardo alle differenze tra sistemi batch e sistemi time sharing (degli anni 60/70), quale delle seguenti affermazioni è falsa? ",
     "answers": [
       {
         "text": "I sistemi time-sharing puntavano a minimizzare l'uso del processore",
@@ -2277,7 +2277,7 @@
     "image": ""
   },
   {
-    "quest": "106) UNSAFE In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:",
+    "quest": "106) In generale, la CPU puo’ eseguire un'istruzione soltanto quando gli operandi si trovano:",
     "answers": [
       {
         "text": "In RAM, o in un livello qualsiasi della cache o nella memoria secondaria o nei registri CPU",
@@ -2829,7 +2829,7 @@
     "image": ""
   },
   {
-    "quest": "130) UNSAFE Quale dei seguenti NON è vero riguardo l’algoritmo di Dekker per gestire la concorrenza?",
+    "quest": "130) Quale dei seguenti NON è vero riguardo l’algoritmo di Dekker per gestire la concorrenza?",
     "answers": [
       {
         "text": "Non usa busy waiting",
