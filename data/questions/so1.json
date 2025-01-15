@@ -1380,7 +1380,7 @@
     "image": ""
   },
   {
-    "quest": "64) Le decisioni dello scheduler possono influenzare la risposta) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? ",
+    "quest": "64) Quale delle seguenti affermazioni sui meccanismi software per la gestione della concorrenza è vera? ",
     "answers": [
       {
         "text": "Sia l'algoritmo di Dekker che quello di Peterson possono mettere in blocked uno dei 2 processi, quando ciò si rivela necessario",
@@ -1399,7 +1399,7 @@
         "image": ""
       }
     ],
-    "correct": 0,
+    "correct": 1,
     "image": ""
   },
   {
