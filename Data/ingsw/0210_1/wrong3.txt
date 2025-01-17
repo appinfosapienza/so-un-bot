@@ -1,0 +1,40 @@
+output5);
+connect(sc1.output5, sc3.input5);
+connect(sc1.input6, sc4.output6);
+connect(sc1.output6, sc4.input6);
+connect(sc2.input1, sc3.output1);
+connect(sc3.input2, sc4.output2);
+connect(sc4.input3, sc2.ouput3);
+end SysArch
+2.
+block SysArch;
+SC1 sc1
+SC2 sc2;
+SC3 sc3;
+SC4 sc4;
+connect(sc1.input4, sc2.output4);
+connect(sc1.output4, sc2.input4);
+connect(sc1.input5, sc3.output5);
+connect(sc1.output5, sc3.input5);
+connect(sc1.input6, sc4.output6);
+connect(sc1.output6, sc4.input6);
+connect(sc2.input1, sc3.output1);
+connect(sc3.input2, sc4.output2);
+connect(sc4.output3, sc2.input3);
+end SysArch
+3.
+block SysArch;
+SC1 sc1
+SC2 sc2;
+SC3 sc3;
+SC4 sc4;
+connect(sc1.input4, sc2.output4);
+connect(sc1.output4, sc2.input4);
+connect(sc1.input5, sc3.output5);
+connect(sc1.output5, sc3.input5);
+connect(sc1.input6, sc4.output6);
+connect(sc1.output6, sc4.input6);
+connect(sc2.output1, sc3.input1);
+connect(sc3.output2, sc4.input2);
+connect(sc4.output3, sc2.input3);
+end SysArch

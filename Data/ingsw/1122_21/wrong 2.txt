@@ -1,0 +1,19 @@
+<pre>
+class Monitor
+
+InputReal x;  // plant output
+OutputBoolean y;
+
+Boolean z;
+
+initial equation
+
+y = false;
+equation
+z = (time > 0) and ((x >= 0) or (x <= 5))  and  ((x >= 10) or (x <= 15)) );
+algorithm
+when edge(z) then
+y := true;
+end when;
+end Monitor;
+</pre>

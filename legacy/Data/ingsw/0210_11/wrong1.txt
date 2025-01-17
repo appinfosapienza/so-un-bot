@@ -1,9 +1,0 @@
-block SysArch
-OS os_c;
-WS ws_c;
-WB wb_c;
-connect(os_c.input1, ws_c.output1);
-connect(os_c.output1, ws_c.input1);
-connect(wb_c.input2, ws_c.output2);
-connect(wb_c.output2, ws_c.input2);
-end SysArch

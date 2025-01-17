@@ -1,6 +1,0 @@
-block SysArch;
-SC1 sc1
-SC2 sc2;
-SC3 sc3;
-SC4 sc4;
-connect(sc1.input1, sc

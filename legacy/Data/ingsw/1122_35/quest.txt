@@ -1,3 +1,0 @@
-img=https://i.imgur.com/jQT3J83.png
-Si consideri la Markov chain in figura con stato iniziale 0 e p in (0, 1). Quale delle seguenti formule calcola il valore atteso del numero di transizioni necessarie per lasciare lo stato 0.
-

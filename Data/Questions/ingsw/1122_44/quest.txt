@@ -1,0 +1,15 @@
+Il partition coverage di un insieme di test cases è la percentuale di elementi della partition inclusi nei test cases. La partition è una partizione finita dell'insieme di input della funzione che si sta testando.
+
+Si consideri la seguente funzione C:
+
+int f1(int x)  { return (2*x); }
+
+Si vuole testare la funzione f1(). A tal fine l'insieme degli interi viene partizionato come segue: 
+
+{(-inf, -11], [-10, -1], {0}, [1, 50], [51, +inf)}
+
+Si consideri il seguente insieme di test cases:
+
+{x=-20, x= 10, x=60}
+
+Quale delle seguenti è la partition coverage conseguita?

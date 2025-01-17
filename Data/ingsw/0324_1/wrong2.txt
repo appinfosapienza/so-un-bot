@@ -1,0 +1,2 @@
+input12)
+connect(sc2.output23, sc

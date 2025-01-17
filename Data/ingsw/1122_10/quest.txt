@@ -1,0 +1,7 @@
+Pre-condizioni,  invarianti e post-condizioni di un programma possono essere definiti usando la macro del C assert() (in <assert.h>).  In particolare, assert(expre) non fa nulla se l'espressione expre vale TRUE (cioè non è 0), stampa un messaggio di errore su stderr e abortisce l'esecuzione del programma altrimenti.
+
+Si consideri la funzione C
+
+int f(int x, int y) { ..... }
+
+Quale delle seguenti assert esprime la pre-condizione che entrambi gli argomenti di f sono non-negativi ed almeno uno di loro è maggiore di 3?

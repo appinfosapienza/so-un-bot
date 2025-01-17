@@ -1,0 +1,11 @@
+img=https://unspectacular-subdi.000webhostapp.com/0120_domanda_23.png
+La transition coverage di un insieme di test cases (cioè sequenze di inputs) per uno state diagram è la percentuale di transizioni (archi nel grafo dello state diagram) percorsi almeno una volta.
+Si consideri lo state diagram in figura 
+
+
+
+ed il seguente insieme di test cases:
+Test case 1: act2 act2 act1 act2 act1 
+Test case 2: act1 act0 act2 
+Test case 3: act2 act1 act0 
+Quale delle seguenti è la migliore stima della transition coverage per i test cases di cui sopra?

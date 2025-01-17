@@ -1,2 +1,0 @@
-input12)
-connect(sc1.output13, sc

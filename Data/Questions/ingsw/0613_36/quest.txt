@@ -1,0 +1,9 @@
+img=https://unspectacular-subdi.000webhostapp.com/0613_domanda_36.png
+Un processo software può essere rappesentato con uno state diagram in cui gli stati rappresentano le fasi (e loro iterazioni) del prcoesso software e gli archi le transizioni da una fase all'altra. Gli archi sono etichettati con le probabilità della transizione e gli stati sono etichettati con il costo  per lasciare lo stato. 
+Ad esempio lo state diagram in figura
+
+
+
+Rappresenta un processo software con 2 fasi F1 ed F2. F1 ha costo 10000 EUR ed F2 ha costo 1000 EUR. F1 ha una probabilita dello 0.3 di dover essere ripetuta (a causa di errori) ed F2 ha una probabilità 0.1 di dover essere ripetuta (a causa di errori).
+Uno scenario è una sequenza di stati.
+Qual'e' la probabilità dello scenario: 1, 2, 3, 4 ? In altri terminti, qual'è la probabilità che sia necessario ripetere sia la fase 1 che la fase 2 ?

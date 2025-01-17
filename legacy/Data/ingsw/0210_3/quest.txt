@@ -1,4 +1,0 @@
-Un test oracle per un programma P è una funzione booleana che ha come inputs gli inputs  ed outputs  di P e ritorna true se e solo se il valore di output di P (con i dati inputs) è quello atteso dalle specifiche.
-Si consideri la seguente specifica funzionale per la funzione f.
-La funzione f(int *A, int *B)  prende come input un vettore A di dimensione n  ritorna come output un vettore B ottenuto ordinando gli elementi di A in ordine crescente.
-Quale delle seguenti funzioni è un test oracle per la funzione f ?

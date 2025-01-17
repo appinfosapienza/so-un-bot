@@ -1,2 +1,0 @@
-img=https://i.imgur.com/2gg5nIM.png
-Lo State Diagram in figura descrive (in modo semplificato) una macchina distributrice di bevande. Quale delle seguenti frasi è corretta riguardo allo State Diagram in figura?

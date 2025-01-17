@@ -1,0 +1,69 @@
+<pre>
+block FSA  //  Finite State Automaton
+
+
+
+/* connector declarations outside this block:
+
+connector InputInteger = input Integer;
+
+connector OutputInteger = output Integer;
+
+*/
+
+
+
+InputInteger u; // external input
+
+OutputInteger x; // state
+
+parameter Real T = 1;
+
+
+
+algorithm
+
+
+
+when initial() then
+
+x := 0;
+
+
+
+elsewhen sample(0,T) then
+
+
+
+if (pre(x) == 0) and (pre(u) == 0) then x := 4;
+
+elseif (pre(x) == 0) and (pre(u) == 1) then x := 2;
+
+elseif (pre(x) == 0) and (pre(u) == 2) then x := 2;
+
+elseif (pre(x) == 1) and (pre(u) == 1) then x := 2;
+
+elseif (pre(x) == 2) and (pre(u) == 1) then x := 0;
+
+elseif (pre(x) == 2) and (pre(u) == 2) then x := 1;
+
+elseif (pre(x) == 3) and (pre(u) == 0) then x := 1;
+
+elseif (pre(x) == 3) and (pre(u) == 1) then x := 0;
+
+elseif (pre(x) == 3) and (pre(u) == 2) then x := 1;
+
+elseif (pre(x) == 4) and (pre(u) == 0) then x := 3;
+
+elseif (pre(x) == 4) and (pre(u) == 2) then x := 1;
+
+else x := pre(x); // default
+
+end if;
+
+
+
+end when;
+
+end FSA;
+</pre>
