@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Configure custom DNS resolver
+        run: echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf
+
       - name: Call webhook # debug
         run: dig portainer.srv.mrlc.cc
     
