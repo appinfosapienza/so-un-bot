@@ -19,5 +19,9 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Call webhook # debug
+        run: dig portainer.srv.mrlc.cc
+    
       - name: Call webhook
         run: curl -X POST ${{secrets.DEPLOY_WEBHOOK}}
