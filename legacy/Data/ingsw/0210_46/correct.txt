@@ -1,9 +1,0 @@
-block SysArch
-DB db_c;
-S1 s1_c;
-S2 s2_c;
-connect(db_c.input[1], s1_c.output);
-connect(db_c.output[1], s1_c.input);
-connect(db_c.input[2], s2_c.output);
-connect(db_c.output[2], s2_c.input);
-end SysArch

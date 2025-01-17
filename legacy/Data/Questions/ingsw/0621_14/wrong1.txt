@@ -1,1 +1,0 @@
-Testare le funzionalità di unità software individuali, oggetti, classi o metodi.

@@ -1,4 +1,0 @@
-img=https://unspectacular-subdi.000webhostapp.com/0324_domanda_1.png
-Si consideri la seguente architettura software:
-
-Quale dei seguneti modelli Modelica meglio la rappresenta.

@@ -1,3 +1,0 @@
-output1);
-connect(sc1.output1, sc2.input1);
-connect(sc1.input2, sc

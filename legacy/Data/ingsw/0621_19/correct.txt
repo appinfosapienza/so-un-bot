@@ -1,1 +1,0 @@
-Ad ogni istante di tempo della forma 1 + 4*k (k = 0, 1, 2, 3, ...), x vale "true".

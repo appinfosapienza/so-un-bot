@@ -1,1 +1,0 @@
-La variable x è minore di 0

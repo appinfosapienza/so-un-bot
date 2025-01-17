@@ -1,1 +1,0 @@
-Requirements specification is not needed thanks to reuse.

@@ -1,4 +1,0 @@
-input12)
-connect(sc1.output14, sc4.input14)
-connect(sc2.output24, sc4.input24)
-connect(sc

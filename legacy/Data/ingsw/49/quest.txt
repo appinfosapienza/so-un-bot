@@ -1,1 +1,0 @@
-Si consideri il seguente requisito: "Il sistema fornisce l'elenco dei clienti in ordine alfabetico". Di che tipo di requisito si tratta?

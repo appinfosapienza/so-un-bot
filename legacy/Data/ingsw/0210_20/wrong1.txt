@@ -1,1 +1,0 @@
-Assicurarsi che per ogni requisito esista un insieme di test che lo possa verificare.

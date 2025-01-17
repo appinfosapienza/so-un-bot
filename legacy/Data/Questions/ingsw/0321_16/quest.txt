@@ -1,1 +1,0 @@
-Un sistema consiste di due sottosistemi: un controller ed un plant (sistema controllato). Il controllore misura l'output del plant e manda comandi al plant in accordo. Quale dei seguenti schemi Modelica modella l'architettura di sistema descritta sopra ?
