@@ -9,11 +9,5 @@ Le domande disponibili sul bot vengono automaticamente sincronizate con questo r
 
 [@so_1_bot](https://t.me/so_1_bot) è un'istanza di [pIm-a-bot](https://github.com/WAPEETY/pIm-a-bot), progetto mantenuto da [@notherealmarco](https://github.com/notherealmarco) e [@WAPEETY](https://github.com/WAPEETY), per ulteriori informazioni si rimanda al repository ufficiale.
 
----
-La directory `legacy` contiene il sorgente della precedente versione del bot, non piu in uso; pertanto pull requests che aggiornano domande in `legacy/` verranno chiuse.
-
-Le domande utilizzate dal bot si trovano in `data/questions`
-
----
 mirror disponibili:
 - [https://git.marcorealacci.me/marcorealacci/so-un-bot](https://git.marcorealacci.me/marcorealacci/so-un-bot)
