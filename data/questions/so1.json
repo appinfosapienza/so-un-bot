@@ -3425,5 +3425,51 @@
     ],
     "correct": 3,
     "image": ""
+  },
+{
+    "quest": "156) Tipicamente, nei processori moderni la memoria cache",
+    "answers": [
+      {
+        "text": "è strutturata a livelli gerarchici ed il processore può caricare i dati e le istruzioni nei registri da uno qualsiasi dei livelli della cache",
+        "image": ""
+      },
+      {
+        "text": "è strutturata a livelli gerarchici ed il processore può caricare i dati e le istruzioni nei registri solo se si trovano nel primo o secondo livello della cache",
+        "image": ""
+      },
+      {
+        "text": "non ha struttura gerarchica, in quanto una struttura piatta consente una maggior efficenza e velocità nel trasferimento dei dati",
+        "image": ""
+      },
+      {
+        "text": "è strutturata a livelli gerarchici ed il processore può caricare i dati solo dalla cache di livello 1 dati, e le istruzioni solo dalla cache livello 1 istruzioni.",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+{
+    "quest": "157) Il file system FAT32",
+    "answers": [
+      {
+        "text": "utilizza una lista concatenata con cluster di dimensione fissa per l'allocazione dei file",
+        "image": ""
+      },
+      {
+        "text": "utilizza una bitmap per tenere traccia dei cluster liberi sul disco",
+        "image": ""
+      },
+      {
+        "text": "occupa poco spazio di memoria, e lo spazio occupato è indipendente dalla dimensione del disco e numero dei cluster",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
   }
 ]
