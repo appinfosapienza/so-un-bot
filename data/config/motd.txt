@@ -16,17 +16,16 @@ Per esercitare il diritto all'eliminazione dei dati personali, puoi inviare il c
 I dati verranno immediatamente eliminati, l'azione del comando non è reversibile.
 
 
-👷‍♀️Per avviare un quiz puoi utilizzare i seguenti comandi:
+👷‍♀️ To start a quiz, use one of the following commands:
 
-Corso di laurea in Informatica:
+Corso di laurea in Informatica 🇮🇹:
 /so1 -> Sistemi Operativi I, prof. Melatti (canale I)
 /so2 -> Sistemi Operativi II, prof. Casalicchio (canale II)
 /ogas -> Organizzazione e Gestione per lo Startup Aziendale, prof.ssa Castaldo
 /sicurezza -> Sicurezza, prof. Casalicchio. Domande in inglese (l'esame usa le stesse domande ma tradotte in italiano)
 
-Corso di laurea in Computer Science:
-/fds -> Foundation of Data Science, prof. Galasso. Domande attualmente aggiornate al 2022
+Master Degree in Computer Science 🇬🇧:
+/fds -> Foundation of Data Science, prof. Galasso. Updated to 2022
+/fds_llm -> Foundation of Data Science, domande generate da LLM
 
-Per interrompere il quiz puoi usare il comando /leave
-
-N.B. I quiz relativi all'Università di Venezia sono stati trasferiti al bot @so_1_unive_bot, mantenuto da @WAPEETY
+To stop a quiz, please use the /leave command
