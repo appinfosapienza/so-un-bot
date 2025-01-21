@@ -410,7 +410,7 @@
         "image": ""
       }
     ],
-    "correct": 2,
+    "correct": 0,
     "image": ""
   },
   {
@@ -3470,6 +3470,29 @@
       }
     ],
     "correct": 0,
+    "image": ""
+  },
+{
+    "quest": "158) Il meccanismo _____, consente di trasferire i dati da e verso la memoria senza l'intervento della CPU.",
+    "answers": [
+      {
+        "text": "Driver Monitor Access",
+        "image": ""
+      },
+      {
+        "text": "Direct Memory Access",
+        "image": ""
+      },
+      {
+        "text": "Driver Memory Access",
+        "image": ""
+      },
+      {
+        "text": "Direct Monitor Access",
+        "image": ""
+      }
+    ],
+    "correct": 1,
     "image": ""
   }
 ]
