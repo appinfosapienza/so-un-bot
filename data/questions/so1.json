@@ -3494,5 +3494,719 @@
     ],
     "correct": 1,
     "image": ""
+  },
+  {
+    "quest": "159) Il registro program counter contiene",
+    "answers": [
+      {
+        "text": "L'indirizzo dell'ultima istruzione che la cpu ha prelevato dalla memoria",
+        "image": ""
+      },
+      {
+        "text": "L'indirizzo della prossima istruzione che la cpu dovrá prelevare dalla memoria",
+        "image": ""
+      },
+      {
+        "text": "Il numero di istruzione completate dall'avvio della macchina",
+        "image": ""
+      },
+      {
+        "text": "Il numero di istruzione eseguite dal processo corrente",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "159) Il Direct Memory Access (DMA).",
+    "answers": [
+      {
+        "text": "É un software del sistema operativo che consente ai processi utenete l'accesso diretto a zone di memoria protette",
+        "image": ""
+      },
+      {
+        "text": "É un software del sistema operativo che mappa la memoria virtuale dei processi nella memoria fisica a loro assegnata in modo trasparente",
+        "image": ""
+      },
+      {
+        "text": "É una componente hardware che si occupa dello spostamento di blocchi di dati da una zona della memoria principale ad un dispositivoi di I/O, o ad un'altra zona della memoria principale",
+        "image": ""
+      },
+      {
+        "text": "É una componente hardware che consente l'accesso diretto ad una zona di memoria primaria al processore, senza dover passare per il bus di sistema",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "160) Quale delle seguenti affermazioni sulla memoria cache é FALSA? ",
+    "answers": [
+      {
+        "text": "Mantiene una copia di alcuni blocchi dlela memoria principale, per velocizzare le operazioni did accesso della cpu",
+        "image": ""
+      },
+      {
+        "text": "É strutturate gerarchicamente, e la cahe di livello piú alto (es.L2) é piú lenta di quella di livello piú basso (es.L0). La cpu accede direttamente ad un livello qualsiasi della cache per recuperare i dati e le istruzioni necessarie all'esecuzione se sono presenti",
+
+        "image": ""
+      },
+      {
+        "text": "É una componente di memoria piccola, ma piú veloce della memoria principale, con la quale si scambia dati in blocchi",
+        "image": ""
+      },
+      {
+        "text": "La cache é gestita interamente dall'hardware, ed il sistema operativo non si occupa dello spostamento di dati tra la ram e la cache",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "161) Il Process Control Block (PCB)",
+    "answers": [
+      {
+        "text": "É creato dal processore, e poi gestito dal sistema operativo, quando un processo viene creato ed inizializzato",
+        "image": ""
+      },
+      {
+        "text": "Contiene le informazione fondamentali per la gestione dei processi da parte del sistema operativo ed, in particolare, le informazioni necessarie per effettuare il process switching",
+        "image": ""
+      },
+      {
+        "text": "Contiene al suo interno l'intera immagine del processo a cui si  riferisce",
+        "image": ""
+      },
+      {
+        "text": "É mantenuto nella zona di  memoria dedicata al processo a cui appartiene",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "162) L' esecuzione del processore passa da modalitá utente a modalitá kernel",
+    "answers": [
+      {
+        "text": "A seguito di una richiesta effettuata dal processo in esecuzione, che richiede esplicitamente il passaggio in modlitá kernel per eseguire del codice del programma",
+        "image": ""
+      },
+      {
+        "text": "In maniera automatica, quando viene sollevata e gestita un'interruzione. Il processore esegue il codice indicato dal processo utente per la gestione dell'interruzione sollevata",
+        "image": ""
+      },
+      {
+        "text": "In maniera automatica, quando viene sollevata e gestita un'interruzzione. Il processore recupera dalla tabella delle interruzioni ed esegue l'interrupt handler (il software di gestionde dell'interruzione) del sistema operativo associato alla specifica interruzione generata",
+        "image": ""
+      },
+      {
+        "text": "Nessuna delle altre risposte é corretta",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+    },
+  {
+    "quest": "163) Il dispatcher",
+    "answers": [
+      {
+        "text": "É la componente del sistema operativo che si occupa di spostare i processi dalla coda dei ready (e viceversa) e di salvarne lo stato",
+        "image": ""
+      },
+      {
+        "text": "É una parte del PCB dei processi necessaria ad inviare i segnali ad altri processi per implementare inter-process communication",
+        "image": ""
+      },
+      {
+        "text": "Si occupa di spostare processi dallo stato di ready allo stato di blocked, a seguito di una richiesta bloccante",
+        "image": ""
+      },
+      {
+        "text": "É la componente dello scheduler dei processi che gestisce la coda delle richieste di creazione di nuovi processi",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+{
+    "quest": "164) Nel modello di esecuzione del sistema operativo all'interno dei processi utente",
+    "answers": [
+      {
+        "text": "Non é necessario ne fare process switching ne mode switching quando viene fatta una chiamata di sistema da un processo ",
+        "image": ""
+      },
+      {
+        "text": "Il processore passa da modailtá utente a modalitá kernel a seguito di una chiamata di sistema, ma non é necessario cambiare il processo in esecuzione",
+        "image": ""
+      },
+      {
+        "text": "A seguito di una chiamata di sistema é necessario fare process switching per passare ad un processo di sistema con privilegi elevati per eseguire la system call richiesta",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "165) L'algoritmo di scheduling Round Robin Virtuale",
+    "answers": [
+      {
+        "text": "É una algoritmo di tipo non preemtive",
+        "image": ""
+      },
+      {
+        "text": "Puó portare alla starvation dei processi",
+        "image": ""
+      },
+      {
+        "text": "Non é un algoritmo equo in quanto, se un processo si blocca nel mezzo del suo quanto temporale a seguito di operazione bloccante, perderá il tempo rimanente in quel quanto temporale quando tornerá ready",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "166) Per la gestione della rilocazione degli indirizzi di un programma ",
+    "answers": [
+      {
+        "text": "Gli indirizzi assoluti devono essere convertiti in indirizzi relativi al momento del caricamento del programma in memoria principale",
+        "image": ""
+      },
+      {
+        "text": "Gli indirizzi relativi devono essere tradotti in indirizzi assoluti in tempo reale dal sistema durante l'esecuzione dei programmi",
+        "image": ""
+      },
+      {
+        "text": "Gli indirizzi simbolici vengono usa quando un programma é caricato in memoria principale e durante la sua esecuzione",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "167) Il partizionamento fisso uniforme della memoria",
+    "answers": [
+      {
+        "text": "É una tecnica di gestione della memoria secondaria che viene usata per tenere traccia di dove sono memorizzati i blocchi dati di un dato file",
+        "image": ""
+      },
+      {
+        "text": "É una tecnica della gestione della memoria principale che suddivide la RAM in blocchi di partizioni di uguale dimensione. Questo consente di evitare di sprecare porzioni di memoria quando viene caricato un programma in RAM, evitando il problema della frammentazione interna",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle risposte é corretta",
+        "image": ""
+      },
+      {
+        "text": "É una tecnica di gestione della cache che susddivide le linee di cache in modo uinforme, in modo da velocizzare l'accesso da parte della cpu",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "168) La paginazione della memoria",
+    "answers": [
+      {
+        "text": "Consente di non dover necessariamente allocare un processo in una sequenza contigua di memoria fisica",
+        "image": ""
+      },
+      {
+        "text": "Richiede di allocare i processi in modo contiguo nella memoria fisica. Tuttavia, sfruttando la tabella delle pagine il sistema riesce comunque ad evitare problemi di frammentazione esterna",
+        "image": ""
+      },
+      {
+        "text": "Richiede la trasformazione degli indirizzi fisici del programma in indirizzi logici, nella memoria principale, tramite l'uso del PCB",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "169) Nella gestione dell'I/O, l'I/O buffering",
+    "answers": [
+      {
+        "text": "É un meccanismo del sistema operativo percui i dati delle richieste I/O vengono memorizzate temporaneamente in una zona di memoria del kernel prima di essere passate al dispositivo di I/O (nel caso di write) o al processo (nel caso di read)",
+        "image": ""
+      },
+      {
+        "text": "É una piccome memoria fisica che é dedicata alla copia temporane di alcune richieste di lettura/scrittura effettuate dal sistema operativo di particolare importanza",
+        "image": ""
+      },
+      {
+        "text": "É un meccanismo di buffering tramite il quale il sistema operativo tiene in memoria principale alcuni blocchi dei files piú utilizzati dai processi con prioritá piú alta per massimizzarne il throughput",
+        "image": ""
+      },
+      {
+        "text": "É un meccanismo di buffering di buffering tramite il quale il sistema operativo tiene in memoria principale alcuni blocchi dei dischi di memoria secondaria prima di toglierli completamente dalla RAM",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "170) Le politiche di scheduling dei dischi di I/O meccanici",
+    "answers": [
+      {
+        "text": "Sono progettate per ottimizzare il tempo di posizionamento della testina meccanica (seek time) per massimizzare le prestazioni",
+        "image": ""
+      },
+      {
+        "text": "Sono progettate per ottimizzare il ritardo di rotazione (rotational delay) del disco necessari a portare il settore desiderato al di sotto della testina meccanica",
+        "image": ""
+      },
+      {
+        "text": "Sono progettate per ottimizzare il tempo di trasferimento dei dati, massimizzando la velocitá di lettura di un settore da parte della testina",
+        "image": ""
+      },
+      {
+        "text": "Sono progettate per minimizzare il tempo di attesa per l'assegnazione del dispositivo (wait for device)",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "171) La configurazione RAID dei dischi",
+    "answers": [
+      {
+        "text": "É un meccanismo utilizzato per migliorare la velocitá di accesso e la ridondanza dei dati",
+        "image": ""
+      },
+      {
+        "text": "É un meccanismo logico che permette al sistem di visualizzare un solo disco come sse fossero diversi dischi separati",
+        "image": ""
+      },
+      {
+        "text": "É una tecnica di partizionamento dei dati su dischi che permette di minimizzare la probabilitá di un fallimento hardware dei dischi",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "172) L'allocazione contigua dei file su disco ",
+    "answers": [
+      {
+        "text": "Al contrario dell'allocazione concatenata, permette di ottimizzare l'allocazione dei files distribuendone diverse parti in blocchi arbitrari nel disco",
+        "image": ""
+      },
+      {
+        "text": "Garantisce ottime performance di accesso in lettura e scrittura sequenzial, ma porta a frammentazione eseterna nel tempo",
+        "image": ""
+      },
+      {
+        "text": "Con la creazione e cancellazzione di files nel tempo, puó portare a problemi di frammentazione interna",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "173) Il journaling logico",
+    "answers": [
+      {
+        "text": "É un meccanismo che puó essere utilizzato dal sistema operativo per evitare la perdita di dati e metadati nel caso di crash del sistema",
+        "image": ""
+      },
+      {
+        "text": "É un meccanismo che puó essere utilizzato dal sistema operativo per evitare la perdita di metadati nel caso di crash del sistema",
+        "image": ""
+      },
+      {
+        "text": "É un meccanismo del sistema operativo utilizzato per tenere una storia delle operazioni effettuate da un processo per verificarne la correttezza in caso di terminazione inaspettata",
+        "image": ""
+      },
+      {
+        "text": "É una tecnica di gestione della storia dei processi che permette di creare statistiche di esecuzione che sono utilizzate per supportare politiche di scheduling che richiedono conoscenza, ad esempio, dei tempi di esecuzione storici di un processo",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "174) Nel file system NTFS",
+    "answers": [
+      {
+        "text": "La Master File Table é una sequenza lineare di record, ognuno dei quali descrive un file",
+        "image": ""
+      },
+      {
+        "text": "I record contengono una lista di coppie <attributo,valore>, in cui il valore puó essere in realtá un puntatore ad un record remoto salvato in un'altra zona del disco",
+        "image": ""
+      },
+      {
+        "text": "Per i files di grandi dimensioni il record base contiene, oltre ad una sequenza ordinata di blocchi su disco dove risiede il file, un puntatore ad un altro record. Questo record a sua volta contiene sequenze ordinate di blocchi del file, e potenzialmente un ulteriore puntatore ad un altro record",
+        "image": ""
+      },
+      {
+        "text": "Tutte le opzioni sono corrette",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "175) Una Sezione critica",
+    "answers": [
+      {
+        "text": "É una sezione del codice di un programma in cui c'é accesso esclusivo ad una risorsa condivisa",
+        "image": ""
+      },
+      {
+        "text": "É una sezione del codice di un programma in cui viene violata la mutua esclusione per l'accesso ad una risorsa condivisa",
+        "image": ""
+      },
+      {
+        "text": "É una sezione del codice di un programma in cui nessun altro processo puó interrompere l'esecuzione del processo corrente",
+        "image": ""
+      },
+      {
+        "text": "tutte le risposte sono corrette",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "176) Il deadlock",
+    "answers": [
+      {
+        "text": "É una situazione in cui due o piú processi sono in attesa di una risorsa detenuta da un altro processo, che a sua volta é in attesa di una risorsa detenuta da un terzo processo, e questa sequenza di processi in attesa forma una catena circolare",
+        "image": ""
+      },
+      {
+        "text": "É un sistema di controllo degli accessi tramite il quale il sistema operativo blocca l'accesso ad alcuni files sensibili in caso di anomalie nel sistema",
+        "image": ""
+      },
+      {
+        "text": "É una situazione in cui due o piú risorse del sistema sono bloccate ed inacessibili ai processi a causa di errori interni",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "177) Il buffer Overflow",
+    "answers": [
+      {
+        "text": "É una situazione in cui un buffer di sistema si riempie ed il sistema operativo si trova in una situazione di stallo finché il buffer non viene liberato",
+        "image": ""
+      },
+      {
+        "text": "É una vulnerabilitá di un programma che puó portare ad esecuzione arbitraria di codice da parte di un avversari che la sfrutti",
+        "image": ""
+      },
+      {
+        "text": "É l'operazione tramite la quale il sistema operativo trasferisce i contenuti da un buffer di sistema ad un altro",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "178) Una funzione hash crittografica",
+    "answers": [
+      {
+        "text": "É una funzione che prende in input una stringa di lunghezza arbitraria, e da in output una stringa di lunghezza fissa",
+        "image": ""
+      },
+      {
+        "text": "É una funzione per cui é computazionalmente estremamente difficile calcolare l'inverso",
+        "image": ""
+      },
+      {
+        "text": "É una funzione per cui é computazionalmente estremamente difficile trovare due input diversi che danno lo stesso output",
+        "image": ""
+      },
+      {
+        "text": "tutte le opzioni sono vere",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "179) Il registro instruction register contiene",
+    "answers": [
+      {
+        "text": "L'indirizzo dell'ultima istruzione che la cpu ha prelevato dalla memoria",
+        "image": ""
+      },
+      {
+        "text": "L'indirizzo della prossiam istruzione che cpu dovrá prelevare dalla memoria",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzione é corretta",
+        "image": ""
+      },
+      {
+        "text": "il numero di istruzione eseguite dal processo corrente",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "180) In un sistema con paginazione virtuale con tabella delle pagine a piú livelli",
+    "answers": [
+      {
+        "text": "Le tabelle delle pagine di primo e secondo livello devono sempre essere presenti in memoria pirncipale, ma quelle dei livelli successivi non necessariamente",
+        "image": ""
+      },
+      {
+        "text": "Richiedono l'utilizzo congiunto della segmentazione della memoria per consentire lo swapping delle diverse porzioni della tabella delle pagine di secondo livello quando necessario",
+        "image": ""
+      },
+      {
+        "text": "É necessario che la cpu abbia dell'hardware dedicato per effettuare la conversione degli indirizzi dei processi durante l'esecuzione",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "181) Quale delle seguenti affermazioni sulla memoria cache é VERA? ",
+    "answers": [
+      {
+        "text": "Mantiene una copia di alcuni blocchi della memoria principale, per velocizzare le operazioni di accesso della cpu",
+        "image": ""
+      },
+      {
+        "text": "Tutte le opzioni sono vere",
+        "image": ""
+      },
+      {
+        "text": "É una componente di memoria piccola, ma piú veloce della memoria principale, con la quale scambia dati in blocchi",
+        "image": ""
+      },
+      {
+        "text": "La cache é gestita interamente dall'hardware, ed il sistema operativo non si occupa dello spostamento di dati tra la ram e la cache",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "182) Il Translation lookaside buffer (TLB)",
+    "answers": [
+      {
+        "text": "É una piccola memoria associativa interna alla cache che viene utilizzata per tradurre automaticamente gli indirizzi virtuali salvati nella cache in indirizzi fisici",
+        "image": ""
+      },
+      {
+        "text": "É una componente hardware che mantiene gli elementi della tabelle delle pagine acceduti piú di recente da un processo, e consente la traduzione degli indirizzi virtuali in fisici senza accedere alla tabella delle pagine",
+        "image": ""
+      },
+      {
+        "text": "É un buffer software del sistema operativo che viene utilizzato per evitare di accedere alla tabella delle pagine per la traduzione degli indirizzi virtuali",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 1,
+    "image": ""
+  },
+  {
+    "quest": "183) L'algoritmo di scheduling Round Robin",
+    "answers": [
+      {
+        "text": "É un algoritmo di tipo non preemtive",
+        "image": ""
+      },
+      {
+        "text": "puó portare alla starvation dei processi",
+        "image": ""
+      },
+      {
+        "text": "Non é un algoritmo perfettamente equo in quanto, se un processo si blocca nel mezzo del suo quanto temporale a seguito di operazione bloccante, perderá il tempo rimanente in quel quanto temporale quando tornerá ready",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 2,
+    "image": ""
+  },
+  {
+    "quest": "184) Per la gestione della rilocazione degli indirizzi di un programma ",
+    "answers": [
+      {
+        "text": "Gli indirizzi assoluti devono  essere convertiti in indirizzi relativi al moemento del caricamento del programma in memoria principale",
+        "image": ""
+      },
+      {
+        "text": "Gli indirizzi relativi devono essere tradotti in indirizzi assoluti in tempo reale dal sistema durante l'esecuzione di un programma",
+        "image": ""
+      },
+      {
+        "text": "Gli indirizzi simbolici vengono usati quand un programma é caricato in memoria principale e durante la sua esecuzione",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "185) La paginazione della memoria",
+    "answers": [
+      {
+        "text": "Consente di non dover necessariamente allocare un processo in una sequenza contigua di memoria fisica",
+        "image": ""
+      },
+      {
+        "text": "Richiede di allocare i processi in modo contiguo nella memoria fisica. Tuttavia sfruttando la tabella delle pagine il sistema riesce comunque ad evitare problemi di frammentazione esterna",
+        "image": ""
+      },
+      {
+        "text": "Richiede la trasformazione degli indirizzi fisici del programma in indirizzi logici nella memoria principale, tramite l'uso del PCB",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "186) L'allocazione indicizzata dei file su disco",
+    "answers": [
+      {
+        "text": "Al contrario dell'allocazione contigua, permette di ottimizzare l'allocazione dei files distribuendone diverse parti in blocchi arbitrari e non necessariamente adiacenti nel disco",
+        "image": ""
+      },
+      {
+        "text": "Garantisce ottima performance di accesso in lettura e scrittura sequenziale, ma porta a frammentazione esterna nel tempo",
+        "image": ""
+      },
+      {
+        "text": "Con la creazione e cancellazione di files nel tempo, puó portare a problemi di frammentazione interna",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 0,
+    "image": ""
+  },
+  {
+    "quest": "187) Le password nel sistema Linux",
+    "answers": [
+      {
+        "text": "Sono mantenute in formato offuscato e non invertibile all'interno del file shadow, che é direttamente accessibile a tutti gli utenti del sistema in modo che possano, ad esempio aggiornare la propria password",
+        "image": ""
+      },
+      {
+        "text": "Sono salvate in modo cifrato (encrypted) all'interno del file shadow, che é inaccessibile ad utenti senza privilegi di root",
+        "image": ""
+      },
+      {
+        "text": "Sono salvate in chiaro (cleartex) all'interno di un file di sistema protetto (shadow) ed inaccessibile ad utenti tranne root",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
+  },
+  {
+    "quest": "188) L'attacco a dizionario",
+    "answers": [
+      {
+        "text": "utilizza una lista di hash precomputati per trovare la password corrispondente ad un hash",
+        "image": ""
+      },
+      {
+        "text": "utilizza il dizionario di sistema per individuare la lista delle password piú usate in macchina, al fine di invertire un hash",
+        "image": ""
+      },
+      {
+        "text": "É un attacco che sfrutta vulnerabilitá di programmi per eseguire codice arbitrario su una macchina",
+        "image": ""
+      },
+      {
+        "text": "nessuna delle opzioni è corretta",
+        "image": ""
+      }
+    ],
+    "correct": 3,
+    "image": ""
   }
-]
+  ]
