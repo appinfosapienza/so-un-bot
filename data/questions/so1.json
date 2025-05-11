@@ -3757,7 +3757,7 @@
         "image": ""
       },
       {
-        "text": "É una piccome memoria fisica che é dedicata alla copia temporane di alcune richieste di lettura/scrittura effettuate dal sistema operativo di particolare importanza",
+        "text": "É una piccome memoria fisica che é dedicata alla copia temporanea di alcune richieste di lettura/scrittura effettuate dal sistema operativo di particolare importanza",
         "image": ""
       },
       {
@@ -3765,7 +3765,7 @@
         "image": ""
       },
       {
-        "text": "É un meccanismo di buffering di buffering tramite il quale il sistema operativo tiene in memoria principale alcuni blocchi dei dischi di memoria secondaria prima di toglierli completamente dalla RAM",
+        "text": "É un meccanismo di buffering tramite il quale il sistema operativo tiene in memoria principale alcuni blocchi dei dischi di memoria secondaria prima di toglierli completamente dalla RAM",
         "image": ""
       }
     ],
